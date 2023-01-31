@@ -1,16 +1,16 @@
 # How to get started
 
-- Create a virtualenv
+1. Create a virtualenv
     > python3 -m venv .env
 
-- Activate it
+1. Activate it
     > source .env/bin/activate
 
-- Install Pyconlang
+1. Install Pyconlang
     > pip install git+https://github.com/neta-elad/pyconlang
 
-- Compile the project (this may take some time)
+1. Compile the project (this may take some time)
     > pyconlang book compile
 
-- View book
+1. View book
     > open .pyconlang/output.html
