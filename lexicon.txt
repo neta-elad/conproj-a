@@ -1,0 +1,178 @@
+entry <finish> *ana (v.) finish, end
+
+affix .proto-acc @proto *a
+affix .acc $.proto-acc
+affix .proto-pfv @proto *a
+
+entry <hand> *ritu (n.) hand, arm
+affix .proto-loc @proto *ɾi
+affix .proto-dat $.proto-loc
+affix .loc $.proto-loc
+affix .dat $.proto-dat
+
+affix .human @proto *u
+affix .animate @proto *i
+affix .inanimate @proto *a
+
+affix .agnz @proto *hu
+
+entry <come from> *lani (v.) come from
+affix .proto-gen @proto *lə
+affix .gen $.proto-gen
+affix .post $.proto-gen
+affix .s-abl *la@middle
+affix .abl $.acc.s-abl
+affix .proto-near-pst *la@early
+
+entry <1sg> *i (pron.) 1st person singular pronoun
+affix 1sg. @early <1sg>
+entry <1sg-gen> <1sg>.proto-gen (pron.) 1st person singular pronoun (genitive)
+affix 1sg-gen. @middle <1sg-gen>
+
+
+entry <1pl> *ni (pron.) 1st person plural pronoun
+affix 1pl. @early <1pl>
+entry <1pl-gen> <1pl>.proto-gen (pron.) 1st person plural pronoun (genitive)
+affix 1pl-gen. @middle <1pl-gen>
+
+
+entry <2sg> *fimu (pron.) 2nd person singular pronoun
+affix 2sg. @early *fi
+entry <2sg-gen> *fi.proto-gen (pron.) 2nd person singular pronoun (genitive)
+affix 2sg-gen. @middle <2sg-gen>
+
+
+entry <2pl> <2sg>.pl (pron.) 2nd person plural pronoun
+affix 2pl. @middle *fimu
+entry <2pl-gen> *fimu.proto-gen (pron.) 2nd person plural pronoun (genitive)
+affix 2pl-gen. @middle *fimu
+
+
+entry <person> *hunu (n.) human, person
+entry <3sg-h> <person> (pron.) 3rd person human singular pronoun
+affix 3sg-h. @early *hə
+entry <3sg-h-gen> <3sg-h>.proto-gen (pron.) 3rd person human singular pronoun (genitive)
+affix 3sg-h-gen. @middle *hula
+
+
+entry <animal> *saŋi (n.) animal
+entry <3sg-an> <animal> (pron.) 3rd person animate singular pronoun
+affix 3sg-an. @early *sa
+entry <3sg-an-gen> <3sg-an>.proto-gen (pron.) 3rd person animate singular pronoun (genitive)
+affix 3sg-an-gen. @middle *sala
+
+
+entry <tribe> *masi (n.) tribe, group
+affix .pl @proto *ma
+affix 3pl. @early <tribe>
+affix 3pl-gen. @middle *mala
+
+entry <3pl-h> <3sg-h>.pl (pron.) 3rd person human plural pronoun
+entry <3pl-h-gen> <3pl-h>.proto-gen (pron.) 3rd person human plural pronoun (genitive)
+entry <3pl-an> <3sg-an>.pl (pron.) 3rd person animate plural pronoun
+entry <3pl-an-gen> <3pl-an>.proto-gen (pron.) 3rd person animate plural pronoun (genitive)
+
+entry <foot> *saxu (n.) foot, leg, path
+entry <pass> *saxu (v.) pass, cross, pass by
+affix .proto-pst *sa@early
+affix .s-pass *sa@middle
+affix .cmpr $.acc.s-pass
+affix .perl $.loc.s-pass
+
+entry <say> *xipa (v.) say
+entry <word> *xipa (n.) word, thing
+affix .s-say @middle *hi
+affix .proto-cond $.s-say
+affix .voc $.acc.s-say
+
+entry <3-inan> *xipa (pron.) 3rd person inanimate pronoun
+affix 3-inan. @early *xi
+entry <3-inan-gen> <3-inan>.proto-gen (pron.) 3rd person inanimate pronoun (genitive)
+affix 3-inan-gen. @middle *hila
+
+entry <dark> *katə (adj.) dark, black
+
+entry <see> *kasu (v.) see
+entry <sit> *suli (v.) sit
+entry <give> *tipu (v.) give
+
+entry <go to> *faɾi (v.) go to
+affix .proto-fut *fa@early
+affix .inf *faɾʲə@early
+affix .s-all *fa@middle
+affix .all $.acc.s-all
+
+entry <walk> *ɾamu (v.) walk
+
+
+entry <follow> *ŋupu (v.) follow
+affix .s-follow @middle *ŋu 
+affix .caus $.s-follow
+affix .com $.s-follow
+affix .adv $.loc.s-follow
+
+entry <man> *kapu (n.) man
+entry <woman> *kilu (n.) woman
+entry <dog> *paxi (n.) dog
+entry <house> *tusa (n.) house
+
+entry <rock> *nufa (n.) rock
+entry <hard> *nufə (adj.) hard, stern, solid, stable
+
+entry <want> *ximu (n.) want
+affix .neg *xʲəmə@early
+affix .s-want *xʲəmʷə@middle
+affix .proto-juss $.s-want
+affix .abess $.acc.s-want
+
+entry <one> *xafə (n.) one
+entry <indef> *afə (art.) indefinite article
+
+entry <mountain> *lusa (n.) mountain, mountain range
+entry <big> *lusə (adj.) big, tall
+
+entry <sky> *nasu (n.) sky, top
+affix .p-supess *nœɾ@late
+affix .supess $.post.p-supess
+
+entry <floor> *kəli (n.) floor, ground, soil, earth
+affix .p-sbess *kil@late 
+affix .sbess $.post.p-sbess
+
+entry <womb> *hafə (n.) womb (archaic)
+affix .p-iness *hɛɾ@late
+affix .iness $.post.p-iness
+
+entry <sea> *kəhafə (n.) sea
+
+entry <eye> *tamu (n.) eye
+affix .p-ante *tom@late
+affix .ante $.post.p-ante
+
+entry <back> *pinu (n.) back
+affix .p-poste *pin@late
+affix .poste $.post.p-poste
+
+entry <tree> *kiŋa (n.) tree
+entry <bird> *tuɾi (n.) bird
+
+entry <father> *kuɾu (n.) father
+entry <mother> *masu (n.) mother
+entry <child> *lufu (n.) child
+
+entry <river> *pati (n.) river
+
+affix .cont $
+affix .hab $.proto-pfv
+affix .pst $.proto-near-pst
+affix .prf $.proto-pfv.proto-near-pst
+affix .fut $.proto-pfv.proto-fut
+affix .narr-cont $.proto-pst
+affix .narr-pst $.proto-pfv.proto-pst
+affix .sjv $.proto-pfv.proto-cond
+affix .juss $.proto-pfv.proto-juss
+
+
+entry <case test> *pati (n.) test
+
+entry <verb test> <go to> (v.) test
