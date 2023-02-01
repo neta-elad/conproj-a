@@ -37,9 +37,12 @@ jobs:
         run: |
           python3 -m pip install --upgrade pip
 
-      - name: Install pyconlang
+      - name: Install Pyconlang
         run: |
           pip install git+https://github.com/neta-elad/pyconlang
+
+      - name: Init Pyconlang
+        run: pyconlang init -l
 
       - run: pyconlang book compile
 

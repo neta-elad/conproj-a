@@ -9,6 +9,9 @@
 1. Install Pyconlang
     > pip install git+https://github.com/neta-elad/pyconlang
 
+1. Install Pyconlang's bundled Lexurgy
+    > pyconlang init -l
+
 1. Compile the project (this may take some time)
     > pyconlang book compile
 
