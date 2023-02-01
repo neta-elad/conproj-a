@@ -333,6 +333,11 @@ vowel-loss-near-stress:
     [unstressed vowel] => * / [vowel] [consonant] _ [consonant] [primary vowel]
 
 
+coda-semivowels-loss:
+    [vowel] j => [front] * / _ .
+    [vowel] w => [+round] * / _ .
+
+
 h-fortition:
     [glottal fricative] => [velar] / {[consonant] _ [back vowel], [back vowel] _ [consonant]}
     [glottal fricative] => [palatal] / {[consonant] _ [front vowel], [front vowel] _ [consonant]}
