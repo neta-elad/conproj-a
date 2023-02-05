@@ -6,11 +6,11 @@
 
 |Pronouns|<|Singular|Plural|
 |--------|-|--------|------|
-|1^st^ {:.th}|<|#<1sg>#|#<1pl>#|
-|2^nd^ {:.th}|<|#<2sg>#|#<2pl>#|
-|3^rd^ {:.th}|Human {:.th}|#<3sg-h>#|#<3pl-h>#|
-|^           |Animate {:.th}|#<3sg-an>#|#<3pl-an>#|
-|^           |Inanimate {:.th}|#<3-inan>#|<|
+|1^st^ >|<|#<1sg>#|#<1pl>#|
+|2^nd^ >|<|#<2sg>#|#<2pl>#|
+|3^rd^ >|Human >|#<3sg-h>#|#<3pl-h>#|
+|^           |Animate >|#<3sg-an>#|#<3pl-an>#|
+|^           |Inanimate >|#<3-inan>#|<|
 
 }{:.aligned-table}
 
@@ -22,11 +22,11 @@
 
 |#<see># "see" conjugations|<|Singular|Plural|
 |--------------------------|-|--------|------|
-|1^st^ {:.th}|<|#1sg.<see>#|#1pl.<see>#|
-|2^nd^ {:.th}|<|#2sg.<see>#|#2pl.<see>#|
-|3^rd^ {:.th}|Human {:.th}|#3sg-h.<see>#|#3pl.<see>#|
-|^           |Animate {:.th}|#3sg-an.<see>#|^|
-|^           |Inanimate {:.th}|#3-inan.<see>#|<|
+|1^st^ >|<|#1sg.<see>#|#1pl.<see>#|
+|2^nd^ >|<|#2sg.<see>#|#2pl.<see>#|
+|3^rd^ >|Human >|#3sg-h.<see>#|#3pl.<see>#|
+|^           |Animate >|#3sg-an.<see>#|^|
+|^           |Inanimate >|#3-inan.<see>#|<|
 
 }{:.aligned-table}
 
@@ -38,11 +38,11 @@
 
 |Genitive pronouns|<|Singular|Plural|
 |--------|-|--------|------|
-|1^st^ {:.th}|<|#<1sg-gen>#|#<1pl-gen>#|
-|2^nd^ {:.th}|<|#<2sg-gen>#|#<2pl-gen>#|
-|3^rd^ {:.th}|Human {:.th}|#<3sg-h-gen>#|#<3pl-h-gen>#|
-|^           |Animate {:.th}|#<3sg-an-gen>#|#<3pl-an-gen>#|
-|^           |Inanimate {:.th}|#<3-inan-gen>#|<|
+|1^st^ >|<|#<1sg-gen>#|#<1pl-gen>#|
+|2^nd^ >|<|#<2sg-gen>#|#<2pl-gen>#|
+|3^rd^ >|Human >|#<3sg-h-gen>#|#<3pl-h-gen>#|
+|^           |Animate >|#<3sg-an-gen>#|#<3pl-an-gen>#|
+|^           |Inanimate >|#<3-inan-gen>#|<|
 
 }{:.aligned-table}
 
@@ -54,11 +54,11 @@
 
 |#<house># "house" possessives|<|Singular|Plural|
 |--------------------------|-|--------|------|
-|1^st^ {:.th}|<|#1sg-gen.<house>#|#1pl-gen.<house>#|
-|2^nd^ {:.th}|<|#2sg-gen.<house>#|#2pl-gen.<house>#|
-|3^rd^ {:.th}|Human {:.th}|#3sg-h-gen.<house>#|#3pl-gen.<house>#|
-|^           |Animate {:.th}|#3sg-an-gen.<house>#|^|
-|^           |Inanimate {:.th}|#3-inan-gen.<house>#|<|
+|1^st^ >|<|#1sg-gen.<house>#|#1pl-gen.<house>#|
+|2^nd^ >|<|#2sg-gen.<house>#|#2pl-gen.<house>#|
+|3^rd^ >|Human >|#3sg-h-gen.<house>#|#3pl-gen.<house>#|
+|^           |Animate >|#3sg-an-gen.<house>#|^|
+|^           |Inanimate >|#3-inan-gen.<house>#|<|
 
 }{:.aligned-table}
 
@@ -71,10 +71,10 @@
 
 | | Human | Animate | Inanimate |
 |-|-|-|-|
-| Nominative {: .th }| #<man># | #<dog># | #<house># |
-| Accusative {: .th }| #<man>.acc# | #<dog>.acc# | #<house>.acc# |
-| Genetive {: .th }| #<man>.gen# | #<dog>.gen# | #<house>.gen# |
-| Locative {: .th }| #<man>.loc# | #<dog>.loc# | #<house>.loc# |
+| Nominative >| #<man># | #<dog># | #<house># |
+| Accusative >| #<man>.acc# | #<dog>.acc# | #<house>.acc# |
+| Genetive >| #<man>.gen# | #<dog>.gen# | #<house>.gen# |
+| Locative >| #<man>.loc# | #<dog>.loc# | #<house>.loc# |
 
 }{: .aligned-table }
 
@@ -86,10 +86,10 @@
 
 | | Human | Animate | Inanimate |
 |-|-|-|-|
-| Nominative {: .th }| #<indef># | #<indef># | #<indef># |
-| Accusative {: .th }| #<indef>.human.acc# | #<indef>.animate.acc# | #<indef>.inanimate.acc# |
-| Genetive {: .th }| #<indef>.human.gen# | #<indef>.animate.gen# | #<indef>.inanimate.gen# |
-| Locative {: .th }| #<indef>.human.loc# | #<indef>.animate.loc# | #<indef>.inanimate.loc# |
+| Nominative >| #<indef># | #<indef># | #<indef># |
+| Accusative >| #<indef>.human.acc# | #<indef>.animate.acc# | #<indef>.inanimate.acc# |
+| Genetive >| #<indef>.human.gen# | #<indef>.animate.gen# | #<indef>.inanimate.gen# |
+| Locative >| #<indef>.human.loc# | #<indef>.animate.loc# | #<indef>.inanimate.loc# |
 
 }{: .aligned-table }
 
@@ -101,23 +101,23 @@
 
 | Case | Form | From |
 | - | - | - |
-| Nominative {: .th }| #<case test># | - |
-| Accusative {: .th }| #<case test>.acc# | #<case test># |
-| Genitive {: .th }| #<case test>.gen# | #<case test># |
-| Locative {: .th }| #<case test>.loc# | #<case test># |
-| Comitative {: .th }| #<case test>.com# | #<case test># |
-| Adverbial {: .th }| #<case test>.adv# | #<case test>.loc# |
-| Perlative {: .th }| #<case test>.perl# | #<case test>.loc# |
-| Comparative {: .th }| #<case test>.cmpr# | #<case test>.acc# |
-| Allative {: .th }| #<case test>.all# | #<case test>.acc# |
-| Ablative {: .th }| #<case test>.abl# | #<case test>.acc# |
-| Vocative {: .th }| #<case test>.voc# | #<case test>.acc# |
-| Abessive {: .th }| #<case test>.abess# | #<case test>.acc# |
-| Inessive {: .th }| #<case test>.iness# | #<case test>.gen# |
-| Superessive {: .th }| #<case test>.supess# | #<case test>.gen# | 
-| Subessive {: .th }| #<case test>.sbess# | #<case test>.gen# |
-| Antessive {: .th }| #<case test>.ante# | #<case test>.gen# |
-| Postessive {: .th }| #<case test>.poste# | #<case test>.gen# |
+| Nominative >| #<case test># | - |
+| Accusative >| #<case test>.acc# | #<case test># |
+| Genitive >| #<case test>.gen# | #<case test># |
+| Locative >| #<case test>.loc# | #<case test># |
+| Comitative >| #<case test>.com# | #<case test># |
+| Adverbial >| #<case test>.adv# | #<case test>.loc# |
+| Perlative >| #<case test>.perl# | #<case test>.loc# |
+| Comparative >| #<case test>.cmpr# | #<case test>.acc# |
+| Allative >| #<case test>.all# | #<case test>.acc# |
+| Ablative >| #<case test>.abl# | #<case test>.acc# |
+| Vocative >| #<case test>.voc# | #<case test>.acc# |
+| Abessive >| #<case test>.abess# | #<case test>.acc# |
+| Inessive >| #<case test>.iness# | #<case test>.gen# |
+| Superessive >| #<case test>.supess# | #<case test>.gen# | 
+| Subessive >| #<case test>.sbess# | #<case test>.gen# |
+| Antessive >| #<case test>.ante# | #<case test>.gen# |
+| Postessive >| #<case test>.poste# | #<case test>.gen# |
 
 }{: .aligned-table }
 
@@ -146,12 +146,12 @@
 
 |TAM|Imperfective|Perfective|
 |---|------------|----------|
-|Plain {:.th}|#<verb test>#|#<verb test>.proto-pfv#|
-|Near past {:.th}|#<verb test>.proto-near-pst#|#<verb test>.proto-pfv.proto-near-pst#|
-|Future {:.th}|#<verb test>.proto-fut#|#<verb test>.proto-pfv.proto-fut#|
-|Past/experiential {:.th}|#<verb test>.proto-pst#|#<verb test>.proto-pfv.proto-pst#|
-|Conditional {:.th}|#<verb test>.proto-cond#|#<verb test>.proto-pfv.proto-cond#|
-|Jussive {:.th}|#<verb test>.proto-juss#|#<verb test>.proto-pfv.proto-juss#|
+|Plain >|#<verb test>#|#<verb test>.proto-pfv#|
+|Near past >|#<verb test>.proto-near-pst#|#<verb test>.proto-pfv.proto-near-pst#|
+|Future >|#<verb test>.proto-fut#|#<verb test>.proto-pfv.proto-fut#|
+|Past/experiential >|#<verb test>.proto-pst#|#<verb test>.proto-pfv.proto-pst#|
+|Conditional >|#<verb test>.proto-cond#|#<verb test>.proto-pfv.proto-cond#|
+|Jussive >|#<verb test>.proto-juss#|#<verb test>.proto-pfv.proto-juss#|
 
 }{:.aligned-table}
 
