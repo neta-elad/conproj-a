@@ -96,10 +96,10 @@ red sounds only exist in the proto-language.
 
 | CONSONANTS | Labial | Coronal | Palatal | Velar | Glottal |
 |------------|--------|---------|---------|-------|---------|
-| Plosive/Affricate {: .th}| p | t, +t͡ʃ /ch/+ | +c /ky/+ | k | |
-| Nasal {: .th}| m | n | +ɲ /ny/+ | ŋ /ng/ | |
-| Fricative {: .th}| f | +θ /th+, s, +ɬ /hl/+, +ʃ /sh/+ | +ç /hy/+ | x /kh/, +ʍ /hw/+ | h |
-| Approximant {: .th}| | l, ɾ /r/ | +j /y/+, +ʎ /ly/+ | +w+ | |
+| Plosive/Affricate {: .th}| p | t, ^^t͡ʃ /ch/^^ | ^^c /ky/^^ | k | |
+| Nasal {: .th}| m | n | ^^ɲ /ny/^^ | ŋ /ng/ | |
+| Fricative {: .th}| f | ^^θ /th^^, s, ^^ɬ /hl/^^, ^^ʃ /sh/^^ | ^^ç /hy/^^ | x /kh/, ^^ʍ /hw/^^ | h |
+| Approximant {: .th}| | l, ɾ /r/ | ^^j /y/^^, ^^ʎ /ly/^^ | ^^w^^ | |
 
 }{: .aligned-table}
 
@@ -107,8 +107,8 @@ red sounds only exist in the proto-language.
 
 | VOWELS | Front | Central | Back |
 |--------|-------|---------|------|
-| High {: .th}| i, +y+ | ~ə~ | +ɯ /eu/+, u |
-| Low {: .th} | +ɛ /e/+, +œ /oe/+ | ~a~ | +ɑ /a/+, +ɒ /o/+ |
+| High {: .th}| i, ^^y^^ | ~~ə~~ | ^^ɯ /eu/^^, u |
+| Low {: .th} | ^^ɛ /e/^^, ^^œ /oe/^^ | ~~a~~ | ^^ɑ /a/^^, ^^ɒ /o/^^ |
 
 }{: .aligned-table}
 

@@ -1,242 +1,69 @@
 ## Tables
 
-<details markdown="1">
-<summary>Pronouns</summary>
-<table markdown="1" class="aligned-table">
-<thead markdown="1">
-<tr>
-    <th colspan="2">Pronouns</th>
-    <th>Singular</th>
-    <th>Plural</th>
-</tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th colspan="2">1<sup>st</sup></th>
-<td markdown="1">
-    #<1sg>#
-</td>
-<td markdown="1">
-    #<1pl>#
-</td>
-</tr>
-<tr markdown="1">
-<th colspan="2">2<sup>nd</sup></th>
-<td markdown="1">
-    #<2sg>#
-</td>
-<td markdown="1">
-    #<2pl>#
-</td>
-</tr>
-<tr markdown="1">
-<th rowspan="3">
-    3<sup>rd</sup>
-</th>
-<th>Human</th>
-<td markdown="1">
-    #<3sg-h>#
-</td>
-<td markdown="1">
-    #<3pl-h>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Animate</th>
-<td markdown="1">
-    #<3sg-an>#
-</td>
-<td markdown="1">
-    #<3pl-an>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Inanimate</th>
-<td colspan="2"markdown="1">
-    #<3-inan>#
-</td>
-</tr>
-</tbody>
-</table>
-</details>
+!details:Pronouns
 
-<details markdown="1">
-<summary>Verb conjugations</summary>
-<table markdown="1" class="aligned-table">
-<thead markdown="1">
-<tr markdown="1">
-<th colspan="2" markdown="1">
-    #<see># "see" Conjugations
-</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th colspan="2">1<sup>st</sup></th>
-<td markdown="1">
-    #1sg.<see>#
-</td>
-<td markdown="1">
-    #1pl.<see>#
-</td>
-</tr>
-<tr markdown="1">
-<th colspan="2">2<sup>nd</sup></th>
-<td markdown="1">
-    #2sg.<see>#
-</td>
-<td markdown="1">
-    #2pl.<see>#
-</td>
-</tr>
-<tr markdown="1">
-<th rowspan="3">
-    3<sup>rd</sup>
-</th>
-<th>Human</th>
-<td markdown="1">
-    #3sg-h.<see>#
-</td>
-<td rowspan="2" markdown="1">
-    #3pl.<see>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Animate</th>
-<td markdown="1">
-    #3sg-an.<see>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Inanimate</th>
-<td colspan="2"markdown="1">
-    #3-inan.<see>#
-</td>
-</tr>
-</tbody>
-</table>
-</details>
+&{
 
-<details markdown="1">
-<summary>Genitive pronouns</summary>
-<table markdown="1" class="aligned-table">
-<thead markdown="1">
-<tr>
-    <th colspan="2">Genitive Pronouns</th>
-    <th>Singular</th>
-    <th>Plural</th>
-</tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th colspan="2">1<sup>st</sup></th>
-<td markdown="1">
-    #<1sg-gen>#
-</td>
-<td markdown="1">
-    #<1pl-gen>#
-</td>
-</tr>
-<tr markdown="1">
-<th colspan="2">2<sup>nd</sup></th>
-<td markdown="1">
-    #<2sg-gen>#
-</td>
-<td markdown="1">
-    #<2pl-gen>#
-</td>
-</tr>
-<tr markdown="1">
-<th rowspan="3">
-    3<sup>rd</sup>
-</th>
-<th>Human</th>
-<td markdown="1">
-    #<3sg-h-gen>#
-</td>
-<td markdown="1">
-    #<3pl-h-gen>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Animate</th>
-<td markdown="1">
-    #<3sg-an-gen>#
-</td>
-<td markdown="1">
-    #<3pl-an-gen>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Inanimate</th>
-<td colspan="2"markdown="1">
-    #<3-inan-gen>#
-</td>
-</tr>
-</tbody>
-</table>
-</details>
+|Pronouns|<|Singular|Plural|
+|--------|-|--------|------|
+|1^st^ {:.th}|<|#<1sg>#|#<1pl>#|
+|2^nd^ {:.th}|<|#<2sg>#|#<2pl>#|
+|3^rd^ {:.th}|Human {:.th}|#<3sg-h>#|#<3pl-h>#|
+|^           |Animate {:.th}|#<3sg-an>#|#<3pl-an>#|
+|^           |Inanimate {:.th}|#<3-inan>#|<|
 
-<details markdown="1">
-<summary>Noun possessives</summary>
-<table markdown="1" class="aligned-table">
-<thead markdown="1">
-<tr markdown="1">
-<th colspan="2" markdown="1">
-    #<house># "house" Possessives
-</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th colspan="2">1<sup>st</sup></th>
-<td markdown="1">
-    #1sg-gen.<house>#
-</td>
-<td markdown="1">
-    #1pl-gen.<house>#
-</td>
-</tr>
-<tr markdown="1">
-<th colspan="2">2<sup>nd</sup></th>
-<td markdown="1">
-    #2sg-gen.<house>#
-</td>
-<td markdown="1">
-    #2pl-gen.<house>#
-</td>
-</tr>
-<tr markdown="1">
-<th rowspan="3">
-    3<sup>rd</sup>
-</th>
-<th>Human</th>
-<td markdown="1">
-    #3sg-h-gen.<house>#
-</td>
-<td rowspan="2" markdown="1">
-    #3pl-gen.<house>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Animate</th>
-<td markdown="1">
-    #3sg-an-gen.<house>#
-</td>
-</tr>
-<tr markdown="1">
-<th>Inanimate</th>
-<td colspan="2"markdown="1">
-    #3-inan-gen.<house>#
-</td>
-</tr>
-</tbody>
-</table>
-</details>
+}{:.aligned-table}
+
+!details
+
+!details:Verb conjugations
+
+&{
+
+|#<see># "see" conjugations|<|Singular|Plural|
+|--------------------------|-|--------|------|
+|1^st^ {:.th}|<|#1sg.<see>#|#1pl.<see>#|
+|2^nd^ {:.th}|<|#2sg.<see>#|#2pl.<see>#|
+|3^rd^ {:.th}|Human {:.th}|#3sg-h.<see>#|#3pl.<see>#|
+|^           |Animate {:.th}|#3sg-an.<see>#|^|
+|^           |Inanimate {:.th}|#3-inan.<see>#|<|
+
+}{:.aligned-table}
+
+!details
+
+!details:Genitive pronouns
+
+&{
+
+|Genitive pronouns|<|Singular|Plural|
+|--------|-|--------|------|
+|1^st^ {:.th}|<|#<1sg-gen>#|#<1pl-gen>#|
+|2^nd^ {:.th}|<|#<2sg-gen>#|#<2pl-gen>#|
+|3^rd^ {:.th}|Human {:.th}|#<3sg-h-gen>#|#<3pl-h-gen>#|
+|^           |Animate {:.th}|#<3sg-an-gen>#|#<3pl-an-gen>#|
+|^           |Inanimate {:.th}|#<3-inan-gen>#|<|
+
+}{:.aligned-table}
+
+!details
+
+!details:Noun possessives
+
+&{
+
+|#<house># "house" possessives|<|Singular|Plural|
+|--------------------------|-|--------|------|
+|1^st^ {:.th}|<|#1sg-gen.<house>#|#1pl-gen.<house>#|
+|2^nd^ {:.th}|<|#2sg-gen.<house>#|#2pl-gen.<house>#|
+|3^rd^ {:.th}|Human {:.th}|#3sg-h-gen.<house>#|#3pl-gen.<house>#|
+|^           |Animate {:.th}|#3sg-an-gen.<house>#|^|
+|^           |Inanimate {:.th}|#3-inan-gen.<house>#|<|
+
+}{:.aligned-table}
+
+!details
+
 
 !details:Noun cases
 
@@ -300,177 +127,60 @@
 
 ## Verb inflections
 
-<details markdown="1">
-<summary>
-    Modern TAM
-</summary>
+!details:Modern TAM
 
 | TAM | Imperfective | Perfective |
 |-----|--------------|------------|
 | Plain | Continuous | Habitual |
 | Near past | Past | Perfect |
-| Future | ~unused~ | Future |
+| Future | ~~unused~~ | Future |
 | Past | Narrative continuous/simple | Narrative past / pluperfect |
-| Conditional | ~unused~ | Subjunctive |
-| Jussive | ~unused~| Jussive / imperative |
+| Conditional | ~~unused~~ | Subjunctive |
+| Jussive | ~~unused~~| Jussive / imperative |
 
-</details>
+!details
 
+!details:Verb proto-TAM tester
 
-<details markdown="1">
-<summary>
-    Verb Proto-TAM tester
-</summary>
+&{
 
-<table markdown="1" class="aligned-table">
-<thead>
-    <tr>
-        <th>TAM</th>
-        <th>Imperfective</th>
-        <th>Perfective</th>
-    </tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th>Plain</th>
-<td markdown="1">
-    #<verb test>#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv#
-</td>
-</tr>
-<tr markdown="1">
-<th>Near past</th>
-<td markdown="1">
-    #<verb test>.proto-near-pst#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv.proto-near-pst#
-</td>
-</tr>
-<tr markdown="1">
-<th>Future</th>
-<td markdown="1">
-    #<verb test>.proto-fut#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv.proto-fut#
-</td>
-</tr>
-<tr markdown="1">
-<th>Past / Experiential</th>
-<td markdown="1">
-    #<verb test>.proto-pst#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv.proto-pst#
-</td>
-</tr>
-<tr markdown="1">
-<th>Conditional</th>
-<td markdown="1">
-    #<verb test>.proto-cond#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv.proto-cond#
-</td>
-</tr>
-<tr markdown="1">
-<th>Jussive</th>
-<td markdown="1">
-    #<verb test>.proto-juss#
-</td>
-<td markdown="1">
-    #<verb test>.proto-pfv.proto-juss#
-</td>
-</tr>
-</tbody>
-</table>
+|TAM|Imperfective|Perfective|
+|---|------------|----------|
+|Plain {:.th}|#<verb test>#|#<verb test>.proto-pfv#|
+|Near past {:.th}|#<verb test>.proto-near-pst#|#<verb test>.proto-pfv.proto-near-pst#|
+|Future {:.th}|#<verb test>.proto-fut#|#<verb test>.proto-pfv.proto-fut#|
+|Past/experiential {:.th}|#<verb test>.proto-pst#|#<verb test>.proto-pfv.proto-pst#|
+|Conditional {:.th}|#<verb test>.proto-cond#|#<verb test>.proto-pfv.proto-cond#|
+|Jussive {:.th}|#<verb test>.proto-juss#|#<verb test>.proto-pfv.proto-juss#|
 
-</details>
+}{:.aligned-table}
 
-<details markdown="1">
-<summary>
-    Verb TAM tester
-</summary>
+!details
 
-<table markdown="1" class="aligned-table">
-<thead markdown="1">
-<tr markdown="1">
-<th>TAM</th>
-<th markdown="1">
-    #<verb test>#
-</th>
-</tr>
-</thead>
-<tbody markdown="1">
-<tr markdown="1">
-<th>Continuous</th>
-<td markdown="1">
-    #<verb test>.cont#
-</td>
-</tr>
-<tr markdown="1">
-<th>Habitual</th>
-<td markdown="1">
-    #<verb test>.hab#
-</td>
-</tr>
-<tr markdown="1">
-<th>Past</th>
-<td markdown="1">
-    #<verb test>.pst#
-</td>
-</tr>
-<tr markdown="1">
-<th>Perfect</th>
-<td markdown="1">
-    #<verb test>.prf#
-</td>
-</tr>
-<tr markdown="1">
-<th>Future</th>
-<td markdown="1">
-    #<verb test>.fut#
-</td>
-</tr>
-<tr markdown="1">
-<th>Narrative continuous</th>
-<td markdown="1">
-    #<verb test>.narr-cont#
-</td>
-</tr>
-<tr markdown="1">
-<th>Narrative past</th>
-<td markdown="1">
-    #<verb test>.narr-pst#
-</td>
-</tr>
-<tr markdown="1">
-<th>Subjunctive</th>
-<td markdown="1">
-    #<verb test>.sjv#
-</td>
-</tr>
-<tr markdown="1">
-<th>Jussive</th>
-<td markdown="1">
-    #<verb test>.juss#
-</td>
-</tr>
-</tbody>
-</table>
+!details:Verb TAM tester
 
-</details>
+&{
 
-<details markdown="1">
-<summary>
-    Valency derivations
-</summary>
+|TAM|#<verb test>#|
+|---|-------------|
+|Continuous|#<verb test>.cont#|
+|Habitual|#<verb test>.hab#|
+|Past|#<verb test>.pst#|
+|Perfect|#<verb test>.prf#|
+|Future|#<verb test>.fut#|
+|Narrative continuous|#<verb test>.narr-cont#|
+|Narrative past|#<verb test>.narr-pst#|
+|Subjunctive|#<verb test>.sjv#|
+|Jussive|#<verb test>.juss#|
+
+}{:.aligned-table}
+
+!details
+
+!details:Valency derivations
 
 | Voice/valency | Lexeme | Form | Era |
 |---------------|--------|------|-----|
 | Causative | “follow” *ŋupu | -*ŋʷə | @early |
 
-</details>
+!details
