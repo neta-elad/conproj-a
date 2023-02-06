@@ -30,4 +30,4 @@ Each item has a number which corresponds to an explanation below the entry:
 1. Additional information (register, pragmatics).
 
 
-!lexicon
+!dictionary

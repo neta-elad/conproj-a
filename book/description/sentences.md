@@ -1,51 +1,51 @@
 ## Some sentences
 
-!translate
+&{
 
-<man> <dog>.acc 3sg-h.<see>
+##<man> <dog>.acc 3sg-h.<see>##
 
-<dog> <rock>.loc 3sg-an.<sit>
+##<dog> <rock>.loc 3sg-an.<sit>##
 
-<dog>.dat <rock>.acc 1sg.<give>
+##<man> <dog>.acc 3sg-h.<see>##
 
-<woman> <dog>.dat <indef>.inanimate.acc <rock>.acc 3sg-h.<give>
+##<dog> <rock>.loc 3sg-an.<sit>##
 
-!translate
+##<dog>.dat <rock>.acc 1sg.<give>##
 
-!translate
+##<woman> <dog>.dat <indef>.inanimate.acc <rock>.acc 3sg-h.<give>##
 
-<woman>.com <dog>.dat <rock>.acc 1sg.<see>.caus
+}{:.gloss-table}
 
-!translate
+&{
+
+##<woman>.com <dog>.dat <rock>.acc 1sg.<see>.caus##
+
+}{:.gloss-table}
 
 > "I show the rock to the dog together with the woman"
 
-!translate
+&{
 
-<dog> <rock>.all 3sg-an.<walk>.fut
+##<dog> <rock>.all 3sg-an.<walk>.fut##
 
-!translate
+}{:.gloss-table}
 
 > "The dog will walk to the rock"
 
-!translate
+&{
 
-<mountain>.perl 2pl.<walk>.pst
+##<mountain>.perl 2pl.<walk>.pst##
 
-!translate
+}{:.gloss-table}
 
 > "You all walked across the mountain"
 
-!translate
+&{
 
-<bird> <indef>.post <tree>.supess 3sg-an.<sit>.narr-cont
+##<bird> <indef>.inanimate.post <tree>.supess 3sg-an.<sit>.narr-cont##
 
-!translate
+##<bird> <indef>.inanimate.loc <tree>.loc 3sg-an.<sit>.narr-cont##
 
-!translate
+}{:.gloss-table}
 
-<bird> <indef>.loc <tree>.loc 3sg-an.<sit>.narr-cont
-
-!translate
-
-> "The bird was sitting on a tree"
+> "The bird was sitting on (top of) a tree"
