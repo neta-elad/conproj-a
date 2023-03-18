@@ -2,6 +2,8 @@
 
 $name is a primarly head-final language:
 
+\u0106
+
 - Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).
 - Nouns follow their modifiers (articles and determiners).

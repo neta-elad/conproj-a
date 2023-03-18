@@ -96,7 +96,7 @@ entry <night> *kata (ni.) night
 entry <dark> *katə (adj.) dark, black
 
 entry <see> *kasu (vt.) to see
-entry <sit> *suli (vi.) to sit, dwell, live
+entry <sit> *sula (vi.) to sit, dwell, live
 entry <give> *tipu (vd.) to give
 
 entry <go to> *faɾi (vt.) to go to
@@ -112,7 +112,8 @@ entry <follow> *ŋupu (vt.) to follow, copy, imitate
 affix .s-follow @middle *ŋu 
 affix .caus $.s-follow causative derivation
 affix .com $.s-follow comitative case
-affix .adv $.loc.s-follow adverbial case
+affix .adv $.loc.s-follow adverbial case (used mainly for adjectives)
+affix .instr $.adv instrumenal case
 
 entry <man> *kapu (nh.) man
 entry <woman> *kilu (nh.) woman
@@ -159,9 +160,11 @@ affix .poste $.post.p-poste postessive case
 entry <tree> *kiŋa (ni.) tree
 entry <bird> *tuɾi (na.) bird
 
-entry <father> *kuɾu (nh.) father
+entry <cub> *kuɾi (na.) cub, baby, child
+affix .dim *ku @proto diminutive deriviation
+
 entry <mother> *masu (nh.) mother
-entry <child> *lufu (nh.) child
+# entry <child> *lufu (nh.) child
 
 entry <river> *pati (na.) river
 
@@ -176,6 +179,11 @@ affix .sjv $.proto-pfv.proto-cond subjunctive
 affix .juss $.proto-pfv.proto-juss jussive
 
 
-entry <case test> *pati (n.) test
+entry <walker> <walk>.agnz (nh.) walker, wanderer, stranger, foreinger, shepherd?
+entry <sitter> <sit>.agnz (nh.) sitter, local, farmer, fisher
+
+# testers
+
+entry <case test> <sitter> (n.) test
 
 entry <verb test> <go to> (v.) test
