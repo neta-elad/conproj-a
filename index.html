@@ -88,29 +88,52 @@
 <li><a href="#todo">TODO</a></li>
 <li><a href="#ideas">Ideas</a></li>
 <li><a href="#name-language-description">NewLang Language Description</a><ul>
-<li><a href="#tables">Tables</a></li>
-<li><a href="#verb-inflections">Verb inflections</a></li>
-<li><a href="#some-sentences">Some sentences</a></li>
-<li><a href="#articles">Articles</a></li>
+<li><a href="#some-sentences">Some Sentences</a></li>
+<li><a href="#determiners">Determiners</a></li>
 <li><a href="#possession">Possession</a></li>
 <li><a href="#gender">Gender</a></li>
 <li><a href="#tam-tense-aspect-mood">TAM (Tense-aspect-mood)</a></li>
 <li><a href="#verb-derivations">Verb derivations</a></li>
 <li><a href="#noun-derivations">Noun derivations</a></li>
-<li><a href="#phonology">Phonology</a><ul>
-<li><a href="#romanization-notes">Romanization notes</a></li>
+<li><a href="#phonology">Phonology</a></li>
+<li><a href="#historical-notes">Historical Notes</a><ul>
+<li><a href="#noun-classesclassifiers">Noun classes/classifiers</a></li>
+<li><a href="#pronouns">Pronouns</a></li>
+<li><a href="#cases">Cases</a></li>
+<li><a href="#tams">TAMs</a></li>
 </ul>
 </li>
-<li><a href="#historical-notes">Historical Notes</a></li>
+<li><a href="#tests">Tests</a><ul>
+<li><a href="#class-test">Class test</a></li>
+<li><a href="#case-test">Case test</a></li>
+<li><a href="#tam-test">TAM test</a></li>
 </ul>
 </li>
-<li><a href="#name-reference-grammar">NewLang Reference Grammar</a></li>
+</ul>
+</li>
+<li><a href="#name-reference-grammar">NewLang Reference Grammar</a><ul>
+<li><a href="#tables">Tables</a><ul>
+<li><a href="#pronouns_1">Pronouns</a><ul>
+<li><a href="#regular-cases-pronouns">Regular Cases Pronouns</a></li>
+<li><a href="#genitive-cases-pronouns">Genitive Cases Pronouns</a></li>
+<li><a href="#old-regular-pronouns">Old Regular Pronouns</a></li>
+<li><a href="#modern-genitive-pronouns">Modern Genitive Pronouns</a></li>
+</ul>
+</li>
+<li><a href="#demonstratives">Demonstratives</a></li>
+<li><a href="#cases_1">Cases</a></li>
+<li><a href="#tams_1">TAMs</a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li><a href="#name-to-english-dictionary">NewLang to English Dictionary</a><ul>
 <li><a href="#how-to-read-dictionary-entries">How to Read Dictionary Entries</a></li>
 <li><a href="#a">A</a></li>
 <li><a href="#c">C</a></li>
-<li><a href="#f">F</a></li>
+<li><a href="#e">E</a></li>
 <li><a href="#h">H</a></li>
+<li><a href="#i">I</a></li>
 <li><a href="#k">K</a></li>
 <li><a href="#l">L</a></li>
 <li><a href="#m">M</a></li>
@@ -119,7 +142,8 @@
 <li><a href="#r">R</a></li>
 <li><a href="#s">S</a></li>
 <li><a href="#t">T</a></li>
-<li><a href="#y">Y</a></li>
+<li><a href="#u">U</a></li>
+<li><a href="#x">X</a></li>
 </ul>
 </li>
 </ul>
@@ -127,9 +151,29 @@
 </details>
 <h1 id="todo">TODO</h1>
 <ul>
+<li>Next up:<ul>
+<li>adjectives (noun-like)</li>
+<li>verb participles</li>
+<li>nominalization</li>
+<li>derivations</li>
+<li>get rid of *2<sup>nd</sup> person class distinction?</li>
+<li>shorter case/TAM affixes?</li>
+</ul>
+</li>
+<li>modern pluralization strategies<ul>
+<li>maybe using &lt;ones-1&gt;</li>
+</ul>
+</li>
+<li>adpositions</li>
+<li>Stress rule</li>
 <li>Noun derivations</li>
 <li>Verb derivations</li>
 <li>Copula (?)</li>
+<li>Liquid + Nasal codas</li>
+<li>Rhotic + h (any non-sibilant fricative?)<ul>
+<li>Partially solved by loss of final weak fricatives?</li>
+</ul>
+</li>
 </ul>
 <h1 id="ideas">Ideas</h1>
 <ul>
@@ -137,8 +181,16 @@
 <li>Closer to the sea is more prestigous: lower is better</li>
 </ul>
 </li>
-<li>*kəli is kə + li where kə is an old form for world and li is down (related to suli &ldquo;sit&rdquo;)</li>
-<li>*kəhasa is kə + &ldquo;womb&rdquo;: womb of the world - sea</li>
+<li>Suffixes: *χa, *ɴu, *ʔuli, *mira, *ruɴa, *liqu, *huqi, *sixa, *ʔixa</li>
+<li>Prefixes: *ʔuɴu, *hila, *qʷasa</li>
+<li>Demonstrative: *ha, *ʔusa, *ʔahu</li>
+<li>Derivational agentive suffix: *ʔuki, *xi, *kʷa, &hellip; + class</li>
+<li>Demonstrative pronoun with <strong>se</strong> for singular and <strong>tse</strong> for plural</li>
+<li>Proto more strict word-order, modern more free (since cases were added)</li>
+<li>Proto had (locative) copula, modern has predicate adjectives</li>
+<li>Locative as verb applicative?</li>
+<li>Locative on verb as participle / gerundive?</li>
+<li>Forms: *kʷina, *makisa, *ʔukali, *pʷimu, *maʔufi, *sahiχa, *talupa</li>
 </ul>
 <h1 id="name-language-description">NewLang Language Description</h1>
 <p>NewLang is a primarly head-final language:</p>
@@ -146,7 +198,7 @@
 <ul>
 <li>Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).</li>
-<li>Nouns follow their modifiers (articles and determiners).</li>
+<li>Nouns follow their modifiers (determiners and adjectives(?)).</li>
 <li>There are mainly postpositions (instead of prepositions),
 and noun cases are marked with suffixes.</li>
 </ul>
@@ -164,729 +216,95 @@ or the beneficiary of the action.</li>
 </ul>
 <p>Nouns are classified according to 3 genders:</p>
 <ul>
-<li>Human, for nouns representing humans, as well as most body parts.</li>
+<li>Human, for nouns representing humans, 
+as well as most body parts.</li>
 <li>Animate, for nouns representing most animal 
-(most bugs and small critters are not included), 
+(bugs and small critters are not included), 
 as well as some natural phenomena (rivers, storms).</li>
 <li>Inanimate, for all other nouns.</li>
 </ul>
-<h2 id="tables">Tables</h2>
-<details>
-<summary>Pronouns</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th colspan="2">Pronouns</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th colspan="2">1<sup>st</sup></th>
-<td>ye</td>
-<td>nye</td>
-</tr>
-<tr>
-<th colspan="2">2<sup>nd</sup></th>
-<td>fim</td>
-<td>fýmum</td>
-</tr>
-<tr>
-<th rowspan="3">3<sup>rd</sup></th>
-<th>Human</th>
-<td>hun</td>
-<td>húnum</td>
-</tr>
-<tr>
-<th>Animate</th>
-<td>sang</td>
-<td>sényem</td>
-</tr>
-<tr>
-<th>Inanimate</th>
-<td colspan="2">hyep</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Verb conjugations</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th colspan="2">kas &ldquo;see&rdquo; conjugations</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th colspan="2">1<sup>st</sup></th>
-<td>yekas</td>
-<td>nyekas</td>
-</tr>
-<tr>
-<th colspan="2">2<sup>nd</sup></th>
-<td>kfes</td>
-<td>fimkas</td>
-</tr>
-<tr>
-<th rowspan="3">3<sup>rd</sup></th>
-<th>Human</th>
-<td>khas</td>
-<td rowspan="2">maksas</td>
-</tr>
-<tr>
-<th>Animate</th>
-<td>ksas</td>
-</tr>
-<tr>
-<th>Inanimate</th>
-<td colspan="2">kkhes</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Genitive pronouns</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th colspan="2">Genitive pronouns</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th colspan="2">1<sup>st</sup></th>
-<td>yel</td>
-<td>nyel</td>
-</tr>
-<tr>
-<th colspan="2">2<sup>nd</sup></th>
-<td>fil</td>
-<td>fýmul</td>
-</tr>
-<tr>
-<th rowspan="3">3<sup>rd</sup></th>
-<th>Human</th>
-<td>húnul</td>
-<td>húnmal</td>
-</tr>
-<tr>
-<th>Animate</th>
-<td>sényel</td>
-<td>sénmal</td>
-</tr>
-<tr>
-<th>Inanimate</th>
-<td colspan="2">hyelp</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Noun possessives</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th colspan="2">tus &ldquo;house&rdquo; possessives</th>
-<th>Singular</th>
-<th>Plural</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th colspan="2">1<sup>st</sup></th>
-<td>yeltus</td>
-<td>nyeltus</td>
-</tr>
-<tr>
-<th colspan="2">2<sup>nd</sup></th>
-<td>filtus</td>
-<td>fimtus</td>
-</tr>
-<tr>
-<th rowspan="3">3<sup>rd</sup></th>
-<th>Human</th>
-<td>hultus</td>
-<td rowspan="2">maltus</td>
-</tr>
-<tr>
-<th>Animate</th>
-<td>saltus</td>
-</tr>
-<tr>
-<th>Inanimate</th>
-<td colspan="2">hiltus</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Noun cases</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Human</th>
-<th>Animate</th>
-<th>Inanimate</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Nominative</th>
-<td>kap</td>
-<td>pakh</td>
-<td>tus</td>
-</tr>
-<tr>
-<th>Accusative</th>
-<td>kop</td>
-<td>pekh</td>
-<td>tus</td>
-</tr>
-<tr>
-<th>Genetive</th>
-<td>kolp</td>
-<td>pelkh</td>
-<td>tuls</td>
-</tr>
-<tr>
-<th>Locative</th>
-<td>koerp</td>
-<td>perkh</td>
-<td>tyrsh</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Indefinite article khaf</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Human</th>
-<th>Animate</th>
-<th>Inanimate</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Nominative</th>
-<td>af</td>
-<td>af</td>
-<td>af</td>
-</tr>
-<tr>
-<th>Accusative</th>
-<td>of</td>
-<td>ef</td>
-<td>af</td>
-</tr>
-<tr>
-<th>Genetive</th>
-<td>olf</td>
-<td>elf</td>
-<td>alf</td>
-</tr>
-<tr>
-<th>Locative</th>
-<td>oerf</td>
-<td>erf</td>
-<td>erf</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Noun case tester</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th>Case</th>
-<th>Form</th>
-<th>From</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Nominative</th>
-<td>súlo</td>
-<td>-</td>
-</tr>
-<tr>
-<th>Accusative</th>
-<td>súlo</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Genitive</th>
-<td>súlohl</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Locative</th>
-<td>súloehl</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Comitative</th>
-<td>súlkhung</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Adverbial</th>
-<td>súlhlyng</td>
-<td>súloehl</td>
-</tr>
-<tr>
-<th>Perlative</th>
-<td>súlhlys</td>
-<td>súloehl</td>
-</tr>
-<tr>
-<th>Comparative</th>
-<td>súlkhus</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Allative</th>
-<td>súlkhuf</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Ablative</th>
-<td>súlkhul</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Vocative</th>
-<td>súlhyoe</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Abessive</th>
-<td>súlhyoehyoem</td>
-<td>súlo</td>
-</tr>
-<tr>
-<th>Inessive</th>
-<td>súlohlhyer</td>
-<td>súlohl</td>
-</tr>
-<tr>
-<th>Superessive</th>
-<td>súlohlnoer</td>
-<td>súlohl</td>
-</tr>
-<tr>
-<th>Subessive</th>
-<td>súlohlkil</td>
-<td>súlohl</td>
-</tr>
-<tr>
-<th>Antessive</th>
-<td>súlohltom</td>
-<td>súlohl</td>
-</tr>
-<tr>
-<th>Postessive</th>
-<td>súlohlpin</td>
-<td>súlohl</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<h2 id="verb-inflections">Verb inflections</h2>
-<details>
-<summary>Modern TAM</summary>
-<table>
-<thead>
-<tr>
-<th>TAM</th>
-<th>Imperfective</th>
-<th>Perfective</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Plain</td>
-<td>Continuous</td>
-<td>Habitual</td>
-</tr>
-<tr>
-<td>Near past</td>
-<td>Past</td>
-<td>Perfect</td>
-</tr>
-<tr>
-<td>Future</td>
-<td><del>unused</del></td>
-<td>Future</td>
-</tr>
-<tr>
-<td>Past</td>
-<td>Narrative continuous/simple</td>
-<td>Narrative past / pluperfect</td>
-</tr>
-<tr>
-<td>Conditional</td>
-<td><del>unused</del></td>
-<td>Subjunctive</td>
-</tr>
-<tr>
-<td>Jussive</td>
-<td><del>unused</del></td>
-<td>Jussive / imperative</td>
-</tr>
-</tbody>
-</table>
-</details>
-<details>
-<summary>Verb proto-TAM tester</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th>TAM</th>
-<th>Imperfective</th>
-<th>Perfective</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<th>Plain</th>
-<td>far</td>
-<td>fer</td>
-</tr>
-<tr>
-<th>Near past</th>
-<td>fáreul</td>
-<td>féril</td>
-</tr>
-<tr>
-<th>Future</th>
-<td>fáreuf</td>
-<td>férif</td>
-</tr>
-<tr>
-<th>Past/experiential</th>
-<td>fáreus</td>
-<td>féris</td>
-</tr>
-<tr>
-<th>Conditional</th>
-<td>fári</td>
-<td>féri</td>
-</tr>
-<tr>
-<th>Jussive</th>
-<td>fárhyoem</td>
-<td>férhyoem</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Verb TAM tester</summary>
-<div class="aligned-table">
-<table>
-<thead>
-<tr>
-<th>TAM</th>
-<th>far</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Continuous</td>
-<td>far</td>
-</tr>
-<tr>
-<td>Habitual</td>
-<td>fer</td>
-</tr>
-<tr>
-<td>Past</td>
-<td>fáreul</td>
-</tr>
-<tr>
-<td>Perfect</td>
-<td>féril</td>
-</tr>
-<tr>
-<td>Future</td>
-<td>férif</td>
-</tr>
-<tr>
-<td>Narrative continuous</td>
-<td>fáreus</td>
-</tr>
-<tr>
-<td>Narrative past</td>
-<td>féris</td>
-</tr>
-<tr>
-<td>Subjunctive</td>
-<td>féri</td>
-</tr>
-<tr>
-<td>Jussive</td>
-<td>férhyoem</td>
-</tr>
-</tbody>
-</table>
-</div>
-</details>
-<details>
-<summary>Valency derivations</summary>
-<table>
-<thead>
-<tr>
-<th>Voice/valency</th>
-<th>Lexeme</th>
-<th>Form</th>
-<th>Era</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Causative</td>
-<td>“follow” *ŋupu</td>
-<td>-*ŋʷə</td>
-<td>@early</td>
-</tr>
-</tbody>
-</table>
-</details>
-<h2 id="some-sentences">Some sentences</h2>
+<p>donotinclude{description/tables.md}@</p>
+<h3 id="some-sentences">Some Sentences</h3>
 <div class="gloss-table">
 <table>
 <thead>
 <tr>
-<th><ruby>kap <rt>[ˈkɑp]</rt></ruby></th>
-<th><ruby>pekh <rt>[ˈpɛx]</rt></ruby></th>
-<th><ruby>khas <rt>[ˈxɑs]</rt></ruby></th>
+<th><ruby>xusé <rt>[xu.ˈsɛ]</rt></ruby></th>
+<th><ruby>thélem <rt>[ˈθɛ.lɛm]</rt></ruby></th>
+<th><ruby>ngushús <rt>[ŋu.ˈʃus]</rt></ruby></th>
+<th><ruby>hwe̋hos <rt>[ˈʍɘ.hɔs]</rt></ruby></th>
+<th><ruby>e <rt>[ˈɛ]</rt></ruby></th>
+<th><ruby>thálnic <rt>[ˈθɐl.niç]</rt></ruby></th>
+<th><ruby>etichóse <rt>[ɛ.ti.ˈt͡ʃɔ.sɛ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><abbr title="(nh.) man">man</abbr></td>
-<td><abbr title="(na.) dog">dog</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="3rd person singular human">3sg-h</abbr>.<abbr title="(vt.) to see">see</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>pakh <rt>[ˈpɑx]</rt></ruby></th>
-<th><ruby>nyrf <rt>[ˈnyɾf]</rt></ruby></th>
-<th><ruby>sosul <rt>[sɒ.ˈsul]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(na.) dog">dog</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="locative case">loc</abbr></td>
-<td><abbr title="3rd person singular animate">3sg-an</abbr>.<abbr title="(vi.) to sit, dwell, live">sit</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>kap <rt>[ˈkɑp]</rt></ruby></th>
-<th><ruby>pekh <rt>[ˈpɛx]</rt></ruby></th>
-<th><ruby>khas <rt>[ˈxɑs]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(nh.) man">man</abbr></td>
-<td><abbr title="(na.) dog">dog</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="3rd person singular human">3sg-h</abbr>.<abbr title="(vt.) to see">see</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>pakh <rt>[ˈpɑx]</rt></ruby></th>
-<th><ruby>nyrf <rt>[ˈnyɾf]</rt></ruby></th>
-<th><ruby>sosul <rt>[sɒ.ˈsul]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(na.) dog">dog</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="locative case">loc</abbr></td>
-<td><abbr title="3rd person singular animate">3sg-an</abbr>.<abbr title="(vi.) to sit, dwell, live">sit</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>perkh <rt>[ˈpɛɾx]</rt></ruby></th>
-<th><ruby>nuf <rt>[ˈnuf]</rt></ruby></th>
-<th><ruby>yechip <rt>[jɛ.ˈt͡ʃip]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(na.) dog">dog</abbr>.<abbr title="dative case">dat</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="1st person singular">1sg</abbr>.<abbr title="(vd.) to give">give</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>kyel <rt>[ˈcɛl]</rt></ruby></th>
-<th><ruby>perkh <rt>[ˈpɛɾx]</rt></ruby></th>
-<th><ruby>af <rt>[ˈɑf]</rt></ruby></th>
-<th><ruby>nuf <rt>[ˈnuf]</rt></ruby></th>
-<th><ruby>ship <rt>[ˈʃip]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(nh.) woman">woman</abbr></td>
-<td><abbr title="(na.) dog">dog</abbr>.<abbr title="dative case">dat</abbr></td>
-<td><abbr title="(det.) indefinite article (see table!)">indef</abbr>.<abbr title="inanimate">inanimate</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="3rd person singular human">3sg-h</abbr>.<abbr title="(vd.) to give">give</abbr></td>
-</tr>
-</tbody>
-</table>
-</div>
-<div class="gloss-table">
-<table>
-<thead>
-<tr>
-<th><ruby>kyélung <rt>[ˈcɛ.luŋ]</rt></ruby></th>
-<th><ruby>perkh <rt>[ˈpɛɾx]</rt></ruby></th>
-<th><ruby>nuf <rt>[ˈnuf]</rt></ruby></th>
-<th><ruby>yekásung <rt>[jɛ.ˈkɑ.suŋ]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(nh.) woman">woman</abbr>.<abbr title="comitative case">com</abbr></td>
-<td><abbr title="(na.) dog">dog</abbr>.<abbr title="dative case">dat</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="accusative case">acc</abbr></td>
-<td><abbr title="1st person singular">1sg</abbr>.<abbr title="(vt.) to see">see</abbr>.<abbr title="causative derivation">caus</abbr></td>
+<td><abbr title="(adj.) big, large, old, adult">big</abbr>.<abbr title="Animate">a</abbr></td>
+<td><abbr title="(na.) bear, large beast with legible fingers">bear</abbr></td>
+<td><abbr title="(adj.) wet, damp">wet</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="locative">loc</abbr></td>
+<td><abbr title="(ni.) grass">grass</abbr>.<abbr title="locative">loc</abbr></td>
+<td><abbr title="(conj.) relativizer">rel</abbr></td>
+<td><abbr title="(ni.) mouse, small rodent with legible fingers">mouse</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="3klzzwxh:1042 person singular animate prefix">3sg-a</abbr>.<abbr title="(vt.) to love, like, be drawn to, be entwined with">love</abbr>.<abbr title="past habitual">phab</abbr></td>
 </tr>
 </tbody>
 </table>
 </div>
 <blockquote>
-<p>&ldquo;I show the rock to the dog together with the woman&rdquo;</p>
+<p>&ldquo;The big bear used to love the mouse that&rsquo;s on the short grass&rdquo;</p>
 </blockquote>
-<div class="gloss-table">
+<div class="glass-table">
 <table>
 <thead>
 <tr>
-<th><ruby>pakh <rt>[ˈpɑx]</rt></ruby></th>
-<th><ruby>núfaf <rt>[ˈnu.fɑf]</rt></ruby></th>
-<th><ruby>srómuf <rt>[ˈsɾɒ.muf]</rt></ruby></th>
+<th><ruby>kálar <rt>[ˈkɐ.lɐr]</rt></ruby></th>
+<th><ruby>hwímos <rt>[ˈʍi.mɔs]</rt></ruby></th>
+<th><ruby>kélros <rt>[ˈkɛl.rɔs]</rt></ruby></th>
+<th><ruby>lut <rt>[ˈlut]</rt></ruby></th>
+<th><ruby>atsíkyr <rt>[ɐ.ˈt͡si.kʏr]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><abbr title="(na.) dog">dog</abbr></td>
-<td><abbr title="(ni.) rock">rock</abbr>.<abbr title="allative case">all</abbr></td>
-<td><abbr title="3rd person singular animate">3sg-an</abbr>.<abbr title="(vi.) to walk, stroll, wander">walk</abbr>.<abbr title="future">fut</abbr></td>
+<td><abbr title="(ni.) frog">frog</abbr></td>
+<td><abbr title="(adj.) shallow, flat">shallow</abbr>.<abbr title="Animate">a</abbr>.<abbr title="locative">loc</abbr></td>
+<td><abbr title="(na.) bay, gulf, inlet">bay</abbr>.<abbr title="locative">loc</abbr></td>
+<td><abbr title="(postp.) in, into">in</abbr></td>
+<td><abbr title="3klzzwxh:1022 person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vi.) to jump, spring">jump</abbr>.<abbr title="future">fut</abbr></td>
 </tr>
 </tbody>
 </table>
 </div>
 <blockquote>
-<p>&ldquo;The dog will walk to the rock&rdquo;</p>
+<p>&ldquo;The frog will jump into the shallow bay&rdquo;</p>
 </blockquote>
 <div class="gloss-table">
 <table>
 <thead>
 <tr>
-<th><ruby>lýshris <rt>[ˈlyʃ.ɾis]</rt></ruby></th>
-<th><ruby>fimrámeul <rt>[fim.ˈɾɑ.mɯl]</rt></ruby></th>
+<th><ruby>tlo <rt>[ˈt͡ɬɔ]</rt></ruby></th>
+<th><ruby>tháleng <rt>[ˈθɐ.lɛŋ]</rt></ruby></th>
+<th><ruby>mufíc <rt>[mu.ˈfiç]</rt></ruby></th>
+<th><ruby>tsec <rt>[ˈt͡sɛç]</rt></ruby></th>
+<th><ruby>akéler <rt>[ɐ.ˈkɛ.lɛr]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><abbr title="(ni.) mountain, mountain range">mountain</abbr>.<abbr title="perlative case">perl</abbr></td>
-<td><abbr title="2nd person plural">2pl</abbr>.<abbr title="(vi.) to walk, stroll, wander">walk</abbr>.<abbr title="past">pst</abbr></td>
+<td><abbr title="(adj.) bright, white">bright</abbr>.<abbr title="Inaniamte">i</abbr></td>
+<td><abbr title="(ni.) mouse, small rodent with legible fingers">mouse</abbr></td>
+<td><abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="(na.) worm, small line-like animal">worm</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="3klzzwxh:1006 person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vt.) to lick">lick</abbr>.<abbr title="past tense">pst</abbr></td>
 </tr>
 </tbody>
 </table>
 </div>
 <blockquote>
-<p>&ldquo;You all walked across the mountain&rdquo;</p>
+<p>&ldquo;The white mouse licked the small worm&rdquo;</p>
 </blockquote>
-<div class="gloss-table">
-<table>
-<thead>
-<tr>
-<th><ruby>tur <rt>[ˈtuɾ]</rt></ruby></th>
-<th><ruby>alf <rt>[ˈɑlf]</rt></ruby></th>
-<th><ruby>kyéngalnoer <rt>[ˈcɛ.ŋɑl.nœɾ]</rt></ruby></th>
-<th><ruby>sosúleus <rt>[sɒ.ˈsu.lɯs]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(na.) bird">bird</abbr></td>
-<td><abbr title="(det.) indefinite article (see table!)">indef</abbr>.<abbr title="inanimate">inanimate</abbr>.<abbr title="postpositional case">post</abbr></td>
-<td><abbr title="(ni.) tree">tree</abbr>.<abbr title="superessive case">supess</abbr></td>
-<td><abbr title="3rd person singular animate">3sg-an</abbr>.<abbr title="(vi.) to sit, dwell, live">sit</abbr>.<abbr title="narrative continuous">narr-cont</abbr></td>
-</tr>
-</tbody>
-</table>
-<table>
-<thead>
-<tr>
-<th><ruby>tur <rt>[ˈtuɾ]</rt></ruby></th>
-<th><ruby>erf <rt>[ˈɛɾf]</rt></ruby></th>
-<th><ruby>kyénger <rt>[ˈcɛ.ŋɛɾ]</rt></ruby></th>
-<th><ruby>sosúleus <rt>[sɒ.ˈsu.lɯs]</rt></ruby></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="(na.) bird">bird</abbr></td>
-<td><abbr title="(det.) indefinite article (see table!)">indef</abbr>.<abbr title="inanimate">inanimate</abbr>.<abbr title="locative case">loc</abbr></td>
-<td><abbr title="(ni.) tree">tree</abbr>.<abbr title="locative case">loc</abbr></td>
-<td><abbr title="3rd person singular animate">3sg-an</abbr>.<abbr title="(vi.) to sit, dwell, live">sit</abbr>.<abbr title="narrative continuous">narr-cont</abbr></td>
-</tr>
-</tbody>
-</table>
-</div>
-<blockquote>
-<p>&ldquo;The bird was sitting on (top of) a tree&rdquo;</p>
-</blockquote>
-<h2 id="articles">Articles</h2>
+<h2 id="determiners">Determiners</h2>
 <p>By default, nouns in NewLang are definite.
 For singular nouns there is an indefinite article:</p>
 <ul>
@@ -908,9 +326,9 @@ optional for personal pronouns</li>
 <h2 id="gender">Gender</h2>
 <p>Originally denoted by classifiers:</p>
 <ul>
-<li>Human (-*u)</li>
-<li>Animate (-*i)</li>
-<li>Inanimate (-*a)</li>
+<li>Human (-*ʔu)</li>
+<li>Animate (-*hi)</li>
+<li>Inanimate (-*qa)</li>
 </ul>
 <p>Adjectives agree and verbs agree (for subject).</p>
 <h2 id="tam-tense-aspect-mood">TAM (Tense-aspect-mood)</h2>
@@ -931,57 +349,77 @@ usually come from noun incorporation (mostly prefixes):</p>
 or use dative to avoid ambiguity</li>
 </ul>
 <h2 id="noun-derivations">Noun derivations</h2>
-<p><code>&lt;hunt&gt; &lt;man&gt;</code> =&gt; <code>&lt;hunter&gt;</code> (stress on <code>&lt;hunt&gt;</code>)</p>
+<p><code>&lt;hunt&gt; &lt;man&gt;</code> &gt; <code>&lt;hunter&gt;</code> (stress on <code>&lt;hunt&gt;</code>)</p>
 <h2 id="phonology">Phonology</h2>
 <p>The sounds are written using 
 <a href="https://www.ipachart.com/">IPA</a>.
 The romanized (&ldquo;simplified&rdquo;) version 
-is written between two forward slashes: /like so/.</p>
+is written between angular brackets: &lt;like so&gt;.</p>
 <p>Green sounds only exist in the modern language,
 red sounds only exist in the proto-language.</p>
 <div class="aligned-table">
 <table>
 <thead>
 <tr>
-<th>CONSONANTS</th>
+<th>Consonants</th>
 <th>Labial</th>
+<th>Dental</th>
 <th>Coronal</th>
 <th>Palatal</th>
 <th>Velar</th>
+<th>Uvular</th>
 <th>Glottal</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<th>Plosive/Affricate</th>
-<td>p</td>
-<td>t, <ins>t͡ʃ /ch/</ins></td>
-<td><ins>c /ky/</ins></td>
-<td>k</td>
+<th>Nasal    </th>
+<td>m</td>
+<td></td>
+<td>n</td>
+<td><ins>ɲ &lt;ny&gt;</ins></td>
+<td>ŋ &lt;ng&gt;</td>
+<td><del>ɴ</del></td>
 <td></td>
 </tr>
 <tr>
-<th>Nasal</th>
-<td>m</td>
-<td>n</td>
-<td><ins>ɲ /ny/</ins></td>
-<td>ŋ /ng/</td>
+<th>Plosive  </th>
+<td>p</td>
+<td><ins>t̪ &lt;t&rsquo;&gt;</ins></td>
+<td>t</td>
 <td></td>
+<td>k</td>
+<td><del>q</del></td>
+<td><del>ʔ</del></td>
 </tr>
 <tr>
 <th>Fricative</th>
 <td>f</td>
-<td><ins>θ /th</ins>, s, <ins>ɬ /hl/</ins>, <ins>ʃ /sh/</ins></td>
-<td><ins>ç /hy/</ins></td>
-<td>x /kh/, <ins>ʍ /hw/</ins></td>
+<td><ins>θ &lt;th&gt;</ins></td>
+<td>s, ʃ &lt;sh&gt;, <br /> ɬ &lt;ll&gt;</td>
+<td><ins>ç &lt;c&gt;</ins></td>
+<td>x, <br /> <ins>ʍ &lt;hw&gt;</ins></td>
+<td><del>χ</del></td>
 <td>h</td>
 </tr>
 <tr>
-<th>Approximant</th>
+<th>Affricate</th>
 <td></td>
-<td>l, ɾ /r/</td>
-<td><ins>j /y/</ins>, <ins>ʎ /ly/</ins></td>
-<td><ins>w</ins></td>
+<td></td>
+<td><ins>t͡s &lt;ts&gt;</ins>, <br /> <ins>t͡ʃ &lt;ch&gt;</ins>, <br /> <ins>t͡ɬ &lt;tl&gt;</ins></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<th>Liquid   </th>
+<td></td>
+<td></td>
+<td>l, r ~ ɾ &lt;r&gt;</td>
+<td></td>
+<td></td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
@@ -1000,15 +438,27 @@ red sounds only exist in the proto-language.</p>
 <tbody>
 <tr>
 <th>High</th>
-<td>i, <ins>y</ins></td>
-<td><del>ə</del></td>
-<td><ins>ɯ /eu/</ins>, u</td>
+<td>i</td>
+<td></td>
+<td>, u</td>
 </tr>
 <tr>
-<th>Low</th>
-<td><ins>ɛ /e/</ins>, <ins>œ /oe/</ins></td>
-<td><del>a</del></td>
-<td><ins>ɑ /a/</ins>, <ins>ɒ /o/</ins></td>
+<th>Near-High </th>
+<td>, <ins>ʏ &lt;y&gt;</ins></td>
+<td><ins>ɘ &lt;eu&gt;</ins></td>
+<td></td>
+</tr>
+<tr>
+<th>Low-Mid  </th>
+<td><ins>ɛ &lt;e&gt;</ins></td>
+<td></td>
+<td>, <ins>ɔ &lt;o&gt;</ins></td>
+</tr>
+<tr>
+<th>Low </th>
+<td></td>
+<td>ä~ɐ &lt;a&gt;</td>
+<td></td>
 </tr>
 </tbody>
 </table>
@@ -1018,21 +468,278 @@ red sounds only exist in the proto-language.</p>
 <li>All vowels are short</li>
 <li>There are no diphthongs</li>
 <li>Hiatus is not allowed (i.e. no consecutive vowels)</li>
-<li>Default word-final stress (marked otherwise)</li>
-</ul>
-<h3 id="romanization-notes">Romanization notes</h3>
-<ul>
-<li>Velars: /ng kh hw/ are [ŋ x ʍ]</li>
-<li>Palatals: /ky ny hy ly y/ are [c ɲ ç ʎ j]</li>
-<li>Post-alveolars /sh ch/ are [ʃ t͡ʃ]</li>
-<li>Alveolars: /r hl/ are [ɾ ɬ]</li>
-<li>/y/ represents both the semivowel [j] and the vowel [y]
-    (it is never ambiguous, since as a semivowel it must be followed by a vowel)</li>
-<li>/eu/ is the high back unrounded vowel [ɯ]</li>
-<li>non-high vowels are pretty low (/e oe a o/ [ɛ œ ɑ ɒ])</li>
-<li>All other symbols are IPA</li>
 </ul>
 <h2 id="historical-notes">Historical Notes</h2>
+<h3 id="noun-classesclassifiers">Noun classes/classifiers</h3>
+<p>Originally, there were 10 noun classes (/classifiers):</p>
+<ul>
+<li>1 (H):  Male human *ʔu</li>
+<li>2 (H): Female human *qʷa</li>
+<li>3 (A): Large animals *ma</li>
+<li>4 (H): Winged animals (birds, bats) *hu</li>
+<li>5 (I): Small animals (critters, insects) *ɴi</li>
+<li>6 (A): Fresh water phenomena (lakes, rivers, wells, springs, rains) *ŋu</li>
+<li>7 (A): Countable edible fruits and vegetables *hi</li>
+<li>8 (I): Misc. (inanimate objects) *qaqa<ul>
+<li>Originally something like &ldquo;rest&rdquo;, &ldquo;not anything else&rdquo;, *qa old word for &ldquo;no&rdquo;?</li>
+</ul>
+</li>
+<li>9 (H+): Major deities *laqʷi</li>
+<li>10 (A+): Minor deities *li</li>
+</ul>
+<p>These were reduced to three genders:</p>
+<ul>
+<li>Human: 1, 2, 4, 9*</li>
+<li>Animate: 3, 6, 7, 10*</li>
+<li>Inanimate: 5, 8</li>
+</ul>
+<p>* The deities classes receive an additional &ldquo;l&rdquo; phone in some conjugations.
+This &ldquo;l&rdquo; was later re-analyzed as an honorific.</p>
+<h3 id="pronouns">Pronouns</h3>
+<p>Originally, there were 1<sup>st</sup> and 2<sup>nd</sup> pronouns, 
+with singular/plural distinction,
+and 3<sup>rd</sup> pronouns coming from demonstratives + classifier:</p>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th colspan="2">Pronouns</th>
+<th colspan="2">Singular</th>
+<th colspan="2">Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>1<sup>st</sup></th>
+<td></td>
+<td><em>*ʔimi</em></td>
+<td><strong>i-</strong></td>
+<td><em>*qʷila</em></td>
+<td><strong>il-</strong></td>
+</tr>
+<tr>
+<th rowspan="4">2<sup>nd</sup></th>
+<th>Masculine</th>
+<td rowspan="4"><em>*nuʔi</em></td>
+<td><strong>nu-</strong></td>
+<td rowspan="4"><em>*sahu</em></td>
+<td rowspan="4"><strong>so-</strong></td>
+</tr>
+<tr>
+<th>Feminine </th>
+<td><strong>ny-</strong></td>
+</tr>
+<tr>
+<th>Formal (1)</th>
+<td><strong>nil-</strong></td>
+</tr>
+<tr>
+<th>Formal (2)</th>
+<td><strong>nyl-</strong></td>
+</tr>
+<tr>
+<th rowspan="3">3<sup>rd</sup></th>
+<th>Human    </th>
+<td rowspan="3"><em>*ha</em></td>
+<td><strong>o-</strong></td>
+<td rowspan="3"><em>*χaŋi</em></td>
+<td rowspan="3"><strong>xe-</strong></td>
+</tr>
+<tr>
+<th>Animate  </th>
+<td><strong>e-</strong></td>
+</tr>
+<tr>
+<th>Inanimate</th>
+<td><strong>a-</strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The 2<sup>nd</sup> person singular pronouns used to conjugate 
+according to the class of the addressee.
+The .<abbr title="Class 10: minor deities">c10</abbr> and .<abbr title="Class 9: major deities">c9</abbr> classes are used for two levels of formality.</p>
+<h3 id="cases">Cases</h3>
+<p>Originally, there was only the genitive case, from an old word for &ldquo;home&rdquo; <em>*ʃuqʷa</em>.</p>
+<h3 id="tams">TAMs</h3>
+<p>There were 3 verb forms: perfective, imperfective and habitual,
+these combine with 4 tenses/moods: 
+unmarked (realis), past, irrealis (conditional 1), past + irrealis (conditional 2).
+These combine in the following ways in the modern language:</p>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Form / Tense</th>
+<th>Unmarked</th>
+<th>Past</th>
+<th>Conditional 1</th>
+<th>Conditional 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Perfective</th>
+<td>Past</td>
+<td>Remote/narrative past (pluperfect)</td>
+<td>Future</td>
+<td>Subjunctive</td>
+</tr>
+<tr>
+<th>Imperfective</th>
+<td>Present / Present continuous</td>
+<td>Narrative continuous</td>
+<td>Conditional</td>
+<td>?</td>
+</tr>
+<tr>
+<th>Habitual</th>
+<td>Habitual</td>
+<td>Past habitual</td>
+<td>?</td>
+<td>?</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h2 id="tests">Tests</h2>
+<h3 id="class-test">Class test</h3>
+<table>
+<thead>
+<tr>
+<th><ruby>hwinú <rt>[ʍi.ˈnu]</rt></ruby></th>
+<th><ruby>hwy <rt>[ˈʍʏ]</rt></ruby></th>
+<th><ruby>hwinú <rt>[ʍi.ˈnu]</rt></ruby></th>
+<th><ruby>hwil <rt>[ˈʍil]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 1: male humans">c1</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 2: female humans">c2</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 4: winged animals">c4</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 9: major deities">c9</abbr></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><ruby>hwim <rt>[ˈʍim]</rt></ruby></th>
+<th><ruby>hwin <rt>[ˈʍin]</rt></ruby></th>
+<th><ruby>hwiní <rt>[ʍi.ˈni]</rt></ruby></th>
+<th><ruby>hwil <rt>[ˈʍil]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 3: large animals">c3</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 6: fresh water phonemena">c6</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 7: countable, edible fruits and vegetables">c7</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 10: minor deities">c10</abbr></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><ruby>hwëng <rt>[ˈʍɘŋ]</rt></ruby></th>
+<th><ruby>hwë <rt>[ˈʍɘ]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 5: small animals">c5</abbr></td>
+<td><abbr title="(test.) ">classtest</abbr>.<abbr title="Class 8: miscellaneous (inanimate objects)">c8</abbr></td>
+</tr>
+</tbody>
+</table>
+<h3 id="case-test">Case test</h3>
+<table>
+<thead>
+<tr>
+<th><ruby>hwy <rt>[ˈʍʏ]</rt></ruby></th>
+<th><ruby>hwic <rt>[ˈʍiç]</rt></ruby></th>
+<th><ruby>hwyl <rt>[ˈʍʏl]</rt></ruby></th>
+<th><ruby>hwus <rt>[ˈʍus]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) ">casetest</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="locative">loc</abbr></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><ruby>hwychó <rt>[ʍʏ.ˈt͡ʃɔ]</rt></ruby></th>
+<th><ruby>hwychéc <rt>[ʍʏ.ˈt͡ʃɛç]</rt></ruby></th>
+<th><ruby>hwychól <rt>[ʍʏ.ˈt͡ʃɔl]</rt></ruby></th>
+<th><ruby>hwychós <rt>[ʍʏ.ˈt͡ʃɔs]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="locative">loc</abbr></td>
+</tr>
+</tbody>
+</table>
+<h3 id="tam-test">TAM test</h3>
+<table>
+<thead>
+<tr>
+<th><ruby>tsik <rt>[ˈt͡sik]</rt></ruby></th>
+<th><ruby>tsíki <rt>[ˈt͡si.ki]</rt></ruby></th>
+<th><ruby>tsíkyr <rt>[ˈt͡si.kʏr]</rt></ruby></th>
+<th><ruby>tsíkir <rt>[ˈt͡si.kir]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="past tense">pst</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="remote / narrative past">remp</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="future">fut</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="subjunctive">sjv</abbr></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><ruby>tsy <rt>[ˈt͡sʏ]</rt></ruby></th>
+<th><ruby>tsýhe <rt>[ˈt͡sʏ.hɛ]</rt></ruby></th>
+<th><ruby>tsýry <rt>[ˈt͡sʏ.rʏ]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="present / present continuous">cont</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="narrative continuous">narr</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="conditional">cond</abbr></td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th><ruby>tsíkus <rt>[ˈt͡si.kus]</rt></ruby></th>
+<th><ruby>tsikúse <rt>[t͡si.ˈku.sɛ]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="habitual">hab</abbr></td>
+<td><abbr title="(test.) TAM test">tamtest</abbr>.<abbr title="past habitual">phab</abbr></td>
+</tr>
+</tbody>
+</table>
 <details>
 <summary>Case and TAM sources</summary>
 <table>
@@ -1244,439 +951,733 @@ red sounds only exist in the proto-language.</p>
 </details>
 <details>
 <summary>Changes</summary>
-<pre><code># +--------------+
-# | ~ Features ~ |
-# +--------------+
-Feature voicing                 (voiceless, voiced)
-Feature place                   (labial, dental, alveolar, postalveolar, retroflex, palatal, velar, labiovelar, uvular, pharyngeal, glottal)
-Feature manner                  (nasal, stop, trill, tap, fricative, affricate, approximant)
-Feature type                    (*consonant, vowel)
-Feature +lateral
+<pre><code>feature type (*consonant, vowel, delimiter)
+feature place (labial, dental, alveolar, postalveolar, palatal, velar, uvular, pharyngeal, glottal)
+feature manner (nasal, stop, fricative, affricate, liquid)
 
-Feature +labialized
-Feature +palatalized
-Feature +velarized
-Feature +pharyngealized
-Feature +aspirated
+feature height (high, himid, mid, lomid, low)
+feature backness (back, central, frontctr, front)
+feature (syllable) weight (*normal, heavy, light)
 
-Feature height                  (low, mid, high)
-Feature frontness               (front, central, back)
+feature +labialized
+feature +long
+feature +affix
+feature +round
+feature +lateral
+feature +accent
+feature +opening
+feature (syllable) +stress
 
-Feature +round
-Feature +long
-Feature +nasalized
-Feature +accented
+diacritic ʷ [+labialized]
+diacritic ː [+long]
+diacritic ˈ [+stress]       (before) 
+diacritic ² [heavy]
+diacritic ⁰ [light]
+diacritic  ́ [+accent]       (floating) 
+diacritic  ̸ [+affix]        (floating) 
+diacritic  ̈ [central]
 
-Feature (syllable) stress       (*unstressed, primary, secondary)
-Feature (syllable) rhyme        (open, semiopen, closed)
+symbol ^  [+opening delimiter]
+symbol \~ [delimiter]
 
-# +----------------+
-# | ~ Diacritics ~ |
-# +----------------+
-Diacritic ʷ [+labialized]       (floating)
-Diacritic ʲ [+palatalized]      (floating)
-Diacritic ˠ [+velarized]        (floating)
-Diacritic ˤ [+pharyngealized]   (floating)
-Diacritic ʰ [+aspirated]        (floating)
+symbol m  [labial nasal]
+symbol p  [labial stop]
+symbol f  [labial fricative]
 
-Diacritic ː [+long]             (floating)
-Diacritic  ̃ [+nasalized]        (floating) (first)
-Diacritic  ́ [+accented]         (floating)
+symbol n̪  [dental nasal]
+symbol t̪  [dental stop]
+symbol θ  [dental fricative]
 
-Diacritic ˈ [primary]           (before)
-Diacritic ˌ [secondary]         (before)
+symbol n  [alveolar nasal]
+symbol t  [alveolar stop]
+symbol s  [alveolar fricative]
+symbol t͡s [alveolar affricate]
 
-Diacritic ˚ [open]
-Diacritic ˘ [semiopen]
-Diacritic ˙ [closed]
+symbol r  [alveolar liquid]
+symbol l  [alveolar +lateral liquid]
+symbol ɬ  [alveolar +lateral fricative]
+symbol t͡ɬ [alveolar +lateral affricate]
 
-# +----------------+
-# | ~ Consonants ~ |
-# +----------------+
-# Labial
-Symbol m [voiced labial nasal]
-Symbol p [voiceless labial stop]
-Symbol b [voiced labial stop]
-Symbol ʙ [voiced labial trill]
-Symbol ⱱ [voiced labial tap]
-Symbol f [voiceless labial fricative]
-Symbol v [voiced labial fricative]
-Symbol p͡f [voiceless labial affricate]
-Symbol b͡v [voiced labial affricate]
-Symbol ʋ [voiced labial approximant]
+symbol ʃ  [postalveolar fricative]
+symbol t͡ʃ [postalveolar affricate]
 
-# Labiovelar
-Symbol ʍ [voiceless labiovelar fricative]
-Symbol w [voiced labiovelar approximant]
+symbol ɲ  [palatal nasal]
+symbol ç  [palatal fricative]
 
-# Dental
-Symbol t̪ [voiceless dental stop]
-Symbol d̪ [voiced dental stop]
-Symbol θ [voiceless dental fricative]
-Symbol ð [voiced dental fricative]
+symbol ŋ  [velar nasal]
+symbol k  [velar stop]
+symbol x  [velar fricative]
+symbol ʍ  [velar +labialized fricative]
 
-# Alveolar
-Symbol n [voiced alveolar nasal]
-Symbol t [voiceless alveolar stop]
-Symbol d [voiced alveolar stop]
-Symbol r [voiced alveolar trill]
-Symbol ɾ [voiced alveolar tap]
-Symbol s [voiceless alveolar fricative]
-Symbol z [voiced alveolar fricative]
-Symbol ɬ [voiceless alveolar +lateral fricative]
-Symbol ɮ [voiced alveolar +lateral fricative]
-Symbol t͡s [voiceless alveolar affricate]
-Symbol d͡z [voiced alveolar affricate]
-Symbol ɹ [voiced alveolar approximant]
-Symbol l [voiced alveolar +lateral approximant]
+symbol ɴ  [uvular nasal]
+symbol q  [uvular stop]
+symbol χ  [uvular fricative]
 
-# Post-alveolar
-Symbol t̠ [voiceless postalveolar stop]
-Symbol ʃ [voiceless postalveolar fricative]
-Symbol ʒ [voiced postalveolar fricative]
-Symbol t͡ʃ [voiceless postalveolar affricate]
-Symbol d͡ʒ [voiced postalveolar affricate]
+symbol ħ  [pharyngeal fricative]
 
-# Retroflex
-Symbol ɳ [voiced retroflex nasal]
-Symbol ʈ [voiceless retroflex stop]
-Symbol ɖ [voiced retroflex stop]
-Symbol ɽ [voiced retroflex tap]
-Symbol ʂ [voiceless retroflex fricative]
-Symbol ʐ [voiced retroflex fricative]
-Symbol ɻ [voiced retroflex approximant]
-Symbol ɭ [voiced retroflex +lateral approximant]
+symbol ʔ  [glottal stop]
+symbol h  [glottal fricative]
 
-# Palatal
-Symbol ɲ [voiced palatal nasal]
-Symbol c [voiceless palatal stop]
-Symbol ɟ [voiced palatal stop]
-Symbol ç [voiceless palatal fricative]
-Symbol ʝ [voiced palatal fricative]
-Symbol j [voiced palatal approximant]
-Symbol ʎ [voiced palatal +lateral approximant]
-Symbol ʎ̝̊ [voiceless palatal +lateral fricative]
+symbol i  [high front vowel]
+symbol y  [high front +round vowel]
+symbol ʏ  [himid frontctr +round vowel]
+symbol e  [himid front vowel]
+symbol ɘ  [himid central vowel]
+symbol u  [high back +round vowel]
+symbol ɔ  [lomid back +round vowel]
+symbol ʌ  [lomid back vowel]
+symbol o  [himid back +round vowel]
+symbol ɛ  [lomid front vowel]
+symbol ɐ  [lomid central vowel]
+symbol a  [low front vowel]
 
-# Velar
-Symbol ŋ [voiced velar nasal]
-Symbol k [voiceless velar stop]
-Symbol g [voiced velar stop]
-Symbol x [voiceless velar fricative]
-Symbol ɣ [voiced velar fricative]
-Symbol ɰ [voiced velar approximant]
-Symbol ʟ [voiced velar +lateral approximant]
+# used for romanizing
+symbol ë
 
-# Uvular
-Symbol ɴ [voiced uvular nasal]
-Symbol q [voiceless uvular stop]
-Symbol ɢ [voiced uvular stop]
-Symbol ʀ [voiced uvular trill]
-Symbol χ [voiceless uvular fricative]
-Symbol ʁ [voiced uvular fricative]
+element resonant { [nasal], [liquid] }
+element sibilant { [alveolar], [postalveolar] }&amp;[fricative]
+element palatalizing { [high], [himid] }&amp;[vowel]&amp;![back]
+element weakfricatives { h, ʍ }
 
-# Pharyngeal
-Symbol ʡ [voiceless pharyngeal stop]
-Symbol ħ [voiceless pharyngeal fricative]
-Symbol ʕ [voiced pharyngeal fricative]
-
-# Glottal
-Symbol ʔ [voiceless glottal stop]
-Symbol h [voiceless glottal fricative]
-Symbol ɦ [voiced glottal fricative]
-
-# +------------+
-# | ~ Vowels ~ |
-# +------------+
-# High
-Symbol i [high front -round vowel]
-Symbol y [high front +round vowel]
-Symbol ɨ [high central -round vowel]
-Symbol ʉ [high central +round vowel]
-Symbol ɯ [high back -round vowel]
-Symbol u [high back +round vowel]
-
-# Mid
-Symbol e [mid front -round vowel]
-Symbol ø [mid front +round vowel]
-Symbol ə [mid central -round vowel]
-Symbol ɵ [mid central +round vowel]
-Symbol ɤ [mid back -round vowel]
-Symbol o [mid back +round vowel]
-
-# Low
-Symbol ɛ [low front -round vowel]
-Symbol œ [low front +round vowel]
-Symbol a [low central -round vowel]
-Symbol ɶ [low central +round vowel]
-Symbol ɑ [low back -round vowel]
-Symbol ɒ [low back +round vowel]
-
-# +-------------+
-# | ~ Classes ~ |
-# +-------------+
-Class rhotics       {r, ɾ, ɹ, ɻ, ʀ, ʁ}
-Class sibilants     {s, z, ʃ, ʒ}
-Class glides        {w, j}
-
-# +--------------+
-# | ~ Elements ~ |
-# +--------------+
-Element liquids     {@rhotics, [+lateral approximant]}
-Element sonorants   {[nasal], @liquids}
-Element obstruents  {[stop], [fricative], [affricate]}
-Element nonglides   [consonant]&amp;!@glides
-Element palatalizes {[+palatalized], j} 
-Element labializes  {[+labialized], w}
-
-# +-------------+
-# | ~ Changes ~ |
-# +-------------+
-syllables:
-    [consonant]? [vowel]
-
-
-stress-pattern:
-    &lt;syl&gt; =&gt; [primary] / _ &lt;syl&gt; $
-else:
-    &lt;syl&gt; =&gt; [primary] / $ _ $
-
-
-proto:
-    unchanged
-
-
-schwa-assimilation:
-    [mid central vowel] [vowel $frontness $height $round] =&gt; [$frontness $height $round] *
-
-
-post-stress-word-final-vowel-distinction-loss [vowel]:
-    [vowel] =&gt; [mid central -round] / [primary] _ $
-
-
-hiatus-resolution:
-    [vowel] =&gt; * / [vowel] _
-
-
-high-vowels-become-glides:
-    {i, u} * .  =&gt; {j, w} ə .
-
-
-syllables:
-    [consonant]? @glides? [vowel]
-
-
-glides-attach-to-consonants:
+deromanizer:
+    a =&gt; [lomid central]
+    n q =&gt; [uvular] *
+    x q =&gt; [uvular] *
+    n g =&gt; [velar] *
     [consonant] w =&gt; [+labialized] *
-    [consonant] j =&gt; [+palatalized] *
-
+    l l =&gt; * [fricative]
+    s h =&gt; [postalveolar] *
+    \' =&gt; ʔ
 
 syllables:
-    [consonant]? [vowel]
+    [consonant] [vowel]
+    [delimiter]
 
+affix-spreading ltr:
+    { [consonant], [vowel] } =&gt; [+affix] / { [+opening delimiter], [+affix] } _
 
-early:
+delimiter-loss:
+    [delimiter] =&gt; *
+
+syllables:
+    [consonant] [vowel]
+
+initial-stress:
+    &lt;syl&gt; =&gt; [+stress] / $ _
+
+resonant-codas ltr:
+    [vowel] =&gt; * / [vowel] @resonant _
+
+syllables:
+    [consonant] [vowel] @resonant?
+
+romanizer-proto:
     unchanged
 
-
-vowel-loss-between-stops-and-fricatives:
-    [unstressed vowel] =&gt; * / [stop] _ [fricative]
-then:
-    [unstressed vowel] =&gt; * / [fricative] _ [stop] [vowel] // [consonant] [fricative] _
-then:
-    [fricative]$1 [stop]$2 =&gt; $2 $1 / . _
-
-
-syllables:
-    [consonant]? [fricative]? [vowel]
-
-
-vowel-loss-between-obstruents-and-liquids:
-    [unstressed vowel] =&gt; * / @obstruents _ @liquids
-
-
-
-syllables:
-    [consonant]? [fricative]? @liquids? [vowel]
-
-
-palatalization-spreads:
-    [consonant] =&gt; [+palatalized] / {_ @palatalizes, @palatalizes _}
-
-
-labialization-spreads:
-    [consonant] =&gt; [+labialized] / {_ @labializes, @labializes _}
-
-
-middle:
+classifiers:
     unchanged
 
+regressive-uvular-spreading:
+    [velar *labialized] =&gt; [uvular] / _ (![liquid])* [uvular]
 
-palatalization-fronts-vowel:
-    [vowel] =&gt; [front] / {_ @palatalizes, @palatalizes _}
+vowel-retracting-before-uvulars:
+    {i, ɐ, u} =&gt; {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
+    {i, ɐ, u} =&gt; {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
 
+labialized-stop-lenition:
+    {pʷ, tʷ, kʷ, qʷ} =&gt; {f, θ, ʍ, ħ}
 
-labialization-rounds-vowel:
-    [vowel] =&gt; [+round] / {_ @labializes, @labializes _}
+intervocalic-coronal-plosive:
+    t =&gt; [dental] / [vowel] _ [vowel]
 
+uvular-lenition:
+    {q, χ, x} =&gt; {χ, x, ç}
 
-vowel-polarization propagate:
-    [mid vowel] =&gt; [high]
-    [central vowel] =&gt; [back]
-
-
-palatalization-simplifies:
-    [labial +palatalized] =&gt; [*palatalized]
-    @obstruents&amp;[alveolar +palatalized] =&gt; [postalveolar *palatalized]
-    @sonorants&amp;!@rhotics&amp;[alveolar +palatalized] =&gt; [palatal *palatalized]
-    [velar +palatalized] =&gt; [palatal *palatalized]
-    [glottal +palatalized] =&gt; [*palatalized]
-    @rhotics =&gt; [*palatalized]
-
-
-labialization-simplifies:
-    [+labialized] =&gt; [*labialized]
-
-
-first-word-final-vowel-loss:
-    [unstressed vowel] =&gt; * / _ $
-then propagate:
-    [stop]$1 [fricative]$2 =&gt; $2 $1 / _ @liquids? $
-    @obstruents$1 @liquids$2 =&gt; $2 $1 / _ [stop]? $
-
+glottal-loss:
+    [glottal] =&gt; *
 
 syllables:
-    [stop]? [fricative]? @liquids? [vowel] @liquids? [fricative]? [consonant]? // [vowel] _
-    @obstruents? @liquids? [vowel] @liquids? [fricative]? [consonant]? // [vowel] _
-    [consonant]? [vowel] @liquids? [fricative]? [consonant]?
+    [consonant] [vowel]+ @resonant?
+    [vowel]+ @resonant? / $ _
 
-
-late:
+demonstratives-forming:
     unchanged
 
+pharyngeal-loss:
+    [pharyngeal] [vowel] =&gt; * * / { . _ ., [vowel] . _ @resonant . } // $ _ $ #@resonant? $
+    [pharyngeal] =&gt; *
 
-h-devoices:
-    [alveolar stop] =&gt; [dental] / {_ h, h _}
+uvular-loss:
+    [uvular fricative] =&gt; [glottal]
+    { ŋ, ɴ } =&gt; { ɲ, ŋ }
+
+genitive-forming:
+    unchanged
+
+affricate-formation:
+    @resonant @sibilant =&gt; * [affricate]
+
+coda-nasal-loss:
+    [vowel] [nasal] =&gt; [+long] * / _ .
+    #todo: not at word end?
+
+syllables:
+    [consonant] [vowel]+ [liquid]?
+    [vowel]+ [liquid]? / $ _
+
+hiatus-resolution cleanup:
+    unchanged
+then ltr:
+    [vowel] =&gt; [+stress] / [vowel +stress] _
+then rtl:
+    [vowel] =&gt; [+stress] / _ [vowel +stress]
 then:
-    [consonant]&amp;!@rhotics h =&gt; [voiceless fricative] *
-    h [consonant]&amp;!@rhotics =&gt; * [voiceless fricative]
+    [+affix vowel] =&gt; * / [vowel] _
+    [+round vowel] =&gt; [lomid back] / [lomid vowel] [vowel]* _
+    [vowel] =&gt; [lomid front] / [lomid vowel] [vowel]* _
 then:
-    [consonant]&amp;@rhotics h =&gt; [voiceless +lateral fricative] *
-    h [consonant]&amp;@rhotics =&gt; * [voiceless +lateral fricative]
+    [vowel] =&gt; [+long] / [+long vowel] _
 then:
-    [dental stop] =&gt; [alveolar]
+    [vowel] =&gt; * / _ [vowel]
 
+syllables:
+    [consonant] [vowel] [liquid]?
+    [vowel] [liquid]? # / $ _
 
-word-final-weak-consonants-loss:
-    {h, j, w} =&gt; * / _ $
+intensifier-forming:
+    unchanged
 
+past-forming:
+    unchanged
 
-lateral-fricatives-merge:
-    [+lateral fricative] =&gt; [alveolar]
+low-vowels-backness-regressive-harmony rtl:
+    [lomid vowel] =&gt; [back] / _ []* [lomid back vowel]
 
+dorsal-fricatives-assimilation:
+    ç =&gt; x / { _ [back vowel], [back vowel] _ }
+    #todo: x =&gt; ç / { _ @palatalizing, @palatalizing _ }
 
-vowel-loss-near-stress:
-    [unstressed vowel] =&gt; * / [primary vowel] [consonant] _ [consonant] [vowel]
-    [unstressed vowel] =&gt; * / [vowel] [consonant] _ [consonant] [primary vowel]
+vowel-shift:
+    { [*round lomid central vowel], [*round lomid back vowel] } =&gt; { [front], [central] }
 
+syllables:
+    [consonant] [+affix vowel] [liquid]? =&gt; [light] #todo: with liquid is heavy for affix too?..
+    [consonant] [vowel +long] [liquid]? =&gt; [heavy]
+    [consonant]&amp;!@weakfricatives [vowel] [liquid] =&gt; [heavy]
+    [consonant]&amp;!@weakfricatives [vowel] =&gt; [normal]
+    @weakfricatives [vowel] [liquid]? =&gt; [light]
+    [vowel] [liquid]? =&gt; [light] // [consonant] _
 
-coda-semivowels-loss:
-    [vowel] j =&gt; [front] * / _ .
-    [vowel] w =&gt; [+round] * / _ .
+cases-forming:
+    unchanged
 
+reset-stress:
+    &lt;syl&gt; =&gt; [*stress]
 
-h-fortition:
-    [glottal fricative] =&gt; [velar] / {[consonant] _ [back vowel], [back vowel] _ [consonant]}
-    [glottal fricative] =&gt; [palatal] / {[consonant] _ [front vowel], [front vowel] _ [consonant]}
+romanizer-pre-stress:
+    unchanged
 
+new-stress:
+    &lt;syl&gt;&amp;[heavy] =&gt; [+stress] / _ (&lt;syl&gt;&amp;[heavy])? (&lt;syl&gt;&amp;![heavy])? $ // &lt;syl&gt;&amp;[heavy] _
+else:
+    &lt;syl&gt;&amp;![light] =&gt; [+stress] / _ (&lt;syl&gt;&amp;![heavy]) (&lt;syl&gt;&amp;![heavy]) $
+else:
+    &lt;syl&gt;&amp;![light] =&gt; [+stress] / _ (&lt;syl&gt;&amp;![heavy]) $
+else:
+    &lt;syl&gt;&amp;[light] =&gt; [+stress] / _ (&lt;syl&gt;&amp;[light]) $
+else:
+    &lt;syl&gt; =&gt; [+stress] / _ $
 
-palatal-assimilation:
-    @obstruents&amp;{[alveolar], [postalveolar]} =&gt; [palatal] / {[palatal] _, _ [palatal]} // {[palatal] . _, _ . [palatal]}
+boundary-vowel-loss:
+    [*long *stress vowel] =&gt; * / $ _ [consonant] [vowel]
+    [*long *stress vowel] =&gt; * / [vowel] [liquid]? [consonant] _ $ // [consonant] [liquid] _ # todo: simplify?
 
+syllables:
+    [consonant]? [vowel]+ [liquid]? [consonant]?
 
-palatal-obstruents-become-velar:
-    # in coda positions
-    @obstruents&amp;[palatal] =&gt; [velar] / _ [consonant]* .
+lateral-fricatives:
+    #todo: cleanup rule? only weak fricatives?
+    l {l, [fricative]} =&gt; * ɬ
 
-    # and in clusters
-    @obstruents&amp;[palatal] =&gt; [velar] / . _ [consonant]+ [vowel]
+verb-conjugation:
+    unchanged
+
+long-vowel-shortening:
+    [+long] =&gt; [*long]
+
+final-vowel-loss:
+    [*stress *long vowel] =&gt; * / [vowel] [liquid]? . ![liquid] _ $
+    #todo: can this create complex consonant clusters?
+    #todo: flip rules?
+
+coda-weak-fricatives-loss:
+    @weakfricatives =&gt; * / _ .
+
+relativizers-affix:
+    unchanged
+
+conditional-forming:
+    unchanged
+
+open-syllables-metathesis:
+    [consonant]$1 [vowel]$2 =&gt; $2 $1 / [consonant] . _ .
+
+coda-palatal-nasals-simplification:
+    ɲ =&gt; n / _ . #todo: to ŋ?
+
+away-from-stress-vowel-loss:
+    [*stress vowel] =&gt; * / [*stress vowel] [consonant] _ $
+
+break-liquid-nasal-clusters:
+    * =&gt; [+accent $round $height $backness vowel] / [$round $height $backness vowel] [liquid] _ [nasal] .
 then:
-    @obstruents&amp;[palatal] =&gt; [velar] / . [consonant]+ _ [vowel]
+    { ɐ, ɛ, ʏ, i, ɘ, u, ɔ }&amp;[+accent] =&gt; { ɛ!, ɛ!, i!, i!, u!, u!, ɔ! }
 
+nasal-liquid-assimilation:
+    [nasal] =&gt; [$place] / [$place liquid] _
 
-palatal-sonorants-become-alveolar:
-    # in coda positions
-    @sonorants&amp;[palatal] =&gt; [alveolar] / _ [consonant]* .
-
-    # and in clusters
-    @sonorants&amp;[palatal] =&gt; [alveolar] / . _ [consonant]+ [vowel]
+clear-diacritics:
+    [light] =&gt; [normal]
+    [heavy] =&gt; [normal]
 then:
-    @sonorants&amp;[palatal] =&gt; [alveolar] / . [consonant]+ _ [vowel]
-
-
-postalveolar-stop-simplifies:
-    [postalveolar stop] =&gt; [alveolar] / {[consonant] _, _ [consonant]}
-then:
-    [postalveolar stop] =&gt; [affricate]
-
-
-semivowels-dissimilation:
-    [vowel] =&gt; [low] / [palatal] _
-
+    [+affix] =&gt; [*affix]
 
 romanizer-phonetic:
     unchanged
 
-
-accent-stressed-vowels [vowel]:
-    [primary] =&gt; [+accented] // _ $
-
+stress-to-accent:
+    [+stress vowel] =&gt; [+accent] // $ [consonant]? _ @resonant? [consonant]? $
+then:
+    [+stress] =&gt; [*stress]
 
 syllables:
     clear
 
-
-modern:
-    unchanged
-
-
 romanizer:
-    kç =&gt; k'hy
-    cç =&gt; chy
-    tç =&gt; t'hy
-    sç =&gt; s'hy
-    sh =&gt; s'h
-    th =&gt; t'h
-    kh =&gt; k'h
-    nj =&gt; n'y
-    kj =&gt; k'y
-    lj =&gt; l'y
-    t͡ʃj =&gt; ch'y
-
-    ŋ =&gt; ng
-    x =&gt; kh
-    ʍ =&gt; hw
-
-    ɲ =&gt; ny
-    c =&gt; ky
-    ç =&gt; hy
-    ʎ =&gt; ly
-    j =&gt; y
-
-    t͡ʃ =&gt; ch
-    ʃ =&gt; sh
-
-    ɾ =&gt; r
-    ɬ =&gt; hl
-    θ =&gt; th
-
-    ɯ =&gt; eu
-    ɛ =&gt; e
-    œ =&gt; oe
-    ɑ =&gt; a
-    ɒ =&gt; o
+    [] =&gt; [normal]
+then:
+    [+affix] =&gt; [*affix]
+then:
+    [+accent himid central vowel] =&gt; e̋!
+then:
+    { t͡s, t͡ʃ, t͡ɬ } =&gt; { ts, ch, tl }
+    [dental fricative] =&gt; th
+    [postalveolar fricative] =&gt; sh
+    [alveolar +lateral fricative] =&gt; ll #todo: differently?
+    [dental] * =&gt; [alveolar] \'
+    {ɛ, ɐ, ɔ, ʏ, ɘ} =&gt; {e, a, o, y, ë}
+    [palatal fricative] =&gt; c
+    [velar +labialized fricative] =&gt; hw
+    [velar nasal] * =&gt; [alveolar] g
+    [palatal nasal] * =&gt; [alveolar] y
 </code></pre>
 </details>
 <h1 id="name-reference-grammar">NewLang Reference Grammar</h1>
+<h2 id="tables">Tables</h2>
+<h3 id="pronouns_1">Pronouns</h3>
+<p>Modern pronouns were derived from the words for person/people 
+and here/there demonstratives:</p>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th colspan="2">Pronouns</th>
+<th>Singular</th>
+<th colspan="2">Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th rowspan="2">1<sup>st</sup> </th>
+<td rowspan="2"></td>
+<td rowspan="2"><em>*ʔina</em> + <em>*kami</em> &gt; <strong><ruby>ik <rt>[ˈik]</rt></ruby></strong></td>
+<td><em>*ʔina</em> + <em>*ʔamikami</em> &gt; <strong><ruby>ek <rt>[ˈɛk]</rt></ruby></strong></td>
+<td><em>(exclusive)</em></td>
+</tr>
+<tr>
+<td><em>*kami</em> &gt; <strong><ruby>ke <rt>[ˈkɛ]</rt></ruby></strong></td>
+<td><em>(inclusive)</em></td>
+</tr>
+<tr>
+<th>2<sup>nd</sup> </th>
+<td></td>
+<td><em>*ɬiʔu</em> + <em>*kami</em> &gt; <strong>lluk</strong></td>
+<td colspan="2"><em>*ɬiʔu</em> + <em>*ʔamikami</em> &gt; <strong><ruby>llek <rt>[ˈɬɛk]</rt></ruby></strong></td>
+</tr>
+<tr>
+<th rowspan="3">3<sup>rd</sup> </th>
+<th>Human    </th>
+<td>nor</td>
+<td colspan="2">eké</td>
+</tr>
+<tr>
+<th>Animate  </th>
+<td>nar</td>
+<td colspan="2" rowspan="2">xar</td>
+</tr>
+<tr>
+<th>Inanimate</th>
+<td>tse</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="regular-cases-pronouns">Regular Cases Pronouns</h4>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Pronouns</th>
+<th>Nominative</th>
+<th>Accusative</th>
+<th>Dative</th>
+<th>Locative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<sup>st</sup> (singular)</td>
+<td><strong><ruby>ik <rt>[ˈik]</rt></ruby></strong></td>
+<td><strong><ruby>íkec <rt>[ˈi.kɛç]</rt></ruby></strong></td>
+<td><strong><ruby>íkel <rt>[ˈi.kɛl]</rt></ruby></strong></td>
+<td><strong><ruby>íkos <rt>[ˈi.kɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, exclusive)</td>
+<td><strong><ruby>ek <rt>[ˈɛk]</rt></ruby></strong></td>
+<td><strong><ruby>ékec <rt>[ˈɛ.kɛç]</rt></ruby></strong></td>
+<td><strong><ruby>ékel <rt>[ˈɛ.kɛl]</rt></ruby></strong></td>
+<td><strong><ruby>ékos <rt>[ˈɛ.kɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, inclusive)</td>
+<td><strong><ruby>ke <rt>[ˈkɛ]</rt></ruby></strong></td>
+<td><strong><ruby>kec <rt>[ˈkɛç]</rt></ruby></strong></td>
+<td><strong><ruby>kel <rt>[ˈkɛl]</rt></ruby></strong></td>
+<td><strong><ruby>kos <rt>[ˈkɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (singular)</td>
+<td><strong><ruby>lluk <rt>[ˈɬuk]</rt></ruby></strong></td>
+<td><strong><ruby>llúkec <rt>[ˈɬu.kɛç]</rt></ruby></strong></td>
+<td><strong><ruby>llúkel <rt>[ˈɬu.kɛl]</rt></ruby></strong></td>
+<td><strong><ruby>llúkos <rt>[ˈɬu.kɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (plural)</td>
+<td><strong><ruby>llek <rt>[ˈɬɛk]</rt></ruby></strong></td>
+<td><strong><ruby>llékec <rt>[ˈɬɛ.kɛç]</rt></ruby></strong></td>
+<td><strong><ruby>llékel <rt>[ˈɬɛ.kɛl]</rt></ruby></strong></td>
+<td><strong><ruby>llékos <rt>[ˈɬɛ.kɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (human, singular)</td>
+<td><strong><ruby>nor <rt>[ˈnɔr]</rt></ruby></strong></td>
+<td><strong><ruby>nórec <rt>[ˈnɔ.rɛç]</rt></ruby></strong></td>
+<td><strong><ruby>nórol <rt>[ˈnɔ.rɔl]</rt></ruby></strong></td>
+<td><strong><ruby>nóros <rt>[ˈnɔ.rɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (human, plural)</td>
+<td><strong><ruby>eké <rt>[ɛ.ˈkɛ]</rt></ruby></strong></td>
+<td><strong><ruby>ekéc <rt>[ɛ.ˈkɛç]</rt></ruby></strong></td>
+<td><strong><ruby>ekél <rt>[ɛ.ˈkɛl]</rt></ruby></strong></td>
+<td><strong><ruby>ekós <rt>[ɛ.ˈkɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (animate, singular)</td>
+<td><strong><ruby>nar <rt>[ˈnɐr]</rt></ruby></strong></td>
+<td><strong><ruby>nárec <rt>[ˈnɐ.rɛç]</rt></ruby></strong></td>
+<td><strong><ruby>nárol <rt>[ˈnɐ.rɔl]</rt></ruby></strong></td>
+<td><strong><ruby>náros <rt>[ˈnɐ.rɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (inanimate, singular)</td>
+<td><strong><ruby>tse <rt>[ˈt͡sɛ]</rt></ruby></strong></td>
+<td><strong><ruby>tsec <rt>[ˈt͡sɛç]</rt></ruby></strong></td>
+<td><strong><ruby>tsel <rt>[ˈt͡sɛl]</rt></ruby></strong></td>
+<td><strong><ruby>tsos <rt>[ˈt͡sɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (animate/inanimate, plural)</td>
+<td><strong><ruby>xar <rt>[ˈxɐr]</rt></ruby></strong></td>
+<td><strong><ruby>xárec <rt>[ˈxɐ.rɛç]</rt></ruby></strong></td>
+<td><strong><ruby>xárol <rt>[ˈxɐ.rɔl]</rt></ruby></strong></td>
+<td><strong><ruby>xáros <rt>[ˈxɐ.rɔs]</rt></ruby></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="genitive-cases-pronouns">Genitive Cases Pronouns</h4>
+<p>The genitive pronouns are based on the old pronouns,
+for 1<sup>st</sup> and 2<sup>nd</sup> persons, 
+and on the numeral &ldquo;one&rdquo; (<em>*na</em>)
+for 3<sup>rd</sup> person.
+There is suppletion using the &ldquo;genitive&rdquo; form of the modern pronouns
+for 1<sup>st</sup> plural (exclusive and inclusive)
+and 3<sup>rd</sup> singular inanimate.</p>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Genitive Pronouns</th>
+<th>Nominative</th>
+<th>Accusative</th>
+<th>Dative</th>
+<th>Locative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<sup>st</sup> (singular)</td>
+<td><strong><ruby>cho <rt>[ˈt͡ʃɔ]</rt></ruby></strong></td>
+<td><strong><ruby>chec <rt>[ˈt͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>chol <rt>[ˈt͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>chos <rt>[ˈt͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td><del>1<sup>st</sup> (plural, unused)</del></td>
+<td><del><strong><ruby>cho <rt>[ˈt͡ʃɔ]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>chec <rt>[ˈt͡ʃɛç]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>chol <rt>[ˈt͡ʃɔl]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>chos <rt>[ˈt͡ʃɔs]</rt></ruby></strong></del></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, exclusive)</td>
+<td><strong><ruby>ákach <rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>ákachec <rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>ákachol <rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>ákachos <rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, inclusive)</td>
+<td><strong><ruby>kach <rt>[ˈkɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>káchec <rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>káchol <rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>káchos <rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (singular)</td>
+<td><strong><ruby>nish <rt>[ˈniʃ]</rt></ruby></strong></td>
+<td><strong><ruby>níshec <rt>[ˈni.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>níshol <rt>[ˈni.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>níshos <rt>[ˈni.ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (plural)</td>
+<td><strong><ruby>sosh <rt>[ˈsɔʃ]</rt></ruby></strong></td>
+<td><strong><ruby>sóshec <rt>[ˈsɔ.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>sóshol <rt>[ˈsɔ.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>sóshos <rt>[ˈsɔ.ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (human, singular)</td>
+<td><strong><ruby>nosh <rt>[ˈnɔʃ]</rt></ruby></strong></td>
+<td><strong><ruby>nóshec <rt>[ˈnɔ.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>nóshol <rt>[ˈnɔ.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>nóshos <rt>[ˈnɔ.ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (animate, singular)</td>
+<td><strong><ruby>nach <rt>[ˈnɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>náchec <rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>náchol <rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>náchos <rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td><del>3<sup>rd</sup> (inanimate, singular, unused)</del></td>
+<td><del><strong><ruby>nach <rt>[ˈnɐt͡ʃ]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>náchec <rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>náchol <rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></strong></del></td>
+<td><del><strong><ruby>náchos <rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></strong></del></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (inanimate, singular)</td>
+<td><strong><ruby>tsach <rt>[ˈt͡sɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchec <rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchol <rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchos <rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (plural)</td>
+<td><strong><ruby>xach <rt>[ˈxɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>xáchec <rt>[ˈxɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>xáchol <rt>[ˈxɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>xáchos <rt>[ˈxɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<details>
+<summary><del>drafts</del></summary>
+<h4 id="old-regular-pronouns">Old Regular Pronouns</h4>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Pronouns</th>
+<th>Nominative</th>
+<th>Accusative</th>
+<th>Dative</th>
+<th>Locative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<sup>st</sup> (singular)</td>
+<td><strong><ruby>i <rt>[ˈi]</rt></ruby></strong></td>
+<td><strong><ruby>icé <rt>[i.ˈçɛ]</rt></ruby></strong></td>
+<td><strong><ruby>iló <rt>[i.ˈlɔ]</rt></ruby></strong></td>
+<td><strong><ruby>usé <rt>[u.ˈsɛ]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural)</td>
+<td><strong><ruby>il <rt>[ˈil]</rt></ruby></strong></td>
+<td><strong><ruby>lic <rt>[ˈliç]</rt></ruby></strong></td>
+<td><strong><ruby>illó <rt>[i.ˈɬɔ]</rt></ruby></strong></td>
+<td><strong><ruby>lus <rt>[ˈlus]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (singular)</td>
+<td><strong><ruby>ni <rt>[ˈni]</rt></ruby></strong></td>
+<td><strong><ruby>nic <rt>[ˈniç]</rt></ruby></strong></td>
+<td><strong><ruby>nil <rt>[ˈnil]</rt></ruby></strong></td>
+<td><strong><ruby>nus <rt>[ˈnus]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (plural)</td>
+<td><strong><ruby>so <rt>[ˈsɔ]</rt></ruby></strong></td>
+<td><strong><ruby>sec <rt>[ˈsɛç]</rt></ruby></strong></td>
+<td><strong><ruby>sol <rt>[ˈsɔl]</rt></ruby></strong></td>
+<td><strong><ruby>sos <rt>[ˈsɔs]</rt></ruby></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+<h4 id="modern-genitive-pronouns">Modern Genitive Pronouns</h4>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Genitive Pronouns</th>
+<th>Nominative</th>
+<th>Accusative</th>
+<th>Dative</th>
+<th>Locative</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1<sup>st</sup> (singular)</td>
+<td><strong><ruby>íkach <rt>[ˈi.kɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>íkachec <rt>[ˈi.kɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>íkachol <rt>[ˈi.kɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>íkos <rt>[ˈi.kɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, exclusive)</td>
+<td><strong><ruby>ákach <rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>ákachec <rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>ákachol <rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>ákachos <rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>1<sup>st</sup> (plural, inclusive)</td>
+<td><strong><ruby>kach <rt>[ˈkɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>káchec <rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>káchol <rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>káchos <rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (singular)</td>
+<td><strong><ruby>llúkach <rt>[ˈɬu.kɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>llúkachec <rt>[ˈɬu.kɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>llúkachol <rt>[ˈɬu.kɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>llúkachos <rt>[ˈɬu.kɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>2<sup>nd</sup> (plural)</td>
+<td><strong><ruby>llákach <rt>[ˈɬɐ.kɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>llákachec <rt>[ˈɬɐ.kɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>llákachol <rt>[ˈɬɐ.kɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>llákachos <rt>[ˈɬɐ.kɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (human, singular)</td>
+<td><strong><ruby>nórosh <rt>[ˈnɔ.rɔʃ]</rt></ruby></strong></td>
+<td><strong><ruby>noróshec <rt>[nɔ.ˈrɔ.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>noróshol <rt>[nɔ.ˈrɔ.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>noróshos <rt>[nɔ.ˈrɔ.ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (human, plural)</td>
+<td><strong><ruby>akách <rt>[ɐ.ˈkɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>akáchec <rt>[ɐ.ˈkɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>akáchol <rt>[ɐ.ˈkɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>akáchos <rt>[ɐ.ˈkɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (animate, singular)</td>
+<td><strong><ruby>nárosh <rt>[ˈnɐ.rɔʃ]</rt></ruby></strong></td>
+<td><strong><ruby>naróshec <rt>[nɐ.ˈrɔ.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>naróshol <rt>[nɐ.ˈrɔ.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>naróshos <rt>[nɐ.ˈrɔ.ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (inanimate, singular)</td>
+<td><strong><ruby>tsach <rt>[ˈt͡sɐt͡ʃ]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchec <rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchol <rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>tsáchos <rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></strong></td>
+</tr>
+<tr>
+<td>3<sup>rd</sup> (animate/inanimate, plural)</td>
+<td><strong><ruby>xárosh <rt>[ˈxɐ.rɔʃ]</rt></ruby></strong></td>
+<td><strong><ruby>xaróshec <rt>[xɐ.ˈrɔ.ʃɛç]</rt></ruby></strong></td>
+<td><strong><ruby>xaróshol <rt>[xɐ.ˈrɔ.ʃɔl]</rt></ruby></strong></td>
+<td><strong><ruby>xaróshos <rt>[xɐ.ˈrɔ.ʃɔs]</rt></ruby></strong></td>
+</tr>
+</tbody>
+</table>
+</div>
+</details>
+<h3 id="demonstratives">Demonstratives</h3>
+<div class="aligned-table">
+<table>
+<thead>
+<tr>
+<th>Demonstratives</th>
+<th>Singular</th>
+<th>Plural</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<th>Human</th>
+<td>no / llo</td>
+<td rowspan="3">ixé / lluxé</td>
+</tr>
+<tr>
+<th>Animate</th>
+<td>ne / lle</td>
+</tr>
+<tr>
+<th>Inanimate</th>
+<td>na / lla</td>
+</tr>
+</tbody>
+</table>
+</div>
+<h3 id="cases_1">Cases</h3>
+<p>NewLang has 5 cases: nominative, accusative, dative, locative and genitive.</p>
+<p>The genitive can also be combined with other cases,
+usually to create a less strict meaning:</p>
+<ul>
+<li>genitive + accusative = allative</li>
+<li>genitive + dative = sociative / comitative</li>
+<li>genitive + locative = adupessive</li>
+</ul>
+<h3 id="tams_1">TAMs</h3>
 <h1 id="name-to-english-dictionary">NewLang to English Dictionary</h1>
 <h5 id="how-to-read-dictionary-entries">How to Read Dictionary Entries</h5>
 <p>Below is a sample dictionary entry from the NewLang-English side of the dictionary. 
@@ -1709,80 +1710,109 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <li>Additional information (register, pragmatics).</li>
 </ol>
 <h2 id="a">A</h2>
-<p><strong>af</strong> [ˈɑf] <em>*afə</em> (det.) indefinite article (see table!)</p>
-<p><strong>an</strong> [ˈɑn] <em>*ana</em> (vt.) to finish, end, complete (archaic)</p>
+<p><strong>ahó</strong> [ɐ.ˈhɔ] <em>*ʔamikami</em> + <em>*qʷa</em> (nh.) women, female persons</p>
 <h2 id="c">C</h2>
-<p><strong>chip</strong> [ˈt͡ʃip] <em>*tipu</em> (vd.) to give</p>
-<h2 id="f">F</h2>
-<p><strong>far</strong> [ˈfɑɾ] <em>*faɾi</em> (v.) test</p>
-<p><strong>far</strong> [ˈfɑɾ] <em>*faɾi</em> (vt.) to go to</p>
-<p><strong>fil</strong> [ˈfil] <em>*fi</em> + <em>*lə</em> (pron.) 2nd person singular pronoun (genitive form)</p>
-<p><strong>fim</strong> [ˈfim] <em>*fimu</em> (pron.) 2nd person singular pronoun</p>
-<p><strong>fýmul</strong> [ˈfy.mul] <em>*fimu</em> + <em>*lə</em> (pron.) 2nd person plural pronoun (genitive form)</p>
-<p><strong>fýmum</strong> [ˈfy.mum] <em>*fimu</em> + <em>*ma</em> (pron.) 2nd person plural pronoun</p>
+<p><strong>ce</strong> [ˈçɛ] <em>*ʔixa</em> (vt.) to see, to set oneself towards something, to face</p>
+<h2 id="e">E</h2>
+<p><strong>e</strong> [ˈɛ] <em>*ha</em> (conj.) relativizer</p>
+<p><strong>e</strong> [ˈɛ] <em>*ha</em> (det.) proximal demonstrative (archaic)</p>
+<p><strong>e</strong> [ˈɛ] <em>*ha</em> (pron.) 3<sup>rd</sup> person singular (archaic)</p>
+<p><strong>ek</strong> [ˈɛk] <em>*ʔina</em> + <em>*ʔamikami</em> (pron.) 1<sup>st</sup> person plural (exclusive)</p>
+<p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (n.) people (archaic)</p>
+<p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (pron.) 3<sup>rd</sup> person plural (human)</p>
+<p><strong>ekém</strong> [ɛ.ˈkɛm] <em>*ʔamikami</em> + <em>*ʔu</em> (nh.) men, male persons</p>
+<p><strong>elkéler</strong> [ɛl.ˈkɛ.lɛr] <em>*ʔalikalira</em> (vt.) ???</p>
+<p><strong>ellél</strong> [ɛ.ˈɬɛl] <em>*ʔalitʷali</em> (n.) two hands, both (archaic)</p>
 <h2 id="h">H</h2>
-<p><strong>haf</strong> [ˈhɑf] <em>*hafə</em> (n.) womb (archaic)</p>
-<p><strong>hun</strong> [ˈhun] <em>*hunu</em> (nh.) human, person (archaic)</p>
-<p><strong>hun</strong> [ˈhun] <em>*hunu</em> (pron.) 3rd person human singular pronoun</p>
-<p><strong>húnmal</strong> [ˈhun.mɑl] <em>*hunu</em> + <em>*ma</em> + <em>*lə</em> (pron.) 3rd person human plural pronoun (genitive)</p>
-<p><strong>húnul</strong> [ˈhu.nul] <em>*hunu</em> + <em>*lə</em> (pron.) 3rd person human singular pronoun (genitive)</p>
-<p><strong>húnum</strong> [ˈhu.num] <em>*hunu</em> + <em>*ma</em> (pron.) 3rd person human plural pronoun</p>
-<p><strong>hyelp</strong> [ˈçɛlp] <em>*xipa</em> + <em>*lə</em> (pron.) 3rd person inanimate pronoun (genitive)</p>
-<p><strong>hyem</strong> [ˈçɛm] <em>*ximu</em> (nt.) to want, desire, covet</p>
-<p><strong>hyep</strong> [ˈçɛp] <em>*xipa</em> (ni.) word, thing</p>
-<p><strong>hyep</strong> [ˈçɛp] <em>*xipa</em> (pron.) 3rd person inanimate pronoun</p>
-<p><strong>hyep</strong> [ˈçɛp] <em>*xipa</em> (vt.) to say, suggest, offer</p>
+<p><strong>ho</strong> [ˈhɔ] <em>*kami</em> + <em>*qʷa</em> (nh.) woman, female person</p>
+<p><strong>hwë</strong> [ˈʍɘ] <em>*kʷina</em> + <em>*qaʔa</em> (ni.) grass</p>
+<p><strong>hwi</strong> [ˈʍi] <em>*kʷina</em> (adj.) shallow, flat</p>
+<p><strong>hwi</strong> [ˈʍi] <em>*kʷina</em> (n.) plains, steppe</p>
+<p><strong>hwi</strong> [ˈʍi] <em>*kʷina</em> (test.) </p>
+<p><strong>hwy</strong> [ˈʍʏ] <em>*kʷina</em> + <em>*qʷa</em> (test.) </p>
+<h2 id="i">I</h2>
+<p><strong>i</strong> [ˈi] <em>*ʔikʷa</em> (v.) to finish, to be done with</p>
+<p><strong>i</strong> [ˈi] <em>*ʔimi</em> (pron.) 1<sup>st</sup> person singular (archaic)</p>
+<p><strong>i</strong> [ˈi] <em>*ʔina</em> (det.) proximal demonstrative</p>
+<p><strong>ik</strong> [ˈik] <em>*ʔina</em> + <em>*kami</em> (pron.) 1<sup>st</sup> person singular</p>
+<p><strong>il</strong> [ˈil] <em>*qʷila</em> (pron.) 1<sup>st</sup> person plural (archaic)</p>
+<p><strong>ixé</strong> [i.ˈxɛ] <em>*ʔina</em> + <em>*χaŋi</em> (det.) proximal demonstrative (plural)</p>
 <h2 id="k">K</h2>
-<p><strong>kap</strong> [ˈkɑp] <em>*kapu</em> (nh.) man</p>
-<p><strong>kas</strong> [ˈkɑs] <em>*kasu</em> (vt.) to see</p>
-<p><strong>kat</strong> [ˈkɑt] <em>*kata</em> (ni.) night</p>
-<p><strong>kat</strong> [ˈkɑt] <em>*katə</em> (adj.) dark, black</p>
-<p><strong>keul</strong> [ˈkɯl] <em>*kəli</em> (na.) floor, ground, soil, earth</p>
-<p><strong>khaf</strong> [ˈxɑf] <em>*kəhafə</em> (ni.) sea</p>
-<p><strong>khaf</strong> [ˈxɑf] <em>*xafə</em> (n.) one</p>
-<p><strong>kur</strong> [ˈkuɾ] <em>*kuɾi</em> (na.) cub, baby, child</p>
-<p><strong>kyel</strong> [ˈcɛl] <em>*kilu</em> (nh.) woman</p>
-<p><strong>kyeng</strong> [ˈcɛŋ] <em>*kiŋa</em> (ni.) tree</p>
+<p><strong>kálar</strong> [ˈkɐ.lɐr] <em>*kalira</em> + <em>*ɴi</em> (ni.) frog</p>
+<p><strong>kálor</strong> [ˈkɐ.lɔr] <em>*kalira</em> + <em>*hu</em> (nh.) woodpecker</p>
+<p><strong>ke</strong> [ˈkɛ] <em>*kami</em> (n.) person (archaic)</p>
+<p><strong>ke</strong> [ˈkɛ] <em>*kami</em> (pron.) 1<sup>st</sup> person plural (inclusive)</p>
+<p><strong>kem</strong> [ˈkɛm] <em>*kami</em> + <em>*ʔu</em> (nh.) man, male person</p>
+<p><strong>kéler</strong> [ˈkɛ.lɛr] <em>*kalira</em> (n.) tongue (archaic)</p>
+<p><strong>kéler</strong> [ˈkɛ.lɛr] <em>*kalira</em> (vt.) to lick</p>
+<p><strong>kéler</strong> [ˈkɛ.lɛr] <em>*kalira</em> + <em>*ŋu</em> (na.) bay, gulf, inlet</p>
 <h2 id="l">L</h2>
-<p><strong>lan</strong> [ˈlɑn] <em>*lani</em> (vt.) to come from</p>
-<p><strong>lus</strong> [ˈlus] <em>*lusa</em> (ni.) mountain, mountain range</p>
-<p><strong>lus</strong> [ˈlus] <em>*lusə</em> (adj.) big, tall</p>
+<p><strong>lla</strong> [ˈɬɐ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ɴi</em> (det.) distal demonstrative (inanimate)</p>
+<p><strong>lle</strong> [ˈɬɛ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ma</em> (det.) distal demonstrative (animate)</p>
+<p><strong>llek</strong> [ˈɬɛk] <em>*ɬiʔu</em> + <em>*ʔamikami</em> (pron.) 2<sup>nd</sup> person plural</p>
+<p><strong>llo</strong> [ˈɬɔ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ʔu</em> (det.) distal demonstrative (human)</p>
+<p><strong>llu</strong> [ˈɬu] <em>*ɬiʔu</em> (det.) distal demonstrative</p>
+<p><strong>lluk</strong> [ˈɬuk] <em>*ɬiʔu</em> + <em>*kami</em> (pron.) 2<sup>nd</sup> person singular</p>
+<p><strong>lluxé</strong> [ɬu.ˈxɛ] <em>*ɬiʔu</em> + <em>*χaŋi</em> (det.) distal demonstrative (plural)</p>
+<p><strong>lo</strong> [ˈlɔ] <em>*lahu</em> (vt.) to help, to carry</p>
+<p><strong>lut</strong> [ˈlut] <em>*lunita</em> (n.) belly, stomach, gut</p>
+<p><strong>lut</strong> [ˈlut] <em>*lunita</em> (postp.) in, into</p>
 <h2 id="m">M</h2>
-<p><strong>mas</strong> [ˈmɑs] <em>*masi</em> (na.) tribe, group</p>
-<p><strong>mas</strong> [ˈmɑs] <em>*masu</em> (nh.) mother</p>
+<p><strong>muf</strong> [ˈmuf] <em>*mufi</em> (adj.) small, young, short</p>
+<p><strong>muf</strong> [ˈmuf] <em>*mufi</em> (n.) child, pup</p>
 <h2 id="n">N</h2>
-<p><strong>nas</strong> [ˈnɑs] <em>*nasu</em> (nh.) sky, top</p>
-<p><strong>ngup</strong> [ˈŋup] <em>*ŋupu</em> (vt.) to follow, copy, imitate</p>
-<p><strong>nuf</strong> [ˈnuf] <em>*nufa</em> (ni.) rock</p>
-<p><strong>nuf</strong> [ˈnuf] <em>*nufə</em> (adj.) hard, stern, solid, stable</p>
-<p><strong>nye</strong> [ˈɲɛ] <em>*ni</em> (pron.) 1st person plural pronoun</p>
-<p><strong>nyel</strong> [ˈɲɛl] <em>*ni</em> + <em>*lə</em> (pron.) 1st person plural pronoun (genitive form)</p>
+<p><strong>na</strong> [ˈnɐ] <em>*ʔina</em> + <em>*ha</em> + <em>*ɴi</em> (det.) proximal demonstrative (inanimate)</p>
+<p><strong>nar</strong> [ˈnɐr] <em>*na</em> + <em>*ma</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person singular (animate)</p>
+<p><strong>nar</strong> [ˈnɐr] <em>*na</em> + <em>*ma</em> + <em>*raqʷi</em> (pron.) intesifier (animate gender, archaic)</p>
+<p><strong>ne</strong> [ˈnɛ] <em>*na</em> (det.) one of (archaic)</p>
+<p><strong>ne</strong> [ˈnɛ] <em>*ʔina</em> + <em>*ha</em> + <em>*ma</em> (det.) proximal demonstrative (animate)</p>
+<p><strong>ni</strong> [ˈni] <em>*nuʔi</em> (pron.) 2<sup>nd</sup> person singular (archaic)</p>
+<p><strong>no</strong> [ˈnɔ] <em>*ʔina</em> + <em>*ha</em> + <em>*ʔu</em> (det.) proximal demonstrative (human)</p>
+<p><strong>nor</strong> [ˈnɔr] <em>*na</em> + <em>*ʔu</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person singular (human)</p>
+<p><strong>nor</strong> [ˈnɔr] <em>*na</em> + <em>*ʔu</em> + <em>*raqʷi</em> (pron.) intesifier (human gender, archaic)</p>
+<p><strong>nyush</strong> [ˈɲuʃ] <em>*ŋuʃi</em> (adj.) wet, damp</p>
+<p><strong>nyush</strong> [ˈɲuʃ] <em>*ŋuʃi</em> (n.) water</p>
 <h2 id="p">P</h2>
-<p><strong>pakh</strong> [ˈpɑx] <em>*paxi</em> (na.) dog</p>
-<p><strong>pat</strong> [ˈpɑt] <em>*pati</em> (na.) river</p>
-<p><strong>pin</strong> [ˈpin] <em>*pinu</em> (nh.) back</p>
+<p><strong>put</strong> [ˈput] <em>*punati</em> (v.) to verb</p>
 <h2 id="r">R</h2>
-<p><strong>ram</strong> [ˈɾɑm] <em>*ɾamu</em> (vi.) to walk, stroll, wander</p>
-<p><strong>rit</strong> [ˈrit] <em>*ritu</em> (nh.) hand, arm</p>
-<p><strong>rómu</strong> [ˈɾɒ.mu] <em>*ɾamu</em> + <em>*hu</em> (nh.) walker, wanderer, stranger, foreinger, shepherd?</p>
+<p><strong>ro</strong> [ˈrɔ] <em>*raqʷi</em> (n.) body (archaic)</p>
+<p><strong>ry</strong> [ˈrʏ] <em>*riqu</em> (v.) to say, to utter, to propose, to suggest</p>
 <h2 id="s">S</h2>
-<p><strong>sakh</strong> [ˈsɑx] <em>*saxu</em> (nh.) foot, leg, path</p>
-<p><strong>sakh</strong> [ˈsɑx] <em>*saxu</em> (vt.) to pass, cross, pass by</p>
-<p><strong>sang</strong> [ˈsɑŋ] <em>*saŋi</em> (na.) animal (archaic)</p>
-<p><strong>sang</strong> [ˈsɑŋ] <em>*saŋi</em> (pron.) 3rd person animate singular pronoun</p>
-<p><strong>sénmal</strong> [ˈsɛn.mɑl] <em>*saŋi</em> + <em>*ma</em> + <em>*lə</em> (pron.) 3rd person animate plural pronoun (genitive)</p>
-<p><strong>sényel</strong> [ˈsɛ.ɲɛl] <em>*saŋi</em> + <em>*lə</em> (pron.) 3rd person animate singular pronoun (genitive)</p>
-<p><strong>sényem</strong> [ˈsɛ.ɲɛm] <em>*saŋi</em> + <em>*ma</em> (pron.) 3rd person animate plural pronoun</p>
-<p><strong>sul</strong> [ˈsul] <em>*sula</em> (vi.) to sit, dwell, live</p>
-<p><strong>súlo</strong> [ˈsu.lɒ] <em>*sula</em> + <em>*hu</em> (n.) test</p>
-<p><strong>súlo</strong> [ˈsu.lɒ] <em>*sula</em> + <em>*hu</em> (nh.) sitter, local, farmer, fisher</p>
+<p><strong>se</strong> [ˈsɛ] <em>*husa</em> (vt.) locative copula</p>
+<p><strong>se</strong> [ˈsɛ] <em>*husa</em> (vt.) to live, to stay at, to be at</p>
+<p><strong>se</strong> [ˈsɛ] <em>*sana</em> (num.) one (numeral, archaic)</p>
+<p><strong>sho</strong> [ˈʃɔ] <em>*ʃuqʷa</em> (n.) home, place</p>
+<p><strong>sik</strong> [ˈsik] <em>*simaku</em> (vi.) to leap, stroll</p>
+<p><strong>so</strong> [ˈsɔ] <em>*sahu</em> (pron.) 2<sup>nd</sup> person singular (archaic)</p>
 <h2 id="t">T</h2>
-<p><strong>tam</strong> [ˈtɑm] <em>*tamu</em> (nh.) eye</p>
-<p><strong>tur</strong> [ˈtuɾ] <em>*tuɾi</em> (na.) bird</p>
-<p><strong>tus</strong> [ˈtus] <em>*tusa</em> (ni.) house</p>
-<h2 id="y">Y</h2>
-<p><strong>ye</strong> [ˈjɛ] <em>*i</em> (pron.) 1st person singular pronoun</p>
-<p><strong>yel</strong> [ˈjɛl] <em>*i</em> + <em>*lə</em> (pron.) 1st person singular pronoun (genitive form)</p>
+<p><strong>thall</strong> [ˈθɐɬ] <em>*tʷali</em> + <em>*qaʔa</em> (ni.) date-palm tree</p>
+<p><strong>tháleng</strong> [ˈθɐ.lɛŋ] <em>*tʷali</em> + <em>*ɴi</em> (ni.) mouse, small rodent with legible fingers</p>
+<p><strong>thel</strong> [ˈθɛl] <em>*tʷali</em> (n.) hand (archaic)</p>
+<p><strong>thel</strong> [ˈθɛl] <em>*tʷali</em> + <em>*hi</em> (na.) date, fruit of the date-palm tree</p>
+<p><strong>thélem</strong> [ˈθɛ.lɛm] <em>*tʷali</em> + <em>*ma</em> (na.) bear, large beast with legible fingers</p>
+<p><strong>thol</strong> [ˈθɔl] <em>*tʷali</em> + <em>*qʷa</em> (nh.) (human) hand</p>
+<p><strong>tich</strong> [ˈtit͡ʃ] <em>*tiluʃa</em> (vt.) to love, like, be drawn to, be entwined with</p>
+<p><strong>tlu</strong> [ˈt͡ɬu] <em>*ʔaniɬu</em> (adj.) bright, white</p>
+<p><strong>tlu</strong> [ˈt͡ɬu] <em>*ʔaniɬu</em> (n.) sun</p>
+<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (adj.) same (archaic)</p>
+<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (n.) ones (archaic)</p>
+<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (pron.) 3<sup>rd</sup> person singular (inanimate)</p>
+<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (pron.) intensifier (inanimate gender, archaic)</p>
+<p><strong>tsi</strong> [ˈt͡si] <em>*ʔanasu</em> + <em>*hi</em> (na.) long beans, pod-borne seeds</p>
+<p><strong>tsik</strong> [ˈt͡sik] <em>*ʔimasimaku</em> (vi.) to jump, spring</p>
+<p><strong>tsik</strong>, <strong>tsíki</strong>, <strong>tsíkyr</strong>, <strong>tsíkir</strong>, <strong>tsy</strong>, <strong>tsýhe</strong>, <strong>tsýry</strong>, <strong>tsíkus</strong>, <strong>tsikúse</strong> [ˈt͡sik] <em>*ʔimasimaku</em> (test.) TAM test</p>
+<p><strong>tso</strong> [ˈt͡sɔ] <em>*ʔanasu</em> + <em>*ɴi</em> (na.) worm, small line-like animal</p>
+<p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> (n.) line (archaic)</p>
+<p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> + <em>*ŋu</em> (na.) river, line-like body of water</p>
+<h2 id="u">U</h2>
+<p><strong>u</strong> [ˈu] <em>*qʷumi</em> (v.) to stand, to stay</p>
+<h2 id="x">X</h2>
+<p><strong>xar</strong> [ˈxɐr] <em>*χaŋi</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person plural (animate/inanimate)</p>
+<p><strong>xar</strong> [ˈxɐr] <em>*χaŋi</em> + <em>*raqʷi</em> (pron.) intensifier plural (archaic)</p>
+<p><strong>xe</strong> [ˈxɛ] <em>*χaŋi</em> (det.) many (archaic)</p>
+<p><strong>xe</strong> [ˈxɛ] <em>*χaŋi</em> (pron.) 3<sup>rd</sup> person plural (archaic)</p>
+<p><strong>xus</strong> [ˈxus] <em>*χusa</em> (adj.) big, large, old, adult</p>
+<p><strong>xus</strong> [ˈxus] <em>*χusa</em> (n.) mountain</p>
         </main>
     </body>
 </html>
