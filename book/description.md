@@ -6,7 +6,7 @@ $name is a primarly head-final language:
 
 - Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).
-- Nouns follow their modifiers (articles and determiners).
+- Nouns follow their modifiers (determiners and adjectives(?)).
 - There are mainly postpositions (instead of prepositions),
 and noun cases are marked with suffixes.
 
@@ -24,16 +24,17 @@ or the beneficiary of the action.
 
 Nouns are classified according to 3 genders:
 
-- Human, for nouns representing humans, as well as most body parts.
+- Human, for nouns representing humans, 
+as well as most body parts.
 - Animate, for nouns representing most animal 
-(most bugs and small critters are not included), 
+(bugs and small critters are not included), 
 as well as some natural phenomena (rivers, storms).
 - Inanimate, for all other nouns.
 
-@{description/tables.md}@
+donotinclude{description/tables.md}@
 @{description/sentences.md}@
 
-## Articles
+## Determiners
 
 By default, nouns in $name are definite.
 For singular nouns there is an indefinite article:
@@ -55,9 +56,12 @@ For singular nouns there is an indefinite article:
 
 Originally denoted by classifiers:
 
-- Human (-*u)
-- Animate (-*i)
-- Inanimate (-*a)
+
+
+- Human (-*ʔu)
+- Animate (-*hi)
+- Inanimate (-*qa)
+
 
 Adjectives agree and verbs agree (for subject).
 
@@ -82,26 +86,27 @@ or use dative to avoid ambiguity
 
 ## Noun derivations
 
-`<hunt> <man>` => `<hunter>` (stress on `<hunt>`)
+`<hunt> <man>` > `<hunter>` (stress on `<hunt>`)
 
 ## Phonology
 
 The sounds are written using 
 [IPA](https://www.ipachart.com/).
 The romanized ("simplified") version 
-is written between two forward slashes: /like so/.
+is written between angular brackets: \<like so\>.
 
 Green sounds only exist in the modern language,
 red sounds only exist in the proto-language.
 
 &{
 
-| CONSONANTS | Labial | Coronal | Palatal | Velar | Glottal |
-|------------|--------|---------|---------|-------|---------|
-| Plosive/Affricate >| p | t, ^^t͡ʃ /ch/^^ | ^^c /ky/^^ | k | |
-| Nasal >| m | n | ^^ɲ /ny/^^ | ŋ /ng/ | |
-| Fricative >| f | ^^θ /th^^, s, ^^ɬ /hl/^^, ^^ʃ /sh/^^ | ^^ç /hy/^^ | x /kh/, ^^ʍ /hw/^^ | h |
-| Approximant >| | l, ɾ /r/ | ^^j /y/^^, ^^ʎ /ly/^^ | ^^w^^ | |
+| Consonants | Labial | Dental | Coronal               | Palatal | Velar | Uvular | Glottal |
+|------------|--------|--------|-----------------------|---------|-------|--------|---------|
+| Nasal     >| m      |        | n                     | ^^ɲ \<ny\>^^ | ŋ \<ng\>     | ~~ɴ~~  |         |
+| Plosive   >| p      | ^^t̪ \<t'\>^^  | t                     |         | k     | ~~q~~  | ~~ʔ~~       |
+| Fricative >| f      | ^^θ \<th\>^^  | s, ʃ \<sh\>, <br /> ɬ \<ll\> | ^^ç \<c\>^^    | x, <br /> ^^ʍ \<hw\>^^      | ~~χ~~       | h        |
+| Affricate >|        |        | ^^t͡s \<ts\>^^, <br /> ^^t͡ʃ \<ch\>^^, <br /> ^^t͡ɬ \<tl\>^^        |         |       |        |         |
+| Liquid    >|        |        | l, r \~ ɾ \<r\>    |         |       |        |         |
 
 }{: .aligned-table}
 
@@ -109,8 +114,10 @@ red sounds only exist in the proto-language.
 
 | VOWELS | Front | Central | Back |
 |--------|-------|---------|------|
-| High >| i, ^^y^^ | ~~ə~~ | ^^ɯ /eu/^^, u |
-| Low > | ^^ɛ /e/^^, ^^œ /oe/^^ | ~~a~~ | ^^ɑ /a/^^, ^^ɒ /o/^^ |
+| High >| i      |         | , u    |
+| Near-High  >| , ^^ʏ \<y\>^^ | ^^ɘ \<eu\>^^ | |
+| Low-Mid   >| ^^ɛ \<e\>^^ | | , ^^ɔ \<o\>^^ |
+| Low  >| | ä~ɐ \<a\> | |
 
 }{: .aligned-table}
 
@@ -119,21 +126,10 @@ Some notes:
 - All vowels are short
 - There are no diphthongs
 - Hiatus is not allowed (i.e. no consecutive vowels)
-- Default word-final stress (marked otherwise)
 
-### Romanization notes
+@{description/historical.md}@
+@{description/tests.md}@
 
-- Velars: /ng kh hw/ are [ŋ x ʍ]
-- Palatals: /ky ny hy ly y/ are [c ɲ ç ʎ j]
-- Post-alveolars /sh ch/ are [ʃ t͡ʃ]
-- Alveolars: /r hl/ are [ɾ ɬ]
-- /y/ represents both the semivowel [j] and the vowel [y]
-    (it is never ambiguous, since as a semivowel it must be followed by a vowel)
-- /eu/ is the high back unrounded vowel [ɯ]
-- non-high vowels are pretty low (/e oe a o/ [ɛ œ ɑ ɒ])
-- All other symbols are IPA
-
-## Historical Notes
 
 !details:Case and TAM sources
 

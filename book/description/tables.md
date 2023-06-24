@@ -4,11 +4,11 @@
 
 &{
 
-|Pronouns|<|Singular|Plural|
-|--------|-|--------|------|
-|1^st^ >|<|#<1sg>#|#<1pl>#|
-|2^nd^ >|<|#<2sg>#|#<2pl>#|
-|3^rd^ >|Human >|#<3sg-h>#|#<3pl-h>#|
+|Pronouns|<  |Singular|Plural|
+|--------|---|--------|------|
+|1^st^      >|<|#<1sg>#|#<1pl>#|
+|2^nd^      >|<|#<2sg>#|#<2pl>#|
+|3^rd^      >|Human >|#<3sg-h>#|#<3pl-h>#|
 |^           |Animate >|#<3sg-an>#|#<3pl-an>#|
 |^           |Inanimate >|#<3-inan>#|<|
 

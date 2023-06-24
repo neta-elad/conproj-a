@@ -1,51 +1,26 @@
-## Some sentences
+### Some Sentences
+
 
 &{
 
-##<man> <dog>.acc 3sg-h.<see>##
-
-##<dog> <rock>.loc 3sg-an.<sit>##
-
-##<man> <dog>.acc 3sg-h.<see>##
-
-##<dog> <rock>.loc 3sg-an.<sit>##
-
-##<dog>.dat <rock>.acc 1sg.<give>##
-
-##<woman> <dog>.dat <indef>.inanimate.acc <rock>.acc 3sg-h.<give>##
+##<big>.a <bear> <wet>.i.loc <grass>.loc <rel> <mouse>.acc 3sg-a.<love>.phab##
 
 }{:.gloss-table}
+
+> "The big bear used to love the mouse that's on the short grass"
 
 &{
 
-##<woman>.com <dog>.dat <rock>.acc 1sg.<see>.caus##
+##<frog> <shallow>.a.loc <bay>.loc <in> 3sg-i.<jump>.fut##
 
-}{:.gloss-table}
+}{:.glass-table}
 
-> "I show the rock to the dog together with the woman"
-
-&{
-
-##<dog> <rock>.all 3sg-an.<walk>.fut##
-
-}{:.gloss-table}
-
-> "The dog will walk to the rock"
+> "The frog will jump into the shallow bay"
 
 &{
 
-##<mountain>.perl 2pl.<walk>.pst##
+##<bright>.i <mouse> <small>.i.acc <worm>.acc 3sg-i.<lick>.pst##
 
 }{:.gloss-table}
 
-> "You all walked across the mountain"
-
-&{
-
-##<bird> <indef>.inanimate.post <tree>.supess 3sg-an.<sit>.narr-cont##
-
-##<bird> <indef>.inanimate.loc <tree>.loc 3sg-an.<sit>.narr-cont##
-
-}{:.gloss-table}
-
-> "The bird was sitting on (top of) a tree"
+> "The white mouse licked the small worm"

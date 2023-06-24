@@ -1,10 +1,10 @@
 # How to get started
 
 1. Create a virtualenv
-    > python3 -m venv .env
+    > python3 -m venv .venv
 
 1. Activate it
-    > source .env/bin/activate
+    > source .venv/bin/activate
 
 1. Install Pyconlang
     > pip install git+https://github.com/neta-elad/pyconlang

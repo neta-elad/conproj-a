@@ -7,9 +7,9 @@ Each item has a number which corresponds to an explanation below the entry:
 **egzampul**^1^ [ɛg.ˈzæm.pul]^2^ \**ksmpl*^3^ (ni.)^4^ definition^5^ (and more information)^6^
 
 1. The romanized (simplified) form of the word.
-1. The phonetic representation.
-1. The proto-form it was derived form (i.e., its etymology).
-1. Part of speech:
+2. The phonetic representation.
+3. The proto-form it was derived form (i.e., its etymology).
+4. Part of speech:
     - (n.) noun
     - (nh.) noun (human gender)
     - (na.) noun (animate gender)
@@ -26,8 +26,8 @@ Each item has a number which corresponds to an explanation below the entry:
     - (sfx.) suffix
     - (adj.) adjective
     - (adv.) adverb
-1. Definition (may be a single word or multiple words).
-1. Additional information (register, pragmatics).
+5. Definition (may be a single word or multiple words).
+6. Additional information (register, pragmatics).
 
 
 !dictionary

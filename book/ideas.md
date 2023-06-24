@@ -2,5 +2,14 @@
 
 - Coastal plain society
     - Closer to the sea is more prestigous: lower is better
-- *kəli is kə + li where kə is an old form for world and li is down (related to suli "sit")
-- *kəhasa is kə + "womb": womb of the world - sea
+- Suffixes: \*χa, \*ɴu, \*ʔuli, \*mira, \*ruɴa, \*liqu, \*huqi, \*sixa, \*ʔixa
+- Prefixes: \*ʔuɴu, \*hila, \*qʷasa
+- Demonstrative: \*ha, \*ʔusa, \*ʔahu
+- Derivational agentive suffix: \*ʔuki, \*xi, \*kʷa, ... + class
+- Demonstrative pronoun with **#<one-num-1>#** for singular and **#<ones-1>#** for plural
+- Proto more strict word-order, modern more free (since cases were added)
+- Proto had (locative) copula, modern has predicate adjectives
+- Locative as verb applicative?
+- Locative on verb as participle / gerundive?
+- Forms: \*kʷina, \*makisa, \*ʔukali, \*pʷimu, \*maʔufi, \*sahiχa, \*talupa
+

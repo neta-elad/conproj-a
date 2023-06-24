@@ -1,0 +1,14 @@
+affix .c1 *ʔu Class 1: male humans
+affix .c2 *qʷa Class 2: female humans
+affix .c3 *ma Class 3: large animals
+affix .c4 *hu Class 4: winged animals
+affix .c5 *ɴi Class 5: small animals
+affix .c6 *ŋu Class 6: fresh water phonemena
+affix .c7 *hi Class 7: countable, edible fruits and vegetables
+affix .c8 *qaʔa Class 8: miscellaneous (inanimate objects)
+affix .c9 *laqʷi Class 9: major deities
+affix .c10 *li Class 10: minor deities
+
+affix .h $.c1 Human
+affix .a $.c3 Animate
+affix .i $.c5 Inaniamte
