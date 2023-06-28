@@ -59,16 +59,16 @@ entry <date> <hand-1>.c7 (na.) date, fruit of the date-palm tree
 entry <palm tree> <hand-1>.c8 (ni.) date-palm tree
 entry <hand> <hand-1>.c2 (nh.) (human) hand
 
-entry <line-1> *ʔanasu (n.) line (archaic)
+entry <rope-1> *ʔanasu (n.) rope (archaic)
 
-entry <worm> <line-1>.c5 (na.) worm, small line-like animal
-entry <river> <line-1>.c6 (na.) river, line-like body of water
-entry <bean> <line-1>.c7 (na.) long beans, pod-borne seeds
+entry <worm> <rope-1>.c5 (na.) worm
+entry <river> <rope-1>.c6 (na.) river
+entry <bean> <rope-1>.c7 (na.) long beans, pod-borne seeds
 
 entry <tongue-1> *kalira (n.) tongue (archaic)
 
-entry <lick> <tongue-1> (vt.) to lick
-entry <slurp> *ʔalikalira (vt.) ???
+entry <lick> <tongue-1>.vbz (vt.) to lick
+entry <slurp> [*ʔali !+ <lick>] (vt.) ???
 
 entry <bay> <tongue-1>.c6 (na.) bay, gulf, inlet
 entry <woodpecker> <tongue-1>.c4 (nh.) woodpecker
@@ -77,6 +77,9 @@ entry <frog> <tongue-1>.c5 (ni.) frog
 entry <love> *tiluʃa (vt.) to love, like, be drawn to, be entwined with
 entry <leap> *simaku (vi.) to leap, stroll
 entry <jump> *ʔimasimaku (vi.) to jump, spring
+
+entry <walk> *ʃifi (vi.) to walk, to stroll, to pace
+
 
 entry <belly-1> *lunita (n.) belly, stomach, gut
 
@@ -102,8 +105,8 @@ entry <wet> <water-1> (adj.) wet, damp
 # tests
 
 # entry <classtest> *kalira (test.)
-entry <classtest> <steppe-1> (test.)
+entry <classtest> <tongue-1> (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
-entry &tam <tamtest> <jump> (test.) TAM test
+entry &tam <tamtest> <water-1>.vbz (test.) TAM test
 entry <verb> *punati (v.) to verb

@@ -121,7 +121,7 @@ syllables:
 romanizer-proto:
     unchanged
 
-classifiers:
+nominalizers:
     unchanged
 
 regressive-uvular-spreading:
@@ -214,6 +214,9 @@ syllables:
     [consonant]&!@weakfricatives [vowel] => [normal]
     @weakfricatives [vowel] [liquid]? => [light]
     [vowel] [liquid]? => [light] // [consonant] _
+
+general-compounds:
+    unchanged
 
 cases-forming:
     unchanged

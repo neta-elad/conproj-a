@@ -13,14 +13,14 @@
 
 ##<frog> <shallow>.a.loc <bay>.loc <in> 3sg-i.<jump>.fut##
 
-}{:.glass-table}
+}{:.gloss-table}
 
 > "The frog will jump into the shallow bay"
 
 &{
 
-##<bright>.i <mouse> <small>.i.acc <worm>.acc 3sg-i.<lick>.pst##
+##<bright>.i <mouse> <small>.i.acc <worm>.acc 3sg-i.<lick>.cont##
 
 }{:.gloss-table}
 
-> "The white mouse licked the small worm"
+> "The white mouse is licking the small worm"

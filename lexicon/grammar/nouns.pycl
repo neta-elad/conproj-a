@@ -5,3 +5,6 @@ affix .dat @cases-forming <help-1> dative / benefactive case
 entry <loc-copula> <live-1> (vt.) locative copula
 affix .loc @cases-forming <loc-copula> locative
 # -- / --
+
+affix .place-nmlz @nominalizers afxs.<home-1>.afxe place nominalizer
+affix .act-nmlz @nominalizers $.c8 action nominalizer
