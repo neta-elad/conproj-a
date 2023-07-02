@@ -8,3 +8,4 @@ affix .loc @cases-forming <loc-copula> locative
 
 affix .place-nmlz @nominalizers afxs.<home-1>.afxe place nominalizer
 affix .act-nmlz @nominalizers $.c8 action nominalizer
+affix .agent-nmlz @nominalizers afxs.<person-1>.afxe agent nominalizer
