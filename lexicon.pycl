@@ -48,7 +48,7 @@ entry <3pl-h> <people-1> (pron.) 3^rd^ person plural (human)
 entry <3pl-a/i> <intensifier-pl-1> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
-
+entry <tree-1> *laŋi (n.) tree
 
 entry <hand-1> *tʷali (n.) hand (archaic)
 entry <two-hands-1> *ʔalitʷali (n.) two hands, both (archaic)
@@ -56,14 +56,16 @@ entry <two-hands-1> *ʔalitʷali (n.) two hands, both (archaic)
 entry <bear> <hand-1>.c3 (na.) bear, large beast with legible fingers
 entry <mouse> <hand-1>.c5 (ni.) mouse, small rodent with legible fingers
 entry <date> <hand-1>.c7 (na.) date, fruit of the date-palm tree
-entry <palm tree> <hand-1>.c8 (ni.) date-palm tree
 entry <hand> <hand-1>.c2 (nh.) (human) hand
+
+entry <palm tree> [<hand-1> +! <tree-1>] (ni.) date-palm tree
 
 entry <rope-1> *ʔanasu (n.) rope (archaic)
 
 entry <worm> <rope-1>.c5 (na.) worm
 entry <river> <rope-1>.c6 (na.) river
 entry <bean> <rope-1>.c7 (na.) long beans, pod-borne seeds
+entry <rope-tree> [<rope-1> +! <tree-1>] (ni.) tree with branches / leaves that look like ropes
 
 entry <tongue-1> *kalira (n.) tongue (archaic)
 
@@ -97,16 +99,25 @@ entry <shallow> <steppe-1> (adj.) shallow, flat
 entry <grass> <steppe-1>.c8 (ni.) grass
 
 entry <sun-1> *ʔaniɬu (n.) sun
+entry <day> <sun-1>.c8 (ni.) day
+entry <sun god> <sun-1>.c10 (nh.) sun god
 entry <bright> <sun-1> (adj.) bright, white
 
-entry <water-1> *ŋuʃi (n.) water
-entry <wet> <water-1> (adj.) wet, damp
+entry <water> *ŋuʃi (na.) water
+entry <earth> *puriqa (ni.) earth
+
+
+entry <wet-1> *ŋusa (adj.) wet, damp
+entry <wet> <wet-1> (adj.) wet, damp
+entry <sweat> <wet-1>.c8 (ni.) sweat, perspiration
+entry <hippo> <wet-1>.c3 (na.) hippopotamus, large river dwelling mammal
+
 
 # tests
 
 # entry <classtest> *kalira (test.)
-entry <classtest> <tongue-1> (test.)
+entry <classtest> <hand-1> (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
-entry &tam <tamtest> <water-1>.vbz (test.) TAM test
+entry &tam <tamtest> <water>.vbz (test.) TAM test
 entry <verb> *punati (v.) to verb
