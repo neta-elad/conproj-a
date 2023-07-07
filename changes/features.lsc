@@ -1,0 +1,16 @@
+feature type (*consonant, vowel, delimiter)
+feature place (labial, dental, alveolar, postalveolar, palatal, velar, uvular, pharyngeal, glottal)
+feature manner (nasal, stop, fricative, affricate, liquid)
+
+feature height (high, himid, mid, lomid, low)
+feature backness (back, central, frontctr, front)
+feature (syllable) weight (*normal, heavy, light)
+
+feature +labialized
+feature +long
+feature +affix
+feature +round
+feature +lateral
+feature +accent
+feature +opening
+feature (syllable) +stress

@@ -1,0 +1,56 @@
+symbol ^  [+opening delimiter]
+symbol \~ [delimiter]
+
+symbol m  [labial nasal]
+symbol p  [labial stop]
+symbol f  [labial fricative]
+
+symbol n̪  [dental nasal]
+symbol t̪  [dental stop]
+symbol θ  [dental fricative]
+
+symbol n  [alveolar nasal]
+symbol t  [alveolar stop]
+symbol s  [alveolar fricative]
+symbol t͡s [alveolar affricate]
+
+symbol r  [alveolar liquid]
+symbol l  [alveolar +lateral liquid]
+symbol ɬ  [alveolar +lateral fricative]
+symbol t͡ɬ [alveolar +lateral affricate]
+
+symbol ʃ  [postalveolar fricative]
+symbol t͡ʃ [postalveolar affricate]
+
+symbol ɲ  [palatal nasal]
+symbol ç  [palatal fricative]
+
+symbol ŋ  [velar nasal]
+symbol k  [velar stop]
+symbol x  [velar fricative]
+symbol ʍ  [velar +labialized fricative]
+ 
+symbol ɴ  [uvular nasal]
+symbol q  [uvular stop]
+symbol χ  [uvular fricative]
+
+symbol ħ  [pharyngeal fricative]
+ 
+symbol ʔ  [glottal stop]
+symbol h  [glottal fricative]
+ 
+symbol i  [high front vowel]
+symbol y  [high front +round vowel]
+symbol ʏ  [himid frontctr +round vowel]
+symbol e  [himid front vowel]
+symbol ɘ  [himid central vowel]
+symbol u  [high back +round vowel]
+symbol ɔ  [lomid back +round vowel]
+symbol ʌ  [lomid back vowel]
+symbol o  [himid back +round vowel]
+symbol ɛ  [lomid front vowel]
+symbol ɐ  [lomid central vowel]
+symbol a  [low front vowel]
+
+# used for romanizing
+symbol ë 

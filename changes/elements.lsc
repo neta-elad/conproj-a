@@ -1,0 +1,4 @@
+element resonant { [nasal], [liquid] }
+element sibilant { [alveolar], [postalveolar] }&[fricative]
+element palatalizing { [high], [himid] }&[vowel]&![back]
+element weakfricatives { h, ʍ }

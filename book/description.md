@@ -156,8 +156,3 @@ Some notes:
 | "back" *pinu.LOC | Postessive | GEN | -*pin | @late | - | - | - |
 
 !details
-
-<details markdown="1">
-<summary>Changes</summary>
-    @{> ../changes.lsc}@
-</details>
