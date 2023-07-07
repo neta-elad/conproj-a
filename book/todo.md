@@ -1,8 +1,10 @@
 # TODO
 
 - Next up:
-    - derivations
-    - pluralization
+    - pluralization:
+        - old by reduplication
+        - new by ?
+    - relativizer
     - get rid of 2^nd^ person class distinction?
     - shorter case/TAM affixes?
     - delay .gen affixation?
