@@ -121,8 +121,11 @@ entry <hard> <rock-1> (adj.) hard, stern, solid, stable
 entry <beast-1> *matuli (n.) beast, large animal
 
 entry <fear-1> *ʔakʷi (n.) fear
+entry <great-1> <fear-1> (adj.) great, big
+entry <child-1> *hufi (n.) child, pup
 
-affix aug. @ancient-derivations <fear-1> augmentative
+affix aug. @ancient-derivations <great-1> augmentative
+affix .dim @ancient-derivations <child-1> diminutive
 
 
 
