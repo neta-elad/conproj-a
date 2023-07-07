@@ -112,11 +112,17 @@ entry <wet> <wet-1> (adj.) wet, damp
 entry <sweat> <wet-1>.c8 (ni.) sweat, perspiration
 entry <hippo> <wet-1>.c3 (na.) hippopotamus, large river dwelling mammal
 
+entry <rock-1> *qamatu (n.) rock, stone (archaic)
+entry <rock> <rock-1>.c8 (ni.) rock, boulder
+entry <turnip> <rock-1>.c7 (na.) turnip
+entry <armadillo> <rock-1>.c5 (ni.) armadillo
+entry <hard> <rock-1> (adj.) hard, stern, solid, stable
+
 
 # tests
 
 # entry <classtest> *kalira (test.)
-entry <classtest> <hand-1> (test.)
+entry <classtest> <rock-1> (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
 entry &tam <tamtest> <water>.vbz (test.) TAM test
