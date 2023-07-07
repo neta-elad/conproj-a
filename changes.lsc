@@ -29,14 +29,17 @@ syllables:
 initial-stress:
     <syl> => [+stress] / $ _
 
+romanizer-proto:
+    unchanged
+
+ancient-derivations:
+    unchanged
+
 resonant-codas ltr:
     [vowel] => * / [vowel] @resonant _ 
 
 syllables:
     [consonant] [vowel] @resonant?
-
-romanizer-proto:
-    unchanged
 
 nominalizers:
     unchanged

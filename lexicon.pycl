@@ -118,6 +118,14 @@ entry <turnip> <rock-1>.c7 (na.) turnip
 entry <armadillo> <rock-1>.c5 (ni.) armadillo
 entry <hard> <rock-1> (adj.) hard, stern, solid, stable
 
+entry <beast-1> *matuli (n.) beast, large animal
+
+entry <fear-1> *ʔakʷi (n.) fear
+
+affix aug. @ancient-derivations <fear-1> augmentative
+
+
+
 
 # tests
 
@@ -127,3 +135,4 @@ entry <classtest> <rock-1> (test.)
 entry <casetest> *kʷina.c2 (test.)
 entry &tam <tamtest> <water>.vbz (test.) TAM test
 entry <verb> *punati (v.) to verb
+entry <test> *matala (test.) test
