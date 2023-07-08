@@ -17,12 +17,12 @@ entry <2sg-1> *nuʔi (pron.) 2^nd^ person singular (archaic)
 entry <2pl-1> *sahu (pron.) 2^nd^ person singular (archaic)
 entry <3sg-1> <this-1> (pron.) 3^rd^ person singular (archaic)
 entry <3pl-1> <many-1> (pron.) 3^rd^ person plural (archaic)
-entry <intensifier-h-1> [<one-1>.c1 +!@intensifier-forming <body-1>] 
+entry <intensifier-h-1> "<one-1>.c1 +!@intensifier-forming <body-1>"
     (pron.) intesifier (human gender, archaic)
-entry <intensifier-a-1> [<one-1>.c3 +!@intensifier-forming <body-1>] 
+entry <intensifier-a-1> "<one-1>.c3 +!@intensifier-forming <body-1>" 
     (pron.) intesifier (animate gender, archaic)
 entry <intensifier-i-1> <same-1> (pron.) intensifier (inanimate gender, archaic)
-entry <intensifier-pl-1> [<many-1> +!@intensifier-forming <body-1>]
+entry <intensifier-pl-1> "<many-1> +!@intensifier-forming <body-1>"
     (pron.) intensifier plural (archaic)
 # -- / --
 

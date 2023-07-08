@@ -4,7 +4,7 @@
 Below is a sample dictionary entry from the $name-English side of the dictionary. 
 Each item has a number which corresponds to an explanation below the entry:
 
-**egzampul**^1^ [ɛg.ˈzæm.pul]^2^ \**ksmpl*^3^ (ni.)^4^ definition^5^ (and more information)^6^
+**egzampul**^1^ \[ɛg.ˈzæm.pul\]^2^ \**ksmpl*^3^ (ni.)^4^ definition^5^ (and more information)^6^
 
 1. The romanized (simplified) form of the word.
 2. The phonetic representation.

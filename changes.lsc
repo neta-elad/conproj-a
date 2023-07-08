@@ -193,7 +193,7 @@ open-syllables-metathesis:
     [consonant]$1 [vowel]$2 => $2 $1 / [consonant] . _ .
 
 coda-palatal-nasals-simplification:
-    ɲ => n / _ . #todo: to ŋ?
+    ɲ => n / _ .
 
 away-from-stress-vowel-loss:
     [*stress vowel] => * / [*stress vowel] [consonant] _ $
@@ -205,6 +205,8 @@ then:
 
 nasal-liquid-assimilation:
     [nasal] => [$place] / [$place liquid] _
+
+# todo: another coda nasals loss? thalýngxul => thalýxul
 
 clear-diacritics:
     [light] => [normal]
