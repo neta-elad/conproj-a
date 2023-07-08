@@ -52,27 +52,11 @@ For singular nouns there is an indefinite article:
     - Inalienable: `<possessor LOC> 3sg.<possessee>`; 
     optional for personal pronouns
 
-## Gender
 
-Originally denoted by classifiers:
-
-
-
-- Human (-*ʔu)
-- Animate (-*hi)
-- Inanimate (-*qa)
 
 
 Adjectives agree and verbs agree (for subject).
 
-## TAM (Tense-aspect-mood)
-
-TAMs usually come from verbs (mostly suffixes):
-
-- future, past, imperfective (suffix)
-- pluractionality (prefix)
-- iterative (prefix)
-- durative+future (< go, suffix)
 
 ## Verb derivations
 

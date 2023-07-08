@@ -4,17 +4,17 @@
 
 Originally, there were 10 noun classes (/classifiers):
 
-- 1 (H):  Male human \*ʔu
-- 2 (H): Female human \*qʷa
-- 3 (A): Large animals \*ma
-- 4 (H): Winged animals (birds, bats) \*hu
-- 5 (I): Small animals (critters, insects) \*ɴi
-- 6 (A): Fresh water phenomena (lakes, rivers, wells, springs, rains) \*ŋu
-- 7 (A): Countable edible fruits and vegetables \*hi
-- 8 (I): Misc. (inanimate objects) \*qaqa
+- 1 (H):  Male human pr[<.c1>]
+- 2 (H): Female human pr[<.c2>]
+- 3 (A): Large animals pr[<.c3>]
+- 4 (H): Winged animals (birds, bats) pr[<.c4>]
+- 5 (I): Small animals (critters, insects) pr[<.c5>]
+- 6 (A): Fresh water phenomena (lakes, rivers, wells, springs, rains) pr[<.c6>]
+- 7 (A): Countable edible fruits and vegetables pr[<.c7>]
+- 8 (I): Misc. (inanimate objects) pr[<.c8>]
     - Originally something like "rest", "not anything else", \*qa old word for "no"?
-- 9 (H+): Major deities \*laqʷi
-- 10 (A+): Minor deities \*li
+- 9 (H+): Major deities pr[<.c9>]
+- 10 (A+): Minor deities pr[<.c10>]
 
 These were reduced to three genders:
 
@@ -36,24 +36,24 @@ and 3^rd^ pronouns coming from demonstratives + classifier:
 
 |Pronouns|<|Singular|<|Plural|<|
 |--------|-|--------|-|------|-|
-|1^st^ >|| *&pr{<1sg-1>}* | **#<1sg-1>#-** | *&pr{<1pl-1>}* | **#<1pl-1>#-** |
-|2^nd^ >|Masculine >|*&pr{<2sg-1>}* | **#<2sg-1>.c1#-** | *&pr{<2pl-1>}* | **#<2pl-1>#-** |
-|^      |Feminine  >|^              | **#<2sg-1>.c2#-** |^  |^  |
-|^      |Formal (1) >|^              | **#<2sg-1>.c10#-**|^  |^  |
-|^      |Formal (2) >|^    | **#<2sg-1>.c9#-** |^  |^  |
-|3^rd^ >|Human     >|*&pr{<3sg-1>}* | **#<3sg-1>.c1#-** | *&pr{<3pl-1>}* | **#<3pl-1>#-** |
-|^      |Animate   >|^              | **#<3sg-1>.c3#-** | ^ | ^ |
-|^      |Inanimate >|^              | **#<3sg-1>.c5#-** | ^ | ^ |
+|1^st^ >|| pr[<1sg-1>] | r[<1sg-1>]- | pr[<1pl-1>] | r[<1pl-1>]- |
+|2^nd^ >|Masculine >|pr[<2sg-1>] | r[<2sg-1>.c1]- | pr[<2pl-1>] | r[<2pl-1>]- |
+|^      |Feminine  >|^              | r[<2sg-1>.c2]- |^  |^  |
+|^      |Formal (1) >|^              | r[<2sg-1>.c10]-|^  |^  |
+|^      |Formal (2) >|^    | r[<2sg-1>.c9]- |^  |^  |
+|3^rd^ >|Human     >|pr[<3sg-1>] | r[<3sg-1>.c1]- | pr[<3pl-1>] | r[<3pl-1>]- |
+|^      |Animate   >|^              | r[<3sg-1>.c3]- | ^ | ^ |
+|^      |Inanimate >|^              | r[<3sg-1>.c5]- | ^ | ^ |
 
 }{:.aligned-table}
 
 The 2^nd^ person singular pronouns used to conjugate 
 according to the class of the addressee.
-The ++.c10++ and ++.c9++ classes are used for two levels of formality.
+The d[.c10] and d[.c9] classes are used for two levels of formality.
 
 ### Cases
 
-Originally, there was only the genitive case, from an old word for "home" &df{<home-1>}.
+Originally, there was only the genitive case, from an old word for "home" pr[<home-1>].
 
 ### TAMs
 
