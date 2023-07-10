@@ -4,6 +4,7 @@
     - pluralization:
         - old by reduplication
         - new by ?
+        - adjectives agree with pluralization?
     - relativizer
     - get rid of 2^nd^ person class distinction?
     - shorter case/TAM affixes?

@@ -10,25 +10,28 @@ and specifically, the default word order is SOV (subject-object-verb).
 - There are mainly postpositions (instead of prepositions),
 and noun cases are marked with suffixes.
 
-There are 4 base cases, 
+There are 5 base cases, 
 on top which more complicated ones are constructed.
 Noun modifiers agree with the base case of the noun.
 Those base cases are:
 
 - Nominative, the subject of the sentence.
 - Accusative, the direct object of the sentence.
+- Dative, an indirect object
+    representing beneficiary or goal of the action.
+- Locative, an indirect object
+    representing the place where the event occurred.
 - Genitive, used for possession constructions ('s in English), 
-as well as the base case for most other cases.
-- Locative/dative, an indirect object representing the place where the event occurred,
-or the beneficiary of the action.
+    as well as the base case for combining with other cases.
 
 Nouns are classified according to 3 genders:
 
 - Human, for nouns representing humans, 
-as well as most body parts.
+    as well as most body parts,
+    and some birds.
 - Animate, for nouns representing most animal 
-(bugs and small critters are not included), 
-as well as some natural phenomena (rivers, storms).
+    (bugs and small critters are not included), 
+    as well as some natural phenomena (rivers, storms).
 - Inanimate, for all other nouns.
 
 donotinclude{description/tables.md}@

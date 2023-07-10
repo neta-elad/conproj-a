@@ -9,3 +9,6 @@ affix .loc @cases-forming <loc-copula> locative
 affix .place-nmlz @nominalizers afxs.<home-1>.afxe place nominalizer
 affix .act-nmlz @nominalizers $.c8 action nominalizer
 affix .agent-nmlz @nominalizers afxs.<person-1>.afxe agent nominalizer
+
+affix pl. @new-plurals <all-1> plural prefix (for animate)
+affix .pl @new-plurals <people-1> plural suffix (for human)

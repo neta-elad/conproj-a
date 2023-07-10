@@ -141,22 +141,16 @@ general-compounds:
 cases-forming:
     unchanged
 
+new-plurals:
+    unchanged
+
 reset-stress:
     <syl> => [*stress]
 
 romanizer-pre-stress:
     unchanged
 
-new-stress:
-    <syl>&[heavy] => [+stress] / _ (<syl>&[heavy])? (<syl>&![heavy])? $ // <syl>&[heavy] _
-else:
-    <syl>&![light] => [+stress] / _ (<syl>&![heavy]) (<syl>&![heavy]) $
-else:
-    <syl>&![light] => [+stress] / _ (<syl>&![heavy]) $
-else:
-    <syl>&[light] => [+stress] / _ (<syl>&[light]) $
-else:
-    <syl> => [+stress] / _ $
+#include "changes/stress.lsc"
 
 boundary-vowel-loss:
     [*long *stress vowel] => * / $ _ [consonant] [vowel]
@@ -191,6 +185,9 @@ conditional-forming:
 
 open-syllables-metathesis:
     [consonant]$1 [vowel]$2 => $2 $1 / [consonant] . _ .
+
+coda-weak-fricatives-loss-again:
+    @weakfricatives => * / _ .
 
 coda-palatal-nasals-simplification:
     ɲ => n / _ .

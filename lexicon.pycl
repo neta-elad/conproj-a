@@ -13,21 +13,29 @@ affix .afxe *~ affix end
 # DEMONSTRATIVES
 entry <here> *ʔina (det.) proximal demonstrative
 entry <there> *ɬiʔu (det.) distal demonstrative
-entry <this-h> "<here> !+@demonstratives-forming <3sg-1>.c1" 
+entry <this-h> 
+    <here> !+@demonstratives-forming <3sg-1>.c1
     (det.) proximal demonstrative (human)
-entry <this-a> "<here> !+@demonstratives-forming <3sg-1>.c3" 
+entry <this-a> 
+    <here> !+@demonstratives-forming <3sg-1>.c3
     (det.) proximal demonstrative (animate)
-entry <this-i> "<here> !+@demonstratives-forming <3sg-1>.c5" 
+entry <this-i> 
+    <here> !+@demonstratives-forming <3sg-1>.c5
     (det.) proximal demonstrative (inanimate)
-entry <these> "<here> !+@demonstratives-forming <3pl-1>"
+entry <these> 
+    <here> !+@demonstratives-forming <3pl-1>
     (det.) proximal demonstrative (plural)
-entry <that-h> "<there> !+@demonstratives-forming <3sg-1>.c1" 
+entry <that-h> 
+    <there> !+@demonstratives-forming <3sg-1>.c1
     (det.) distal demonstrative (human)
-entry <that-a> "<there> !+@demonstratives-forming <3sg-1>.c3" 
+entry <that-a> 
+    <there> !+@demonstratives-forming <3sg-1>.c3
     (det.) distal demonstrative (animate)
-entry <that-i> "<there> !+@demonstratives-forming <3sg-1>.c5" 
+entry <that-i> 
+    <there> !+@demonstratives-forming <3sg-1>.c5
     (det.) distal demonstrative (inanimate)
-entry <those> "<there> !+@demonstratives-forming <3pl-1>"
+entry <those>
+    <there> !+@demonstratives-forming <3pl-1>
     (det.) distal demonstrative (plural)
 # -- / --
 
@@ -49,7 +57,8 @@ entry <3pl-a/i> <intensifier-pl-1> (pron.) 3^rd^ person plural (animate/inanimat
 # -- / --
 
 entry <tree-1> *laŋi (n.) tree
-entry <forest> "*ʔaŋi +! *laŋi" (ni.) forest, grove 
+entry <tree-1-pl> "*ʔaŋi +! *laŋi" (ni.) trees
+entry <forest> <tree-1-pl>.aug (ni.) forest, grove
 
 entry <hand-1> *tʷali (n.) hand (archaic)
 entry <two-hands-1> "*ʔali +! *tʷali" (n.) two hands, both (archaic)
@@ -126,7 +135,7 @@ entry <pebble> <rock-1>.dim (na.) pebble
 entry <beast-1> *matuli (n.) beast, large animal
 entry <beast-1-pl> "*ʔatu +! *matuli" (unknown.) ??
 
-entry <fear-1> *ʔiɴa (n.) fear  #todo: change?
+entry <fear-1> *ʔuɴa (n.) fear  #todo: change?
 entry <big> <fear-1> (adj.) great, big
 
 entry <mountain-1> *χusa (n.) mountain
@@ -140,6 +149,7 @@ entry <child-1> *hufi (n.) child, pup, baby
 affix .aug @ancient-derivations afxs.<big-1>.afxe augmentative (always inanimate)
 affix .dim @ancient-derivations afxs.<child-1>.afxe diminutive (always animate)
 
+entry <give> *kasu (vd.) to give
 
 
 
