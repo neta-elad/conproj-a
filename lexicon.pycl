@@ -44,11 +44,19 @@ entry <rel> <this-1> (conj.) relativizer
 # -- / --
 
 # PRONOUNS
-entry <1sg> "<here> !+@verb-conjugation <person-1>" (pron.) 1^st^ person singular
+entry <1sg>
+    <here> !+@verb-conjugation <person-1> 
+    (pron.) 1^st^ person singular
 entry <1pl-in> <person-1> (pron.) 1^st^ person plural (inclusive)
-entry <1pl-ex> "<here> !+@verb-conjugation <people-1>" (pron.) 1^st^ person plural (exclusive)
-entry <2sg> "<there> !+@verb-conjugation <person-1>" (pron.) 2^nd^ person singular
-entry <2pl> "<there> !+@verb-conjugation <people-1>" (pron.) 2^nd^ person plural
+entry <1pl-ex>
+    <here> !+@verb-conjugation <people-1> 
+    (pron.) 1^st^ person plural (exclusive)
+entry <2sg>
+    <there> !+@verb-conjugation <person-1>
+    (pron.) 2^nd^ person singular
+entry <2pl>
+    <there> !+@verb-conjugation <people-1>
+    (pron.) 2^nd^ person plural
 entry <3sg-h> <intensifier-h-1> (pron.) 3^rd^ person singular (human)
 entry <3sg-a> <intensifier-a-1> (pron.) 3^rd^ person singular (animate)
 entry <3sg-i> <intensifier-i-1> (pron.) 3^rd^ person singular (inanimate)
@@ -69,20 +77,22 @@ entry <rat> <mouse>.aug (ni.) rat, large mouse
 entry <date> <hand-1>.c7 (na.) date, fruit of the date-palm tree
 entry <hand> <hand-1>.c2 (nh.) (human) hand
 
-entry <palm tree> "<hand-1> +! <tree-1>" (ni.) date-palm tree
+entry <palm tree>
+    <hand-1> +! <tree-1> 
+    (ni.) date-palm tree
 
 entry <rope-1> *ʔanasu (n.) rope (archaic)
-entry <rope-1-pl> "*ʔana +! *ʔanasu" (unknown.) ??
+entry <rope-1-pl> *ʔana +! *ʔanasu (unknown.) ??
 
 entry <worm> <rope-1>.c5 (na.) worm
 entry <river> <rope-1>.c6 (na.) river
 entry <bean> <rope-1>.c7 (na.) long beans, pod-borne seeds
-entry <rope-tree> "<rope-1> +! <tree-1>" (ni.) tree with branches / leaves that look like ropes
+entry <rope-tree> <rope-1> +! <tree-1> (ni.) tree with branches / leaves that look like ropes
 
 entry <tongue-1> *kalira (n.) tongue (archaic)
 
 entry <lick> <tongue-1>.vbz (vt.) to lick
-entry <slurp> "*ʔali !+ <lick>" (vt.) ???
+entry <slurp> *ʔali !+ <lick> (vt.) ???
 
 entry <bay> <tongue-1>.c6 (na.) bay, gulf, inlet
 entry <woodpecker> <tongue-1>.c4 (nh.) woodpecker
@@ -108,15 +118,15 @@ entry <shallow> <steppe-1> (adj.) shallow, flat
 entry <grass> <steppe-1>.c8 (ni.) grass
 
 entry <sun-1> *ʔaniɬu (n.) sun
-entry <sun-1-pl> "*ʔani +! *ʔaniɬu" (unknown.) ??
+entry <sun-1-pl> *ʔani +! *ʔaniɬu (unknown.) ??
 entry <day> <sun-1>.c8 (ni.) day
 entry <sun god> <sun-1>.c10 (nh.) sun god
 entry <bright> <sun-1> (adj.) bright, white
 
 entry <water> *ŋuʃi (na.) water
-entry <water-pl> "*ʔuʃi +! *ŋuʃi" (unknown.) ??
+entry <water-pl> *ʔuʃi +! *ŋuʃi (unknown.) ??
 entry <earth> *puriqa (ni.) earth
-entry <earth-pl> "*ʔuri +! *puriqa" (unknown.) ??
+entry <earth-pl> *ʔuri +! *puriqa (unknown.) ??
 
 
 entry <wet-1> *ŋusa (adj.) wet, damp
@@ -125,7 +135,7 @@ entry <sweat> <wet-1>.c8 (ni.) sweat, perspiration
 entry <hippo> <wet-1>.c3 (na.) hippopotamus, large river dwelling mammal
 
 entry <rock-1> *qamatu (n.) rock, stone (archaic)
-entry <rock-1-pl> "*ʔama +! *qamatu" (unknown.) ??
+entry <rock-1-pl> *ʔama +! *qamatu (unknown.) ??
 entry <rock> <rock-1>.c8 (ni.) rock, boulder
 entry <turnip> <rock-1>.c7 (na.) turnip
 entry <armadillo> <rock-1>.c5 (ni.) armadillo
@@ -133,13 +143,13 @@ entry <hard> <rock-1> (adj.) hard, stern, solid, stable
 entry <pebble> <rock-1>.dim (na.) pebble
 
 entry <beast-1> *matuli (n.) beast, large animal
-entry <beast-1-pl> "*ʔatu +! *matuli" (unknown.) ??
+entry <beast-1-pl> *ʔatu +! *matuli (unknown.) ??
 
 entry <fear-1> *ʔuɴa (n.) fear  #todo: change?
 entry <big> <fear-1> (adj.) great, big
 
 entry <mountain-1> *χusa (n.) mountain
-entry <mountain-1-pl> "*ʔusa +! *χusa" (unknown.) ??
+entry <mountain-1-pl> *ʔusa +! *χusa (unknown.) ??
 entry <mountain-1-reduced> *χuha (n.) mountain (reduced form)
 entry <big-1> <mountain-1-reduced> (adj.) big, towering
 
