@@ -7,8 +7,9 @@ affix .loc @cases-forming <loc-copula> locative
 # -- / --
 
 affix .place-nmlz @nominalizers afxs.<home-1>.afxe place nominalizer
-affix .act-nmlz @nominalizers $.c8 action nominalizer
+affix .act-nmlz @nominalizers afxs.<.c8>.afxe action nominalizer
 affix .agent-nmlz @nominalizers afxs.<person-1>.afxe agent nominalizer
+# todo: change to use some word meaning worker?
 
-affix pl. @new-plurals <all-1> plural prefix (for animate)
-affix .pl @new-plurals <people-1> plural suffix (for human)
+affix pl. @new-plurals afxs.<all-1>.afxe plural prefix (for animate)
+affix .pl @new-plurals afxs.<people-1>.afxe plural suffix (for human)

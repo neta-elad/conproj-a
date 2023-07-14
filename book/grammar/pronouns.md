@@ -7,12 +7,12 @@ and here/there demonstratives:
 
 |Pronouns|< |Singular|Plural|<|
 |--------|--|--------|------|-|
-|1^st^  >|  | pr[<1sg>] > ph[<1sg>] | pr[<1pl-ex>] > ph[<1pl-ex>] | *(exclusive)* |
-|^       |^ | ^                        |pr[<1pl-in>] > ph[<1pl-in>]  | *(inclusive)* |
-|2^nd^  >|  | pr[<2sg>] > ph[<2sg>] |pr[<2pl>] > ph[<2pl>] | < |
-|3^rd^  >| Human     >| r[<3sg-h>] | r[<3pl-h>] | < |
-|^       | Animate   >| r[<3sg-a>] | r[<3pl-a/i>] | < |
-|^       | Inanimate >| r[<3sg-i>] |^| ^ |
+|1^st^  >|  | ph<[<1sg>] | ph<[<1pl-ex>] | *(exclusive)* |
+|^       |^ | ^                        | ph<[<1pl-in>]  | *(inclusive)* |
+|2^nd^  >|  | ph<[<2sg>] | ph<[<2pl>] | < |
+|3^rd^  >| Human     >| r<[<3sg-h>] | r<[<3pl-h>] | < |
+|^       | Animate   >| r<[<3sg-a>] | r<[<3pl-a/i>] | < |
+|^       | Inanimate >| r<[<3sg-i>] |^| ^ |
 
 }{:.aligned-table}
 

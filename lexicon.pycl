@@ -122,6 +122,9 @@ entry <sun-1-pl> *ʔani +! *ʔaniɬu (unknown.) ??
 entry <day> <sun-1>.c8 (ni.) day
 entry <sun god> <sun-1>.c10 (nh.) sun god
 entry <bright> <sun-1> (adj.) bright, white
+entry <seen-1> <body-1> !+ <see-1> (test.) test
+affix .adj-1 @nominalizers <seen-1> adjectival 1
+entry <new bright> <sun-1>.adj-1 (adj.) new bright
 
 entry <water> *ŋuʃi (na.) water
 entry <water-pl> *ʔuʃi +! *ŋuʃi (unknown.) ??

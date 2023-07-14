@@ -15,6 +15,10 @@ g[<bright>.i <mouse> <small>.i.acc <worm>.acc 3sg-i.<lick>.cont]
 
 > "The white mouse is licking the small worm"
 
-g[<hard>.i <forest> <big>.a.acc <pebble>.acc <small>.a.dat pl.<hippo>.dat 3sg-i.<give>.pst]
+g[<hard>.i <forest> <big>.a.acc <pebble>.acc pl.<small>.a.dat pl.<hippo>.dat 3sg-i.<give>.pst]
 
 > "The stable forest gave the small hippos a big pebble"
+
+g[<bright>.h.pl <women> <earth>.loc <walk>.cont]
+
+> "The radiating women are walking on the earth"
