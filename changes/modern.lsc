@@ -1,0 +1,189 @@
+#include "base.lsc"
+
+romanizer-proto:
+    unchanged
+
+ancient-derivations:
+    unchanged
+
+resonant-codas ltr:
+    [vowel] => * / [vowel] @resonant _ 
+
+syllables:
+    [consonant] [vowel] @resonant?
+
+nominalizers:
+    unchanged
+
+regressive-uvular-spreading:
+    [velar *labialized] => [uvular] / _ (![liquid])* [uvular]
+
+vowel-retracting-before-uvulars:
+    {i, ɐ, u} => {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
+    {i, ɐ, u} => {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
+
+labialized-stop-lenition:
+    {pʷ, tʷ, kʷ, qʷ} => {f, θ, ʍ, ħ}
+
+intervocalic-coronal-plosive:
+    t => [dental] / [vowel] _ [vowel]
+
+uvular-lenition:
+    {q, χ, x} => {χ, x, ç}
+
+glottal-loss:
+    [glottal] => *
+
+syllables:
+    [consonant] [vowel]+ @resonant?
+    [vowel]+ @resonant? / $ _
+
+demonstratives-forming:
+    unchanged
+
+pharyngeal-loss:
+    [pharyngeal] [vowel] => * * / { . _ ., [vowel] . _ @resonant . } // $ _ $ #@resonant? $
+    [pharyngeal] => *
+
+uvular-loss:
+    [uvular fricative] => [glottal]
+    { ŋ, ɴ } => { ɲ, ŋ }
+
+genitive-forming:
+    unchanged
+
+affricate-formation:
+    @resonant @sibilant => * [affricate]
+
+coda-nasal-loss:
+    [vowel] [nasal] => [+long] * / _ .
+    #todo: not at word end?
+
+syllables:
+    [consonant] [vowel]+ [liquid]?
+    [vowel]+ [liquid]? / $ _
+
+hiatus-resolution cleanup:
+    unchanged
+then ltr:
+    [vowel] => [+stress] / [vowel +stress] _
+then rtl:
+    [vowel] => [+stress] / _ [vowel +stress]
+then:
+    [+affix vowel] => * / [vowel] _
+    [+round vowel] => [lomid back] / [lomid vowel] [vowel]* _
+    [vowel] => [lomid front] / [lomid vowel] [vowel]* _
+then:
+    [vowel] => [+long] / [+long vowel] _
+then:
+    [vowel] => * / _ [vowel]
+
+syllables:
+    [consonant] [vowel] [liquid]?
+    [vowel] [liquid]? # / $ _
+
+intensifier-forming:
+    unchanged
+
+past-forming:
+    unchanged
+
+low-vowels-backness-regressive-harmony rtl:
+    [lomid vowel] => [back] / _ []* [lomid back vowel]
+
+dorsal-fricatives-assimilation:
+    ç => x / { _ [back vowel], [back vowel] _ }
+    #todo: x => ç / { _ @palatalizing, @palatalizing _ } 
+
+vowel-shift:
+    { [*round lomid central vowel], [*round lomid back vowel] } => { [front], [central] }
+
+syllables:
+    [consonant] [+affix vowel] [liquid]? => [light] #todo: with liquid is heavy for affix too?..
+    [consonant] [vowel +long] [liquid]? => [heavy]
+    [consonant]&!@weakfricatives [vowel] [liquid] => [heavy]
+    [consonant]&!@weakfricatives [vowel] => [normal]
+    @weakfricatives [vowel] [liquid]? => [light]
+    [vowel] [liquid]? => [light] // [consonant] _
+
+general-compounds:
+    unchanged
+
+cases-forming:
+    unchanged
+
+new-plurals:
+    unchanged
+
+reset-stress:
+    <syl> => [*stress]
+
+romanizer-pre-stress:
+    unchanged
+
+#include "stress.lsc"
+
+boundary-vowel-loss:
+    [*long *stress vowel] => * / $ _ [consonant] [vowel]
+    [*long *stress vowel] => * / [vowel] [liquid]? [consonant] _ $ // [consonant] [liquid] _ # todo: simplify?
+
+syllables:
+    [consonant]? [vowel]+ [liquid]? [consonant]?
+
+lateral-fricatives:
+    #todo: cleanup rule? only weak fricatives?
+    l {l, [fricative]} => * ɬ
+
+verb-conjugation:
+    unchanged
+
+long-vowel-shortening:
+    [+long] => [*long]
+
+final-vowel-loss:
+    [*stress *long vowel] => * / [vowel] [liquid]? . ![liquid] _ $
+    #todo: can this create complex consonant clusters?
+    #todo: flip rules?
+
+coda-weak-fricatives-loss:
+    @weakfricatives => * / _ .
+
+relativizers-affix:
+    unchanged
+
+conditional-forming:
+    unchanged
+
+open-syllables-metathesis:
+    [consonant]$1 [vowel]$2 => $2 $1 / [consonant] . _ .
+
+coda-weak-fricatives-loss-again:
+    @weakfricatives => * / _ .
+
+coda-palatal-nasals-simplification:
+    ɲ => n / _ .
+
+away-from-stress-vowel-loss:
+    [*stress vowel] => * / [*stress vowel] [consonant] _ $
+
+break-liquid-nasal-clusters:
+    * => [+accent $round $height $backness vowel] / [$round $height $backness vowel] [liquid] _ [nasal] .
+then:
+    { ɐ, ɛ, ʏ, i, ɘ, u, ɔ }&[+accent] => { ɛ!, ɛ!, i!, i!, u!, u!, ɔ! }
+
+nasal-liquid-assimilation:
+    [nasal] => [$place] / [$place liquid] _
+
+# todo: another coda nasals loss? thalýngxul => thalýxul
+
+clear-diacritics:
+    [light] => [normal]
+    [heavy] => [normal]
+then:
+    [+affix] => [*affix]
+
+romanizer-phonetic:
+    unchanged
+
+#include "romanizer.lsc"
+

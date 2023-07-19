@@ -1,0 +1,25 @@
+stress-to-accent:
+    [+stress vowel] => [+accent] // $ [consonant]? _ @resonant? [consonant]? $
+then:
+    [+stress] => [*stress]
+
+syllables:
+    clear
+
+romanizer:
+    [] => [normal]
+then:
+    [+affix] => [*affix]
+then:
+    [+accent himid central vowel] => e̋!
+then:
+    { t͡s, t͡ʃ, t͡ɬ } => { ts, ch, tl }
+    [dental fricative] => th
+    [postalveolar fricative] => sh
+    [alveolar +lateral fricative] => ll #todo: differently?
+    [dental] * => [alveolar] \'
+    {ɛ, ɐ, ɔ, ʏ, ɘ} => {e, a, o, y, ë}
+    [palatal fricative] => c
+    [velar +labialized fricative] => hw
+    [velar nasal] * => [alveolar] g
+    [palatal nasal] * => [alveolar] y

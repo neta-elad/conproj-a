@@ -2,7 +2,7 @@
 affix .gen @genitive-forming <home-1> genitive case
 affix .acc @cases-forming <see-1> accusative / allative case
 affix .dat @cases-forming <help-1> dative / benefactive case
-entry <loc-copula> <live-1> (vt.) locative copula
+entry % <loc-copula> <live-1> (vt.) locative copula
 affix .loc @cases-forming <loc-copula> locative
 # -- / --
 

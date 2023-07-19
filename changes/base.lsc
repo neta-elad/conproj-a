@@ -1,0 +1,30 @@
+#include "features.lsc"
+#include "diacritics.lsc"
+#include "symbols.lsc"
+#include "elements.lsc"
+
+deromanizer:
+    a => [lomid central]
+    n q => [uvular] *
+    x q => [uvular] *
+    n g => [velar] *
+    [consonant] w => [+labialized] *
+    l l => * [fricative]
+    s h => [postalveolar] *
+    \' => ʔ
+
+syllables:
+    [consonant] [vowel]
+    [delimiter]
+
+affix-spreading ltr:
+    { [consonant], [vowel] } => [+affix] / { [+opening delimiter], [+affix] } _
+
+delimiter-loss:
+    [delimiter] => *
+
+syllables:
+    [consonant] [vowel]
+
+initial-stress:
+    <syl> => [+stress] / $ _
