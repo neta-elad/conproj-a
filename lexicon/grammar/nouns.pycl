@@ -1,15 +1,15 @@
 # NOUN CASES
-affix .gen @genitive-forming <home-1> genitive case
-affix .acc @cases-forming <see-1> accusative / allative case
-affix .dat @cases-forming <help-1> dative / benefactive case
-entry % <loc-copula> <live-1> (vt.) locative copula
+affix .gen @genitive-forming <home>% genitive case
+affix .acc @cases-forming <see>% accusative / allative case
+affix .dat @cases-forming <help>% dative / benefactive case
+entry % <loc-copula> <live>% (vt.) locative copula
 affix .loc @cases-forming <loc-copula> locative
 # -- / --
 
-affix .place-nmlz @nominalizers afxs.<home-1>.afxe place nominalizer
+affix .place-nmlz @nominalizers afxs.<home>%.afxe place nominalizer
 affix .act-nmlz @nominalizers afxs.<.c8>.afxe action nominalizer
-affix .agent-nmlz @nominalizers afxs.<person-1>.afxe agent nominalizer
+affix .agent-nmlz @nominalizers afxs.<person>%.afxe agent nominalizer
 # todo: change to use some word meaning worker?
 
-affix pl. @new-plurals afxs.<all-1>.afxe plural prefix (for animate)
-affix .pl @new-plurals afxs.<people-1>.afxe plural suffix (for human)
+affix pl. @new-plurals afxs.<all>%.afxe plural prefix (for animate)
+affix .pl @new-plurals afxs.<people>%.afxe plural suffix (for human)

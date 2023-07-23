@@ -1,49 +1,49 @@
-entry % <person-1> *kami (n.) person (archaic)
-entry % <people-1> *ʔamikami (n.) people (archaic)
+entry % <person> *kami (n.) person (archaic)
+entry % <people> *ʔamikami (n.) people (archaic)
 
-entry % <one-1> *na (det.) one of (archaic)
-entry % <one-num-1> *sana (num.) one (numeral, archaic)
-entry % <ones-1> *ʔanasana (n.) ones (archaic)
+entry % <one> *na (det.) one of (archaic)
+entry % <one-num> *sana (num.) one (numeral, archaic)
+entry % <ones> *ʔanasana (n.) ones (archaic)
 
-entry % <same-1> <ones-1> (adj.) same (archaic)
+entry % <same> <ones>% (adj.) same (archaic)
 
-entry % <many-1> *χaŋi (det.) many (archaic)
-entry % <all-1> *lamu (det.) all (archaic)
+entry % <many> *χaŋi (det.) many (archaic)
+entry % <all> *lamu (det.) all (archaic)
 entry <all> *ʔaŋiχaŋi (det.) all
 
-entry % <body-1> *raqʷi (n.) body (archaic)
+entry % <body> *raqʷi (n.) body (archaic)
 
 # ARCHAIC PRONOUNS
-entry % <1sg-1> *ʔimi (pron.) 1^st^ person singular (archaic)
-entry % <1pl-1> *qʷila (pron.) 1^st^ person plural (archaic)
-entry % <2sg-1> *nuʔi (pron.) 2^nd^ person singular (archaic)
-entry % <2pl-1> *sahu (pron.) 2^nd^ person singular (archaic)
-entry % <3sg-1> <this-1> (pron.) 3^rd^ person singular (archaic)
-entry % <3pl-1> <many-1> (pron.) 3^rd^ person plural (archaic)
-entry % <intensifier-h-1> 
-    <one-1>.c1 +!@intensifier-forming <body-1>
+entry % <1sg> *ʔimi (pron.) 1^st^ person singular (archaic)
+entry % <1pl> *qʷila (pron.) 1^st^ person plural (archaic)
+entry % <2sg> *nuʔi (pron.) 2^nd^ person singular (archaic)
+entry % <2pl> *sahu (pron.) 2^nd^ person singular (archaic)
+entry % <3sg> <this> (pron.) 3^rd^ person singular (archaic)
+entry % <3pl> <many> (pron.) 3^rd^ person plural (archaic)
+entry % <intensifier-h> 
+    <one>%.c1 +!@intensifier-forming <body>%
     (pron.) intesifier (human gender, archaic)
-entry <intensifier-a-1> 
-    <one-1>.c3 +!@intensifier-forming <body-1>
+entry % <intensifier-a>
+    <one>%.c3 +!@intensifier-forming <body>%
     (pron.) intesifier (animate gender, archaic)
-entry <intensifier-i-1> 
-    <same-1> 
+entry % <intensifier-i> 
+    <same>% 
     (pron.) intensifier (inanimate gender, archaic)
-entry <intensifier-pl-1> 
-    <many-1> +!@intensifier-forming <body-1>
+entry % <intensifier-pl> 
+    <many>% +!@intensifier-forming <body>%
     (pron.) intensifier plural (archaic)
 # -- / --
 
-entry % <this-1> *ha (det.) proximal demonstrative (archaic)
+entry % <this> *ha (det.) proximal demonstrative (archaic)
 
-entry % <home-1> *ʃuqʷa (n.) home, place
-entry % <see-1> *ʔixa (vt.) to see, to set oneself towards something, to face
-entry % <help-1> *lahu (vt.) to help, to carry
-entry % <live-1> *husa (vt.) to live, to stay at, to be at
+entry % <home> *ʃuqʷa (n.) home, place
+entry % <see> *ʔixa (vt.) to see, to set oneself towards something, to face
+entry % <help> *lahu (vt.) to help, to carry
+entry % <live> *husa (vt.) to live, to stay at, to be at
 
-entry % <stand-1> *qʷumi (v.) to stand, to stay
-entry % <finish-1> *ʔikʷa (v.) to finish, to be done with
-entry % <say-1> *riqu (v.) to say, to utter, to propose, to suggest
+entry % <stand> *qʷumi (v.) to stand, to stay
+entry % <finish> *ʔikʷa (v.) to finish, to be done with
+entry % <say> *riqu (v.) to say, to utter, to propose, to suggest
 
-entry % <do-1> *si (v.) to do, light verb constructor
-affix .vbz <do-1> verbalizer
+entry % <do> *si (v.) to do, light verb constructor
+affix .vbz <do>% verbalizer

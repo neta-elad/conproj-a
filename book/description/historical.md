@@ -36,14 +36,14 @@ and 3^rd^ pronouns coming from demonstratives + classifier:
 
 |Pronouns|<|Singular|<|Plural|<|
 |--------|-|--------|-|------|-|
-|1^st^ >|| pr[<1sg-1>] | r[<1sg-1>]- | pr[<1pl-1>] | r[<1pl-1>]- |
-|2^nd^ >|Masculine >|pr[<2sg-1>] | r[<2sg-1>.c1]- | pr[<2pl-1>] | r[<2pl-1>]- |
-|^      |Feminine  >|^              | r[<2sg-1>.c2]- |^  |^  |
-|^      |Formal (1) >|^              | r[<2sg-1>.c10]-|^  |^  |
-|^      |Formal (2) >|^    | r[<2sg-1>.c9]- |^  |^  |
-|3^rd^ >|Human     >|pr[<3sg-1>] | r[<3sg-1>.c1]- | pr[<3pl-1>] | r[<3pl-1>]- |
-|^      |Animate   >|^              | r[<3sg-1>.c3]- | ^ | ^ |
-|^      |Inanimate >|^              | r[<3sg-1>.c5]- | ^ | ^ |
+|1^st^ >|| pr[<1sg>%] | r[<1sg>%]- | pr[<1pl>%] | r[<1pl>%]- |
+|2^nd^ >|Masculine >|pr[<2sg>%] | r[<2sg>%.c1]- | pr[<2pl>%] | r[<2pl>%]- |
+|^      |Feminine  >|^              | r[<2sg>%.c2]- |^  |^  |
+|^      |Formal (1) >|^              | r[<2sg>%.c10]-|^  |^  |
+|^      |Formal (2) >|^    | r[<2sg>%.c9]- |^  |^  |
+|3^rd^ >|Human     >|pr[<3sg>%] | r[<3sg>%.c1]- | pr[<3pl>%] | r[<3pl>%]- |
+|^      |Animate   >|^              | r[<3sg>%.c3]- | ^ | ^ |
+|^      |Inanimate >|^              | r[<3sg>%.c5]- | ^ | ^ |
 
 }{:.aligned-table}
 
@@ -53,7 +53,7 @@ The d[.c10] and d[.c9] classes are used for two levels of formality.
 
 ### Cases
 
-Originally, there was only the genitive case, from an old word for "home" pr[<home-1>].
+Originally, there was only the genitive case, from an old word for "home" pr[<home>%].
 
 ### TAMs
 

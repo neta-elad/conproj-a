@@ -38,7 +38,7 @@ and here/there demonstratives:
 
 The genitive pronouns are based on the old pronouns,
 for 1^st^ and 2^nd^ persons, 
-and on the numeral "one" (pr[<one-1>])
+and on the numeral "one" (pr[<one>%])
 for 3^rd^ person.
 There is suppletion using the "genitive" form of the modern pronouns
 for 1^st^ plural (exclusive and inclusive)
@@ -50,17 +50,17 @@ and 3^rd^ singular inanimate.
 
 | Genitive Pronouns | Nominative | Accusative | Dative | Locative |
 |-------------------|------------|------------|--------|----------|
-| 1^st^ (singular) | ph[<1sg-1>.gen] | ph[<1sg-1>.gen.acc] | ph[<1sg-1>.gen.dat] | ph[<1sg-1>.gen.loc] |
-| ~~1^st^ (plural, unused)~~ | ~~ph[<1pl-1>.gen]~~ | ~~ph[<1pl-1>.gen.acc]~~ | ~~ph[<1pl-1>.gen.dat]~~ | ~~ph[<1pl-1>.gen.loc]~~ |
+| 1^st^ (singular) | ph[<1sg>%.gen] | ph[<1sg>%.gen.acc] | ph[<1sg>%.gen.dat] | ph[<1sg>%.gen.loc] |
+| ~~1^st^ (plural, unused)~~ | ~~ph[<1pl>%.gen]~~ | ~~ph[<1pl>%.gen.acc]~~ | ~~ph[<1pl>%.gen.dat]~~ | ~~ph[<1pl>%.gen.loc]~~ |
 | 1^st^ (plural, exclusive)| ph[<1pl-ex>.gen] | ph[<1pl-ex>.gen.acc] | ph[<1pl-ex>.gen.dat] | ph[<1pl-ex>.gen.loc] |
 | 1^st^ (plural, inclusive)| ph[<1pl-in>.gen] | ph[<1pl-in>.gen.acc] | ph[<1pl-in>.gen.dat] | ph[<1pl-in>.gen.loc] |
-| 2^nd^ (singular) | ph[<2sg-1>.gen] | ph[<2sg-1>.gen.acc] | ph[<2sg-1>.gen.dat] | ph[<2sg-1>.gen.loc] |
-| 2^nd^ (plural) | ph[<2pl-1>.gen] | ph[<2pl-1>.gen.acc] | ph[<2pl-1>.gen.dat] | ph[<2pl-1>.gen.loc] |
-| 3^rd^ (human, singular) | ph[<one-1>.c1.gen] | ph[<one-1>.c1.gen.acc] | ph[<one-1>.c1.gen.dat] | ph[<one-1>.c1.gen.loc] |
-| 3^rd^ (animate, singular) | ph[<one-1>.c3.gen] | ph[<one-1>.c3.gen.acc] | ph[<one-1>.c3.gen.dat] | ph[<one-1>.c3.gen.loc] |
-| ~~3^rd^ (inanimate, singular, unused)~~ | ~~ph[<one-1>.c5.gen]~~ | ~~ph[<one-1>.c5.gen.acc]~~ | ~~ph[<one-1>.c5.gen.dat]~~ | ~~ph[<one-1>.c5.gen.loc]~~ |
+| 2^nd^ (singular) | ph[<2sg>%.gen] | ph[<2sg>%.gen.acc] | ph[<2sg>%.gen.dat] | ph[<2sg>%.gen.loc] |
+| 2^nd^ (plural) | ph[<2pl>%.gen] | ph[<2pl>%.gen.acc] | ph[<2pl>%.gen.dat] | ph[<2pl>%.gen.loc] |
+| 3^rd^ (human, singular) | ph[<one>%.c1.gen] | ph[<one>%.c1.gen.acc] | ph[<one>%.c1.gen.dat] | ph[<one>%.c1.gen.loc] |
+| 3^rd^ (animate, singular) | ph[<one>%.c3.gen] | ph[<one>%.c3.gen.acc] | ph[<one>%.c3.gen.dat] | ph[<one>%.c3.gen.loc] |
+| ~~3^rd^ (inanimate, singular, unused)~~ | ~~ph[<one>%.c5.gen]~~ | ~~ph[<one>%.c5.gen.acc]~~ | ~~ph[<one>%.c5.gen.dat]~~ | ~~ph[<one>%.c5.gen.loc]~~ |
 | 3^rd^ (inanimate, singular) | ph[<3sg-i>.gen] | ph[<3sg-i>.gen.acc] | ph[<3sg-i>.gen.dat] | ph[<3sg-i>.gen.loc] |
-| 3^rd^ (plural) | ph[<3pl-1>.gen] | ph[<3pl-1>.gen.acc] | ph[<3pl-1>.gen.dat] | ph[<3pl-1>.gen.loc] |
+| 3^rd^ (plural) | ph[<3pl>%.gen] | ph[<3pl>%.gen.acc] | ph[<3pl>%.gen.dat] | ph[<3pl>%.gen.loc] |
 
 }{:.aligned-table}
 
@@ -72,10 +72,10 @@ and 3^rd^ singular inanimate.
 
 | Pronouns | Nominative | Accusative | Dative | Locative |
 |-------------------|------------|------------|--------|----------|
-| 1^st^ (singular) | ph[<1sg-1>] | ph[<1sg-1>.acc] | ph[<1sg-1>.dat] | ph[<1sg-1>.loc] |
-| 1^st^ (plural) | ph[<1pl-1>] | ph[<1pl-1>.acc] | ph[<1pl-1>.dat] | ph[<1pl-1>.loc] |
-| 2^nd^ (singular) | ph[<2sg-1>] | ph[<2sg-1>.acc] | ph[<2sg-1>.dat] | ph[<2sg-1>.loc] |
-| 2^nd^ (plural) | ph[<2pl-1>] | ph[<2pl-1>.acc] | ph[<2pl-1>.dat] | ph[<2pl-1>.loc] |
+| 1^st^ (singular) | ph[<1sg>%] | ph[<1sg>%.acc] | ph[<1sg>%.dat] | ph[<1sg>%.loc] |
+| 1^st^ (plural) | ph[<1pl>%] | ph[<1pl>%.acc] | ph[<1pl>%.dat] | ph[<1pl>%.loc] |
+| 2^nd^ (singular) | ph[<2sg>%] | ph[<2sg>%.acc] | ph[<2sg>%.dat] | ph[<2sg>%.loc] |
+| 2^nd^ (plural) | ph[<2pl>%] | ph[<2pl>%.acc] | ph[<2pl>%.dat] | ph[<2pl>%.loc] |
 
 }{:.aligned-table}
 

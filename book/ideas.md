@@ -6,7 +6,7 @@
 - Prefixes: \*ʔuɴu, \*hila, \*qʷasa
 - Demonstrative: \*ha, \*ʔusa, \*ʔahu
 - Derivational agentive suffix: \*ʔuki, \*xi, \*kʷa, ... + class
-- Demonstrative pronoun with r[<one-num-1>] for singular and r[<ones-1>] for plural
+- Demonstrative pronoun with r[<one-num>%] for singular and r[<ones>%] for plural
 - Proto more strict word-order, modern more free (since cases were added)
 - Proto had (locative) copula, modern has predicate adjectives
 - Locative as verb applicative?

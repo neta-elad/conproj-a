@@ -1,6 +1,5 @@
 lang % : % "changes/archaic.lsc"
-lang %archaic : % "changes/archaic.lsc"
-lang %modern : %archaic "changes/modern.lsc"
+lang %modern : % "changes/modern.lsc"
 
 include "lexicon/classifiers.pycl"
 include "lexicon/archaic.pycl"
@@ -9,10 +8,10 @@ include "lexicon/grammar.pycl"
 
 
 
-entry <man> <person-1>.c1 (nh.) man, male person
-entry <men> <people-1>.c1 (nh.) men, male persons
-entry <woman> <person-1>.c2 (nh.) woman, female person
-entry <women> <people-1>.c2 (nh.) women, female persons
+entry <man> <person>%.c1 (nh.) man, male person
+entry <men> <people>%.c1 (nh.) men, male persons
+entry <woman> <person>%.c2 (nh.) woman, female person
+entry <women> <people>%.c2 (nh.) women, female persons
 
 affix % afxs. *^ affix start
 affix % .afxe *~ affix end
@@ -21,91 +20,91 @@ affix % .afxe *~ affix end
 entry <here> *ʔina (det.) proximal demonstrative
 entry <there> *ɬiʔu (det.) distal demonstrative
 entry <this-h> 
-    <here> !+@demonstratives-forming <3sg-1>.c1
+    <here> !+@demonstratives-forming <3sg>%.c1
     (det.) proximal demonstrative (human)
 entry <this-a> 
-    <here> !+@demonstratives-forming <3sg-1>.c3
+    <here> !+@demonstratives-forming <3sg>%.c3
     (det.) proximal demonstrative (animate)
 entry <this-i> 
-    <here> !+@demonstratives-forming <3sg-1>.c5
+    <here> !+@demonstratives-forming <3sg>%.c5
     (det.) proximal demonstrative (inanimate)
 entry <these> 
-    <here> !+@demonstratives-forming <3pl-1>
+    <here> !+@demonstratives-forming <3pl>%
     (det.) proximal demonstrative (plural)
 entry <that-h> 
-    <there> !+@demonstratives-forming <3sg-1>.c1
+    <there> !+@demonstratives-forming <3sg>%.c1
     (det.) distal demonstrative (human)
 entry <that-a> 
-    <there> !+@demonstratives-forming <3sg-1>.c3
+    <there> !+@demonstratives-forming <3sg>%.c3
     (det.) distal demonstrative (animate)
 entry <that-i> 
-    <there> !+@demonstratives-forming <3sg-1>.c5
+    <there> !+@demonstratives-forming <3sg>%.c5
     (det.) distal demonstrative (inanimate)
 entry <those>
-    <there> !+@demonstratives-forming <3pl-1>
+    <there> !+@demonstratives-forming <3pl>%
     (det.) distal demonstrative (plural)
 # -- / --
 
 # CONJUNCTIONS
-entry <rel> <this-1> (conj.) relativizer
+entry <rel> <this>% (conj.) relativizer
 # -- / --
 
 # PRONOUNS
 entry <1sg>
-    <here> !+@verb-conjugation <person-1> 
+    <here> !+@verb-conjugation <person>% 
     (pron.) 1^st^ person singular
-entry <1pl-in> <person-1> (pron.) 1^st^ person plural (inclusive)
+entry <1pl-in> <person>% (pron.) 1^st^ person plural (inclusive)
 entry <1pl-ex>
-    <here> !+@verb-conjugation <people-1> 
+    <here> !+@verb-conjugation <people>% 
     (pron.) 1^st^ person plural (exclusive)
 entry <2sg>
-    <there> !+@verb-conjugation <person-1>
+    <there> !+@verb-conjugation <person>%
     (pron.) 2^nd^ person singular
 entry <2pl>
-    <there> !+@verb-conjugation <people-1>
+    <there> !+@verb-conjugation <people>%
     (pron.) 2^nd^ person plural
-entry <3sg-h> <intensifier-h-1> (pron.) 3^rd^ person singular (human)
-entry <3sg-a> <intensifier-a-1> (pron.) 3^rd^ person singular (animate)
-entry <3sg-i> <intensifier-i-1> (pron.) 3^rd^ person singular (inanimate)
-entry <3pl-h> <people-1> (pron.) 3^rd^ person plural (human)
-entry <3pl-a/i> <intensifier-pl-1> (pron.) 3^rd^ person plural (animate/inanimate)
+entry <3sg-h> <intensifier-h>% (pron.) 3^rd^ person singular (human)
+entry <3sg-a> <intensifier-a>% (pron.) 3^rd^ person singular (animate)
+entry <3sg-i> <intensifier-i>% (pron.) 3^rd^ person singular (inanimate)
+entry <3pl-h> <people>% (pron.) 3^rd^ person plural (human)
+entry <3pl-a/i> <intensifier-pl>% (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
-entry <tree-1> *laŋi (n.) tree
-entry <tree-1-pl> "*ʔaŋi +! *laŋi" (ni.) trees
-entry <forest> <tree-1-pl>.aug (ni.) forest, grove
+entry % <tree> *laŋi (n.) tree
+entry % <tree>.pl "*ʔaŋi +! *laŋi" (ni.) trees
+entry <forest> <tree>%.pl.aug (ni.) forest, grove
 
-entry %archaic <hand> 
+entry % <hand> 
     *tʷali (n.) hand
-entry %archaic <two-hands-1> 
+entry % <two-hands> 
     "*ʔali +! *tʷali" (n.) two hands, both
 
-entry <bear> <hand>%archaic.c3 (na.) bear, large beast with legible fingers
-entry <mouse> <hand>%archaic.c5 (ni.) mouse, small rodent with legible fingers
+entry <bear> <hand>%.c3 (na.) bear, large beast with legible fingers
+entry <mouse> <hand>%.c5 (ni.) mouse, small rodent with legible fingers
 entry <rat> <mouse>.aug (ni.) rat, large mouse
-entry <date> <hand>%archaic.c7 (na.) date, fruit of the date-palm tree
-entry <hand> <hand>%archaic.c2 (nh.) (human) hand
+entry <date> <hand>%.c7 (na.) date, fruit of the date-palm tree
+entry <hand> <hand>%.c2 (nh.) (human) hand
 
 entry <palm tree>
-    <hand>%archaic +! <tree-1> 
+    <hand>% +! <tree>% 
     (ni.) date-palm tree
 
-entry <rope-1> *ʔanasu (n.) rope (archaic)
-entry <rope-1-pl> *ʔana +! *ʔanasu (unknown.) ??
+entry % <rope> *ʔanasu (n.) rope (archaic)
+entry % <rope>.pl *ʔana +! *ʔanasu (unknown.) ??
 
-entry <worm> <rope-1>.c5 (na.) worm
-entry <river> <rope-1>.c6 (na.) river
-entry <bean> <rope-1>.c7 (na.) long beans, pod-borne seeds
-entry <rope-tree> <rope-1> +! <tree-1> (ni.) tree with branches / leaves that look like ropes
+entry <worm> <rope>%.c5 (na.) worm
+entry <river> <rope>%.c6 (na.) river
+entry <bean> <rope>%.c7 (na.) long beans, pod-borne seeds
+entry <rope-tree> <rope>% +! <tree>% (ni.) tree with branches / leaves that look like ropes
 
-entry <tongue-1> *kalira (n.) tongue (archaic)
+entry % <tongue> *kalira (n.) tongue (archaic)
 
-entry <lick> <tongue-1>.vbz (vt.) to lick
+entry <lick> <tongue>%.vbz (vt.) to lick
 entry <slurp> *ʔali !+ <lick> (vt.) ???
 
-entry <bay> <tongue-1>.c6 (na.) bay, gulf, inlet
-entry <woodpecker> <tongue-1>.c4 (nh.) woodpecker
-entry <frog> <tongue-1>.c5 (ni.) frog
+entry <bay> <tongue>%.c6 (na.) bay, gulf, inlet
+entry <woodpecker> <tongue>%.c4 (nh.) woodpecker
+entry <frog> <tongue>%.c5 (ni.) frog
 
 entry <love> *tiluʃa (vt.) to love, like, be drawn to, be entwined with
 entry <leap> *simaku (vi.) to leap, stroll
@@ -114,26 +113,26 @@ entry <jump> "*ʔima +! *simaku" (vi.) to jump, spring
 entry <walk> *ʃifi (vi.) to walk, to stroll, to pace
 
 
-entry <belly-1> *lunita (n.) belly, stomach, gut
+entry % <belly> *lunita (n.) belly, stomach, gut
 
-entry <in> <belly-1> (postp.) in, into
+entry <in> <belly>% (postp.) in, into
 
-entry <boy-1> *mufi (n.) boy, young, male who didn't sired any offsprings
-entry <boy-1-pl> "*ʔufi +! *mufi" (unknown.) ??
-entry <small> <boy-1> (adj.) small, young, short
+entry % <boy> *mufi (n.) boy, young, male who didn't sired any offsprings
+entry % <boy>.pl "*ʔufi +! *mufi" (unknown.) ??
+entry <small> <boy>% (adj.) small, young, short
 
-entry % <steppe-1> *kʷina (n.) plains, steppe
-entry <shallow> <steppe-1> (adj.) shallow, flat
-entry <grass> <steppe-1>.c8 (ni.) grass
+entry % <steppe> *kʷina (n.) plains, steppe
+entry <shallow> <steppe>% (adj.) shallow, flat
+entry <grass> <steppe>%.c8 (ni.) grass
 
-entry % <sun-1> *ʔaniɬu (n.) sun
-entry % <sun-1-pl> *ʔani +! *ʔaniɬu (unknown.) ??
-entry <day> <sun-1>.c8 (ni.) day
-entry <sun god> <sun-1>.c10 (nh.) sun god
-entry <bright> <sun-1> (adj.) bright, white
-entry % <seen-1> <body-1> !+ <see-1> (test.) test
-affix .adj-1 @nominalizers <seen-1> adjectival 1
-entry <new bright> <sun-1>.adj-1 (adj.) new bright
+entry % <sun> *ʔaniɬu (n.) sun
+entry % <sun>.pl *ʔani +! *ʔaniɬu (unknown.) ??
+entry <day> <sun>%.c8 (ni.) day
+entry <sun god> <sun>%.c10 (nh.) sun god
+entry <bright> <sun>% (adj.) bright, white
+entry % <seen> <body>% !+ <see>% (test.) test
+affix .adj-1 @nominalizers <seen>% adjectival 1
+entry <new bright> <sun>%.adj-1 (adj.) new bright
 
 entry <water> *ŋuʃi (na.) water
 entry <water-pl> *ʔuʃi +! *ŋuʃi (unknown.) ??
@@ -141,10 +140,10 @@ entry <earth> *puriqa (ni.) earth
 entry <earth-pl> *ʔuri +! *puriqa (unknown.) ??
 
 
-entry % <wet-1> *ŋusa (adj.) wet, damp
-entry <wet> <wet-1> (adj.) wet, damp
-entry <sweat> <wet-1>.c8 (ni.) sweat, perspiration
-entry <hippo> <wet-1>.c3 (na.) hippopotamus, large river dwelling mammal
+entry % <wet> *ŋusa (adj.) wet, damp
+entry <wet> <wet>% (adj.) wet, damp
+entry <sweat> <wet>%.c8 (ni.) sweat, perspiration
+entry <hippo> <wet>%.c3 (na.) hippopotamus, large river dwelling mammal
 
 entry % <rock> *qamatu (n.) rock, stone (archaic)
 entry % <rock>.pl *ʔama +! *qamatu (unknown.) ??
@@ -154,22 +153,22 @@ entry <armadillo> <rock>%.c5 (ni.) armadillo
 entry <hard> <rock>% (adj.) hard, stern, solid, stable
 entry <pebble> <rock>%.dim (na.) pebble
 
-entry <beast-1> *matuli (n.) beast, large animal
-entry <beast-1-pl> *ʔatu +! *matuli (unknown.) ??
+entry % <beast> *matuli (n.) beast, large animal
+entry % <beast>.pl *ʔatu +! *matuli (unknown.) ??
 
-entry <fear-1> *ʔuɴa (n.) fear  #todo: change?
-entry <big> <fear-1> (adj.) great, big
+entry % <fear> *ʔuɴa (n.) fear  #todo: change?
+entry <big> <fear>% (adj.) great, big
 
-entry % <mountain-1> *χusa (n.) mountain
-entry % <mountain-1-pl> *ʔusa +! *χusa (unknown.) ??
-entry % <mountain-1-reduced> *χuha (n.) mountain (reduced form)
-entry % <big-1> <mountain-1-reduced> (adj.) big, towering
+entry % <mountain> *χusa (n.) mountain
+entry % <mountain>.pl *ʔusa +! *χusa (unknown.) ??
+entry % <mountain-reduced> *χuha (n.) mountain (reduced form)
+entry % <big> <mountain-reduced> (adj.) big, towering
+# entry <big> <mountain>% (adj.) big, large, old, adult
 
-entry % <child-1> *hufi (n.) child, pup, baby
-# entry <big> <mountain-1> (adj.) big, large, old, adult
+entry % <child> *hufi (n.) child, pup, baby
 
-affix .aug @ancient-derivations afxs.<big-1>.afxe augmentative (always inanimate)
-affix .dim @ancient-derivations afxs.<child-1>.afxe diminutive (always animate)
+affix .aug @ancient-derivations afxs.<big>%.afxe augmentative (always inanimate)
+affix .dim @ancient-derivations afxs.<child>%.afxe diminutive (always animate)
 
 entry <give> *kasu (vd.) to give
 
