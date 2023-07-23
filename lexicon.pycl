@@ -1,5 +1,5 @@
-lang % : % "changes/archaic.lsc"
-lang %modern : % "changes/modern.lsc"
+scope % : % "changes/archaic.lsc"
+scope %modern : % "changes/modern.lsc"
 
 include "lexicon/classifiers.pycl"
 include "lexicon/archaic.pycl"
@@ -63,11 +63,11 @@ entry <2sg>
 entry <2pl>
     <there> !+@verb-conjugation <people>%
     (pron.) 2^nd^ person plural
-entry <3sg-h> <intensifier-h>% (pron.) 3^rd^ person singular (human)
-entry <3sg-a> <intensifier-a>% (pron.) 3^rd^ person singular (animate)
-entry <3sg-i> <intensifier-i>% (pron.) 3^rd^ person singular (inanimate)
+entry <3sg-h> <intensifier-h> (pron.) 3^rd^ person singular (human)
+entry <3sg-a> <intensifier-a> (pron.) 3^rd^ person singular (animate)
+entry <3sg-i> <intensifier-i> (pron.) 3^rd^ person singular (inanimate)
 entry <3pl-h> <people>% (pron.) 3^rd^ person plural (human)
-entry <3pl-a/i> <intensifier-pl>% (pron.) 3^rd^ person plural (animate/inanimate)
+entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
 entry % <tree> *laŋi (n.) tree

@@ -20,16 +20,16 @@ entry % <2sg> *nuʔi (pron.) 2^nd^ person singular (archaic)
 entry % <2pl> *sahu (pron.) 2^nd^ person singular (archaic)
 entry % <3sg> <this> (pron.) 3^rd^ person singular (archaic)
 entry % <3pl> <many> (pron.) 3^rd^ person plural (archaic)
-entry % <intensifier-h> 
+entry <intensifier-h> 
     <one>%.c1 +!@intensifier-forming <body>%
     (pron.) intesifier (human gender, archaic)
-entry % <intensifier-a>
+entry <intensifier-a>
     <one>%.c3 +!@intensifier-forming <body>%
     (pron.) intesifier (animate gender, archaic)
-entry % <intensifier-i> 
+entry <intensifier-i> 
     <same>% 
     (pron.) intensifier (inanimate gender, archaic)
-entry % <intensifier-pl> 
+entry <intensifier-pl> 
     <many>% +!@intensifier-forming <body>%
     (pron.) intensifier plural (archaic)
 # -- / --

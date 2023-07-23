@@ -1,4 +1,4 @@
 name = "NewLang"
 author = "Author"
 syllables = true
-lang = "modern"
+scope = "modern"
