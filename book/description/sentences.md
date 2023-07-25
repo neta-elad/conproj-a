@@ -23,6 +23,10 @@ g[<bright>.h.pl <women> <earth>.loc <walk>.cont]
 
 > "The radiating women are walking on the earth"
 
-g[pl.<hard>.h <warrior>.pl <village>.all 3pl.<walk>.remp]
+g[pl.<hard>.h <warrior>.pl <small>.i.acc <village>.all 3pl.<walk>.remp]
 
- > "Once upon a time, the stern warriors walked to the village"
+ > "Once upon a time, the stern warriors walked to the small village"
+
+ g[<dark>.a <river> <mountain range>.loc <slice>.cont]
+
+ > "The dark river is cutting along the mountain range"

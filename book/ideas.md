@@ -11,5 +11,5 @@
 - Proto had (locative) copula, modern has predicate adjectives
 - Locative as verb applicative?
 - Locative on verb as participle / gerundive?
-- Forms: \*kʷina, \*makisa, \*ʔukali, \*pʷimu, \*maʔufi, \*sahiχa, \*talupa
+- Forms: \*kʷina, \*makisa, \*ʔukali, \*pʷimu, \*maʔufi, \*sahiχa, \*talupa, \*tiqʷufu
 

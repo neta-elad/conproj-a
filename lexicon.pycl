@@ -94,6 +94,7 @@ entry <worm> <rope>%.c5 (na.) worm
 entry <river> <rope>%.c6 (na.) river
 entry <bean> <rope>%.c7 (na.) long beans, pod-borne seeds
 entry <rope tree> % <rope> +! <tree> (ni.) tree with branches / leaves that look like ropes
+entry <long> <rope>% (adj.) long, alongated, thin and long
 
 entry % <tongue> *kalira (n.) tongue (archaic)
 
@@ -115,22 +116,31 @@ entry % <belly> *lunita (n.) belly, stomach, gut
 
 entry <in> <belly>% (postp.) in, into
 
-entry % <boy> *mufi (n.) boy, young, male who didn't sired any offsprings
-entry % <boy>.pl { *ʔufi +! *mufi } (unknown.) ??
+entry % <boy> *nifi (n.) boy, young, male who didn't sired any offsprings
+entry % <boy>.pl { *ʔifi +! *nifi } (unknown.) ??
 entry <small> <boy>% (adj.) small, young, short
 
 entry % <steppe> *kʷina (n.) plains, steppe
 entry <shallow> <steppe>% (adj.) shallow, flat
 entry <grass> <steppe>%.c8 (ni.) grass
 
-entry % <sun> *ʔaniɬu (n.) sun
+entry % <sun> *ʔaniɬu (n.) sun, day (archaic)
 entry % <sun>.pl *ʔani +! *ʔaniɬu (unknown.) ??
 entry <day> <sun>%.c8 (ni.) day
 entry <sun god> <sun>%.c10 (nh.) sun god
 entry <bright> <sun>% (adj.) bright, white
+
+
+entry % <night> *fahutʷa (n.) night, darkness (archaic)
+entry <night god> <night>%.c10 (nh.) night god
+entry <night> <night>%.c8 (ni.) night
+entry <dark> <night>% (adj.) dark, dim
+
+# todo: remove? other adjectival derivation?
 entry % <seen> <body>% !+ <see>% (test.) test
 affix .adj-1 @nominalizers <seen>% adjectival 1
 entry <new bright> <sun>%.adj-1 (adj.) new bright
+
 
 entry <water> *ŋuʃi (na.) water
 entry <water-pl> *ʔuʃi +! *ŋuʃi (unknown.) ??
@@ -176,13 +186,16 @@ entry <village> <people>%.gen (ni.) village, settlement
 entry % <sword> *suma (n.) sword, blade, knife
 entry <warrior> <sword>.c1 (nh.) warrior, soldier
 
+entry <slice> <sword>%.vbz (vt.) to slice, to cut
+
+
 
 # tests
 
 # entry <classtest> *kalira (test.)
-entry <classtest> <rock>% (test.)
+entry <classtest> *malaki (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
-entry &tam <tamtest> <water>.vbz (test.) TAM test
+entry &tam <tamtest> <slice> (test.) TAM test
 entry <verb> *punati (v.) to verb
 entry <test> *matala (test.) test

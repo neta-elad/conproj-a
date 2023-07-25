@@ -8,3 +8,6 @@ usually to create a less strict meaning:
 - genitive + accusative = allative
 - genitive + dative = sociative / comitative
 - genitive + locative = apudessive
+
+For the combined cases, adjectives agree with the latter one 
+(i.e., not the genitive).
