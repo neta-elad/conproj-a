@@ -64,8 +64,7 @@ and 3^rd^ singular inanimate.
 
 }{:.aligned-table}
 
-<details>
-    <summary><del>drafts</del></summary>
+
 
 ### Old Regular Pronouns
 
@@ -98,5 +97,3 @@ and 3^rd^ singular inanimate.
 | 3^rd^ (animate/inanimate, plural) | ph[<3pl-a/i>.gen] | ph[<3pl-a/i>.gen.acc] | ph[<3pl-a/i>.gen.dat] | ph[<3pl-a/i>.gen.loc] |
 
 }{:.aligned-table}
-
-</details>

@@ -171,6 +171,10 @@ affix .dim @ancient-derivations % afxs.<child>.afxe diminutive (always animate)
 
 entry <give> *kasu (vd.) to give
 
+entry <village> <people>%.gen (ni.) village, settlement
+
+entry % <sword> *suma (n.) sword, blade, knife
+entry <warrior> <sword>.c1 (nh.) warrior, soldier
 
 
 # tests

@@ -7,4 +7,4 @@ usually to create a less strict meaning:
 
 - genitive + accusative = allative
 - genitive + dative = sociative / comitative
-- genitive + locative = adupessive
+- genitive + locative = apudessive

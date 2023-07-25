@@ -6,6 +6,11 @@ entry % <loc-copula> <live>% (vt.) locative copula
 affix .loc @cases-forming <loc-copula> locative
 # -- / --
 
+# EXTENDED CASES
+affix .all $.gen.acc allative
+affix .apud $.gen.loc apudessive
+# -- / --
+
 affix .place-nmlz @nominalizers afxs.<home>%.afxe place nominalizer
 affix .act-nmlz @nominalizers afxs.<.c8>.afxe action nominalizer
 affix .agent-nmlz @nominalizers afxs.<person>%.afxe agent nominalizer

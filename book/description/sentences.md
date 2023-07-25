@@ -22,3 +22,7 @@ g[<hard>.i <forest> <big>.a.acc <pebble>.acc pl.<small>.a.dat pl.<hippo>.dat 3sg
 g[<bright>.h.pl <women> <earth>.loc <walk>.cont]
 
 > "The radiating women are walking on the earth"
+
+g[pl.<hard>.h <warrior>.pl <village>.all 3pl.<walk>.remp]
+
+ > "Once upon a time, the stern warriors walked to the village"
