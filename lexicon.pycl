@@ -160,15 +160,16 @@ entry % <fear> *ʔuɴa (n.) fear  #todo: change?
 entry <big> <fear>% (adj.) great, big
 
 entry % <mountain> *χusa (n.) mountain
-entry % <mountain>.pl *ʔusa +! *χusa (unknown.) ??
+entry % <mountain>.pl *ʔusa +! *χusa (unknown.) mountain (plural)
 entry % <mountain-reduced> *χuha (n.) mountain (reduced form)
 entry % <big> <mountain-reduced> (adj.) big, towering
 # entry <big> <mountain>% (adj.) big, large, old, adult
+entry <mountain range> % <mountain>.pl (ni.) mountain range
 
 entry % <child> *hufi (n.) child, pup, baby
 
-affix .aug @ancient-derivations afxs.<big>%.afxe augmentative (always inanimate)
-affix .dim @ancient-derivations afxs.<child>%.afxe diminutive (always animate)
+affix .aug @ancient-derivations % afxs.<big>.afxe augmentative (always inanimate)
+affix .dim @ancient-derivations % afxs.<child>.afxe diminutive (always animate)
 
 entry <give> *kasu (vd.) to give
 
