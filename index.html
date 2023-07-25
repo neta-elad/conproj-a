@@ -90,7 +90,10 @@
 <li><a href="#name-language-description">NewLang Language Description</a><ul>
 <li><a href="#some-sentences">Some Sentences</a></li>
 <li><a href="#determiners">Determiners</a></li>
+<li><a href="#nouns">Nouns</a></li>
+<li><a href="#adjectives">Adjectives</a></li>
 <li><a href="#possession">Possession</a></li>
+<li><a href="#agreement">Agreement</a></li>
 <li><a href="#verb-derivations">Verb derivations</a></li>
 <li><a href="#noun-derivations">Noun derivations</a></li>
 <li><a href="#phonology">Phonology</a></li>
@@ -110,7 +113,6 @@
 </ul>
 </li>
 <li><a href="#name-reference-grammar">NewLang Reference Grammar</a><ul>
-<li><a href="#tables">Tables</a><ul>
 <li><a href="#pronouns_1">Pronouns</a><ul>
 <li><a href="#regular-cases-pronouns">Regular Cases Pronouns</a></li>
 <li><a href="#genitive-cases-pronouns">Genitive Cases Pronouns</a></li>
@@ -121,8 +123,6 @@
 <li><a href="#demonstratives">Demonstratives</a></li>
 <li><a href="#cases_1">Cases</a></li>
 <li><a href="#tams_1">TAMs</a></li>
-</ul>
-</li>
 </ul>
 </li>
 <li><a href="#name-to-english-dictionary">NewLang to English Dictionary</a><ul>
@@ -153,23 +153,13 @@
 <h1 id="todo">TODO</h1>
 <ul>
 <li>Next up:<ul>
-<li>pluralization:<ul>
-<li>old by reduplication</li>
-<li>new by ?</li>
-<li>adjectives agree with pluralization?</li>
-</ul>
-</li>
+<li>get rid of 2<sup>nd</sup> person class distinction?</li>
 </ul>
 </li>
 <li>relativizer</li>
-<li>get rid of 2<sup>nd</sup> person class distinction?</li>
 <li>shorter case/TAM affixes?</li>
 <li>delay .gen affixation?</li>
 <li>verb participles</li>
-<li>modern pluralization strategies<ul>
-<li>maybe using &lt;ones-1&gt;</li>
-</ul>
-</li>
 <li>adpositions</li>
 <li>Stress rule</li>
 <li>Noun derivations</li>
@@ -179,10 +169,10 @@
 <li>Liquid + Nasal codas</li>
 <li>Rhotic + h (any non-sibilant fricative?)<ul>
 <li>Partially solved by loss of final weak fricatives?</li>
+<li>examples?</li>
 </ul>
 </li>
 </ul>
-<p><strong>xus</strong></p>
 <h1 id="ideas">Ideas</h1>
 <ul>
 <li>Coastal plain society<ul>
@@ -206,7 +196,7 @@
 <ul>
 <li>Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).</li>
-<li>Nouns follow their modifiers (determiners and adjectives(?)).</li>
+<li>Nouns follow their modifiers (determiners and adjectives).</li>
 <li>There are mainly postpositions (instead of prepositions),
 and noun cases are marked with suffixes.</li>
 </ul>
@@ -234,8 +224,7 @@ Those base cases are:</p>
     as well as some natural phenomena (rivers, storms).</li>
 <li>Inanimate, for all other nouns.</li>
 </ul>
-<p>donotinclude{description/tables.md}@</p>
-<h3 id="some-sentences">Some Sentences</h3>
+<h2 id="some-sentences">Some Sentences</h2>
 <div class="gloss-table">
 <table>
 <thead>
@@ -320,7 +309,7 @@ Those base cases are:</p>
 <thead>
 <tr>
 <th><ruby><strong>hat</strong> <rt>[ˈhɐt]</rt></ruby></th>
-<th><ruby><strong>léhox</strong> <rt>[ˈlɛ.hɔx]</rt></ruby></th>
+<th><ruby><strong>alóx</strong> <rt>[ɐ.ˈlɔx]</rt></ruby></th>
 <th><ruby><strong>oméc</strong> <rt>[ɔ.ˈmɛç]</rt></ruby></th>
 <th><ruby><strong>hetúfic</strong> <rt>[hɛ.ˈtu.fiç]</rt></ruby></th>
 <th><ruby><strong>lemufíl</strong> <rt>[lɛ.mu.ˈfil]</rt></ruby></th>
@@ -331,11 +320,11 @@ Those base cases are:</p>
 <tbody>
 <tr>
 <td><abbr title="(adj.) hard, stern, solid, stable">hard</abbr>.<abbr title="Inaniamte">i</abbr></td>
-<td><abbr title="(ni.) forest, grove">forest</abbr></td>
+<td><abbr title="(ni.) forest">forest</abbr></td>
 <td><abbr title="(adj.) great, big">big</abbr>.<abbr title="Animate">a</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
 <td><abbr title="(na.) pebble">pebble</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="plural prefix (for animate)">pl</abbr>.<abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Animate">a</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
-<td><abbr title="plural prefix (for animate)">pl</abbr>.<abbr title="(na.) hippopotamus, large river dwelling mammal">hippo</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Animate">a</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(na.) hippopotamus, large river dwelling mammal">hippo</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
 <td><abbr title="3^rd^ person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vd.) to give">give</abbr>.<abbr title="past tense">pst</abbr></td>
 </tr>
 </tbody>
@@ -367,15 +356,45 @@ Those base cases are:</p>
 <blockquote>
 <p>&ldquo;The radiating women are walking on the earth&rdquo;</p>
 </blockquote>
+<div class="gloss-table">
+<table>
+<thead>
+<tr>
+<th><ruby><strong>lehét</strong> <rt>[lɛ.ˈhɛt]</rt></ruby></th>
+<th><ruby><strong>súmuk</strong> <rt>[ˈsu.muk]</rt></ruby></th>
+<th><ruby><strong>akachóshec</strong> <rt>[ɐ.kɐ.ˈt͡ʃɔ.ʃɛç]</rt></ruby></th>
+<th><ruby><strong>xeshífi</strong> <rt>[xɛ.ˈʃi.fi]</rt></ruby></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(adj.) hard, stern, solid, stable">hard</abbr>.<abbr title="Human">h</abbr></td>
+<td><abbr title="(nh.) warrior, soldier">warrior</abbr>.<abbr title="plural suffix (for human)">pl</abbr></td>
+<td><abbr title="(ni.) village, settlement">village</abbr>.<abbr title="allative">all</abbr></td>
+<td><abbr title="3^rd^ person plural prefix">3pl</abbr>.<abbr title="(vi.) to walk, to stroll, to pace">walk</abbr>.<abbr title="remote / narrative past">remp</abbr></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>
+<p>&ldquo;Once upon a time, the stern warriors walked to the village&rdquo;</p>
+</blockquote>
 <h2 id="determiners">Determiners</h2>
 <p>By default, nouns in NewLang are definite.
 For singular nouns there is an indefinite article:</p>
 <ul>
 <li>Comes from &ldquo;one&rdquo;</li>
-<li>Agrees with gender and basic case (NOM, ACC, GEN, LOC)</li>
+<li>Agrees with gender and basic case (NOM, ACC, GEN, DAT, LOC)</li>
 <li>Precedes the noun</li>
 <li>Only for singular (for inanimate creates singulative)</li>
 </ul>
+<h2 id="nouns">Nouns</h2>
+<p>There are 3 noun genders: human, animate and inanimate.</p>
+<p>Human nouns usually take the plural suffix -<strong>ek</strong>,
+while animate and inanimate nouns take the plural <em>prefix</em> <strong>le</strong>-.</p>
+<h2 id="adjectives">Adjectives</h2>
+<p>Adjectives agree with nouns in case and number,
+but always take the <strong>le</strong>- plural prefix.</p>
 <h2 id="possession">Possession</h2>
 <ul>
 <li>Old possession used genitive</li>
@@ -386,6 +405,7 @@ optional for personal pronouns</li>
 </ul>
 </li>
 </ul>
+<h2 id="agreement">Agreement</h2>
 <p>Adjectives agree and verbs agree (for subject).</p>
 <h2 id="verb-derivations">Verb derivations</h2>
 <p>Verb derivations and valency changing operations
@@ -1014,8 +1034,7 @@ These combine in the following ways in the modern language:</p>
 </table>
 </details>
 <h1 id="name-reference-grammar">NewLang Reference Grammar</h1>
-<h2 id="tables">Tables</h2>
-<h3 id="pronouns_1">Pronouns</h3>
+<h2 id="pronouns_1">Pronouns</h2>
 <p>Modern pronouns were derived from the words for person/people 
 and here/there demonstratives:</p>
 <div class="aligned-table">
@@ -1063,7 +1082,7 @@ and here/there demonstratives:</p>
 </tbody>
 </table>
 </div>
-<h4 id="regular-cases-pronouns">Regular Cases Pronouns</h4>
+<h3 id="regular-cases-pronouns">Regular Cases Pronouns</h3>
 <div class="aligned-table">
 <table>
 <thead>
@@ -1149,7 +1168,7 @@ and here/there demonstratives:</p>
 </tbody>
 </table>
 </div>
-<h4 id="genitive-cases-pronouns">Genitive Cases Pronouns</h4>
+<h3 id="genitive-cases-pronouns">Genitive Cases Pronouns</h3>
 <p>The genitive pronouns are based on the old pronouns,
 for 1<sup>st</sup> and 2<sup>nd</sup> persons, 
 and on the numeral &ldquo;one&rdquo; (<em>*na</em>)
@@ -1249,8 +1268,7 @@ and 3<sup>rd</sup> singular inanimate.</p>
 </tbody>
 </table>
 </div>
-<p>!details:<del>drafts</del></p>
-<h4 id="old-regular-pronouns">Old Regular Pronouns</h4>
+<h3 id="old-regular-pronouns">Old Regular Pronouns</h3>
 <div class="aligned-table">
 <table>
 <thead>
@@ -1294,7 +1312,7 @@ and 3<sup>rd</sup> singular inanimate.</p>
 </tbody>
 </table>
 </div>
-<h4 id="modern-genitive-pronouns">Modern Genitive Pronouns</h4>
+<h3 id="modern-genitive-pronouns">Modern Genitive Pronouns</h3>
 <div class="aligned-table">
 <table>
 <thead>
@@ -1380,8 +1398,7 @@ and 3<sup>rd</sup> singular inanimate.</p>
 </tbody>
 </table>
 </div>
-<p>!details</p>
-<h3 id="demonstratives">Demonstratives</h3>
+<h2 id="demonstratives">Demonstratives</h2>
 <div class="aligned-table">
 <table>
 <thead>
@@ -1408,16 +1425,16 @@ and 3<sup>rd</sup> singular inanimate.</p>
 </tbody>
 </table>
 </div>
-<h3 id="cases_1">Cases</h3>
+<h2 id="cases_1">Cases</h2>
 <p>NewLang has 5 cases: nominative, accusative, dative, locative and genitive.</p>
 <p>The genitive can also be combined with other cases,
 usually to create a less strict meaning:</p>
 <ul>
 <li>genitive + accusative = allative</li>
 <li>genitive + dative = sociative / comitative</li>
-<li>genitive + locative = adupessive</li>
+<li>genitive + locative = apudessive</li>
 </ul>
-<h3 id="tams_1">TAMs</h3>
+<h2 id="tams_1">TAMs</h2>
 <h1 id="name-to-english-dictionary">NewLang to English Dictionary</h1>
 <h5 id="how-to-read-dictionary-entries">How to Read Dictionary Entries</h5>
 <p>Below is a sample dictionary entry from the NewLang-English side of the dictionary. 
@@ -1452,6 +1469,8 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <h2 id="a">A</h2>
 <p><strong>ahét</strong> [ɐ.ˈhɛt] <em>*ʔama</em> + <em>*qamatu</em> (unknown.) ??</p>
 <p><strong>ahó</strong> [ɐ.ˈhɔ] <em>*ʔamikami</em> + <em>*qʷa</em> (nh.) women, female persons</p>
+<p><strong>akách</strong> [ɐ.ˈkɐt͡ʃ] <em>*ʔamikami</em> + <em>*ʃuqʷa</em> (ni.) village, settlement</p>
+<p><strong>alóx</strong> [ɐ.ˈlɔx] <em>*ʔaŋi</em> + <em>*laŋi</em> + <em>*^</em> + <em>*χuha</em> + <em>*~</em> (ni.) forest</p>
 <p><strong>axé</strong> [ɐ.ˈxɛ] <em>*ʔaŋiχaŋi</em> (det.) all</p>
 <h2 id="c">C</h2>
 <p><strong>ce</strong> [ˈçɛ] <em>*ʔixa</em> (vt.) to see, to set oneself towards something, to face</p>
@@ -1463,7 +1482,7 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (n.) people (archaic)</p>
 <p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (pron.) 3<sup>rd</sup> person plural (human)</p>
 <p><strong>ekém</strong> [ɛ.ˈkɛm] <em>*ʔamikami</em> + <em>*ʔu</em> (nh.) men, male persons</p>
-<p><strong>elé</strong> [ɛ.ˈlɛ] <em>*ʔaŋi</em> + <em>*laŋi</em> (ni.) trees</p>
+<p><strong>elé</strong> [ɛ.ˈlɛ] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) tree (plural)</p>
 <p><strong>elkélres</strong> [ɛl.ˈkɛl.rɛs] <em>*ʔali</em> + <em>*kalira</em> + <em>*si</em> (vt.) ???</p>
 <p><strong>ellél</strong> [ɛ.ˈɬɛl] <em>*ʔali</em> + <em>*tʷali</em> (n.) two hands, both</p>
 <h2 id="f">F</h2>
@@ -1502,7 +1521,6 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <h2 id="l">L</h2>
 <p><strong>le</strong> [ˈlɛ] <em>*lamu</em> (det.) all (archaic)</p>
 <p><strong>le</strong> [ˈlɛ] <em>*laŋi</em> (n.) tree</p>
-<p><strong>léhox</strong> [ˈlɛ.hɔx] <em>*laŋi</em> + <em>*^</em> + <em>*ʔamikami</em> + <em>*~</em> + <em>*^</em> + <em>*χuha</em> + <em>*~</em> (ni.) forest, grove</p>
 <p><strong>lla</strong> [ˈɬɐ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ɴi</em> (det.) distal demonstrative (inanimate)</p>
 <p><strong>lle</strong> [ˈɬɛ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ma</em> (det.) distal demonstrative (animate)</p>
 <p><strong>llek</strong> [ˈɬɛk] <em>*ɬiʔu</em> + <em>*ʔamikami</em> (pron.) 2<sup>nd</sup> person plural</p>
@@ -1557,6 +1575,8 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>sik</strong> [ˈsik] <em>*simaku</em> (vi.) to leap, stroll</p>
 <p><strong>so</strong> [ˈsɔ] <em>*sahu</em> (pron.) 2<sup>nd</sup> person singular (archaic)</p>
 <p><strong>sóxus</strong> [ˈsɔ.xus] <em>*ʔusa</em> + <em>*χusa</em> (unknown.) mountain (plural)</p>
+<p><strong>su</strong> [ˈsu] <em>*suma</em> (n.) sword, blade, knife</p>
+<p><strong>sum</strong> [ˈsum] <em>*suma</em> + <em>*ʔu</em> (nh.) warrior, soldier</p>
 <h2 id="t">T</h2>
 <p><strong>t&rsquo;útul</strong> [ˈt̪u.tul] <em>*ʔatu</em> + <em>*matuli</em> (unknown.) ??</p>
 <p><strong>tháleng</strong> [ˈθɐ.lɛŋ] <em>*tʷali</em> + <em>*ɴi</em> (ni.) mouse, small rodent with legible fingers</p>
@@ -1581,7 +1601,6 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>tso</strong> [ˈt͡sɔ] <em>*ʔanasu</em> + <em>*ɴi</em> (na.) worm</p>
 <p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> (n.) rope (archaic)</p>
 <p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> + <em>*ŋu</em> (na.) river</p>
-<p><strong>tsúlun</strong> [ˈt͡su.lun] <em>*ʔanasu</em> + <em>*laŋi</em> (ni.) tree with branches / leaves that look like ropes</p>
 <h2 id="u">U</h2>
 <p><strong>u</strong> [ˈu] <em>*qʷumi</em> (v.) to stand, to stay</p>
 <p><strong>urpór</strong> [ur.ˈpɔr] <em>*ʔuri</em> + <em>*puriqa</em> (unknown.) ??</p>
@@ -1594,6 +1613,8 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>xe</strong> [ˈxɛ] <em>*χuha</em> (n.) mountain (reduced form)</p>
 <p><strong>xus</strong> [ˈxus] <em>*χusa</em> (n.) mountain</p>
 <h2 id="_1">ʔ</h2>
+<p><strong>ʔánasulangi</strong> [ʔánasulangi] <em>*ʔanasu</em> + <em>*laŋi</em> (ni.) tree with branches / leaves that look like ropes</p>
+<p><strong>ʔángilangi</strong> [ʔángilangi] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) grove</p>
 <p><strong>ʔúsaχusa</strong> [ʔúsaχusa] <em>*ʔusa</em> + <em>*χusa</em> (ni.) mountain range</p>
         </main>
     </body>
