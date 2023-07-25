@@ -1,17 +1,11 @@
 # TODO
 
 - Next up:
-    - pluralization:
-        - old by reduplication
-        - new by ?
-        - adjectives agree with pluralization?
+    - get rid of 2^nd^ person class distinction?
 - relativizer
-- get rid of 2^nd^ person class distinction?
 - shorter case/TAM affixes?
 - delay .gen affixation?
 - verb participles
-- modern pluralization strategies
-    - maybe using \<ones-1\>
 - adpositions
 - Stress rule
 - Noun derivations
@@ -21,5 +15,3 @@
 - Liquid + Nasal codas
 - Rhotic + h (any non-sibilant fricative?)
     - Partially solved by loss of final weak fricatives?
-
-r[<mountain>%]

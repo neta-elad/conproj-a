@@ -6,7 +6,7 @@ $name is a primarly head-final language:
 
 - Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).
-- Nouns follow their modifiers (determiners and adjectives(?)).
+- Nouns follow their modifiers (determiners and adjectives).
 - There are mainly postpositions (instead of prepositions),
 and noun cases are marked with suffixes.
 
@@ -34,7 +34,6 @@ Nouns are classified according to 3 genders:
     as well as some natural phenomena (rivers, storms).
 - Inanimate, for all other nouns.
 
-donotinclude{description/tables.md}@
 @{description/sentences.md}@
 
 ## Determiners
@@ -43,9 +42,21 @@ By default, nouns in $name are definite.
 For singular nouns there is an indefinite article:
 
 - Comes from "one"
-- Agrees with gender and basic case (NOM, ACC, GEN, LOC)
+- Agrees with gender and basic case (NOM, ACC, GEN, DAT, LOC)
 - Precedes the noun
 - Only for singular (for inanimate creates singulative)
+
+## Nouns
+
+There are 3 noun genders: human, animate and inanimate.
+
+Human nouns usually take the plural suffix -r[<.pl>],
+while animate and inanimate nouns take the plural *prefix* r[<pl.>]-.
+
+## Adjectives
+
+Adjectives agree with nouns in case and number,
+but always take the r[<pl.>]- plural prefix.
 
 ## Possession
 
@@ -56,7 +67,7 @@ For singular nouns there is an indefinite article:
     optional for personal pronouns
 
 
-
+## Agreement
 
 Adjectives agree and verbs agree (for subject).
 

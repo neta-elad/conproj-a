@@ -1,4 +1,4 @@
-### Pronouns
+## Pronouns
 
 Modern pronouns were derived from the words for person/people 
 and here/there demonstratives:
@@ -16,7 +16,7 @@ and here/there demonstratives:
 
 }{:.aligned-table}
 
-#### Regular Cases Pronouns
+### Regular Cases Pronouns
 &{
 
 | Pronouns | Nominative | Accusative | Dative | Locative |
@@ -34,7 +34,7 @@ and here/there demonstratives:
 
 }{:.aligned-table}
 
-#### Genitive Cases Pronouns
+### Genitive Cases Pronouns
 
 The genitive pronouns are based on the old pronouns,
 for 1^st^ and 2^nd^ persons, 
@@ -64,9 +64,10 @@ and 3^rd^ singular inanimate.
 
 }{:.aligned-table}
 
-!details:~~drafts~~
+<details>
+    <summary><del>drafts</del></summary>
 
-#### Old Regular Pronouns
+### Old Regular Pronouns
 
 &{
 
@@ -79,7 +80,7 @@ and 3^rd^ singular inanimate.
 
 }{:.aligned-table}
 
-#### Modern Genitive Pronouns
+### Modern Genitive Pronouns
 
 &{
 
@@ -98,4 +99,4 @@ and 3^rd^ singular inanimate.
 
 }{:.aligned-table}
 
-!details
+</details>

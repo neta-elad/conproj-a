@@ -1,4 +1,4 @@
-### Some Sentences
+## Some Sentences
 
 
 g[<big>.a <bear> <wet>.i.loc <grass>.loc <rel> <mouse>.acc 3sg-a.<love>.phab]

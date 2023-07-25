@@ -68,8 +68,9 @@ entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
 entry % <tree> *laŋi (n.) tree
-entry % <tree>.pl { *ʔaŋi +! *laŋi } (ni.) trees
-entry <forest> <tree>%.pl.aug (ni.) forest, grove
+entry % <tree>.pl { *ʔaŋi +! *laŋi } (n.) tree (plural)
+entry <grove> % <tree>.pl (n.) grove
+entry <forest> <grove>.aug (ni.) forest
 
 entry % <hand> 
     *tʷali (n.) hand
@@ -92,7 +93,7 @@ entry % <rope>.pl *ʔana +! *ʔanasu (unknown.) ??
 entry <worm> <rope>%.c5 (na.) worm
 entry <river> <rope>%.c6 (na.) river
 entry <bean> <rope>%.c7 (na.) long beans, pod-borne seeds
-entry <rope-tree> <rope>% +! <tree>% (ni.) tree with branches / leaves that look like ropes
+entry <rope tree> % <rope> +! <tree> (ni.) tree with branches / leaves that look like ropes
 
 entry % <tongue> *kalira (n.) tongue (archaic)
 
@@ -158,8 +159,8 @@ entry <big> <fear>% (adj.) great, big
 
 entry % <mountain> *χusa (n.) mountain
 entry % <mountain>.pl *ʔusa +! *χusa (unknown.) mountain (plural)
-entry % <mountain-reduced> *χuha (n.) mountain (reduced form)
-entry % <big> <mountain-reduced> (adj.) big, towering
+entry % <mountain reduced> *χuha (n.) mountain (reduced form)
+entry % <big> <mountain reduced> (adj.) big, towering
 # entry <big> <mountain>% (adj.) big, large, old, adult
 entry <mountain range> % <mountain>.pl (ni.) mountain range
 

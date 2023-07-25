@@ -1,4 +1,4 @@
-### Cases
+## Cases
 
 $name has 5 cases: nominative, accusative, dative, locative and genitive.
 
