@@ -5,9 +5,6 @@ include "lexicon/classifiers.pycl"
 include "lexicon/archaic.pycl"
 include "lexicon/grammar.pycl"
 
-
-
-
 entry <man> <person>%.c1 (nh.) man, male person
 entry <men> <people>%.c1 (nh.) men, male persons
 entry <woman> <person>%.c2 (nh.) woman, female person
@@ -71,13 +68,13 @@ entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
 entry % <tree> *laŋi (n.) tree
-entry % <tree>.pl "*ʔaŋi +! *laŋi" (ni.) trees
+entry % <tree>.pl { *ʔaŋi +! *laŋi } (ni.) trees
 entry <forest> <tree>%.pl.aug (ni.) forest, grove
 
 entry % <hand> 
     *tʷali (n.) hand
 entry % <two-hands> 
-    "*ʔali +! *tʷali" (n.) two hands, both
+    { *ʔali +! *tʷali } (n.) two hands, both
 
 entry <bear> <hand>%.c3 (na.) bear, large beast with legible fingers
 entry <mouse> <hand>%.c5 (ni.) mouse, small rodent with legible fingers
@@ -108,7 +105,7 @@ entry <frog> <tongue>%.c5 (ni.) frog
 
 entry <love> *tiluʃa (vt.) to love, like, be drawn to, be entwined with
 entry <leap> *simaku (vi.) to leap, stroll
-entry <jump> "*ʔima +! *simaku" (vi.) to jump, spring
+entry <jump> { *ʔima +! *simaku } (vi.) to jump, spring
 
 entry <walk> *ʃifi (vi.) to walk, to stroll, to pace
 
@@ -118,7 +115,7 @@ entry % <belly> *lunita (n.) belly, stomach, gut
 entry <in> <belly>% (postp.) in, into
 
 entry % <boy> *mufi (n.) boy, young, male who didn't sired any offsprings
-entry % <boy>.pl "*ʔufi +! *mufi" (unknown.) ??
+entry % <boy>.pl { *ʔufi +! *mufi } (unknown.) ??
 entry <small> <boy>% (adj.) small, young, short
 
 entry % <steppe> *kʷina (n.) plains, steppe
