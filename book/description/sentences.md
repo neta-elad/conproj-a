@@ -6,7 +6,7 @@ g[<big>.a <bear> <wet>.i.loc <grass>.loc <rel> <mouse>.acc 3sg-a.<love>.phab]
 > "The big bear used to love the mouse that's on the short grass"
 
 
-g[<frog> <shallow>.a.loc <bay>.loc <in> 3sg-i.<jump>.fut]
+g[<frog> <shallow>.a.lat <bay>.lat <in> 3sg-i.<jump>.fut]
 
 > "The frog will jump into the shallow bay"
 

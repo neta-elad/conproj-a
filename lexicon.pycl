@@ -1,5 +1,6 @@
 scope % : % "changes/archaic.lsc"
-scope %modern : % "changes/modern.lsc"
+scope %middle : % "changes/modern.lsc"
+scope %modern : %middle "changes/modern.lsc"
 
 include "lexicon/classifiers.pycl"
 include "lexicon/archaic.pycl"
@@ -196,6 +197,6 @@ entry <slice> <sword>%.vbz (vt.) to slice, to cut
 entry <classtest> *malaki (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
-entry &tam <tamtest> <slice> (test.) TAM test
+entry &tam <tamtest> *pulami (test.) TAM test
 entry <verb> *punati (v.) to verb
 entry <test> *matala (test.) test

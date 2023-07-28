@@ -1,13 +1,15 @@
 # NOUN CASES
 affix .gen @genitive-forming <home>% genitive case
-affix .acc @cases-forming <see>% accusative / allative case
-affix .dat @cases-forming <help>% dative / benefactive case
+affix .acc @cases-forming <see>% accusative case
+affix .lat $.acc lative case (to)
+affix .dat @cases-forming <help>% dative case
 entry % <loc-copula> <live>% (vt.) locative copula
 affix .loc @cases-forming <loc-copula> locative
 # -- / --
 
 # EXTENDED CASES
-affix .all $.gen.acc allative
+affix .all $.gen.acc allative (towards)
+affix .ben $.gen.dat benefactive
 affix .apud $.gen.loc apudessive
 # -- / --
 

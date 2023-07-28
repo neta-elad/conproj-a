@@ -2,8 +2,6 @@
 
 $name is a primarly head-final language:
 
-\u0106
-
 - Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).
 - Nouns follow their modifiers (determiners and adjectives).
@@ -11,18 +9,23 @@ and specifically, the default word order is SOV (subject-object-verb).
 and noun cases are marked with suffixes.
 
 There are 5 base cases, 
-on top which more complicated ones are constructed.
-Noun modifiers agree with the base case of the noun.
-Those base cases are:
+on top of which more complicated ones are constructed:
 
 - Nominative, the subject of the sentence.
-- Accusative, the direct object of the sentence.
+- Accusative/Lative, the direct object of the sentence, 
+    or an indirect object representing the target of action general (to).
 - Dative, an indirect object
-    representing beneficiary or goal of the action.
+    representing the recipient or goal of the action.
 - Locative, an indirect object
     representing the place where the event occurred.
-- Genitive, used for possession constructions ('s in English), 
-    as well as the base case for combining with other cases.
+- Genitive, used for possession constructions ('s in English).
+    as well as the base case for combining with other cases:
+    - +Accusative => Allative, an indirect object
+    representing the general direction of the action (towards).
+    - +Dative => Benefactive, an indirect object
+    representing the beneficiary of the action.
+    - +Locative => Apudessive, an indirect object
+    representing adjacency and vicinity.
 
 Nouns are classified according to 3 genders:
 
@@ -57,6 +60,9 @@ while animate and inanimate nouns take the plural *prefix* r[<pl.>]-.
 
 Adjectives agree with nouns in case and number,
 but always take the r[<pl.>]- plural prefix.
+
+For combined cases (genitive + other), 
+adjectives take non-genitive case.
 
 ## Possession
 

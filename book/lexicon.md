@@ -1,7 +1,7 @@
 # $name to English Dictionary
 ##### How to Read Dictionary Entries
 
-Below is a sample dictionary entry from the $name-English side of the dictionary. 
+Below is a sample dictionary entry.
 Each item has a number which corresponds to an explanation below the entry:
 
 **egzampul**^1^ \[ɛg.ˈzæm.pul\]^2^ \**ksmpl*^3^ (ni.)^4^ definition^5^ (and more information)^6^
@@ -30,4 +30,8 @@ Each item has a number which corresponds to an explanation below the entry:
 6. Additional information (register, pragmatics).
 
 
-!dictionary
+!dictionary:%%
+
+# Affixes Table
+
+!affixes:%%
