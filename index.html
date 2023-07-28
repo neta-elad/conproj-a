@@ -128,7 +128,6 @@
 <li><a href="#name-to-english-dictionary">NewLang to English Dictionary</a><ul>
 <li><a href="#how-to-read-dictionary-entries">How to Read Dictionary Entries</a></li>
 <li><a href="#a">A</a></li>
-<li><a href="#c">C</a></li>
 <li><a href="#e">E</a></li>
 <li><a href="#f">F</a></li>
 <li><a href="#h">H</a></li>
@@ -139,14 +138,13 @@
 <li><a href="#n">N</a></li>
 <li><a href="#o">O</a></li>
 <li><a href="#p">P</a></li>
-<li><a href="#r">R</a></li>
 <li><a href="#s">S</a></li>
 <li><a href="#t">T</a></li>
 <li><a href="#u">U</a></li>
 <li><a href="#x">X</a></li>
-<li><a href="#_1">ʔ</a></li>
 </ul>
 </li>
+<li><a href="#affixes-table">Affixes Table</a></li>
 </ul>
 </div>
 </details>
@@ -192,7 +190,6 @@
 </ul>
 <h1 id="name-language-description">NewLang Language Description</h1>
 <p>NewLang is a primarly head-final language:</p>
-<p>Ć</p>
 <ul>
 <li>Verbs follow their objects,
 and specifically, the default word order is SOV (subject-object-verb).</li>
@@ -201,18 +198,25 @@ and specifically, the default word order is SOV (subject-object-verb).</li>
 and noun cases are marked with suffixes.</li>
 </ul>
 <p>There are 5 base cases, 
-on top which more complicated ones are constructed.
-Noun modifiers agree with the base case of the noun.
-Those base cases are:</p>
+on top of which more complicated ones are constructed:</p>
 <ul>
 <li>Nominative, the subject of the sentence.</li>
-<li>Accusative, the direct object of the sentence.</li>
+<li>Accusative/Lative, the direct object of the sentence, 
+    or an indirect object representing the target of action general (to).</li>
 <li>Dative, an indirect object
-    representing beneficiary or goal of the action.</li>
+    representing the recipient or goal of the action.</li>
 <li>Locative, an indirect object
     representing the place where the event occurred.</li>
-<li>Genitive, used for possession constructions (&lsquo;s in English), 
-    as well as the base case for combining with other cases.</li>
+<li>Genitive, used for possession constructions (&lsquo;s in English).
+    as well as the base case for combining with other cases:<ul>
+<li>+Accusative =&gt; Allative, an indirect object
+representing the general direction of the action (towards).</li>
+<li>+Dative =&gt; Benefactive, an indirect object
+representing the beneficiary of the action.</li>
+<li>+Locative =&gt; Apudessive, an indirect object
+representing adjacency and vicinity.</li>
+</ul>
+</li>
 </ul>
 <p>Nouns are classified according to 3 genders:</p>
 <ul>
@@ -229,13 +233,13 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>omé</strong> <rt>[ɔ.ˈmɛ]</rt></ruby></th>
-<th><ruby><strong>thélem</strong> <rt>[ˈθɛ.lɛm]</rt></ruby></th>
-<th><ruby><strong>ngusós</strong> <rt>[ŋu.ˈsɔs]</rt></ruby></th>
-<th><ruby><strong>hwe̋hos</strong> <rt>[ˈʍɘ.hɔs]</rt></ruby></th>
-<th><ruby><strong>e</strong> <rt>[ˈɛ]</rt></ruby></th>
-<th><ruby><strong>thálnic</strong> <rt>[ˈθɐl.niç]</rt></ruby></th>
-<th><ruby><strong>etichóse</strong> <rt>[ɛ.ti.ˈt͡ʃɔ.sɛ]</rt></ruby></th>
+<th><ruby><strong>omé</strong><rt>[ɔ.ˈmɛ]</rt></ruby></th>
+<th><ruby><strong>thélem</strong><rt>[ˈθɛ.lɛm]</rt></ruby></th>
+<th><ruby><strong>ngusós</strong><rt>[ŋu.ˈsɔs]</rt></ruby></th>
+<th><ruby><strong>hwe̋hos</strong><rt>[ˈʍɘ.hɔs]</rt></ruby></th>
+<th><ruby><strong>e</strong><rt>[ˈɛ]</rt></ruby></th>
+<th><ruby><strong>thálnic</strong><rt>[ˈθɐl.niç]</rt></ruby></th>
+<th><ruby><strong>etichóse</strong><rt>[ɛ.ti.ˈt͡ʃɔ.sɛ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -245,7 +249,7 @@ Those base cases are:</p>
 <td><abbr title="(adj.) wet, damp">wet</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="locative">loc</abbr></td>
 <td><abbr title="(ni.) grass">grass</abbr>.<abbr title="locative">loc</abbr></td>
 <td><abbr title="(conj.) relativizer">rel</abbr></td>
-<td><abbr title="(ni.) mouse, small rodent with legible fingers">mouse</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="(ni.) mouse, small rodent with legible fingers">mouse</abbr>.<abbr title="accusative case">acc</abbr></td>
 <td><abbr title="3^rd^ person singular animate prefix">3sg-a</abbr>.<abbr title="(vt.) to love, like, be drawn to, be entwined with">love</abbr>.<abbr title="past habitual">phab</abbr></td>
 </tr>
 </tbody>
@@ -258,18 +262,18 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>kálar</strong> <rt>[ˈkɐ.lɐr]</rt></ruby></th>
-<th><ruby><strong>hwímos</strong> <rt>[ˈʍi.mɔs]</rt></ruby></th>
-<th><ruby><strong>kélros</strong> <rt>[ˈkɛl.rɔs]</rt></ruby></th>
-<th><ruby><strong>lut</strong> <rt>[ˈlut]</rt></ruby></th>
-<th><ruby><strong>atsíkyr</strong> <rt>[ɐ.ˈt͡si.kʏr]</rt></ruby></th>
+<th><ruby><strong>kálar</strong><rt>[ˈkɐ.lɐr]</rt></ruby></th>
+<th><ruby><strong>hwímec</strong><rt>[ˈʍi.mɛç]</rt></ruby></th>
+<th><ruby><strong>kélrec</strong><rt>[ˈkɛl.rɛç]</rt></ruby></th>
+<th><ruby><strong>lut</strong><rt>[ˈlut]</rt></ruby></th>
+<th><ruby><strong>atsíkyr</strong><rt>[ɐ.ˈt͡si.kʏr]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="(ni.) frog">frog</abbr></td>
-<td><abbr title="(adj.) shallow, flat">shallow</abbr>.<abbr title="Animate">a</abbr>.<abbr title="locative">loc</abbr></td>
-<td><abbr title="(na.) bay, gulf, inlet">bay</abbr>.<abbr title="locative">loc</abbr></td>
+<td><abbr title="(adj.) shallow, flat">shallow</abbr>.<abbr title="Animate">a</abbr>.<abbr title="lative case (to)">lat</abbr></td>
+<td><abbr title="(na.) bay, gulf, inlet">bay</abbr>.<abbr title="lative case (to)">lat</abbr></td>
 <td><abbr title="(postp.) in, into">in</abbr></td>
 <td><abbr title="3^rd^ person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vi.) to jump, spring">jump</abbr>.<abbr title="future">fut</abbr></td>
 </tr>
@@ -283,19 +287,19 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>tlo</strong> <rt>[ˈt͡ɬɔ]</rt></ruby></th>
-<th><ruby><strong>tháleng</strong> <rt>[ˈθɐ.lɛŋ]</rt></ruby></th>
-<th><ruby><strong>nifíc</strong> <rt>[ni.ˈfiç]</rt></ruby></th>
-<th><ruby><strong>tsec</strong> <rt>[ˈt͡sɛç]</rt></ruby></th>
-<th><ruby><strong>akelersý</strong> <rt>[ɐ.kɛ.lɛr.ˈsʏ]</rt></ruby></th>
+<th><ruby><strong>tlo</strong><rt>[ˈt͡ɬɔ]</rt></ruby></th>
+<th><ruby><strong>tháleng</strong><rt>[ˈθɐ.lɛŋ]</rt></ruby></th>
+<th><ruby><strong>nifíc</strong><rt>[ni.ˈfiç]</rt></ruby></th>
+<th><ruby><strong>tsec</strong><rt>[ˈt͡sɛç]</rt></ruby></th>
+<th><ruby><strong>akelersý</strong><rt>[ɐ.kɛ.lɛr.ˈsʏ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="(adj.) bright, white">bright</abbr>.<abbr title="Inaniamte">i</abbr></td>
 <td><abbr title="(ni.) mouse, small rodent with legible fingers">mouse</abbr></td>
-<td><abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="(na.) worm">worm</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
+<td><abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="(na.) worm">worm</abbr>.<abbr title="accusative case">acc</abbr></td>
 <td><abbr title="3^rd^ person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vt.) to lick">lick</abbr>.<abbr title="present / present continuous">cont</abbr></td>
 </tr>
 </tbody>
@@ -308,23 +312,23 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>hat</strong> <rt>[ˈhɐt]</rt></ruby></th>
-<th><ruby><strong>alóx</strong> <rt>[ɐ.ˈlɔx]</rt></ruby></th>
-<th><ruby><strong>oméc</strong> <rt>[ɔ.ˈmɛç]</rt></ruby></th>
-<th><ruby><strong>hetúfic</strong> <rt>[hɛ.ˈtu.fiç]</rt></ruby></th>
-<th><ruby><strong>lenifíl</strong> <rt>[lɛ.ni.ˈfil]</rt></ruby></th>
-<th><ruby><strong>lenyusél</strong> <rt>[lɛ.ɲu.ˈsɛl]</rt></ruby></th>
-<th><ruby><strong>akés</strong> <rt>[ɐ.ˈkɛs]</rt></ruby></th>
+<th><ruby><strong>hat</strong><rt>[ˈhɐt]</rt></ruby></th>
+<th><ruby><strong>alóx</strong><rt>[ɐ.ˈlɔx]</rt></ruby></th>
+<th><ruby><strong>oméc</strong><rt>[ɔ.ˈmɛç]</rt></ruby></th>
+<th><ruby><strong>hetúfic</strong><rt>[hɛ.ˈtu.fiç]</rt></ruby></th>
+<th><ruby><strong>lenifíl</strong><rt>[lɛ.ni.ˈfil]</rt></ruby></th>
+<th><ruby><strong>lenyusél</strong><rt>[lɛ.ɲu.ˈsɛl]</rt></ruby></th>
+<th><ruby><strong>akés</strong><rt>[ɐ.ˈkɛs]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="(adj.) hard, stern, solid, stable">hard</abbr>.<abbr title="Inaniamte">i</abbr></td>
 <td><abbr title="(ni.) forest">forest</abbr></td>
-<td><abbr title="(adj.) great, big">big</abbr>.<abbr title="Animate">a</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="(na.) pebble">pebble</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Animate">a</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
-<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(na.) hippopotamus, large river dwelling mammal">hippo</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="(adj.) great, big">big</abbr>.<abbr title="Animate">a</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="(na.) pebble">pebble</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Animate">a</abbr>.<abbr title="dative case">dat</abbr></td>
+<td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(na.) hippopotamus, large river dwelling mammal">hippo</abbr>.<abbr title="dative case">dat</abbr></td>
 <td><abbr title="3^rd^ person singular inanimate prefix">3sg-i</abbr>.<abbr title="(vd.) to give">give</abbr>.<abbr title="past tense">pst</abbr></td>
 </tr>
 </tbody>
@@ -337,10 +341,10 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>tluk</strong> <rt>[ˈt͡ɬuk]</rt></ruby></th>
-<th><ruby><strong>ahó</strong> <rt>[ɐ.ˈhɔ]</rt></ruby></th>
-<th><ruby><strong>pórhos</strong> <rt>[ˈpɔr.hɔs]</rt></ruby></th>
-<th><ruby><strong>shifý</strong> <rt>[ʃi.ˈfʏ]</rt></ruby></th>
+<th><ruby><strong>tluk</strong><rt>[ˈt͡ɬuk]</rt></ruby></th>
+<th><ruby><strong>ahó</strong><rt>[ɐ.ˈhɔ]</rt></ruby></th>
+<th><ruby><strong>pórhos</strong><rt>[ˈpɔr.hɔs]</rt></ruby></th>
+<th><ruby><strong>shifý</strong><rt>[ʃi.ˈfʏ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -360,19 +364,19 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>lehét</strong> <rt>[lɛ.ˈhɛt]</rt></ruby></th>
-<th><ruby><strong>súmuk</strong> <rt>[ˈsu.muk]</rt></ruby></th>
-<th><ruby><strong>nifíc</strong> <rt>[ni.ˈfiç]</rt></ruby></th>
-<th><ruby><strong>akachóshec</strong> <rt>[ɐ.kɐ.ˈt͡ʃɔ.ʃɛç]</rt></ruby></th>
-<th><ruby><strong>xeshífi</strong> <rt>[xɛ.ˈʃi.fi]</rt></ruby></th>
+<th><ruby><strong>lehét</strong><rt>[lɛ.ˈhɛt]</rt></ruby></th>
+<th><ruby><strong>súmuk</strong><rt>[ˈsu.muk]</rt></ruby></th>
+<th><ruby><strong>nifíc</strong><rt>[ni.ˈfiç]</rt></ruby></th>
+<th><ruby><strong>akachóshec</strong><rt>[ɐ.kɐ.ˈt͡ʃɔ.ʃɛç]</rt></ruby></th>
+<th><ruby><strong>xeshífi</strong><rt>[xɛ.ˈʃi.fi]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="plural prefix (for animate and inanimate)">pl</abbr>.<abbr title="(adj.) hard, stern, solid, stable">hard</abbr>.<abbr title="Human">h</abbr></td>
 <td><abbr title="(nh.) warrior, soldier">warrior</abbr>.<abbr title="plural suffix (for human)">pl</abbr></td>
-<td><abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="(ni.) village, settlement">village</abbr>.<abbr title="allative">all</abbr></td>
+<td><abbr title="(adj.) small, young, short">small</abbr>.<abbr title="Inaniamte">i</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="(ni.) village, settlement">village</abbr>.<abbr title="allative (towards)">all</abbr></td>
 <td><abbr title="3^rd^ person plural prefix">3pl</abbr>.<abbr title="(vi.) to walk, to stroll, to pace">walk</abbr>.<abbr title="remote / narrative past">remp</abbr></td>
 </tr>
 </tbody>
@@ -385,10 +389,10 @@ Those base cases are:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>fothé</strong> <rt>[fɔ.ˈθɛ]</rt></ruby></th>
-<th><ruby><strong>tsu</strong> <rt>[ˈt͡su]</rt></ruby></th>
-<th><ruby><strong>soxúsos</strong> <rt>[sɔ.ˈxu.sɔs]</rt></ruby></th>
-<th><ruby><strong>sutsý</strong> <rt>[su.ˈt͡sʏ]</rt></ruby></th>
+<th><ruby><strong>fothé</strong><rt>[fɔ.ˈθɛ]</rt></ruby></th>
+<th><ruby><strong>tsu</strong><rt>[ˈt͡su]</rt></ruby></th>
+<th><ruby><strong>soxúsos</strong><rt>[sɔ.ˈxu.sɔs]</rt></ruby></th>
+<th><ruby><strong>sutsý</strong><rt>[su.ˈt͡sʏ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -420,6 +424,8 @@ while animate and inanimate nouns take the plural <em>prefix</em> <strong>le</st
 <h2 id="adjectives">Adjectives</h2>
 <p>Adjectives agree with nouns in case and number,
 but always take the <strong>le</strong>- plural prefix.</p>
+<p>For combined cases (genitive + other), 
+adjectives take non-genitive case.</p>
 <h2 id="possession">Possession</h2>
 <ul>
 <li>Old possession used genitive</li>
@@ -701,10 +707,10 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>melk</strong> <rt>[ˈmɛlk]</rt></ruby></th>
-<th><ruby><strong>mall</strong> <rt>[ˈmɐɬ]</rt></ruby></th>
-<th><ruby><strong>melk</strong> <rt>[ˈmɛlk]</rt></ruby></th>
-<th><ruby><strong>mélkyl</strong> <rt>[ˈmɛl.kʏl]</rt></ruby></th>
+<th><ruby><strong>melk</strong><rt>[ˈmɛlk]</rt></ruby></th>
+<th><ruby><strong>mall</strong><rt>[ˈmɐɬ]</rt></ruby></th>
+<th><ruby><strong>melk</strong><rt>[ˈmɛlk]</rt></ruby></th>
+<th><ruby><strong>mélkyl</strong><rt>[ˈmɛl.kʏl]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -721,10 +727,10 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>melk</strong> <rt>[ˈmɛlk]</rt></ruby></th>
-<th><ruby><strong>melk</strong> <rt>[ˈmɛlk]</rt></ruby></th>
-<th><ruby><strong>melk</strong> <rt>[ˈmɛlk]</rt></ruby></th>
-<th><ruby><strong>mélkil</strong> <rt>[ˈmɛl.kil]</rt></ruby></th>
+<th><ruby><strong>melk</strong><rt>[ˈmɛlk]</rt></ruby></th>
+<th><ruby><strong>melk</strong><rt>[ˈmɛlk]</rt></ruby></th>
+<th><ruby><strong>melk</strong><rt>[ˈmɛlk]</rt></ruby></th>
+<th><ruby><strong>mélkil</strong><rt>[ˈmɛl.kil]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -741,8 +747,8 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>mall</strong> <rt>[ˈmɐɬ]</rt></ruby></th>
-<th><ruby><strong>mállë</strong> <rt>[ˈmɐ.ɬɘ]</rt></ruby></th>
+<th><ruby><strong>mall</strong><rt>[ˈmɐɬ]</rt></ruby></th>
+<th><ruby><strong>mállë</strong><rt>[ˈmɐ.ɬɘ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -758,17 +764,17 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>hwy</strong> <rt>[ˈʍʏ]</rt></ruby></th>
-<th><ruby><strong>hwic</strong> <rt>[ˈʍiç]</rt></ruby></th>
-<th><ruby><strong>hwyl</strong> <rt>[ˈʍʏl]</rt></ruby></th>
-<th><ruby><strong>hwus</strong> <rt>[ˈʍus]</rt></ruby></th>
+<th><ruby><strong>hwy</strong><rt>[ˈʍʏ]</rt></ruby></th>
+<th><ruby><strong>hwic</strong><rt>[ˈʍiç]</rt></ruby></th>
+<th><ruby><strong>hwyl</strong><rt>[ˈʍʏl]</rt></ruby></th>
+<th><ruby><strong>hwus</strong><rt>[ˈʍus]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="(test.) ">casetest</abbr></td>
-<td><abbr title="(test.) ">casetest</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="(test.) ">casetest</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="dative case">dat</abbr></td>
 <td><abbr title="(test.) ">casetest</abbr>.<abbr title="locative">loc</abbr></td>
 </tr>
 </tbody>
@@ -778,17 +784,17 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>hwychó</strong> <rt>[ʍʏ.ˈt͡ʃɔ]</rt></ruby></th>
-<th><ruby><strong>hwychéc</strong> <rt>[ʍʏ.ˈt͡ʃɛç]</rt></ruby></th>
-<th><ruby><strong>hwychól</strong> <rt>[ʍʏ.ˈt͡ʃɔl]</rt></ruby></th>
-<th><ruby><strong>hwychós</strong> <rt>[ʍʏ.ˈt͡ʃɔs]</rt></ruby></th>
+<th><ruby><strong>hwychó</strong><rt>[ʍʏ.ˈt͡ʃɔ]</rt></ruby></th>
+<th><ruby><strong>hwychéc</strong><rt>[ʍʏ.ˈt͡ʃɛç]</rt></ruby></th>
+<th><ruby><strong>hwychól</strong><rt>[ʍʏ.ˈt͡ʃɔl]</rt></ruby></th>
+<th><ruby><strong>hwychós</strong><rt>[ʍʏ.ˈt͡ʃɔs]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr></td>
-<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="accusative / allative case">acc</abbr></td>
-<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="dative / benefactive case">dat</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="accusative case">acc</abbr></td>
+<td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="dative case">dat</abbr></td>
 <td><abbr title="(test.) ">casetest</abbr>.<abbr title="genitive case">gen</abbr>.<abbr title="locative">loc</abbr></td>
 </tr>
 </tbody>
@@ -799,10 +805,10 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>suts</strong> <rt>[ˈsut͡s]</rt></ruby></th>
-<th><ruby><strong>sútsi</strong> <rt>[ˈsu.t͡si]</rt></ruby></th>
-<th><ruby><strong>sútsyr</strong> <rt>[ˈsu.t͡sʏr]</rt></ruby></th>
-<th><ruby><strong>sútsir</strong> <rt>[ˈsu.t͡sir]</rt></ruby></th>
+<th><ruby><strong>púlum</strong><rt>[ˈpu.lum]</rt></ruby></th>
+<th><ruby><strong>púlim</strong><rt>[ˈpu.lim]</rt></ruby></th>
+<th><ruby><strong>púlnyr</strong><rt>[ˈpul.nʏr]</rt></ruby></th>
+<th><ruby><strong>púlimry</strong><rt>[ˈpu.lim.rʏ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -819,9 +825,9 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>sutsý</strong> <rt>[su.ˈt͡sʏ]</rt></ruby></th>
-<th><ruby><strong>sutsí</strong> <rt>[su.ˈt͡si]</rt></ruby></th>
-<th><ruby><strong>sutsýry</strong> <rt>[su.ˈt͡sʏ.rʏ]</rt></ruby></th>
+<th><ruby><strong>púlum</strong><rt>[ˈpu.lum]</rt></ruby></th>
+<th><ruby><strong>púlim</strong><rt>[ˈpu.lim]</rt></ruby></th>
+<th><ruby><strong>púlnyr</strong><rt>[ˈpul.nʏr]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -837,8 +843,8 @@ These combine in the following ways in the modern language:</p>
 <table>
 <thead>
 <tr>
-<th><ruby><strong>sútsus</strong> <rt>[ˈsu.t͡sus]</rt></ruby></th>
-<th><ruby><strong>sutsúse</strong> <rt>[su.ˈt͡su.sɛ]</rt></ruby></th>
+<th><ruby><strong>púlnus</strong><rt>[ˈpul.nus]</rt></ruby></th>
+<th><ruby><strong>pulúmse</strong><rt>[pu.ˈlum.sɛ]</rt></ruby></th>
 </tr>
 </thead>
 <tbody>
@@ -1075,19 +1081,19 @@ and here/there demonstratives:</p>
 <tr>
 <th rowspan="2">1<sup>st</sup> </th>
 <td rowspan="2"></td>
-<td rowspan="2"><ruby><strong>ik</strong> <rt>[ˈik]</rt></ruby> &lt; <em>*ʔina</em> + <em>*kami</em></td>
-<td><ruby><strong>ek</strong> <rt>[ˈɛk]</rt></ruby> &lt; <em>*ʔina</em> + <em>*ʔamikami</em></td>
+<td rowspan="2"><ruby><strong>ik</strong><rt>[ˈik]</rt></ruby> &lt; <em>*ʔina</em> + <em>*kami</em></td>
+<td><ruby><strong>ek</strong><rt>[ˈɛk]</rt></ruby> &lt; <em>*ʔina</em> + <em>*ʔamikami</em></td>
 <td><em>(exclusive)</em></td>
 </tr>
 <tr>
-<td><ruby><strong>ke</strong> <rt>[ˈkɛ]</rt></ruby> &lt; <em>*kami</em></td>
+<td><ruby><strong>ke</strong><rt>[ˈkɛ]</rt></ruby> &lt; <em>*kami</em></td>
 <td><em>(inclusive)</em></td>
 </tr>
 <tr>
 <th>2<sup>nd</sup> </th>
 <td></td>
-<td><ruby><strong>lluk</strong> <rt>[ˈɬuk]</rt></ruby> &lt; <em>*ɬiʔu</em> + <em>*kami</em></td>
-<td colspan="2"><ruby><strong>llek</strong> <rt>[ˈɬɛk]</rt></ruby> &lt; <em>*ɬiʔu</em> + <em>*ʔamikami</em></td>
+<td><ruby><strong>lluk</strong><rt>[ˈɬuk]</rt></ruby> &lt; <em>*ɬiʔu</em> + <em>*kami</em></td>
+<td colspan="2"><ruby><strong>llek</strong><rt>[ˈɬɛk]</rt></ruby> &lt; <em>*ɬiʔu</em> + <em>*ʔamikami</em></td>
 </tr>
 <tr>
 <th rowspan="3">3<sup>rd</sup> </th>
@@ -1122,73 +1128,73 @@ and here/there demonstratives:</p>
 <tbody>
 <tr>
 <td>1<sup>st</sup> (singular)</td>
-<td><ruby><strong>ik</strong> <rt>[ˈik]</rt></ruby></td>
-<td><ruby><strong>íkec</strong> <rt>[ˈi.kɛç]</rt></ruby></td>
-<td><ruby><strong>íkel</strong> <rt>[ˈi.kɛl]</rt></ruby></td>
-<td><ruby><strong>íkos</strong> <rt>[ˈi.kɔs]</rt></ruby></td>
+<td><ruby><strong>ik</strong><rt>[ˈik]</rt></ruby></td>
+<td><ruby><strong>íkec</strong><rt>[ˈi.kɛç]</rt></ruby></td>
+<td><ruby><strong>íkel</strong><rt>[ˈi.kɛl]</rt></ruby></td>
+<td><ruby><strong>íkos</strong><rt>[ˈi.kɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, exclusive)</td>
-<td><ruby><strong>ek</strong> <rt>[ˈɛk]</rt></ruby></td>
-<td><ruby><strong>ékec</strong> <rt>[ˈɛ.kɛç]</rt></ruby></td>
-<td><ruby><strong>ékel</strong> <rt>[ˈɛ.kɛl]</rt></ruby></td>
-<td><ruby><strong>ékos</strong> <rt>[ˈɛ.kɔs]</rt></ruby></td>
+<td><ruby><strong>ek</strong><rt>[ˈɛk]</rt></ruby></td>
+<td><ruby><strong>ékec</strong><rt>[ˈɛ.kɛç]</rt></ruby></td>
+<td><ruby><strong>ékel</strong><rt>[ˈɛ.kɛl]</rt></ruby></td>
+<td><ruby><strong>ékos</strong><rt>[ˈɛ.kɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, inclusive)</td>
-<td><ruby><strong>ke</strong> <rt>[ˈkɛ]</rt></ruby></td>
-<td><ruby><strong>kec</strong> <rt>[ˈkɛç]</rt></ruby></td>
-<td><ruby><strong>kel</strong> <rt>[ˈkɛl]</rt></ruby></td>
-<td><ruby><strong>kos</strong> <rt>[ˈkɔs]</rt></ruby></td>
+<td><ruby><strong>ke</strong><rt>[ˈkɛ]</rt></ruby></td>
+<td><ruby><strong>kec</strong><rt>[ˈkɛç]</rt></ruby></td>
+<td><ruby><strong>kel</strong><rt>[ˈkɛl]</rt></ruby></td>
+<td><ruby><strong>kos</strong><rt>[ˈkɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (singular)</td>
-<td><ruby><strong>lluk</strong> <rt>[ˈɬuk]</rt></ruby></td>
-<td><ruby><strong>llúkec</strong> <rt>[ˈɬu.kɛç]</rt></ruby></td>
-<td><ruby><strong>llúkel</strong> <rt>[ˈɬu.kɛl]</rt></ruby></td>
-<td><ruby><strong>llúkos</strong> <rt>[ˈɬu.kɔs]</rt></ruby></td>
+<td><ruby><strong>lluk</strong><rt>[ˈɬuk]</rt></ruby></td>
+<td><ruby><strong>llúkec</strong><rt>[ˈɬu.kɛç]</rt></ruby></td>
+<td><ruby><strong>llúkel</strong><rt>[ˈɬu.kɛl]</rt></ruby></td>
+<td><ruby><strong>llúkos</strong><rt>[ˈɬu.kɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (plural)</td>
-<td><ruby><strong>llek</strong> <rt>[ˈɬɛk]</rt></ruby></td>
-<td><ruby><strong>llékec</strong> <rt>[ˈɬɛ.kɛç]</rt></ruby></td>
-<td><ruby><strong>llékel</strong> <rt>[ˈɬɛ.kɛl]</rt></ruby></td>
-<td><ruby><strong>llékos</strong> <rt>[ˈɬɛ.kɔs]</rt></ruby></td>
+<td><ruby><strong>llek</strong><rt>[ˈɬɛk]</rt></ruby></td>
+<td><ruby><strong>llékec</strong><rt>[ˈɬɛ.kɛç]</rt></ruby></td>
+<td><ruby><strong>llékel</strong><rt>[ˈɬɛ.kɛl]</rt></ruby></td>
+<td><ruby><strong>llékos</strong><rt>[ˈɬɛ.kɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (human, singular)</td>
-<td><ruby><strong>nor</strong> <rt>[ˈnɔr]</rt></ruby></td>
-<td><ruby><strong>nórec</strong> <rt>[ˈnɔ.rɛç]</rt></ruby></td>
-<td><ruby><strong>nórol</strong> <rt>[ˈnɔ.rɔl]</rt></ruby></td>
-<td><ruby><strong>nóros</strong> <rt>[ˈnɔ.rɔs]</rt></ruby></td>
+<td><ruby><strong>nor</strong><rt>[ˈnɔr]</rt></ruby></td>
+<td><ruby><strong>nórec</strong><rt>[ˈnɔ.rɛç]</rt></ruby></td>
+<td><ruby><strong>nórol</strong><rt>[ˈnɔ.rɔl]</rt></ruby></td>
+<td><ruby><strong>nóros</strong><rt>[ˈnɔ.rɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (human, plural)</td>
-<td><ruby><strong>eké</strong> <rt>[ɛ.ˈkɛ]</rt></ruby></td>
-<td><ruby><strong>ekéc</strong> <rt>[ɛ.ˈkɛç]</rt></ruby></td>
-<td><ruby><strong>ekél</strong> <rt>[ɛ.ˈkɛl]</rt></ruby></td>
-<td><ruby><strong>ekós</strong> <rt>[ɛ.ˈkɔs]</rt></ruby></td>
+<td><ruby><strong>eké</strong><rt>[ɛ.ˈkɛ]</rt></ruby></td>
+<td><ruby><strong>ekéc</strong><rt>[ɛ.ˈkɛç]</rt></ruby></td>
+<td><ruby><strong>ekél</strong><rt>[ɛ.ˈkɛl]</rt></ruby></td>
+<td><ruby><strong>ekós</strong><rt>[ɛ.ˈkɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (animate, singular)</td>
-<td><ruby><strong>nar</strong> <rt>[ˈnɐr]</rt></ruby></td>
-<td><ruby><strong>nárec</strong> <rt>[ˈnɐ.rɛç]</rt></ruby></td>
-<td><ruby><strong>nárol</strong> <rt>[ˈnɐ.rɔl]</rt></ruby></td>
-<td><ruby><strong>náros</strong> <rt>[ˈnɐ.rɔs]</rt></ruby></td>
+<td><ruby><strong>nar</strong><rt>[ˈnɐr]</rt></ruby></td>
+<td><ruby><strong>nárec</strong><rt>[ˈnɐ.rɛç]</rt></ruby></td>
+<td><ruby><strong>nárol</strong><rt>[ˈnɐ.rɔl]</rt></ruby></td>
+<td><ruby><strong>náros</strong><rt>[ˈnɐ.rɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (inanimate, singular)</td>
-<td><ruby><strong>tse</strong> <rt>[ˈt͡sɛ]</rt></ruby></td>
-<td><ruby><strong>tsec</strong> <rt>[ˈt͡sɛç]</rt></ruby></td>
-<td><ruby><strong>tsel</strong> <rt>[ˈt͡sɛl]</rt></ruby></td>
-<td><ruby><strong>tsos</strong> <rt>[ˈt͡sɔs]</rt></ruby></td>
+<td><ruby><strong>tse</strong><rt>[ˈt͡sɛ]</rt></ruby></td>
+<td><ruby><strong>tsec</strong><rt>[ˈt͡sɛç]</rt></ruby></td>
+<td><ruby><strong>tsel</strong><rt>[ˈt͡sɛl]</rt></ruby></td>
+<td><ruby><strong>tsos</strong><rt>[ˈt͡sɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (animate/inanimate, plural)</td>
-<td><ruby><strong>xar</strong> <rt>[ˈxɐr]</rt></ruby></td>
-<td><ruby><strong>xárec</strong> <rt>[ˈxɐ.rɛç]</rt></ruby></td>
-<td><ruby><strong>xárol</strong> <rt>[ˈxɐ.rɔl]</rt></ruby></td>
-<td><ruby><strong>xáros</strong> <rt>[ˈxɐ.rɔs]</rt></ruby></td>
+<td><ruby><strong>xar</strong><rt>[ˈxɐr]</rt></ruby></td>
+<td><ruby><strong>xárec</strong><rt>[ˈxɐ.rɛç]</rt></ruby></td>
+<td><ruby><strong>xárol</strong><rt>[ˈxɐ.rɔl]</rt></ruby></td>
+<td><ruby><strong>xáros</strong><rt>[ˈxɐ.rɔs]</rt></ruby></td>
 </tr>
 </tbody>
 </table>
@@ -1215,80 +1221,80 @@ and 3<sup>rd</sup> singular inanimate.</p>
 <tbody>
 <tr>
 <td>1<sup>st</sup> (singular)</td>
-<td><ruby><strong>cho</strong> <rt>[ˈt͡ʃɔ]</rt></ruby></td>
-<td><ruby><strong>chec</strong> <rt>[ˈt͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>chol</strong> <rt>[ˈt͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>chos</strong> <rt>[ˈt͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>cho</strong><rt>[ˈt͡ʃɔ]</rt></ruby></td>
+<td><ruby><strong>chec</strong><rt>[ˈt͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>chol</strong><rt>[ˈt͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>chos</strong><rt>[ˈt͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td><del>1<sup>st</sup> (plural, unused)</del></td>
-<td><del><ruby><strong>cho</strong> <rt>[ˈt͡ʃɔ]</rt></ruby></del></td>
-<td><del><ruby><strong>chec</strong> <rt>[ˈt͡ʃɛç]</rt></ruby></del></td>
-<td><del><ruby><strong>chol</strong> <rt>[ˈt͡ʃɔl]</rt></ruby></del></td>
-<td><del><ruby><strong>chos</strong> <rt>[ˈt͡ʃɔs]</rt></ruby></del></td>
+<td><del><ruby><strong>cho</strong><rt>[ˈt͡ʃɔ]</rt></ruby></del></td>
+<td><del><ruby><strong>chec</strong><rt>[ˈt͡ʃɛç]</rt></ruby></del></td>
+<td><del><ruby><strong>chol</strong><rt>[ˈt͡ʃɔl]</rt></ruby></del></td>
+<td><del><ruby><strong>chos</strong><rt>[ˈt͡ʃɔs]</rt></ruby></del></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, exclusive)</td>
-<td><ruby><strong>ákach</strong> <rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>ákachec</strong> <rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>ákachol</strong> <rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>ákachos</strong> <rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>ákach</strong><rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>ákachec</strong><rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>ákachol</strong><rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>ákachos</strong><rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, inclusive)</td>
-<td><ruby><strong>kach</strong> <rt>[ˈkɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>káchec</strong> <rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>káchol</strong> <rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>káchos</strong> <rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>kach</strong><rt>[ˈkɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>káchec</strong><rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>káchol</strong><rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>káchos</strong><rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (singular)</td>
-<td><ruby><strong>nish</strong> <rt>[ˈniʃ]</rt></ruby></td>
-<td><ruby><strong>níshec</strong> <rt>[ˈni.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>níshol</strong> <rt>[ˈni.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>níshos</strong> <rt>[ˈni.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>nish</strong><rt>[ˈniʃ]</rt></ruby></td>
+<td><ruby><strong>níshec</strong><rt>[ˈni.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>níshol</strong><rt>[ˈni.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>níshos</strong><rt>[ˈni.ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (plural)</td>
-<td><ruby><strong>sosh</strong> <rt>[ˈsɔʃ]</rt></ruby></td>
-<td><ruby><strong>sóshec</strong> <rt>[ˈsɔ.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>sóshol</strong> <rt>[ˈsɔ.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>sóshos</strong> <rt>[ˈsɔ.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>sosh</strong><rt>[ˈsɔʃ]</rt></ruby></td>
+<td><ruby><strong>sóshec</strong><rt>[ˈsɔ.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>sóshol</strong><rt>[ˈsɔ.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>sóshos</strong><rt>[ˈsɔ.ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (human, singular)</td>
-<td><ruby><strong>nosh</strong> <rt>[ˈnɔʃ]</rt></ruby></td>
-<td><ruby><strong>nóshec</strong> <rt>[ˈnɔ.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>nóshol</strong> <rt>[ˈnɔ.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>nóshos</strong> <rt>[ˈnɔ.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>nosh</strong><rt>[ˈnɔʃ]</rt></ruby></td>
+<td><ruby><strong>nóshec</strong><rt>[ˈnɔ.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>nóshol</strong><rt>[ˈnɔ.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>nóshos</strong><rt>[ˈnɔ.ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (animate, singular)</td>
-<td><ruby><strong>nach</strong> <rt>[ˈnɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>náchec</strong> <rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>náchol</strong> <rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>náchos</strong> <rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>nach</strong><rt>[ˈnɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>náchec</strong><rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>náchol</strong><rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>náchos</strong><rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td><del>3<sup>rd</sup> (inanimate, singular, unused)</del></td>
-<td><del><ruby><strong>nach</strong> <rt>[ˈnɐt͡ʃ]</rt></ruby></del></td>
-<td><del><ruby><strong>náchec</strong> <rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></del></td>
-<td><del><ruby><strong>náchol</strong> <rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></del></td>
-<td><del><ruby><strong>náchos</strong> <rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></del></td>
+<td><del><ruby><strong>nach</strong><rt>[ˈnɐt͡ʃ]</rt></ruby></del></td>
+<td><del><ruby><strong>náchec</strong><rt>[ˈnɐ.t͡ʃɛç]</rt></ruby></del></td>
+<td><del><ruby><strong>náchol</strong><rt>[ˈnɐ.t͡ʃɔl]</rt></ruby></del></td>
+<td><del><ruby><strong>náchos</strong><rt>[ˈnɐ.t͡ʃɔs]</rt></ruby></del></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (inanimate, singular)</td>
-<td><ruby><strong>tsach</strong> <rt>[ˈt͡sɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>tsáchec</strong> <rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>tsáchol</strong> <rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>tsáchos</strong> <rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>tsach</strong><rt>[ˈt͡sɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>tsáchec</strong><rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>tsáchol</strong><rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>tsáchos</strong><rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (plural)</td>
-<td><ruby><strong>xach</strong> <rt>[ˈxɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>xáchec</strong> <rt>[ˈxɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>xáchol</strong> <rt>[ˈxɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>xáchos</strong> <rt>[ˈxɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>xach</strong><rt>[ˈxɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>xáchec</strong><rt>[ˈxɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>xáchol</strong><rt>[ˈxɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>xáchos</strong><rt>[ˈxɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 </tbody>
 </table>
@@ -1308,31 +1314,31 @@ and 3<sup>rd</sup> singular inanimate.</p>
 <tbody>
 <tr>
 <td>1<sup>st</sup> (singular)</td>
-<td><ruby><strong>i</strong> <rt>[ˈi]</rt></ruby></td>
-<td><ruby><strong>icé</strong> <rt>[i.ˈçɛ]</rt></ruby></td>
-<td><ruby><strong>iló</strong> <rt>[i.ˈlɔ]</rt></ruby></td>
-<td><ruby><strong>usé</strong> <rt>[u.ˈsɛ]</rt></ruby></td>
+<td><ruby><strong>i</strong><rt>[ˈi]</rt></ruby></td>
+<td><ruby><strong>icé</strong><rt>[i.ˈçɛ]</rt></ruby></td>
+<td><ruby><strong>iló</strong><rt>[i.ˈlɔ]</rt></ruby></td>
+<td><ruby><strong>usé</strong><rt>[u.ˈsɛ]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural)</td>
-<td><ruby><strong>il</strong> <rt>[ˈil]</rt></ruby></td>
-<td><ruby><strong>lic</strong> <rt>[ˈliç]</rt></ruby></td>
-<td><ruby><strong>illó</strong> <rt>[i.ˈɬɔ]</rt></ruby></td>
-<td><ruby><strong>lus</strong> <rt>[ˈlus]</rt></ruby></td>
+<td><ruby><strong>il</strong><rt>[ˈil]</rt></ruby></td>
+<td><ruby><strong>lic</strong><rt>[ˈliç]</rt></ruby></td>
+<td><ruby><strong>illó</strong><rt>[i.ˈɬɔ]</rt></ruby></td>
+<td><ruby><strong>lus</strong><rt>[ˈlus]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (singular)</td>
-<td><ruby><strong>ni</strong> <rt>[ˈni]</rt></ruby></td>
-<td><ruby><strong>nic</strong> <rt>[ˈniç]</rt></ruby></td>
-<td><ruby><strong>nil</strong> <rt>[ˈnil]</rt></ruby></td>
-<td><ruby><strong>nus</strong> <rt>[ˈnus]</rt></ruby></td>
+<td><ruby><strong>ni</strong><rt>[ˈni]</rt></ruby></td>
+<td><ruby><strong>nic</strong><rt>[ˈniç]</rt></ruby></td>
+<td><ruby><strong>nil</strong><rt>[ˈnil]</rt></ruby></td>
+<td><ruby><strong>nus</strong><rt>[ˈnus]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (plural)</td>
-<td><ruby><strong>so</strong> <rt>[ˈsɔ]</rt></ruby></td>
-<td><ruby><strong>sec</strong> <rt>[ˈsɛç]</rt></ruby></td>
-<td><ruby><strong>sol</strong> <rt>[ˈsɔl]</rt></ruby></td>
-<td><ruby><strong>sos</strong> <rt>[ˈsɔs]</rt></ruby></td>
+<td><ruby><strong>so</strong><rt>[ˈsɔ]</rt></ruby></td>
+<td><ruby><strong>sec</strong><rt>[ˈsɛç]</rt></ruby></td>
+<td><ruby><strong>sol</strong><rt>[ˈsɔl]</rt></ruby></td>
+<td><ruby><strong>sos</strong><rt>[ˈsɔs]</rt></ruby></td>
 </tr>
 </tbody>
 </table>
@@ -1352,73 +1358,73 @@ and 3<sup>rd</sup> singular inanimate.</p>
 <tbody>
 <tr>
 <td>1<sup>st</sup> (singular)</td>
-<td><ruby><strong>íkach</strong> <rt>[ˈi.kɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>íkachec</strong> <rt>[ˈi.kɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>íkachol</strong> <rt>[ˈi.kɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>íkos</strong> <rt>[ˈi.kɔs]</rt></ruby></td>
+<td><ruby><strong>íkach</strong><rt>[ˈi.kɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>íkachec</strong><rt>[ˈi.kɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>íkachol</strong><rt>[ˈi.kɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>íkos</strong><rt>[ˈi.kɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, exclusive)</td>
-<td><ruby><strong>ákach</strong> <rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>ákachec</strong> <rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>ákachol</strong> <rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>ákachos</strong> <rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>ákach</strong><rt>[ˈɐ.kɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>ákachec</strong><rt>[ˈɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>ákachol</strong><rt>[ˈɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>ákachos</strong><rt>[ˈɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>1<sup>st</sup> (plural, inclusive)</td>
-<td><ruby><strong>kach</strong> <rt>[ˈkɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>káchec</strong> <rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>káchol</strong> <rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>káchos</strong> <rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>kach</strong><rt>[ˈkɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>káchec</strong><rt>[ˈkɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>káchol</strong><rt>[ˈkɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>káchos</strong><rt>[ˈkɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (singular)</td>
-<td><ruby><strong>llúkach</strong> <rt>[ˈɬu.kɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>llúkachec</strong> <rt>[ˈɬu.kɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>llúkachol</strong> <rt>[ˈɬu.kɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>llúkachos</strong> <rt>[ˈɬu.kɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>llúkach</strong><rt>[ˈɬu.kɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>llúkachec</strong><rt>[ˈɬu.kɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>llúkachol</strong><rt>[ˈɬu.kɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>llúkachos</strong><rt>[ˈɬu.kɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>2<sup>nd</sup> (plural)</td>
-<td><ruby><strong>llákach</strong> <rt>[ˈɬɐ.kɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>llákachec</strong> <rt>[ˈɬɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>llákachol</strong> <rt>[ˈɬɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>llákachos</strong> <rt>[ˈɬɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>llákach</strong><rt>[ˈɬɐ.kɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>llákachec</strong><rt>[ˈɬɐ.kɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>llákachol</strong><rt>[ˈɬɐ.kɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>llákachos</strong><rt>[ˈɬɐ.kɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (human, singular)</td>
-<td><ruby><strong>nórosh</strong> <rt>[ˈnɔ.rɔʃ]</rt></ruby></td>
-<td><ruby><strong>noróshec</strong> <rt>[nɔ.ˈrɔ.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>noróshol</strong> <rt>[nɔ.ˈrɔ.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>noróshos</strong> <rt>[nɔ.ˈrɔ.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>nórosh</strong><rt>[ˈnɔ.rɔʃ]</rt></ruby></td>
+<td><ruby><strong>noróshec</strong><rt>[nɔ.ˈrɔ.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>noróshol</strong><rt>[nɔ.ˈrɔ.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>noróshos</strong><rt>[nɔ.ˈrɔ.ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (human, plural)</td>
-<td><ruby><strong>akách</strong> <rt>[ɐ.ˈkɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>akáchec</strong> <rt>[ɐ.ˈkɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>akáchol</strong> <rt>[ɐ.ˈkɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>akáchos</strong> <rt>[ɐ.ˈkɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>akách</strong><rt>[ɐ.ˈkɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>akáchec</strong><rt>[ɐ.ˈkɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>akáchol</strong><rt>[ɐ.ˈkɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>akáchos</strong><rt>[ɐ.ˈkɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (animate, singular)</td>
-<td><ruby><strong>nárosh</strong> <rt>[ˈnɐ.rɔʃ]</rt></ruby></td>
-<td><ruby><strong>naróshec</strong> <rt>[nɐ.ˈrɔ.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>naróshol</strong> <rt>[nɐ.ˈrɔ.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>naróshos</strong> <rt>[nɐ.ˈrɔ.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>nárosh</strong><rt>[ˈnɐ.rɔʃ]</rt></ruby></td>
+<td><ruby><strong>naróshec</strong><rt>[nɐ.ˈrɔ.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>naróshol</strong><rt>[nɐ.ˈrɔ.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>naróshos</strong><rt>[nɐ.ˈrɔ.ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (inanimate, singular)</td>
-<td><ruby><strong>tsach</strong> <rt>[ˈt͡sɐt͡ʃ]</rt></ruby></td>
-<td><ruby><strong>tsáchec</strong> <rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></td>
-<td><ruby><strong>tsáchol</strong> <rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></td>
-<td><ruby><strong>tsáchos</strong> <rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></td>
+<td><ruby><strong>tsach</strong><rt>[ˈt͡sɐt͡ʃ]</rt></ruby></td>
+<td><ruby><strong>tsáchec</strong><rt>[ˈt͡sɐ.t͡ʃɛç]</rt></ruby></td>
+<td><ruby><strong>tsáchol</strong><rt>[ˈt͡sɐ.t͡ʃɔl]</rt></ruby></td>
+<td><ruby><strong>tsáchos</strong><rt>[ˈt͡sɐ.t͡ʃɔs]</rt></ruby></td>
 </tr>
 <tr>
 <td>3<sup>rd</sup> (animate/inanimate, plural)</td>
-<td><ruby><strong>xárosh</strong> <rt>[ˈxɐ.rɔʃ]</rt></ruby></td>
-<td><ruby><strong>xaróshec</strong> <rt>[xɐ.ˈrɔ.ʃɛç]</rt></ruby></td>
-<td><ruby><strong>xaróshol</strong> <rt>[xɐ.ˈrɔ.ʃɔl]</rt></ruby></td>
-<td><ruby><strong>xaróshos</strong> <rt>[xɐ.ˈrɔ.ʃɔs]</rt></ruby></td>
+<td><ruby><strong>xárosh</strong><rt>[ˈxɐ.rɔʃ]</rt></ruby></td>
+<td><ruby><strong>xaróshec</strong><rt>[xɐ.ˈrɔ.ʃɛç]</rt></ruby></td>
+<td><ruby><strong>xaróshol</strong><rt>[xɐ.ˈrɔ.ʃɔl]</rt></ruby></td>
+<td><ruby><strong>xaróshos</strong><rt>[xɐ.ˈrɔ.ʃɔs]</rt></ruby></td>
 </tr>
 </tbody>
 </table>
@@ -1451,20 +1457,21 @@ and 3<sup>rd</sup> singular inanimate.</p>
 </table>
 </div>
 <h2 id="cases_1">Cases</h2>
-<p>NewLang has 5 cases: nominative, accusative, dative, locative and genitive.</p>
+<p>NewLang has 5 cases: nominative, accusative, dative, locative and genitive.
+The accusative also serves as a general lative.</p>
 <p>The genitive can also be combined with other cases,
 usually to create a less strict meaning:</p>
 <ul>
-<li>genitive + accusative = allative</li>
-<li>genitive + dative = sociative / comitative</li>
-<li>genitive + locative = apudessive</li>
+<li>genitive + accusative = allative (towards)</li>
+<li>genitive + dative = benefactive (for the benefit of)</li>
+<li>genitive + locative = apudessive (adjacent to)</li>
 </ul>
 <p>For the combined cases, adjectives agree with the latter one 
 (i.e., not the genitive).</p>
 <h2 id="tams_1">TAMs</h2>
 <h1 id="name-to-english-dictionary">NewLang to English Dictionary</h1>
 <h5 id="how-to-read-dictionary-entries">How to Read Dictionary Entries</h5>
-<p>Below is a sample dictionary entry from the NewLang-English side of the dictionary. 
+<p>Below is a sample dictionary entry.
 Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>egzampul</strong><sup>1</sup> [ɛg.ˈzæm.pul]<sup>2</sup> *<em>ksmpl</em><sup>3</sup> (ni.)<sup>4</sup> definition<sup>5</sup> (and more information)<sup>6</sup></p>
 <ol>
@@ -1494,63 +1501,44 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <li>Additional information (register, pragmatics).</li>
 </ol>
 <h2 id="a">A</h2>
-<p><strong>ahét</strong> [ɐ.ˈhɛt] <em>*ʔama</em> + <em>*qamatu</em> (unknown.) ??</p>
 <p><strong>ahó</strong> [ɐ.ˈhɔ] <em>*ʔamikami</em> + <em>*qʷa</em> (nh.) women, female persons</p>
 <p><strong>akách</strong> [ɐ.ˈkɐt͡ʃ] <em>*ʔamikami</em> + <em>*ʃuqʷa</em> (ni.) village, settlement</p>
 <p><strong>alóx</strong> [ɐ.ˈlɔx] <em>*ʔaŋi</em> + <em>*laŋi</em> + <em>*^</em> + <em>*χuha</em> + <em>*~</em> (ni.) forest</p>
 <p><strong>axé</strong> [ɐ.ˈxɛ] <em>*ʔaŋiχaŋi</em> (det.) all</p>
-<h2 id="c">C</h2>
-<p><strong>ce</strong> [ˈçɛ] <em>*ʔixa</em> (vt.) to see, to set oneself towards something, to face</p>
 <h2 id="e">E</h2>
 <p><strong>e</strong> [ˈɛ] <em>*ha</em> (conj.) relativizer</p>
-<p><strong>e</strong> [ˈɛ] <em>*ha</em> (det.) proximal demonstrative (archaic)</p>
-<p><strong>e</strong> [ˈɛ] <em>*ha</em> (pron.) 3<sup>rd</sup> person singular (archaic)</p>
 <p><strong>ek</strong> [ˈɛk] <em>*ʔina</em> + <em>*ʔamikami</em> (pron.) 1<sup>st</sup> person plural (exclusive)</p>
-<p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (n.) people (archaic)</p>
 <p><strong>eké</strong> [ɛ.ˈkɛ] <em>*ʔamikami</em> (pron.) 3<sup>rd</sup> person plural (human)</p>
 <p><strong>ekém</strong> [ɛ.ˈkɛm] <em>*ʔamikami</em> + <em>*ʔu</em> (nh.) men, male persons</p>
-<p><strong>elé</strong> [ɛ.ˈlɛ] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) tree (plural)</p>
+<p><strong>elé</strong> [ɛ.ˈlɛ] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) grove</p>
 <p><strong>elkélres</strong> [ɛl.ˈkɛl.rɛs] <em>*ʔali</em> + <em>*kalira</em> + <em>*si</em> (vt.) ???</p>
-<p><strong>ellél</strong> [ɛ.ˈɬɛl] <em>*ʔali</em> + <em>*tʷali</em> (n.) two hands, both</p>
 <h2 id="f">F</h2>
-<p><strong>fi</strong> [ˈfi] <em>*hufi</em> (n.) child, pup, baby</p>
-<p><strong>fif</strong> [ˈfif] <em>*ʔifi</em> + <em>*nifi</em> (unknown.) ??</p>
 <p><strong>foth</strong> [ˈfɔθ] <em>*fahutʷa</em> (adj.) dark, dim</p>
-<p><strong>foth</strong> [ˈfɔθ] <em>*fahutʷa</em> (n.) night, darkness (archaic)</p>
 <p><strong>fothél</strong> [fɔ.ˈθɛl] <em>*fahutʷa</em> + <em>*li</em> (nh.) night god</p>
 <p><strong>fótha</strong> [ˈfɔ.θɐ] <em>*fahutʷa</em> + <em>*qaʔa</em> (ni.) night</p>
 <h2 id="h">H</h2>
 <p><strong>hat</strong> [ˈhɐt] <em>*qamatu</em> + <em>*ɴi</em> (ni.) armadillo</p>
 <p><strong>háto</strong> [ˈhɐ.tɔ] <em>*qamatu</em> + <em>*qaʔa</em> (ni.) rock, boulder</p>
 <p><strong>het</strong> [ˈhɛt] <em>*qamatu</em> (adj.) hard, stern, solid, stable</p>
-<p><strong>het</strong> [ˈhɛt] <em>*qamatu</em> (n.) rock, stone (archaic)</p>
 <p><strong>het</strong> [ˈhɛt] <em>*qamatu</em> + <em>*hi</em> (na.) turnip</p>
 <p><strong>hétuf</strong> [ˈhɛ.tuf] <em>*qamatu</em> + <em>*^</em> + <em>*hufi</em> + <em>*~</em> (na.) pebble</p>
 <p><strong>ho</strong> [ˈhɔ] <em>*kami</em> + <em>*qʷa</em> (nh.) woman, female person</p>
 <p><strong>hwë</strong> [ˈʍɘ] <em>*kʷina</em> + <em>*qaʔa</em> (ni.) grass</p>
 <p><strong>hwi</strong> [ˈʍi] <em>*kʷina</em> (adj.) shallow, flat</p>
-<p><strong>hwi</strong> [ˈʍi] <em>*kʷina</em> (n.) plains, steppe</p>
 <p><strong>hwy</strong> [ˈʍʏ] <em>*kʷina</em> + <em>*qʷa</em> (test.) </p>
 <h2 id="i">I</h2>
-<p><strong>i</strong> [ˈi] <em>*ʔikʷa</em> (v.) to finish, to be done with</p>
-<p><strong>i</strong> [ˈi] <em>*ʔimi</em> (pron.) 1<sup>st</sup> person singular (archaic)</p>
 <p><strong>i</strong> [ˈi] <em>*ʔina</em> (det.) proximal demonstrative</p>
 <p><strong>ik</strong> [ˈik] <em>*ʔina</em> + <em>*kami</em> (pron.) 1<sup>st</sup> person singular</p>
-<p><strong>il</strong> [ˈil] <em>*qʷila</em> (pron.) 1<sup>st</sup> person plural (archaic)</p>
 <p><strong>ixé</strong> [i.ˈxɛ] <em>*ʔina</em> + <em>*χaŋi</em> (det.) proximal demonstrative (plural)</p>
 <h2 id="k">K</h2>
 <p><strong>kálar</strong> [ˈkɐ.lɐr] <em>*kalira</em> + <em>*ɴi</em> (ni.) frog</p>
 <p><strong>kálor</strong> [ˈkɐ.lɔr] <em>*kalira</em> + <em>*hu</em> (nh.) woodpecker</p>
-<p><strong>ke</strong> [ˈkɛ] <em>*kami</em> (n.) person (archaic)</p>
 <p><strong>ke</strong> [ˈkɛ] <em>*kami</em> (pron.) 1<sup>st</sup> person plural (inclusive)</p>
 <p><strong>kem</strong> [ˈkɛm] <em>*kami</em> + <em>*ʔu</em> (nh.) man, male person</p>
 <p><strong>kes</strong> [ˈkɛs] <em>*kasu</em> (vd.) to give</p>
-<p><strong>kéler</strong> [ˈkɛ.lɛr] <em>*kalira</em> (n.) tongue (archaic)</p>
 <p><strong>kéler</strong> [ˈkɛ.lɛr] <em>*kalira</em> + <em>*ŋu</em> (na.) bay, gulf, inlet</p>
 <p><strong>kélres</strong> [ˈkɛl.rɛs] <em>*kalira</em> + <em>*si</em> (vt.) to lick</p>
 <h2 id="l">L</h2>
-<p><strong>le</strong> [ˈlɛ] <em>*lamu</em> (det.) all (archaic)</p>
-<p><strong>le</strong> [ˈlɛ] <em>*laŋi</em> (n.) tree</p>
 <p><strong>lla</strong> [ˈɬɐ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ɴi</em> (det.) distal demonstrative (inanimate)</p>
 <p><strong>lle</strong> [ˈɬɛ] <em>*ɬiʔu</em> + <em>*ha</em> + <em>*ma</em> (det.) distal demonstrative (animate)</p>
 <p><strong>llek</strong> [ˈɬɛk] <em>*ɬiʔu</em> + <em>*ʔamikami</em> (pron.) 2<sup>nd</sup> person plural</p>
@@ -1558,62 +1546,37 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>llu</strong> [ˈɬu] <em>*ɬiʔu</em> (det.) distal demonstrative</p>
 <p><strong>lluk</strong> [ˈɬuk] <em>*ɬiʔu</em> + <em>*kami</em> (pron.) 2<sup>nd</sup> person singular</p>
 <p><strong>lluxé</strong> [ɬu.ˈxɛ] <em>*ɬiʔu</em> + <em>*χaŋi</em> (det.) distal demonstrative (plural)</p>
-<p><strong>lo</strong> [ˈlɔ] <em>*lahu</em> (vt.) to help, to carry</p>
-<p><strong>lut</strong> [ˈlut] <em>*lunita</em> (n.) belly, stomach, gut</p>
 <p><strong>lut</strong> [ˈlut] <em>*lunita</em> (postp.) in, into</p>
 <h2 id="m">M</h2>
 <p><strong>melk</strong> [ˈmɛlk] <em>*malaki</em> (test.) </p>
 <p><strong>met&rsquo;él</strong> [mɛ.ˈt̪ɛl] <em>*matala</em> (test.) test</p>
-<p><strong>met&rsquo;úl</strong> [mɛ.ˈt̪ul] <em>*matuli</em> (n.) beast, large animal</p>
 <h2 id="n">N</h2>
 <p><strong>na</strong> [ˈnɐ] <em>*ʔina</em> + <em>*ha</em> + <em>*ɴi</em> (det.) proximal demonstrative (inanimate)</p>
 <p><strong>nar</strong> [ˈnɐr] <em>*na</em> + <em>*ma</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person singular (animate)</p>
-<p><strong>nar</strong> [ˈnɐr] <em>*na</em> + <em>*ma</em> + <em>*raqʷi</em> (pron.) intesifier (animate gender, archaic)</p>
-<p><strong>ne</strong> [ˈnɛ] <em>*na</em> (det.) one of (archaic)</p>
 <p><strong>ne</strong> [ˈnɛ] <em>*ʔina</em> + <em>*ha</em> + <em>*ma</em> (det.) proximal demonstrative (animate)</p>
-<p><strong>netl</strong> [ˈnɛt͡ɬ] <em>*ʔani</em> + <em>*ʔaniɬu</em> (unknown.) ??</p>
-<p><strong>nets</strong> [ˈnɛt͡s] <em>*ʔana</em> + <em>*ʔanasu</em> (unknown.) ??</p>
 <p><strong>ngúsa</strong> [ˈŋu.sɐ] <em>*ŋusa</em> + <em>*qaʔa</em> (ni.) sweat, perspiration</p>
-<p><strong>ni</strong> [ˈni] <em>*nuʔi</em> (pron.) 2<sup>nd</sup> person singular (archaic)</p>
 <p><strong>nif</strong> [ˈnif] <em>*nifi</em> (adj.) small, young, short</p>
-<p><strong>nif</strong> [ˈnif] <em>*nifi</em> (n.) boy, young, male who didn&rsquo;t sired any offsprings</p>
 <p><strong>no</strong> [ˈnɔ] <em>*ʔina</em> + <em>*ha</em> + <em>*ʔu</em> (det.) proximal demonstrative (human)</p>
 <p><strong>nor</strong> [ˈnɔr] <em>*na</em> + <em>*ʔu</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person singular (human)</p>
-<p><strong>nor</strong> [ˈnɔr] <em>*na</em> + <em>*ʔu</em> + <em>*raqʷi</em> (pron.) intesifier (human gender, archaic)</p>
-<p><strong>nyus</strong> [ˈɲus] <em>*ŋusa</em> (adj.) wet, damp</p>
 <p><strong>nyus</strong> [ˈɲus] <em>*ŋusa</em> (adj.) wet, damp</p>
 <p><strong>nyusé</strong> [ɲu.ˈsɛ] <em>*ŋusa</em> + <em>*ma</em> (na.) hippopotamus, large river dwelling mammal</p>
 <p><strong>nyush</strong> [ˈɲuʃ] <em>*ŋuʃi</em> (na.) water</p>
 <h2 id="o">O</h2>
 <p><strong>o</strong> [ˈɔ] <em>*ʔuɴa</em> (adj.) great, big</p>
-<p><strong>o</strong> [ˈɔ] <em>*ʔuɴa</em> (n.) fear</p>
 <h2 id="p">P</h2>
 <p><strong>por</strong> [ˈpɔr] <em>*puriqa</em> (ni.) earth</p>
 <p><strong>put</strong> [ˈput] <em>*punati</em> (v.) to verb</p>
-<h2 id="r">R</h2>
-<p><strong>rec</strong> [ˈrɛç] <em>*raqʷi</em> + <em>*ʔixa</em> (test.) test</p>
-<p><strong>ro</strong> [ˈrɔ] <em>*raqʷi</em> (n.) body (archaic)</p>
-<p><strong>ry</strong> [ˈrʏ] <em>*riqu</em> (v.) to say, to utter, to propose, to suggest</p>
+<p><strong>púlum</strong>, <strong>púlim</strong>, <strong>púlnyr</strong>, <strong>púlimry</strong>, <strong>púlum</strong>, <strong>púlim</strong>, <strong>púlnyr</strong>, <strong>púlnus</strong>, <strong>pulúmse</strong> [ˈpu.lum] <em>*pulami</em> (test.) TAM test</p>
 <h2 id="s">S</h2>
-<p><strong>se</strong> [ˈsɛ] <em>*husa</em> (vt.) locative copula</p>
-<p><strong>se</strong> [ˈsɛ] <em>*husa</em> (vt.) to live, to stay at, to be at</p>
-<p><strong>se</strong> [ˈsɛ] <em>*sana</em> (num.) one (numeral, archaic)</p>
 <p><strong>shich</strong> [ˈʃit͡ʃ] <em>*ʔuʃi</em> + <em>*ŋuʃi</em> (unknown.) ??</p>
 <p><strong>shif</strong> [ˈʃif] <em>*ʃifi</em> (vi.) to walk, to stroll, to pace</p>
-<p><strong>sho</strong> [ˈʃɔ] <em>*ʃuqʷa</em> (n.) home, place</p>
-<p><strong>si</strong> [ˈsi] <em>*si</em> (v.) to do, light verb constructor</p>
 <p><strong>sik</strong> [ˈsik] <em>*simaku</em> (vi.) to leap, stroll</p>
-<p><strong>so</strong> [ˈsɔ] <em>*sahu</em> (pron.) 2<sup>nd</sup> person singular (archaic)</p>
-<p><strong>sóxus</strong> [ˈsɔ.xus] <em>*ʔusa</em> + <em>*χusa</em> (unknown.) mountain (plural)</p>
-<p><strong>su</strong> [ˈsu] <em>*suma</em> (n.) sword, blade, knife</p>
+<p><strong>sóxus</strong> [ˈsɔ.xus] <em>*ʔusa</em> + <em>*χusa</em> (ni.) mountain range</p>
 <p><strong>sum</strong> [ˈsum] <em>*suma</em> + <em>*ʔu</em> (nh.) warrior, soldier</p>
 <p><strong>suts</strong> [ˈsut͡s] <em>*suma</em> + <em>*si</em> (vt.) to slice, to cut</p>
-<p><strong>suts</strong>, <strong>sútsi</strong>, <strong>sútsyr</strong>, <strong>sútsir</strong>, <strong>sutsý</strong>, <strong>sutsí</strong>, <strong>sutsýry</strong>, <strong>sútsus</strong>, <strong>sutsúse</strong> [ˈsut͡s] <em>*suma</em> + <em>*si</em> (test.) TAM test</p>
 <h2 id="t">T</h2>
-<p><strong>t&rsquo;útul</strong> [ˈt̪u.tul] <em>*ʔatu</em> + <em>*matuli</em> (unknown.) ??</p>
 <p><strong>tháleng</strong> [ˈθɐ.lɛŋ] <em>*tʷali</em> + <em>*ɴi</em> (ni.) mouse, small rodent with legible fingers</p>
 <p><strong>thálnyx</strong> [ˈθɐl.nʏx] <em>*tʷali</em> + <em>*ɴi</em> + <em>*^</em> + <em>*χuha</em> + <em>*~</em> (ni.) rat, large mouse</p>
-<p><strong>thel</strong> [ˈθɛl] <em>*tʷali</em> (n.) hand</p>
 <p><strong>thel</strong> [ˈθɛl] <em>*tʷali</em> + <em>*hi</em> (na.) date, fruit of the date-palm tree</p>
 <p><strong>thell</strong> [ˈθɛɬ] <em>*tʷali</em> + <em>*laŋi</em> (ni.) date-palm tree</p>
 <p><strong>thélem</strong> [ˈθɛ.lɛm] <em>*tʷali</em> + <em>*ma</em> (na.) bear, large beast with legible fingers</p>
@@ -1621,34 +1584,166 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <p><strong>tich</strong> [ˈtit͡ʃ] <em>*tiluʃa</em> (vt.) to love, like, be drawn to, be entwined with</p>
 <p><strong>tlo</strong> [ˈt͡ɬɔ] <em>*ʔaniɬu</em> + <em>*qaʔa</em> (ni.) day</p>
 <p><strong>tlu</strong> [ˈt͡ɬu] <em>*ʔaniɬu</em> (adj.) bright, white</p>
-<p><strong>tlu</strong> [ˈt͡ɬu] <em>*ʔaniɬu</em> (n.) sun, day (archaic)</p>
 <p><strong>tlul</strong> [ˈt͡ɬul] <em>*ʔaniɬu</em> + <em>*li</em> (nh.) sun god</p>
 <p><strong>tlúrec</strong> [ˈt͡ɬu.rɛç] <em>*ʔaniɬu</em> + <em>*raqʷi</em> + <em>*ʔixa</em> (adj.) new bright</p>
-<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (adj.) same (archaic)</p>
-<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (n.) ones (archaic)</p>
 <p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (pron.) 3<sup>rd</sup> person singular (inanimate)</p>
-<p><strong>tse</strong> [ˈt͡sɛ] <em>*ʔanasana</em> (pron.) intensifier (inanimate gender, archaic)</p>
 <p><strong>tsi</strong> [ˈt͡si] <em>*ʔanasu</em> + <em>*hi</em> (na.) long beans, pod-borne seeds</p>
 <p><strong>tsik</strong> [ˈt͡sik] <em>*ʔima</em> + <em>*simaku</em> (vi.) to jump, spring</p>
 <p><strong>tso</strong> [ˈt͡sɔ] <em>*ʔanasu</em> + <em>*ɴi</em> (na.) worm</p>
 <p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> (adj.) long, alongated, thin and long</p>
-<p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> (n.) rope (archaic)</p>
 <p><strong>tsu</strong> [ˈt͡su] <em>*ʔanasu</em> + <em>*ŋu</em> (na.) river</p>
+<p><strong>tsúlun</strong> [ˈt͡su.lun] <em>*ʔanasu</em> + <em>*laŋi</em> (ni.) tree with branches / leaves that look like ropes</p>
 <h2 id="u">U</h2>
-<p><strong>u</strong> [ˈu] <em>*qʷumi</em> (v.) to stand, to stay</p>
 <p><strong>urpór</strong> [ur.ˈpɔr] <em>*ʔuri</em> + <em>*puriqa</em> (unknown.) ??</p>
 <h2 id="x">X</h2>
 <p><strong>xar</strong> [ˈxɐr] <em>*χaŋi</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person plural (animate/inanimate)</p>
-<p><strong>xar</strong> [ˈxɐr] <em>*χaŋi</em> + <em>*raqʷi</em> (pron.) intensifier plural (archaic)</p>
-<p><strong>xe</strong> [ˈxɛ] <em>*χaŋi</em> (det.) many (archaic)</p>
-<p><strong>xe</strong> [ˈxɛ] <em>*χaŋi</em> (pron.) 3<sup>rd</sup> person plural (archaic)</p>
-<p><strong>xe</strong> [ˈxɛ] <em>*χuha</em> (adj.) big, towering</p>
-<p><strong>xe</strong> [ˈxɛ] <em>*χuha</em> (n.) mountain (reduced form)</p>
-<p><strong>xus</strong> [ˈxus] <em>*χusa</em> (n.) mountain</p>
-<h2 id="_1">ʔ</h2>
-<p><strong>ʔánasulangi</strong> [ʔánasulangi] <em>*ʔanasu</em> + <em>*laŋi</em> (ni.) tree with branches / leaves that look like ropes</p>
-<p><strong>ʔángilangi</strong> [ʔángilangi] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) grove</p>
-<p><strong>ʔúsaχusa</strong> [ʔúsaχusa] <em>*ʔusa</em> + <em>*χusa</em> (ni.) mountain range</p>
+<h1 id="affixes-table">Affixes Table</h1>
+<table>
+<thead>
+<tr>
+<th>Affix</th>
+<th>Description</th>
+<th>Sources</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><ruby><strong>il</strong><rt>[ˈil]</rt></ruby>-</td>
+<td>1<sup>st</sup> person plural prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>i</strong><rt>[ˈi]</rt></ruby>-</td>
+<td>1<sup>st</sup> person singular prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>ny</strong><rt>[ˈnʏ]</rt></ruby>-</td>
+<td>2<sup>nd</sup> person singular feminine prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>nil</strong><rt>[ˈnil]</rt></ruby>-</td>
+<td>2<sup>nd</sup> person singular formal prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>nyl</strong><rt>[ˈnʏl]</rt></ruby>-</td>
+<td>2<sup>nd</sup> person singular highly formal prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>nu</strong><rt>[ˈnu]</rt></ruby>-</td>
+<td>2<sup>nd</sup> person singular masculine prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>xe</strong><rt>[ˈxɛ]</rt></ruby>-</td>
+<td>3<sup>rd</sup> person plural prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>e</strong><rt>[ˈɛ]</rt></ruby>-</td>
+<td>3<sup>rd</sup> person singular animate prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>o</strong><rt>[ˈɔ]</rt></ruby>-</td>
+<td>3<sup>rd</sup> person singular human prefix</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>a</strong><rt>[ˈɐ]</rt></ruby>-</td>
+<td>3<sup>rd</sup> person singular inanimate prefix</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>ce</strong><rt>[ˈçɛ]</rt></ruby></td>
+<td>accusative case</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>he</strong><rt>[ˈhɛ]</rt></ruby></td>
+<td>action nominalizer</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>rec</strong><rt>[ˈrɛç]</rt></ruby></td>
+<td>adjectival 1</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>ke</strong><rt>[ˈkɛ]</rt></ruby></td>
+<td>agent nominalizer</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>xu</strong><rt>[ˈxu]</rt></ruby></td>
+<td>augmentative (always inanimate)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>ry</strong><rt>[ˈrʏ]</rt></ruby></td>
+<td>conditional mood (general irrealis, archaic)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>lo</strong><rt>[ˈlɔ]</rt></ruby></td>
+<td>dative case</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>uf</strong><rt>[ˈuf]</rt></ruby></td>
+<td>diminutive (always animate)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>sho</strong><rt>[ˈʃɔ]</rt></ruby></td>
+<td>genitive case</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>se</strong><rt>[ˈsɛ]</rt></ruby></td>
+<td>habitual aspect (archaic)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>u</strong><rt>[ˈu]</rt></ruby></td>
+<td>imperfective aspect (archaic)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>se</strong><rt>[ˈsɛ]</rt></ruby></td>
+<td>locative</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>i</strong><rt>[ˈi]</rt></ruby></td>
+<td>past tense (archaic)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>sho</strong><rt>[ˈʃɔ]</rt></ruby></td>
+<td>place nominalizer</td>
+<td></td>
+</tr>
+<tr>
+<td><ruby><strong>le</strong><rt>[ˈlɛ]</rt></ruby>-</td>
+<td>plural prefix (for animate and inanimate)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>ek</strong><rt>[ˈɛk]</rt></ruby></td>
+<td>plural suffix (for human)</td>
+<td></td>
+</tr>
+<tr>
+<td>-<ruby><strong>si</strong><rt>[ˈsi]</rt></ruby></td>
+<td>verbalizer</td>
+<td></td>
+</tr>
+</tbody>
+</table>
         </main>
     </body>
 </html>
