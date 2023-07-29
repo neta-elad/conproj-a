@@ -13,7 +13,7 @@ on top of which more complicated ones are constructed:
 
 - Nominative, the subject of the sentence.
 - Accusative/Lative, the direct object of the sentence, 
-    or an indirect object representing the target of action general (to).
+    or an indirect object representing the target of action (to).
 - Dative, an indirect object
     representing the recipient or goal of the action.
 - Locative, an indirect object
