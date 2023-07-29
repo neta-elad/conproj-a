@@ -1,8 +1,8 @@
 # TODO
 
 - Next up:
-    - get rid of 2^nd^ person class distinction?
-- relativizer
+    - relativizer
+- get rid of 2^nd^ person class distinction?
 - shorter case/TAM affixes?
 - delay .gen affixation?
 - verb participles

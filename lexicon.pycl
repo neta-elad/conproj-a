@@ -69,14 +69,14 @@ entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
 entry % <tree> *laŋi (n.) tree
-entry % <tree>.pl { *ʔaŋi +! *laŋi } (n.) tree (plural)
+entry % <tree>.pl *ʔaŋi +! *laŋi (n.) tree (plural)
 entry <grove> % <tree>.pl (n.) grove
 entry <forest> <grove>.aug (ni.) forest
 
 entry % <hand> 
     *tʷali (n.) hand
-entry % <two-hands> 
-    { *ʔali +! *tʷali } (n.) two hands, both
+entry % <two hands> 
+    *ʔali +! *tʷali (n.) two hands, both
 
 entry <bear> <hand>%.c3 (na.) bear, large beast with legible fingers
 entry <mouse> <hand>%.c5 (ni.) mouse, small rodent with legible fingers
@@ -119,6 +119,7 @@ entry <in> <belly>% (postp.) in, into
 
 entry % <boy> *nifi (n.) boy, young, male who didn't sired any offsprings
 entry % <boy>.pl { *ʔifi +! *nifi } (unknown.) ??
+entry <infants> % <boy>.pl (unknown.) infants, mass noun
 entry <small> <boy>% (adj.) small, young, short
 
 entry % <steppe> *kʷina (n.) plains, steppe
@@ -144,9 +145,9 @@ entry <new bright> <sun>%.adj-1 (adj.) new bright
 
 
 entry <water> *ŋuʃi (na.) water
-entry <water-pl> *ʔuʃi +! *ŋuʃi (unknown.) ??
+entry <water>.pl *ʔuʃi +! *ŋuʃi (unknown.) ??
 entry <earth> *puriqa (ni.) earth
-entry <earth-pl> *ʔuri +! *puriqa (unknown.) ??
+entry <earth>.pl *ʔuri +! *puriqa (unknown.) ??
 
 
 entry % <wet> *ŋusa (adj.) wet, damp
@@ -194,7 +195,7 @@ entry <slice> <sword>%.vbz (vt.) to slice, to cut
 # tests
 
 # entry <classtest> *kalira (test.)
-entry <classtest> *malaki (test.)
+entry <classtest> *ʔihu (test.)
 #entry <casetest> *puna (test.)
 entry <casetest> *kʷina.c2 (test.)
 entry &tam <tamtest> *pulami (test.) TAM test
