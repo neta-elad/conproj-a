@@ -44,8 +44,6 @@ There is suppletion using the "genitive" form of the modern pronouns
 for 1^st^ plural (exclusive and inclusive)
 and 3^rd^ singular inanimate.
 
-
-
 &{
 
 | Genitive Pronouns | Nominative | Accusative | Dative | Locative |
@@ -64,7 +62,7 @@ and 3^rd^ singular inanimate.
 
 }{:.aligned-table}
 
-
+!details:Drafts
 
 ### Old Regular Pronouns
 
@@ -97,3 +95,5 @@ and 3^rd^ singular inanimate.
 | 3^rd^ (animate/inanimate, plural) | ph[<3pl-a/i>.gen] | ph[<3pl-a/i>.gen.acc] | ph[<3pl-a/i>.gen.dat] | ph[<3pl-a/i>.gen.loc] |
 
 }{:.aligned-table}
+
+!details

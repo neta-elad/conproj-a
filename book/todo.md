@@ -2,6 +2,7 @@
 
 - Next up:
     - relativizer
+- pronouns
 - get rid of 2^nd^ person class distinction?
 - shorter case/TAM affixes?
 - delay .gen affixation?
@@ -12,9 +13,5 @@
 - Verb derivations
 - More nominalizations
 - Copula (?)
-- Liquid + Nasal codas
-- Rhotic + h (any non-sibilant fricative?)
-    - Partially solved by loss of final weak fricatives?
-    - examples?
 
 

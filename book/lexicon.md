@@ -22,8 +22,6 @@ Each item has a number which corresponds to an explanation below the entry:
     - (det.) determiner
     - (post.) postposition
     - (prep.) preposition
-    - (pfx.) prefix
-    - (sfx.) suffix
     - (adj.) adjective
     - (adv.) adverb
 5. Definition (may be a single word or multiple words).
