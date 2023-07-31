@@ -8,9 +8,9 @@ affix .loc @cases-forming <loc-copula> locative
 # -- / --
 
 # EXTENDED CASES
-affix .all $.gen.acc allative (towards)
-affix .ben $.gen.dat benefactive
-affix .apud $.gen.loc apudessive
+affix .all $.gen.acc allative case (towards)
+affix .ben $.gen.dat benefactive case
+affix .apud $.gen.loc apudessive case
 # -- / --
 
 affix .place-nmlz @nominalizers afxs.<home>%.afxe place nominalizer
