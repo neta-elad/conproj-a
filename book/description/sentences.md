@@ -3,7 +3,7 @@
 
 g[<big>.a <bear> <wet>.i.loc <grass>.loc <rel> <mouse>.acc 3sg-a.<love>.phab]
 
-> "The big bear used to love the mouse that's on the short grass"
+> "The big bear used to love the mouse that's on the wet grass"
 
 
 g[<frog> <shallow>.a.lat <bay>.lat <in> 3sg-i.<jump>.fut]
