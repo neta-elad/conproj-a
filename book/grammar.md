@@ -4,3 +4,4 @@
 @{grammar/demonstratives.md}@
 @{grammar/cases.md}@
 @{grammar/tams.md}@
+@{grammar/relative.md}@

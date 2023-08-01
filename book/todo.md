@@ -1,9 +1,7 @@
 # TODO
 
 - Next up:
-    - relativizer: no gap for subjects, akin to Turkish. 
-    Need copula for non-verb relative clauses?
-    (E.g., "... that's on the grass").
+    - oblique relativizers
 - pronouns
 - get rid of 2^nd^ person class distinction?
 - shorter case/TAM affixes?
