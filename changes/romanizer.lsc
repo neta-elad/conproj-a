@@ -14,6 +14,7 @@ then:
     [+accent himid central vowel] => e̋!
 then:
     { t͡s, t͡ʃ, t͡ɬ } => { ts, ch, tl }
+    [glottal stop] => \'
     [dental fricative] => th
     [postalveolar fricative] => sh
     [alveolar +lateral fricative] => ll #todo: differently?

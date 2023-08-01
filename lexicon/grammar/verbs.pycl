@@ -13,20 +13,20 @@ affix 3pl. @verb-conjugation <3pl>% 3^rd^ person plural prefix
 
 
 # TAM
-affix .imprf-1 <stand>% imperfective aspect (archaic)
-affix .pst-1 @past-forming <finish>% past tense (archaic)
-affix .cond-1 @conditional-forming <say>% conditional mood (general irrealis, archaic)
-affix .hab-1 <live>% habitual aspect (archaic)
+affix % .imprf <stand>% imperfective aspect (archaic)
+affix % .pst @past-forming <finish>% past tense (archaic)
+affix % .cond @conditional-forming <say>% conditional mood (general irrealis, archaic)
+affix % .hab <live>% habitual aspect (archaic)
 
 affix .pst $ past tense
-affix .remp $.pst-1 remote / narrative past
-affix .fut $.cond-1 future
-affix .sjv $.pst-1.cond-1 subjunctive
-affix .cont $.imprf-1 present / present continuous
-affix .narr $.imprf-1.pst-1 narrative continuous
-affix .cond $.imprf-1.cond-1 conditional
-affix .hab $.hab-1 habitual
-affix .phab $.hab-1.pst-1 past habitual
+affix .remp $.pst% remote / narrative past
+affix .fut $.cond% future
+affix .sjv $.pst%.cond% subjunctive
+affix .cont $.imprf% present / present continuous
+affix .narr $.imprf%.pst% narrative continuous
+affix .cond $.imprf%.cond% conditional
+affix .hab $.hab% habitual
+affix .phab $.hab%.pst% past habitual
 # -- / -- 
 
 template &tam $.pst $.remp $.fut $.sjv $.cont $.narr $.cond $.hab $.phab

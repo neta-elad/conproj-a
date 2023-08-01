@@ -1,15 +1,13 @@
 # TODO
 
 - Next up:
-    - get rid of 2^nd^ person class distinction in conjugations?
+    - shorter case/TAM affixes?
 - oblique relativizers
-- shorter case/TAM affixes?
 - delay .gen affixation?
 - verb participles
-- adpositions
-- Stress rule
+- adpositions: essive vs. lative? temporal vs. spatial?
 - Noun derivations
 - Verb derivations
 - More nominalizations
 - Copula (?)
-
+- Stress rule

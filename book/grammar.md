@@ -5,3 +5,4 @@
 @{grammar/cases.md}@
 @{grammar/tams.md}@
 @{grammar/relative.md}@
+@{grammar/conjugation.md}@
