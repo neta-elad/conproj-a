@@ -1,10 +1,10 @@
 # VERB PERSON CONJUGATION
 affix 1sg. @verb-conjugation <1sg>% 1^st^ person singular prefix
 affix 1pl. @verb-conjugation <1pl>% 1^st^ person plural prefix
-affix 2sg-m. @verb-conjugation <2sg>%.c1 2^nd^ person singular masculine prefix 
-affix 2sg-f. @verb-conjugation <2sg>%.c2 2^nd^ person singular feminine prefix
-affix 2sg-for. @verb-conjugation <2sg>%.c10 2^nd^ person singular formal prefix
-affix 2sg-emp-for. @verb-conjugation <2sg>%.c9 2^nd^ person singular highly formal prefix
+affix 2sg. @verb-conjugation <2sg>% 2^nd^ person singular prefix
+affix 2for. @verb-conjugation <3sg>%.c10 2^nd^ person formal prefix
+affix 2hfor. @verb-conjugation <3sg>%.c9 2^nd^ person highly formal prefix
+affix 2pl. @verb-conjugation <2pl>% 2^nd^ person plural prefix
 affix 3sg-h. @verb-conjugation <3sg>%.c1 3^rd^ person singular human prefix
 affix 3sg-a. @verb-conjugation <3sg>%.c3 3^rd^ person singular animate prefix
 affix 3sg-i. @verb-conjugation <3sg>%.c5 3^rd^ person singular inanimate prefix

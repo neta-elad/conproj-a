@@ -34,22 +34,21 @@ and 3^rd^ pronouns coming from demonstratives + classifier:
 
 &{
 
-|Pronouns|<|Singular|<|Plural|<|
-|--------|-|--------|-|------|-|
-|1^st^ >|| pr[<1sg>%] | r[<1sg>%]- | pr[<1pl>%] | r[<1pl>%]- |
-|2^nd^ >|Masculine >|pr[<2sg>%] | r[<2sg>%.c1]- | pr[<2pl>%] | r[<2pl>%]- |
-|^      |Feminine  >|^              | r[<2sg>%.c2]- |^  |^  |
-|^      |Formal (1) >|^              | r[<2sg>%.c10]-|^  |^  |
-|^      |Formal (2) >|^    | r[<2sg>%.c9]- |^  |^  |
-|3^rd^ >|Human     >|pr[<3sg>%] | r[<3sg>%.c1]- | pr[<3pl>%] | r[<3pl>%]- |
-|^      |Animate   >|^              | r[<3sg>%.c3]- | ^ | ^ |
-|^      |Inanimate >|^              | r[<3sg>%.c5]- | ^ | ^ |
+| Pronouns |<             | Singular      | Plural      |
+|----------|--------------|---------------|-------------|
+| 1^st^   >|              | >r[<1sg.>]    | >r[<1pl.>]- |
+| 2^nd^   >| *Regular*   >| >r[<2sg.>]-   | >r[<2pl.>]- |
+| ^        | *Formal 1*  >| >r[<2for.>]-  |<            |
+| ^        | *Formal 2*  >| >r[<2hfor.>]- |<            |
+| 3^rd^   >| *Human*     >| >r[<3sg-h.>]- | >r[<3pl.>]  |
+| ^        | *Animate*   >| >r[<3sg-a.>]- |^            |
+| ^        | *Inanimate* >| >r[<3sg-i.>]- |^            |
 
 }{:.aligned-table}
 
-The 2^nd^ person singular pronouns used to conjugate 
-according to the class of the addressee.
-The d[.c10] and d[.c9] classes are used for two levels of formality.
+The 2^nd^ person formal conjugations 
+(originally from the 3^rd^ person forms for deities)
+are used without pronouns.
 
 ### Cases
 
