@@ -9,7 +9,7 @@ deromanizer:
     x q => [uvular] *
     n g => [velar] *
     [consonant] w => [+labialized] *
-    l l => * [fricative]
+    s l => * [fricative]
     s h => [postalveolar] *
     \' => ʔ
 

@@ -17,7 +17,7 @@ then:
     [glottal stop] => \'
     [dental fricative] => th
     [postalveolar fricative] => sh
-    [alveolar +lateral fricative] => ll #todo: differently?
+    [alveolar +lateral fricative] => sl
     [dental] * => [alveolar] \'
     {ɛ, ɐ, ɔ, ʏ, ɘ} => {e, a, o, y, ë}
     [palatal fricative] => c
