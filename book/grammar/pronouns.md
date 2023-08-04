@@ -39,7 +39,7 @@ and from archaic intensifiers (for 3^rd^ persons):
 
 The genitive pronouns are based on the old pronouns,
 for 1^st^ and 2^nd^ persons, 
-and on the determiners "one" (pr[<one>%]) and "many" (pr[<many>%])
+and on the determiners "one" (pr[<one>%archaic]) and "many" (pr[<many>%archaic])
 for 3^rd^ persons.
 There is suppletion using the genitive form of the modern pronouns
 for 1^st^ plural (exclusive and inclusive)
@@ -49,16 +49,16 @@ and 3^rd^ singular inanimate.
 
 | Genitive Pronouns | Genitive | Allative | Benefactive | Apudessive |
 |-------------------|------------|------------|--------|----------|
-| 1^st^ (singular) | ph[<1sg>%.gen] | ph[<1sg>%.all] | ph[<1sg>%.ben] | ph[<1sg>%.apud] |
-| ~~1^st^ (plural, unused)~~ | ~~ph[<1pl>%.gen]~~ | ~~ph[<1pl>%.all]~~ | ~~ph[<1pl>%.ben]~~ | ~~ph[<1pl>%.apud]~~ |
+| 1^st^ (singular) | ph[<1sg>%archaic.gen] | ph[<1sg>%archaic.all] | ph[<1sg>%archaic.ben] | ph[<1sg>%archaic.apud] |
+| ~~1^st^ (plural, unused)~~ | ~~ph[<1pl>%archaic.gen]~~ | ~~ph[<1pl>%archaic.all]~~ | ~~ph[<1pl>%archaic.ben]~~ | ~~ph[<1pl>%archaic.apud]~~ |
 | 1^st^ (plural, exclusive)| ph[<1pl-ex>.gen] | ph[<1pl-ex>.all] | ph[<1pl-ex>.ben] | ph[<1pl-ex>.apud] |
 | 1^st^ (plural, inclusive)| ph[<1pl-in>.gen] | ph[<1pl-in>.all] | ph[<1pl-in>.ben] | ph[<1pl-in>.apud] |
-| 2^nd^ (singular) | ph[<2sg>%.gen] | ph[<2sg>%.all] | ph[<2sg>%.ben] | ph[<2sg>%.apud] |
-| 2^nd^ (plural) | ph[<2pl>%.gen] | ph[<2pl>%.all] | ph[<2pl>%.ben] | ph[<2pl>%.apud] |
-| 3^rd^ (human, singular) | ph[<one>%.c1.gen] | ph[<one>%.c1.all] | ph[<one>%.c1.ben] | ph[<one>%.c1.apud] |
-| 3^rd^ (animate, singular) | ph[<one>%.c3.gen] | ph[<one>%.c3.all] | ph[<one>%.c3.ben] | ph[<one>%.c3.apud] |
-| ~~3^rd^ (inanimate, singular, unused)~~ | ~~ph[<one>%.c5.gen]~~ | ~~ph[<one>%.c5.all]~~ | ~~ph[<one>%.c5.ben]~~ | ~~ph[<one>%.c5.apud]~~ |
+| 2^nd^ (singular) | ph[<2sg>%archaic.gen] | ph[<2sg>%archaic.all] | ph[<2sg>%archaic.ben] | ph[<2sg>%archaic.apud] |
+| 2^nd^ (plural) | ph[<2pl>%archaic.gen] | ph[<2pl>%archaic.all] | ph[<2pl>%archaic.ben] | ph[<2pl>%archaic.apud] |
+| 3^rd^ (human, singular) | ph[<one>%archaic.c1.gen] | ph[<one>%archaic.c1.all] | ph[<one>%archaic.c1.ben] | ph[<one>%archaic.c1.apud] |
+| 3^rd^ (animate, singular) | ph[<one>%archaic.c3.gen] | ph[<one>%archaic.c3.all] | ph[<one>%archaic.c3.ben] | ph[<one>%archaic.c3.apud] |
+| ~~3^rd^ (inanimate, singular, unused)~~ | ~~ph[<one>%archaic.c5.gen]~~ | ~~ph[<one>%archaic.c5.all]~~ | ~~ph[<one>%archaic.c5.ben]~~ | ~~ph[<one>%archaic.c5.apud]~~ |
 | 3^rd^ (inanimate, singular) | ph[<3sg-i>.gen] | ph[<3sg-i>.all] | ph[<3sg-i>.ben] | ph[<3sg-i>.apud] |
-| 3^rd^ (plural) | ph[<3pl>%.gen] | ph[<3pl>%.all] | ph[<3pl>%.ben] | ph[<3pl>%.apud] |
+| 3^rd^ (plural) | ph[<3pl>%archaic.gen] | ph[<3pl>%archaic.all] | ph[<3pl>%archaic.ben] | ph[<3pl>%archaic.apud] |
 
 }{:.aligned-table}

@@ -35,24 +35,24 @@ For 3^rd^ person referants, demonstratives + classifier were used:
 
 | Pronouns |<             | Singular       | Plural     |
 |----------|--------------|----------------|------------|
-| 1^st^   >|              | pr[<1sg>%]     | pr[<1pl>%] |
-| 2^nd^   >|              | pr[<2sg>%]     | pr[<2pl>%] |
-| 3^rd^   >| *Class 1*   >| pr[<3sg>%.c1]  | pr[<3pl>%] |
-| ^        | *Class 2*   >| pr[<3sg>%.c2]  |^           |
-| ^        | *Class 3*   >| pr[<3sg>%.c3]  |^           |
-| ^        | *Class 4*   >| pr[<3sg>%.c4]  |^           |
-| ^        | *Class 5*   >| pr[<3sg>%.c5]  |^           |
-| ^        | *Class 6*   >| pr[<3sg>%.c6]  |^           |
-| ^        | *Class 7*   >| pr[<3sg>%.c7]  |^           |
-| ^        | *Class 8*   >| pr[<3sg>%.c8]  |^           |
-| ^        | *Class 9*   >| pr[<3sg>%.c9]  |^           |
-| ^        | *Class 10*  >| pr[<3sg>%.c10] |^           |
+| 1^st^   >|              | pr[<1sg>%archaic]     | pr[<1pl>%archaic] |
+| 2^nd^   >|              | pr[<2sg>%archaic]     | pr[<2pl>%archaic] |
+| 3^rd^   >| *Class 1*   >| pr[<3sg>%archaic.c1]  | pr[<3pl>%archaic] |
+| ^        | *Class 2*   >| pr[<3sg>%archaic.c2]  |^           |
+| ^        | *Class 3*   >| pr[<3sg>%archaic.c3]  |^           |
+| ^        | *Class 4*   >| pr[<3sg>%archaic.c4]  |^           |
+| ^        | *Class 5*   >| pr[<3sg>%archaic.c5]  |^           |
+| ^        | *Class 6*   >| pr[<3sg>%archaic.c6]  |^           |
+| ^        | *Class 7*   >| pr[<3sg>%archaic.c7]  |^           |
+| ^        | *Class 8*   >| pr[<3sg>%archaic.c8]  |^           |
+| ^        | *Class 9*   >| pr[<3sg>%archaic.c9]  |^           |
+| ^        | *Class 10*  >| pr[<3sg>%archaic.c10] |^           |
 
 }{:.aligned-table}
 
 ### Cases
 
-Originally, there was only the genitive case, from an old word for "home" pr[<home>%].
+Originally, there was only the genitive case, from an old word for "home" pr[<home>%archaic].
 
 ### TAMs
 

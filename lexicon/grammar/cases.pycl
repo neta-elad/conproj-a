@@ -1,0 +1,12 @@
+affix .gen @genitive-forming <home>%archaic genitive case
+affix .acc @cases-forming <see>%archaic accusative case
+affix .lat $.acc lative case (to)
+affix .dat @cases-forming <help>%archaic dative case
+entry %archaic <loc-copula> <live> (vt.) locative copula
+affix .loc @cases-forming <loc-copula> locative
+
+affix .all $.gen.acc allative case (towards)
+affix .ben $.gen.dat benefactive case
+affix .apud $.gen.loc apudessive case
+
+

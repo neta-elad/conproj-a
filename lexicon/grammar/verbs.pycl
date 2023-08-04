@@ -1,32 +1,32 @@
 # VERB PERSON CONJUGATION
-affix 1sg. @verb-conjugation <1sg>% 1^st^ person singular prefix
-affix 1pl. @verb-conjugation <1pl>% 1^st^ person plural prefix
-affix 2sg. @verb-conjugation <2sg>% 2^nd^ person singular prefix
-affix 2for. @verb-conjugation <3sg>%.c10 2^nd^ person formal prefix
-affix 2hfor. @verb-conjugation <3sg>%.c9 2^nd^ person highly formal prefix
-affix 2pl. @verb-conjugation <2pl>% 2^nd^ person plural prefix
-affix 3sg-h. @verb-conjugation <3sg>%.c1 3^rd^ person singular human prefix
-affix 3sg-a. @verb-conjugation <3sg>%.c3 3^rd^ person singular animate prefix
-affix 3sg-i. @verb-conjugation <3sg>%.c5 3^rd^ person singular inanimate prefix
-affix 3pl. @verb-conjugation <3pl>% 3^rd^ person plural prefix
+affix 1sg. @verb-conjugation <1sg>%archaic 1^st^ person singular prefix
+affix 1pl. @verb-conjugation <1pl>%archaic 1^st^ person plural prefix
+affix 2sg. @verb-conjugation <2sg>%archaic 2^nd^ person singular prefix
+affix 2for. @verb-conjugation <3sg>%archaic.c10 2^nd^ person formal prefix
+affix 2hfor. @verb-conjugation <3sg>%archaic.c9 2^nd^ person highly formal prefix
+affix 2pl. @verb-conjugation <2pl>%archaic 2^nd^ person plural prefix
+affix 3sg-h. @verb-conjugation <3sg>%archaic.c1 3^rd^ person singular human prefix
+affix 3sg-a. @verb-conjugation <3sg>%archaic.c3 3^rd^ person singular animate prefix
+affix 3sg-i. @verb-conjugation <3sg>%archaic.c5 3^rd^ person singular inanimate prefix
+affix 3pl. @verb-conjugation <3pl>%archaic 3^rd^ person plural prefix
 # -- / --
 
 
 # TAM
-affix % .imprf <stand>% imperfective aspect (archaic)
-affix % .pst @past-forming <finish>% past tense (archaic)
-affix % .cond @conditional-forming <say>% conditional mood (general irrealis, archaic)
-affix % .hab <live>% habitual aspect (archaic)
+affix %archaic .imprf <stand> imperfective aspect (archaic)
+affix %archaic .pst @past-forming <finish> past tense (archaic)
+affix %archaic .cond @conditional-forming <say> conditional mood (general irrealis, archaic)
+affix %archaic .hab <live> habitual aspect (archaic)
 
 affix .pst $ past tense
-affix .remp $.pst% remote / narrative past
-affix .fut $.cond% future
-affix .sjv $.pst%.cond% subjunctive
-affix .cont $.imprf% present / present continuous
-affix .narr $.imprf%.pst% narrative continuous
-affix .cond $.imprf%.cond% conditional
-affix .hab $.hab% habitual
-affix .phab $.hab%.pst% past habitual
+affix .remp $.pst%archaic remote / narrative past
+affix .fut $.cond%archaic future
+affix .sjv $.pst%archaic.cond%archaic subjunctive
+affix .cont $.imprf%archaic present / present continuous
+affix .narr $.imprf%archaic.pst%archaic narrative continuous
+affix .cond $.imprf%archaic.cond%archaic conditional
+affix .hab $.hab%archaic habitual
+affix .phab $.hab%archaic.pst%archaic past habitual
 # -- / -- 
 
 template &tam $.pst $.remp $.fut $.sjv $.cont $.narr $.cond $.hab $.phab

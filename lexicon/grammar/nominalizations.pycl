@@ -1,0 +1,4 @@
+affix .place-nmlz @nominalizers afxs.<home>%archaic.afxe place nominalizer
+affix .act-nmlz @nominalizers afxs.<.c8>.afxe action nominalizer
+affix .agent-nmlz @nominalizers afxs.<person>%archaic.afxe agent nominalizer
+# todo: change agent-nmlz to use some word meaning worker?

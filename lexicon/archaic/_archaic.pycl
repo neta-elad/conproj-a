@@ -1,0 +1,60 @@
+entry %archaic <person> *kami (n.) person
+entry %archaic <people> *ʔamikami (n.) people
+
+entry %archaic <one> *na (det.) one of
+entry %archaic <one-num> *sana (num.) one (numeral)
+entry %archaic <ones> *ʔanasana (n.) ones (archaic)
+
+entry %archaic <same> <ones> (adj.) same (archaic)
+
+entry %archaic <many> *χaŋi (det.) many (archaic)
+entry %archaic <all> *lamu (det.) all (archaic)
+entry <all> *ʔaŋiχaŋi (det.) all
+
+entry %archaic <body> *raqʷi (n.) body (archaic)
+
+# PRONOUNS
+entry %archaic <1sg> *ʔimi (pron.) 1^st^ person singular
+entry %archaic <1pl> *qʷila (pron.) 1^st^ person plural
+entry %archaic <2sg> *niʔu (pron.) 2^nd^ person singular
+entry %archaic <2pl> *saʔu (pron.) 2^nd^ person singular
+entry %archaic <3sg> <this> (pron.) 3^rd^ person singular
+entry %archaic <3pl> <many> (pron.) 3^rd^ person plural
+entry %middle <intensifier-h> 
+    %archaic <one>.c1 +!@intensifier-forming <body>
+    (pron.) intesifier (human gender)
+entry %middle <intensifier-a>
+    %archaic <one>.c3 +!@intensifier-forming <body>
+    (pron.) intesifier (animate gender)
+entry %middle <intensifier-i> 
+    <same>%archaic
+    (pron.) intensifier (inanimate gender)
+entry %middle <intensifier-pl> 
+    %archaic <many> +!@intensifier-forming <body>
+    (pron.) intensifier plural
+# -- / --
+
+entry %archaic <this> *ha (det.) proximal demonstrative (archaic)
+
+# Case Derivations
+entry %archaic <home> *ʃuqʷa (n.) home, place
+entry %archaic <see> *ʔixa (vt.) to see, to set oneself towards something, to face
+entry %archaic <help> *lahu (vt.) to help, to carry
+entry %archaic <live> *husa (vt.) to live, to stay at, to be at
+# -- / --
+
+# TAM Derivations
+entry %archaic <stand> *qʷumi (v.) to stand, to stay
+entry %archaic <finish> *ʔikʷa (v.) to finish, to be done with
+entry %archaic <say> *riqu (v.) to say, to utter, to propose, to suggest
+# -- / --
+
+entry %archaic <do> *si (v.) to do, light verb constructor
+affix %archaic .vbz <do> verbalizer
+
+# Adposition Derivations
+entry %archaic <belly> *lunita (n.) belly, stomach, gut
+# -- / --
+
+include "./nouns.pycl"
+include "./adjectives.pycl"

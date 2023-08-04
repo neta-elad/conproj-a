@@ -1,0 +1,5 @@
+include "cases.pycl"
+include "nominalizations.pycl"
+include "plurals.pycl"
+
+include "verbs.pycl"
