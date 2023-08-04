@@ -108,7 +108,7 @@ red sounds only exist in the proto-language.
 |------------|--------|--------|-----------------------|---------|-------|--------|---------|
 | Nasal     >| m      |        | n                     | ^^ɲ \<ny\>^^ | ŋ \<ng\>     | ~~ɴ~~  |         |
 | Plosive   >| p      | ^^t̪ \<t'\>^^  | t                     |         | k     | ~~q~~  | ~~ʔ~~       |
-| Fricative >| f      | ^^θ \<th\>^^  | s, ʃ \<sh\>, <br /> ɬ \<ll\> | ^^ç \<c\>^^    | x, <br /> ^^ʍ \<hw\>^^      | ~~χ~~       | h        |
+| Fricative >| f      | ^^θ \<th\>^^  | s, ʃ \<sh\>, <br /> ɬ \<sl\> | ^^ç \<c\>^^    | x, <br /> ^^ʍ \<hw\>^^      | ~~χ~~       | h        |
 | Affricate >|        |        | ^^t͡s \<ts\>^^, <br /> ^^t͡ʃ \<ch\>^^, <br /> ^^t͡ɬ \<tl\>^^        |         |       |        |         |
 | Liquid    >|        |        | l, r \~ ɾ \<r\>    |         |       |        |         |
 
@@ -134,29 +134,3 @@ Some notes:
 @{description/historical.md}@
 @{description/tests.md}@
 
-
-!details:Case and TAM sources
-
-| Lexeme | Case | On | Form | Era | TAM | Form | Era |
-|--------|------|----|------|-----|-----|------|-----|
-| - | Nominative | - | - | - | - | - |
-| "finish" (archaic) *ana | Accusative | NOM | -*a | @proto | Perfective | -*a | @proto |
-| "come from" *lani | Genitive / Adpositional | NOM | -*lə | @proto | Near past | -*la | @early |
-| " - " | Ablative | ACC | -*la | @middle | - | - | - |
-| "hand" *ɾitu | Dative / Locative | NOM | -*ɾi | @proto | - | - | - |
-| "follow" *ŋupu | Comitative | NOM | -*ŋʷə | @middle | Causative | -*ŋʷə | @early |
-| " - " | Adverbial | LOC | -*ŋʷə | @middle | - | - | - |
-| "go to" *faɾi | Allative | ACC | -*fa | @middle | Future | -*fa | @early |
-| " - " | - | - | - | - | Infinitive | -*faɾʲə | @early |
-| "pass" *saxu | Comparative | ACC | -*sa | @middle | Past / Experiential | -*sa | @early |
-| " - " | Perlative | LOC | -*sa | @middle | - | - | - |
-| "say" *xipa | Vocative | ACC | -*hʲə | @middle | Conditional | -*hʲə | @middle | 
-| "want" *ximu | Abessive | ACC | -*xʲəmə | @middle | Negation | -*xʲəmə | @early |
-| " - " | - | - | - | - | Jussive | -*xʲəmʷə | @middle |
-| "sky" *nasu.LOC | Superessive | GEN | -*nœɾ | @late | - | - | - |
-| "floor" *kəli.LOC | Subessive | GEN | -*kil | @late | - | - | - |
-| "womb" *hafə.LOC | Inessive | GEN | -*hɛɾ | @late | - | - | - |
-| "eye" *tamu.LOC | Antessive | GEN | -*tom | @late | - | - | - |
-| "back" *pinu.LOC | Postessive | GEN | -*pin | @late | - | - | - |
-
-!details

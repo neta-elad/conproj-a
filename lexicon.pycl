@@ -2,6 +2,7 @@ scope % : % "changes/archaic.lsc"
 scope %archaic : % "changes/archaic.lsc"
 scope %middle : %archaic "changes/modern.lsc"
 scope %modern : %middle "changes/modern.lsc"
+scope %test : %modern "changes/modern.lsc"
 
 include "lexicon/classifiers.pycl"
 include "lexicon/archaic/_archaic.pycl"
@@ -125,11 +126,11 @@ entry <shallow> %archaic <steppe> (adj.) shallow, flat
 entry <grass> %archaic <steppe>.c8 (ni.) grass
 
 
-entry <sun god> %archaic <sun>.c10 (nh.) sun god
+entry <sun god> %archaic <sun>.c9 (nh.) sun god
 entry <bright> %archaic <sun> (adj.) bright, white
 entry <evening> %archaic <sun>.pl (ni.) evening, twilight (part of day)
 
-entry <night god> %archaic <night>.c10 (nh.) night god
+entry <night god> %archaic <night>.c9 (nh.) night god
 entry <night> %archaic <night>.c8 (ni.) night
 entry <dark> <night>%archaic (adj.) dark, dim
 
@@ -179,11 +180,8 @@ entry <slice> %archaic <sword>.vbz (vt.) to slice, to cut
 
 
 # tests
-
-# entry <classtest> *kalira (test.)
-entry <classtest> *ʔihu (test.)
-#entry <casetest> *puna (test.)
-entry <casetest> *kʷina.c2 (test.)
-entry &tam <tamtest> *pulami (test.) TAM test
-entry <verb> *punati (v.) to verb
-entry <test> *matala (test.) test
+entry %test <classtest> *ʔihu (test.)
+entry %test <casetest> *kʷina.c2 (test.)
+entry %test <tamtest> *pulami (test.) TAM test
+entry %test <verb> *punati (v.) to verb
+entry %test <test> *matala (test.) test
