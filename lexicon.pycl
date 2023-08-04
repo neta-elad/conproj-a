@@ -127,10 +127,15 @@ entry <grass> %archaic <steppe>.c8 (ni.) grass
 
 entry <sun god> %archaic <sun>.c10 (nh.) sun god
 entry <bright> %archaic <sun> (adj.) bright, white
+entry <evening> %archaic <sun>.pl (ni.) evening, twilight (part of day)
 
 entry <night god> %archaic <night>.c10 (nh.) night god
 entry <night> %archaic <night>.c8 (ni.) night
 entry <dark> <night>%archaic (adj.) dark, dim
+
+entry <silent> *talu (ni.) to be silent, to not speak
+entry <silence> <silent>.act-nmlz (ni.) silence, nothingness
+entry <void> <silence>.c9 (nh.) the void, the primordial state of the universe
 
 # todo: remove? other adjectival derivation?
 entry %archaic <seen> %archaic <body> !+ <see> (test.) test
