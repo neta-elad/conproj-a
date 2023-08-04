@@ -124,10 +124,7 @@ entry % <boy>.pl { *ʔifi +! *nifi } (unknown.) ??
 entry <infants> % <boy>.pl (unknown.) infants, mass noun
 entry <small> <boy>% (adj.) small, young, short
 
-# todo: use <say>.act-nmlz for "thing" and then !+ <thing> instead of .c8?
-
 entry <thing> <say>.act-nmlz (ni.) thing, utterance
-affix .thing <thing> thing
 
 entry % <steppe> *kʷina (n.) plains, steppe
 entry <shallow> <steppe>% (adj.) shallow, flat
@@ -135,7 +132,8 @@ entry <grass> <steppe>%.c8 (ni.) grass
 
 entry % <sun> *ʔaniɬu (n.) sun, day (archaic)
 entry % <sun>.pl *ʔani +! *ʔaniɬu (unknown.) ??
-entry <day> <sun>%.c8 (ni.) day
+affix % .day <sun> day suffix
+
 entry <sun god> <sun>%.c10 (nh.) sun god
 entry <bright> <sun>% (adj.) bright, white
 

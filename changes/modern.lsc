@@ -155,7 +155,7 @@ conditional-forming:
     unchanged
 
 open-syllables-metathesis:
-    [consonant]$1 [vowel]$2 => $2 $1 / [consonant] . _ .
+    [consonant]$1 [vowel]$2 => $2 $1 / [consonant] . _ . // _ . [affricate]
 
 coda-weak-fricatives-loss-again:
     @weakfricatives => * / _ .

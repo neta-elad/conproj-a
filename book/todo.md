@@ -1,12 +1,11 @@
 # TODO
 
 - Next up:
-    - shorter case/TAM affixes?
-- oblique relativizers
-- delay .gen affixation?
+    - Noun derivations: tools, places
 - verb participles
+- shorter case/TAM affixes?
+- oblique relativizers
 - adpositions: essive vs. lative? temporal vs. spatial?
-- Noun derivations
 - Verb derivations
 - More nominalizations
 - Copula (?)
