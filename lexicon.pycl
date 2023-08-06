@@ -68,6 +68,9 @@ entry <3pl-h> <people>%archaic (pron.) 3^rd^ person plural (human)
 entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
+entry <one> <one numeral>%archaic (num.) one
+
+
 entry <man> %archaic <person>.c1 (nh.) man, male person
 entry <men> %archaic <people>.c1 (nh.) men, male persons
 entry <woman> %archaic <person>.c2 (nh.) woman, female person
