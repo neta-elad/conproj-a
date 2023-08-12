@@ -1,0 +1,14 @@
+# Intensifiers
+entry %middle <intensifier-h> 
+    %archaic <one>.c1 +!@intensifier-forming <body>
+    (pron.) intesifier (human gender)
+entry %middle <intensifier-a>
+    %archaic <one>.c3 +!@intensifier-forming <body>
+    (pron.) intesifier (animate gender)
+entry %middle <intensifier-i> 
+    <same>%archaic
+    (pron.) intensifier (inanimate gender)
+entry %middle <intensifier-pl> 
+    %archaic <many> +!@intensifier-forming <body>
+    (pron.) intensifier plural
+# -- / --

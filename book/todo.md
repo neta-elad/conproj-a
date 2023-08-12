@@ -1,7 +1,9 @@
 # TODO
 
 - Next up:
-    - Noun derivations: tools, places
+    - Swadesh
+- Negation
+- Noun derivations: tools, places
 - adjectival
 - verb participles
 - shorter case/TAM affixes?

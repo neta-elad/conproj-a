@@ -7,6 +7,7 @@ scope %test : %modern "changes/modern.lsc"
 include "lexicon/classifiers.pycl"
 include "lexicon/archaic/_archaic.pycl"
 include "lexicon/grammar/_grammar.pycl"
+include "lexicon/middle.pycl"
 
 entry % <blank> *a (blank.) blank  # todo: get rid of this
 
@@ -69,6 +70,7 @@ entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
 # -- / --
 
 entry <one> <one numeral>%archaic (num.) one
+entry <all> *ʔaŋi +! <many>%archaic (det.) all
 
 
 entry <man> %archaic <person>.c1 (nh.) man, male person
