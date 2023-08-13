@@ -187,6 +187,6 @@ entry <slice> %archaic <sword>.vbz (vt.) to slice, to cut
 # tests
 entry %test <classtest> *ʔihu (test.)
 entry %test <casetest> *kʷina.c2 (test.)
-entry %test <tamtest> *pulami (test.) TAM test
+entry %test <tamtest> <sleep>%archaic (test.) TAM test
 entry %test <verb> *punati (v.) to verb
 entry %test <test> *matala (test.) test
