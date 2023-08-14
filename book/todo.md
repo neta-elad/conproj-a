@@ -2,6 +2,7 @@
 
 - Next up:
     - Swadesh
+- Were there true adjectives in archaic?
 - Negation
 - Noun derivations: tools, places
 - adjectival

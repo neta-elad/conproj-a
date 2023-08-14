@@ -2,9 +2,6 @@ include "./nouns.pycl"
 include "./adjectives.pycl"
 include "./verbs.pycl"
 
-entry %archaic <person> *kami (n.) person
-entry %archaic <people> *ʔamikami (n.) people
-
 entry %archaic <one> *na (det.) one of
 entry %archaic <one numeral> *sana (num.) one (numeral)
 entry %archaic <ones> *ʔanasana (n.) ones (archaic)

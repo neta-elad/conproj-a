@@ -4,15 +4,17 @@ entry %archaic <belly> *lunita (n.) belly, stomach, gut
 
 entry %archaic <tree> *laŋi (n.) tree
 entry %archaic <tree>.pl *ʔaŋi +! *laŋi (n.) tree (plural)
+entry %archaic <seed> *ɬuraʔi (n.) seed
 
 entry %archaic <hand> *tʷali (n.) hand
 entry %archaic <two hands> *ʔali +! *tʷali (n.) two hands, both
 entry %archaic <two> *li +! *tʷa (num.) two
 
+entry %archaic <foot> *χasi (n.) foot
+entry %archaic <feet> *ʔasi +! *χasi (n.) feet, path, road
+
 entry %archaic <rope> *ʔanasu (n.) rope
 entry %archaic <rope>.pl *ʔana +! *ʔanasu (unknown.) ??
-
-entry %archaic <tongue> *kalira (n.) tongue (archaic)
 
 entry %archaic <boy> *nifi (n.) boy, young, male who didn't sired any offsprings
 entry %archaic <boy>.pl *ʔifi +! *nifi (n.) boys, bachelors (plural)
@@ -51,3 +53,10 @@ entry %archaic <ear> *puŋi (n.) ear
 entry %archaic <ear>.pl *ʔuŋi +! *puŋi (n.) two ears
 entry %archaic <mouth> *riqʷu (n.) mouth
 entry %archaic <nose> *humatʷi (n.) nose
+entry %archaic <tongue> *kalira (n.) tongue
+entry %archaic <neck> *lufa (n.) neck
+
+entry %archaic <person> *kami (n.) person
+entry %archaic <people> *ʔamikami (n.) people
+
+entry %archaic <blood> *raŋuŋu (n.) blood
