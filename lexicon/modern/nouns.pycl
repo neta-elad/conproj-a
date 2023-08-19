@@ -1,0 +1,52 @@
+entry <one> <one numeral>%archaic (num.) one
+entry <all> *ʔaŋi +! <many>%archaic (det.) all
+
+
+entry <man> %archaic <person>.c1 (nh.) man, male person
+entry <men> %archaic <people>.c1 (nh.) men, male persons
+entry <woman> %archaic <person>.c2 (nh.) woman, female person
+entry <women> %archaic <people>.c2 (nh.) women, female persons
+
+
+entry <grove> %archaic <tree>.pl (n.) grove
+entry <forest> <grove>.aug (ni.) forest
+
+
+entry <bear> %archaic <hand>.c3 (na.) bear, large beast with legible fingers
+entry <mouse> %archaic <hand>.c5 (ni.) mouse, small rodent with legible fingers
+entry <rat> <mouse>.aug (ni.) rat, large mouse
+entry <date> %archaic <hand>.c7 (na.) date, fruit of the date-palm tree
+entry <hand> %archaic <hand>.c2 (nh.) (human) hand
+entry <palm tree>
+    %archaic <hand> +! <tree>
+    (ni.) date-palm tree
+
+
+entry <worm> %archaic <rope>.c5 (na.) worm
+entry <river> %archaic <rope>.c6 (na.) river
+entry <bean> %archaic <rope>.c7 (na.) long beans, pod-borne seeds
+entry <rope tree> %archaic <rope> +! <tree> (ni.) tree with branches / leaves that look like ropes
+
+entry <lick> %archaic <tongue>.vbz (vt.) to lick
+
+entry <bay> %archaic <tongue>.c6 (na.) bay, gulf, inlet
+entry <woodpecker> %archaic <tongue>.c4 (nh.) woodpecker
+entry <frog> %archaic <tongue>.c5 (ni.) frog
+
+
+entry <sweat> %archaic <wet>.c8 (ni.) sweat, perspiration
+entry <hippo> %archaic <wet>.c3 (na.) hippopotamus, large river dwelling mammal
+ 
+entry <rock> %archaic <rock>.c8 (ni.) rock, boulder
+entry <turnip> %archaic <rock>.c7 (na.) turnip
+entry <armadillo> %archaic <rock>.c5 (ni.) armadillo
+entry <pebble> <rock>%archaic.dim (na.) pebble
+entry <rockslide> %archaic <rock>.pl (ni.) rockslide, avalanche
+
+entry <pack> %archaic <beast>.pl (ni.) pack, group of animals
+
+entry <village> <people>%archaic.gen (ni.) village, settlement
+
+entry <warrior> %archaic <sword>.c1 (nh.) warrior, soldier
+
+entry <mountain range> %archaic <mountain>.pl (ni.) mountain range

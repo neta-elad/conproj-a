@@ -1,0 +1,21 @@
+# PRONOUNS
+entry <1sg>
+    <here> !+@verb-conjugation <person>%archaic
+    (pron.) 1^st^ person singular
+# todo: genitive pronouns
+entry <1pl-in> <person>%archaic (pron.) 1^st^ person plural (inclusive)
+entry <1pl-ex>
+    <here> !+@verb-conjugation <people>%archaic
+    (pron.) 1^st^ person plural (exclusive)
+entry <2sg>
+    <there> !+@verb-conjugation <person>%archaic
+    (pron.) 2^nd^ person singular
+entry <2pl>
+    <there> !+@verb-conjugation <people>%archaic
+    (pron.) 2^nd^ person plural
+entry <3sg-h> <intensifier-h> (pron.) 3^rd^ person singular (human)
+entry <3sg-a> <intensifier-a> (pron.) 3^rd^ person singular (animate)
+entry <3sg-i> <intensifier-i> (pron.) 3^rd^ person singular (inanimate)
+entry <3pl-h> <people>%archaic (pron.) 3^rd^ person plural (human)
+entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
+# -- / --

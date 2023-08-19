@@ -8,123 +8,25 @@ include "lexicon/classifiers.pycl"
 include "lexicon/archaic/_archaic.pycl"
 include "lexicon/grammar/_grammar.pycl"
 include "lexicon/middle.pycl"
+include "lexicon/modern/_modern.pycl"
+
 
 entry % <blank> *a (blank.) blank  # todo: get rid of this
 
 affix % afxs. *^ affix start
 affix % .afxe *~ affix end
 
-# DEMONSTRATIVES
-entry <here> *ʔina (det.) proximal demonstrative
-entry <there> *ɬiʔu (det.) distal demonstrative
-entry <this-h> 
-    <here> !+@demonstratives-forming <3sg>%archaic.c1
-    (det.) proximal demonstrative (human)
-entry <this-a> 
-    <here> !+@demonstratives-forming <3sg>%archaic.c3
-    (det.) proximal demonstrative (animate)
-entry <this-i> 
-    <here> !+@demonstratives-forming <3sg>%archaic.c5
-    (det.) proximal demonstrative (inanimate)
-entry <these> 
-    <here> !+@demonstratives-forming <3pl>%archaic
-    (det.) proximal demonstrative (plural)
-entry <that-h> 
-    <there> !+@demonstratives-forming <3sg>%archaic.c1
-    (det.) distal demonstrative (human)
-entry <that-a> 
-    <there> !+@demonstratives-forming <3sg>%archaic.c3
-    (det.) distal demonstrative (animate)
-entry <that-i> 
-    <there> !+@demonstratives-forming <3sg>%archaic.c5
-    (det.) distal demonstrative (inanimate)
-entry <those>
-    <there> !+@demonstratives-forming <3pl>%archaic
-    (det.) distal demonstrative (plural)
-# -- / --
 
 # CONJUNCTIONS
 entry <rel> <this>%archaic (conj.) relativizer # todo: other relativizer?
 # -- / --
 
-# PRONOUNS
-entry <1sg>
-    <here> !+@verb-conjugation <person>%archaic
-    (pron.) 1^st^ person singular
-# todo: genitive pronouns
-entry <1pl-in> <person>%archaic (pron.) 1^st^ person plural (inclusive)
-entry <1pl-ex>
-    <here> !+@verb-conjugation <people>%archaic
-    (pron.) 1^st^ person plural (exclusive)
-entry <2sg>
-    <there> !+@verb-conjugation <person>%archaic
-    (pron.) 2^nd^ person singular
-entry <2pl>
-    <there> !+@verb-conjugation <people>%archaic
-    (pron.) 2^nd^ person plural
-entry <3sg-h> <intensifier-h> (pron.) 3^rd^ person singular (human)
-entry <3sg-a> <intensifier-a> (pron.) 3^rd^ person singular (animate)
-entry <3sg-i> <intensifier-i> (pron.) 3^rd^ person singular (inanimate)
-entry <3pl-h> <people>%archaic (pron.) 3^rd^ person plural (human)
-entry <3pl-a/i> <intensifier-pl> (pron.) 3^rd^ person plural (animate/inanimate)
-# -- / --
-
-entry <one> <one numeral>%archaic (num.) one
-entry <all> *ʔaŋi +! <many>%archaic (det.) all
-
-
-entry <man> %archaic <person>.c1 (nh.) man, male person
-entry <men> %archaic <people>.c1 (nh.) men, male persons
-entry <woman> %archaic <person>.c2 (nh.) woman, female person
-entry <women> %archaic <people>.c2 (nh.) women, female persons
-
-
-entry <grove> %archaic <tree>.pl (n.) grove
-entry <forest> <grove>.aug (ni.) forest
-
-
-entry <bear> %archaic <hand>.c3 (na.) bear, large beast with legible fingers
-entry <mouse> %archaic <hand>.c5 (ni.) mouse, small rodent with legible fingers
-entry <rat> <mouse>.aug (ni.) rat, large mouse
-entry <date> %archaic <hand>.c7 (na.) date, fruit of the date-palm tree
-entry <hand> %archaic <hand>.c2 (nh.) (human) hand
-entry <palm tree>
-    %archaic <hand> +! <tree>
-    (ni.) date-palm tree
-
-
-entry <worm> %archaic <rope>.c5 (na.) worm
-entry <river> %archaic <rope>.c6 (na.) river
-entry <bean> %archaic <rope>.c7 (na.) long beans, pod-borne seeds
-entry <rope tree> %archaic <rope> +! <tree> (ni.) tree with branches / leaves that look like ropes
-entry <long> <rope>%archaic (adj.) long, alongated, thin and long
-
-
-
-entry <lick> %archaic <tongue>.vbz (vt.) to lick
-
-entry <bay> %archaic <tongue>.c6 (na.) bay, gulf, inlet
-entry <woodpecker> %archaic <tongue>.c4 (nh.) woodpecker
-entry <frog> %archaic <tongue>.c5 (ni.) frog
-
-entry <sit> *ʔukali (v.) to sit, to stay
-entry <love> *tiluʃa (vt.) to love, like, be drawn to, be entwined with
-
-entry <leap> *simaku (vi.) to leap, stroll
-entry <jump> { *ʔima +! *simaku } (vi.) to jump, spring
-
-entry <walk> *ʃifi (vi.) to walk, to stroll, to pace
-entry <wander> *ʔifiʃifi (vi.) to wander, to walk around
 
 # Postpositions
 entry <in> <belly>%archaic (postp.) in, into
 # -- / --
 
 entry <bachelors> %archaic <boy>.pl (unknown.) bachelors, mass noun (used in compounds)
-entry <small> <boy>%archaic (adj.) small, young, short
-
-entry <thing> <say>.act-nmlz (ni.) thing, utterance
-
 
 # todo: change these steppe derivations
 entry <shallow> %archaic <steppe> (adj.) shallow, flat
@@ -139,14 +41,11 @@ entry <night god> %archaic <night>.c9 (nh.) night god
 entry <night> %archaic <night>.c8 (ni.) night
 entry <dark> <night>%archaic (adj.) dark, dim
 
-entry <silent> *talu (ni.) to be silent, to not speak
+entry <thing> <say>.act-nmlz (ni.) thing, utterance
+
+entry <silent> *talu (v.) to be silent, to not speak
 entry <silence> <silent>.act-nmlz (ni.) silence, nothingness
 entry <void> <silence>.c9 (nh.) the void, the primordial state of the universe
-
-# todo: remove? other adjectival derivation?
-entry %archaic <seen> %archaic <body> !+ <see> (test.) test
-affix .adj-1 @nominalizers <seen>%archaic adjectival 1
-entry <new bright> <sun>%archaic.adj-1 (adj.) new bright
 
 
 entry <water> *ŋuʃi (na.) water
@@ -155,32 +54,8 @@ entry <earth> *puriqa (ni.) earth
 entry <earth>.pl *ʔuri +! *puriqa (unknown.) ??
 
 
-entry <wet> <wet>%archaic (adj.) wet, damp
-entry <sweat> %archaic <wet>.c8 (ni.) sweat, perspiration
-entry <hippo> %archaic <wet>.c3 (na.) hippopotamus, large river dwelling mammal
- 
-entry <rock> %archaic <rock>.c8 (ni.) rock, boulder
-entry <turnip> %archaic <rock>.c7 (na.) turnip
-entry <armadillo> %archaic <rock>.c5 (ni.) armadillo
-entry <pebble> <rock>%archaic.dim (na.) pebble
-entry <rockslide> %archaic <rock>.pl (ni.) rockslide, avalanche
-entry <hard> <rock>%archaic (adj.) hard, stern, solid, stable
-
-entry <pack> %archaic <beast>.pl (ni.) pack, group of animals
-
-entry <big> <fear>%archaic (adj.) great, big
-
-entry <mountain range> %archaic <mountain>.pl (ni.) mountain range
-
 affix .aug @ancient-derivations %archaic afxs.<big>.afxe augmentative (always inanimate)
 affix .dim @ancient-derivations %archaic afxs.<child>.afxe diminutive (always animate)
-
-entry <give> *kasu (vd.) to give
-
-entry <village> <people>%archaic.gen (ni.) village, settlement
-
-entry <warrior> %archaic <sword>.c1 (nh.) warrior, soldier
-entry <slice> %archaic <sword>.vbz (vt.) to slice, to cut
 
 
 

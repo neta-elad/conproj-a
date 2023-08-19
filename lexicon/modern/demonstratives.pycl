@@ -1,0 +1,29 @@
+
+# DEMONSTRATIVES
+entry <here> *ʔina (det.) proximal demonstrative
+entry <there> *ɬiʔu (det.) distal demonstrative
+entry <this-h> 
+    <here> !+@demonstratives-forming <3sg>%archaic.c1
+    (det.) proximal demonstrative (human)
+entry <this-a> 
+    <here> !+@demonstratives-forming <3sg>%archaic.c3
+    (det.) proximal demonstrative (animate)
+entry <this-i> 
+    <here> !+@demonstratives-forming <3sg>%archaic.c5
+    (det.) proximal demonstrative (inanimate)
+entry <these> 
+    <here> !+@demonstratives-forming <3pl>%archaic
+    (det.) proximal demonstrative (plural)
+entry <that-h> 
+    <there> !+@demonstratives-forming <3sg>%archaic.c1
+    (det.) distal demonstrative (human)
+entry <that-a> 
+    <there> !+@demonstratives-forming <3sg>%archaic.c3
+    (det.) distal demonstrative (animate)
+entry <that-i> 
+    <there> !+@demonstratives-forming <3sg>%archaic.c5
+    (det.) distal demonstrative (inanimate)
+entry <those>
+    <there> !+@demonstratives-forming <3pl>%archaic
+    (det.) distal demonstrative (plural)
+# -- / --
