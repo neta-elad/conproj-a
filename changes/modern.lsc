@@ -38,6 +38,9 @@ syllables:
     [consonant] [vowel]+ @resonant?
     [vowel]+ @resonant? / $ _
 
+participles-forming:
+    unchanged
+
 demonstratives-forming:
     unchanged
 

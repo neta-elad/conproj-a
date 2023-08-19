@@ -5,9 +5,9 @@ g[<big>.a <bear> <wet>.i.loc <grass>.loc 3sg-i.<sit>.cont <mouse>.acc 3sg-a.<lov
 > "The big bear used to love the mouse that is sitting on the wet grass"
 
 
-g[<frog> <shallow>.a.lat <bay>.lat <in> 3sg-i.<jump>.fut]
+g[<generous>.i <frog> <shallow>.a.lat <bay>.lat <in> 3sg-i.<jump>.fut]
 
-> "The frog will jump into the shallow bay"
+> "The generous frog will jump into the shallow bay"
 
 
 g[<bright>.i <mouse> <small>.i.acc <worm>.acc 3sg-i.<lick>.cont]
@@ -24,7 +24,7 @@ g[<bright>.h.pl <women> <earth>.loc <walk>.cont]
 
 g[pl.<hard>.h <warrior>.pl <small>.i.acc <village>.all 3pl.<walk>.remp]
 
- > "Once upon a time, the stern warriors walked to the small village"
+ > "Once upon a time, the stern warriors walked in the direction of the small village"
 
  g[<dark>.a <river> <mountain range>.loc <slice>.cont]
 
