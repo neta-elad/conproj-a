@@ -57,12 +57,12 @@ entry <earth>.pl *ʔuri +! *puriqa (unknown.) ??
 affix .aug @ancient-derivations %archaic afxs.<big>.afxe augmentative (always inanimate)
 affix .dim @ancient-derivations %archaic afxs.<child>.afxe diminutive (always animate)
 
-affix .adj @participles-forming %archaic <one> adjectival
+affix .adj @participles-forming %archaic <one> adjectival (verb -> adjective)
 
 
 # tests
 entry %test <classtest> <jump>.adj (test.)
-entry %test <casetest> *kʷina.c2 (test.)
+entry %test <casetest> <bone> (test.)
 entry %test <tamtest> *miqʷina (test.) TAM test
 entry %test <verb> *punati (v.) to verb
 entry %test <test> *matala (test.) test

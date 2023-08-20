@@ -71,6 +71,9 @@ These combine in the following ways in the modern language:
 
 }{:.aligned-table}
 
+### Adjectives
+Adjectives arise from nouns in the proto-language.
+
 
 
 !details:Case and TAM sources
