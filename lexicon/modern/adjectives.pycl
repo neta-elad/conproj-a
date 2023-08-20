@@ -1,8 +1,9 @@
-entry <long> <rope>%archaic (adj.) long, alongated, thin and long
+entry <long> <rope>%archaic.simv (adj.) long, alongated, thin and long
 entry <small> <boy>%archaic (adj.) small, young, short
+entry <tall> <mountain>%archaic.simv (adj.) tall
 
 entry <wet> <wet>%archaic (adj.) wet, damp
-entry <hard> <rock>%archaic (adj.) hard, stern, solid, stable
+entry <hard> <rock>%archaic.simv (adj.) hard, stern, solid, stable
 entry <big> <fear>%archaic (adj.) great, big
 
 entry <generous> <give>.adj (adj.) generous, giving, benevolent

@@ -3,6 +3,7 @@
 - Next up:
     - Swadesh
 - Were there true adjectives in archaic?
+- Wet / water words
 - Negation
 - Noun derivations: tools, places
 - adjectival
