@@ -1,5 +1,10 @@
 # Ideas
 
+- Adjectives:
+    - "true" adjectives
+    - nouns as adjectives (juxtaposition / genitive)
+    - nouns + similative 
+    - verbs participle
 - Coastal plain society
     - Closer to the sea is more prestigous: lower is better
 - Suffixes: \*χa, \*ɴu, \*ʔuli, \*mira, \*ruɴa, \*liqu, \*huqi, \*sixa, \*ʔixa
