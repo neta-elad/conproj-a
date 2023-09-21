@@ -75,6 +75,59 @@
         .boxed {
             border: 1px solid red;
         }
+
+        .tabbed-set {
+            position: relative;
+            display: flex;
+            flex-wrap: wrap;
+            margin: 1em 0;
+        }
+
+        .tabbed-set > input {
+            display: none;
+        }
+
+        .tabbed-set label {
+            width: auto;
+            padding: 0.9375em 1.25em 0.78125em;
+            font-weight: 700;
+            font-size: 0.84em;
+            white-space: nowrap;
+            border-bottom: 0.15rem solid transparent;
+            border-top-left-radius: 0.1rem;
+            border-top-right-radius: 0.1rem;
+            cursor: pointer;
+            transition: background-color 250ms, color 250ms;
+        }
+
+        .tabbed-set .tabbed-content {
+            width: 100%;
+            display: none;
+            box-shadow: 0 -.05rem #ddd;
+        }
+
+        .tabbed-set input {
+            position: absolute;
+            opacity: 0;
+        }
+
+        .tabbed-set input:checked:nth-child(n+1) + label {
+            color: red;
+            border-color: red;
+        }
+
+        @media screen {
+            .tabbed-set input:nth-child(n+1):checked + label + .tabbed-content {
+                order: 99;
+                display: block;
+            }
+        }
+
+        @media print {
+            .tabbed-content {
+                display: contents;
+            }
+        }
         </style>
     </head>
     <body>
@@ -143,6 +196,21 @@
 <li><a href="#t">T</a></li>
 <li><a href="#u">U</a></li>
 <li><a href="#x">X</a></li>
+<li><a href="#a_1">A</a></li>
+<li><a href="#f_1">F</a></li>
+<li><a href="#h_1">H</a></li>
+<li><a href="#i_1">I</a></li>
+<li><a href="#k_1">K</a></li>
+<li><a href="#l_1">L</a></li>
+<li><a href="#m">M</a></li>
+<li><a href="#n_1">N</a></li>
+<li><a href="#p_1">P</a></li>
+<li><a href="#q">Q</a></li>
+<li><a href="#r_1">R</a></li>
+<li><a href="#s_1">S</a></li>
+<li><a href="#t_1">T</a></li>
+<li><a href="#u_1">U</a></li>
+<li><a href="#_1">Χ</a></li>
 </ul>
 </li>
 <li><a href="#affixes-table">Affixes Table</a></li>
@@ -151,10 +219,7 @@
 </details>
 <h1 id="todo">TODO</h1>
 <ul>
-<li>Next up:<ul>
-<li>Swadesh</li>
-</ul>
-</li>
+<li><strong>Next up:</strong> Swadesh</li>
 <li>Were there true adjectives in archaic?</li>
 <li>Wet / water words</li>
 <li>Negation</li>
@@ -214,7 +279,7 @@ on top of which more complicated ones are constructed:</p>
     representing the recipient or goal of the action.</li>
 <li>Locative, an indirect object
     representing the place where the event occurred.</li>
-<li>Genitive, used for possession constructions (&lsquo;s in English).
+<li>Genitive, used for possession constructions (&rsquo;s in English).
     as well as the base case for combining with other cases:<ul>
 <li>+Accusative =&gt; Allative, an indirect object
 representing the general direction of the action (towards).</li>
@@ -1463,6 +1528,7 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <li>Definition (may be a single word or multiple words).</li>
 <li>Additional information (register, pragmatics).</li>
 </ol>
+<div class="tabbed-set" data-tabs="1:2"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Modern</label><div class="tabbed-content">
 <h2 id="a">A</h2>
 <p><strong>ahét</strong> [ɐ.ˈhɛt] <em>*ʔama</em> + <em>*qamatu</em> (ni.) rockslide, avalanche</p>
 <p><strong>ahó</strong> [ɐ.ˈhɔ] <em>*ʔamikami</em> + <em>*qʷa</em> (nh.) women, female persons</p>
@@ -1565,6 +1631,96 @@ Each item has a number which corresponds to an explanation below the entry:</p>
 <h2 id="x">X</h2>
 <p><strong>xar</strong> [ˈxɐr] <em>*χaŋi</em> + <em>*raqʷi</em> (pron.) 3<sup>rd</sup> person plural (animate/inanimate)</p>
 <p><strong>xusár</strong> [xu.ˈsɐr] <em>*χusa</em> + <em>*na</em> + <em>*raqʷi</em> (adj.) tall</p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Archaic</label><div class="tabbed-content">
+<h2 id="a_1">A</h2>
+<p><strong>&lsquo;álitʷali</strong> [&lsquo;álitʷali] <em>*ʔali</em> + <em>*tʷali</em> (n.) two hands, both</p>
+<p><strong>&lsquo;ámaqamatu</strong> [&lsquo;ámaqamatu] <em>*ʔama</em> + <em>*qamatu</em> (n.) rocks (plural)</p>
+<p><strong>&lsquo;ámikami</strong> [&lsquo;ámikami] <em>*ʔamikami</em> (n.) people</p>
+<p><strong>&lsquo;ána&rsquo;anasu</strong> [&lsquo;ána&rsquo;anasu] <em>*ʔana</em> + <em>*ʔanasu</em> (unknown.) ??</p>
+<p><strong>&lsquo;ánasana</strong> [&lsquo;ánasana] <em>*ʔanasana</em> (adj.) same (archaic)</p>
+<p><strong>&lsquo;ánasana</strong> [&lsquo;ánasana] <em>*ʔanasana</em> (n.) ones (archaic)</p>
+<p><strong>&lsquo;ánasu</strong> [&lsquo;ánasu] <em>*ʔanasu</em> (n.) rope</p>
+<p><strong>&lsquo;ángilangi</strong> [&lsquo;ángilangi] <em>*ʔaŋi</em> + <em>*laŋi</em> (n.) tree (plural)</p>
+<p><strong>&lsquo;áni&rsquo;anislu</strong> [&lsquo;áni&rsquo;anislu] <em>*ʔani</em> + <em>*ʔaniɬu</em> (unknown.) ??</p>
+<p><strong>&lsquo;ánislu</strong> [&lsquo;ánislu] <em>*ʔaniɬu</em> (n.) sun, day (archaic)</p>
+<p><strong>&lsquo;ásiχasi</strong> [&lsquo;ásiχasi] <em>*ʔasi</em> + <em>*χasi</em> (n.) feet, path, road</p>
+<p><strong>&lsquo;átumatuli</strong> [&lsquo;átumatuli] <em>*ʔatu</em> + <em>*matuli</em> (n.) beasts (plural)</p>
+<h2 id="f_1">F</h2>
+<p><strong>fáhutʷa</strong> [fáhutʷa] <em>*fahutʷa</em> (n.) night, darkness (archaic)</p>
+<p><strong>fáshuqʷi</strong> [fáshuqʷi] <em>*faʃuqʷi</em> (v.) to hear</p>
+<h2 id="h_1">H</h2>
+<p><strong>ha</strong> [ha] <em>*ha</em> (det.) proximal demonstrative (archaic)</p>
+<p><strong>ha</strong> [ha] <em>*ha</em> (pron.) 3<sup>rd</sup> person singular</p>
+<p><strong>háslixu</strong> [háslixu] <em>*haɬixu</em> (v.) to sleep</p>
+<p><strong>húfi</strong> [húfi] <em>*hufi</em> (n.) child, pup, baby</p>
+<p><strong>húmatʷi</strong> [húmatʷi] <em>*humatʷi</em> (n.) nose</p>
+<p><strong>húsa</strong> [húsa] <em>*husa</em> (vt.) locative copula</p>
+<p><strong>húsa</strong> [húsa] <em>*husa</em> (vt.) to live, to stay at, to be at</p>
+<h2 id="i_1">I</h2>
+<p><strong>&lsquo;ífinifi</strong> [&lsquo;ífinifi] <em>*ʔifi</em> + <em>*nifi</em> (n.) boys, bachelors (plural)</p>
+<p><strong>&lsquo;íkʷa</strong> [&lsquo;íkʷa] <em>*ʔikʷa</em> (v.) to finish, to be done with</p>
+<p><strong>&lsquo;ími</strong> [&lsquo;ími] <em>*ʔimi</em> (pron.) 1<sup>st</sup> person singular</p>
+<p><strong>&lsquo;ímushimu&rsquo;a</strong> [&lsquo;ímushimu&rsquo;a] <em>*ʔimu</em> + <em>*ʃimuʔa</em> (n.) two eyes</p>
+<p><strong>&lsquo;ínuma</strong> [&lsquo;ínuma] <em>*ʔinuma</em> (v.) to come, to arrive</p>
+<p><strong>&lsquo;íxa</strong> [&lsquo;íxa] <em>*ʔixa</em> (vt.) to see, to set oneself towards something, to face</p>
+<h2 id="k_1">K</h2>
+<p><strong>kálira</strong> [kálira] <em>*kalira</em> (n.) tongue</p>
+<p><strong>kámi</strong> [kámi] <em>*kami</em> (n.) person</p>
+<p><strong>kʷína</strong> [kʷína] <em>*kʷina</em> (n.) plains, steppe</p>
+<h2 id="l_1">L</h2>
+<p><strong>láhu</strong> [láhu] <em>*lahu</em> (vt.) to help, to carry</p>
+<p><strong>lámu</strong> [lámu] <em>*lamu</em> (det.) all (archaic)</p>
+<p><strong>lángi</strong> [lángi] <em>*laŋi</em> (n.) tree</p>
+<p><strong>lítʷa</strong> [lítʷa] <em>*li</em> + <em>*tʷa</em> (num.) two</p>
+<p><strong>lúfa</strong> [lúfa] <em>*lufa</em> (n.) neck</p>
+<p><strong>lúnita</strong> [lúnita] <em>*lunita</em> (n.) belly, stomach, gut</p>
+<h2 id="m">M</h2>
+<p><strong>mátuli</strong> [mátuli] <em>*matuli</em> (n.) beast, large animal</p>
+<p><strong>míqʷina</strong> [míqʷina] <em>*miqʷina</em> (v.) to die</p>
+<p><strong>músi</strong> [músi] <em>*musi</em> (n.) head, skull</p>
+<h2 id="n_1">N</h2>
+<p><strong>na</strong> [na] <em>*na</em> (det.) one of</p>
+<p><strong>ngúnaraqʷi</strong> [ngúnaraqʷi] <em>*ŋu</em> + <em>*na</em> + <em>*raqʷi</em> (adj.) wet, damp</p>
+<p><strong>ní&rsquo;u</strong> [ní&rsquo;u] <em>*niʔu</em> (pron.) 2<sup>nd</sup> person singular</p>
+<p><strong>nífi</strong> [nífi] <em>*nifi</em> (n.) boy, young, male who didn&rsquo;t sired any offsprings</p>
+<h2 id="p_1">P</h2>
+<p><strong>púngi</strong> [púngi] <em>*puŋi</em> (n.) ear</p>
+<p><strong>pʷáhuχi</strong> [pʷáhuχi] <em>*pʷahuχi</em> (v.) to fly, to flutter</p>
+<h2 id="q">Q</h2>
+<p><strong>qámatu</strong> [qámatu] <em>*qamatu</em> (n.) rock, stone (archaic)</p>
+<p><strong>qʷíla</strong> [qʷíla] <em>*qʷila</em> (pron.) 1<sup>st</sup> person plural</p>
+<p><strong>qʷúmi</strong> [qʷúmi] <em>*qʷumi</em> (v.) to stand, to stay</p>
+<h2 id="r_1">R</h2>
+<p><strong>rángungu</strong> [rángungu] <em>*raŋuŋu</em> (n.) blood</p>
+<p><strong>ráqʷi</strong> [ráqʷi] <em>*raqʷi</em> (n.) body (archaic)</p>
+<p><strong>ríqu</strong> [ríqu] <em>*riqu</em> (v.) to say, to utter, to propose, to suggest</p>
+<p><strong>ríqʷu</strong> [ríqʷu] <em>*riqʷu</em> (n.) mouth</p>
+<h2 id="s_1">S</h2>
+<p><strong>sá&rsquo;u</strong> [sá&rsquo;u] <em>*saʔu</em> (pron.) 2<sup>nd</sup> person singular</p>
+<p><strong>sána</strong> [sána] <em>*sana</em> (num.) one (numeral)</p>
+<p><strong>sánatu</strong> [sánatu] <em>*sanatu</em> (n.) bone</p>
+<p><strong>shímu&rsquo;a</strong> [shímu&rsquo;a] <em>*ʃimuʔa</em> (n.) eye</p>
+<p><strong>shúqʷa</strong> [shúqʷa] <em>*ʃuqʷa</em> (n.) home, place</p>
+<p><strong>si</strong> [si] <em>*si</em> (v.) to do, light verb constructor</p>
+<p><strong>slúra&rsquo;i</strong> [slúra&rsquo;i] <em>*ɬuraʔi</em> (n.) seed</p>
+<p><strong>súma</strong> [súma] <em>*suma</em> (n.) sword, blade, knife</p>
+<h2 id="t_1">T</h2>
+<p><strong>táhuli</strong> [táhuli] <em>*tahuli</em> (v.) to eat, to drink</p>
+<p><strong>tʷáli</strong> [tʷáli] <em>*tʷali</em> (n.) hand</p>
+<h2 id="u_1">U</h2>
+<p><strong>&lsquo;úngipungi</strong> [&lsquo;úngipungi] <em>*ʔuŋi</em> + <em>*puŋi</em> (n.) two ears</p>
+<p><strong>&lsquo;úsaχusa</strong> [&lsquo;úsaχusa] <em>*ʔusa</em> + <em>*χusa</em> (unknown.) mountain (plural)</p>
+<p><strong>&lsquo;úɴa</strong> [&lsquo;úɴa] <em>*ʔuɴa</em> (n.) fear</p>
+<h2 id="_1">Χ</h2>
+<p><strong>χángi</strong> [χángi] <em>*χaŋi</em> (det.) many (archaic)</p>
+<p><strong>χángi</strong> [χángi] <em>*χaŋi</em> (pron.) 3<sup>rd</sup> person plural</p>
+<p><strong>χási</strong> [χási] <em>*χasi</em> (n.) foot</p>
+<p><strong>χúha</strong> [χúha] <em>*χuha</em> (adj.) big, towering</p>
+<p><strong>χúha</strong> [χúha] <em>*χuha</em> (n.) mountain (reduced form)</p>
+<p><strong>χúsa</strong> [χúsa] <em>*χusa</em> (n.) mountain</p>
+</div>
+</div>
 <h1 id="affixes-table">Affixes Table</h1>
 <table>
 <thead>
