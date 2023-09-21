@@ -3,9 +3,6 @@
 romanizer-proto:
     unchanged
 
-ancient-derivations:
-    unchanged
-
 resonant-codas ltr:
     [vowel] => * / [vowel] @resonant _ 
 

@@ -1,8 +1,6 @@
-!details:Table of Contents
-
+/// details | Table of Contents
 [TOC]
-
-!details
+///
 
 @{book/todo.md}@
 @{book/ideas.md}@

@@ -1,6 +1,6 @@
 ## Tables
 
-!details:Pronouns
+/// details | Pronouns
 
 &{
 
@@ -14,9 +14,9 @@
 
 }{:.aligned-table}
 
-!details
+///
 
-!details:Verb conjugations
+/// details | Verb conjugations
 
 &{
 
@@ -30,9 +30,9 @@
 
 }{:.aligned-table}
 
-!details
+///
 
-!details:Genitive pronouns
+/// details | Genitive pronouns
 
 &{
 
@@ -46,9 +46,9 @@
 
 }{:.aligned-table}
 
-!details
+///
 
-!details:Noun possessives
+/// details | Noun possessives
 
 &{
 
@@ -62,10 +62,10 @@
 
 }{:.aligned-table}
 
-!details
+///
 
 
-!details:Noun cases
+/// details | Noun cases
 
 &{
 
@@ -78,9 +78,9 @@
 
 }{: .aligned-table }
 
-!details
+///
 
-!details:Indefinite article #<one>#
+/// details | Indefinite article #<one>#
 
 &{
 
@@ -93,9 +93,9 @@
 
 }{: .aligned-table }
 
-!details
+///
 
-!details:Noun case tester
+/// details | Noun case tester
 
 &{
 
@@ -121,13 +121,13 @@
 
 }{: .aligned-table }
 
-!details
+///
 
 
 
 ## Verb inflections
 
-!details:Modern TAM
+/// details | Modern TAM
 
 | TAM | Imperfective | Perfective |
 |-----|--------------|------------|
@@ -138,9 +138,9 @@
 | Conditional | ~~unused~~ | Subjunctive |
 | Jussive | ~~unused~~| Jussive / imperative |
 
-!details
+///
 
-!details:Verb proto-TAM tester
+/// details | Verb proto-TAM tester
 
 &{
 
@@ -155,9 +155,9 @@
 
 }{:.aligned-table}
 
-!details
+///
 
-!details:Verb TAM tester
+/// details | Verb TAM tester
 
 &{
 
@@ -175,12 +175,12 @@
 
 }{:.aligned-table}
 
-!details
+///
 
-!details:Valency derivations
+/// details | Valency derivations
 
 | Voice/valency | Lexeme | Form | Era |
 |---------------|--------|------|-----|
 | Causative | “follow” *ŋupu | -*ŋʷə | @early |
 
-!details
+///

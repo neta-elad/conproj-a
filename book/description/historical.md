@@ -76,8 +76,7 @@ Adjectives arise from nouns in the proto-language.
 
 
 
-!details:Case and TAM sources
-
+/// details | Case and TAM sources
 | Lexeme | Case | On | Form | Era | TAM | Form | Era |
 |--------|------|----|------|-----|-----|------|-----|
 | - | Nominative | - | - | - | - | - |
@@ -99,5 +98,4 @@ Adjectives arise from nouns in the proto-language.
 | "womb" *hafə.LOC | Inessive | GEN | -*hɛɾ | @late | - | - | - |
 | "eye" *tamu.LOC | Antessive | GEN | -*tom | @late | - | - | - |
 | "back" *pinu.LOC | Postessive | GEN | -*pin | @late | - | - | - |
-
-!details
+///

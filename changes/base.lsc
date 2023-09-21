@@ -28,3 +28,6 @@ syllables:
 
 initial-stress:
     <syl> => [+stress] / $ _
+
+ancient-derivations:
+    unchanged

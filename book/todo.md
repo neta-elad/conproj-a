@@ -1,7 +1,6 @@
 # TODO
 
-- Next up:
-    - Swadesh
+- **Next up:** Swadesh
 - Were there true adjectives in archaic?
 - Wet / water words
 - Negation
