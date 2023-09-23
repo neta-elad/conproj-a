@@ -102,7 +102,7 @@ reset-stress:
 romanizer-pre-stress:
     unchanged
 
-#include "stress.lsc"
+#include "modern/stress.lsc"
 
 boundary-vowel-loss:
     [*long *stress vowel] => * / $ _ [consonant] [vowel]

@@ -1,7 +1,7 @@
-#include "features.lsc"
-#include "diacritics.lsc"
-#include "symbols.lsc"
-#include "elements.lsc"
+#include "base/features.lsc"
+#include "base/diacritics.lsc"
+#include "base/symbols.lsc"
+#include "base/elements.lsc"
 
 deromanizer:
     a => ɐ
