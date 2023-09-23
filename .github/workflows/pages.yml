@@ -22,13 +22,6 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: Cache Pyconlang
-        id: cache-pyconlang
-        uses: actions/cache@v3
-        with:
-          path: .pyconlang
-          key: ${{ runner.os }}-pyconlang
-
       - name: Setup Java
         uses: actions/setup-java@v2
         with:
