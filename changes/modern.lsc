@@ -1,23 +1,4 @@
-#include "base.lsc"
-
-romanizer-proto:
-    unchanged
-
-resonant-codas ltr:
-    [vowel] => * / [vowel] @resonant _ 
-
-syllables:
-    [consonant] [vowel] @resonant?
-
-nominalizers:
-    unchanged
-
-regressive-uvular-spreading:
-    [velar *labialized] => [uvular] / _ (![liquid])* [uvular]
-
-vowel-retracting-before-uvulars:
-    {i, ɐ, u} => {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
-    {i, ɐ, u} => {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
+#include "archaic.lsc"
 
 labialized-stop-lenition:
     {pʷ, tʷ, kʷ, qʷ} => {f, θ, ʍ, ħ}
@@ -182,8 +163,9 @@ clear-diacritics:
 then:
     [+affix] => [*affix]
 
-romanizer-phonetic:
+romanizer-modern-phonetic:
     unchanged
 
+romanizer-modern:
 #include "romanizer.lsc"
 

@@ -4,13 +4,13 @@
 #include "elements.lsc"
 
 deromanizer:
-    a => [lomid central]
-    n q => [uvular] *
-    x q => [uvular] *
-    n g => [velar] *
+    a => ɐ
+    n q => ɴ *
+    x q => χ *
+    n g => ŋ *
     [consonant] w => [+labialized] *
-    s l => * [fricative]
-    s h => [postalveolar] *
+    s l => * ɬ
+    s h => ʃ *
     \' => ʔ
 
 syllables:
@@ -29,5 +29,5 @@ syllables:
 initial-stress:
     <syl> => [+stress] / $ _
 
-ancient-derivations:
+romanizer-proto:
     unchanged

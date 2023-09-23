@@ -1,3 +1,29 @@
 #include "base.lsc"
 
+ancient-derivations:
+    unchanged
+
+resonant-codas ltr:
+    [vowel] => * / [vowel] @resonant _ 
+
+syllables:
+    [consonant] [vowel] @resonant?
+
+nominalizers:
+    unchanged
+
+regressive-uvular-spreading:
+    [velar *labialized] => [uvular] / _ (![liquid])* [uvular]
+
+vowel-retracting-before-uvulars:
+    {i, ɐ, u} => {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
+    {i, ɐ, u} => {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
+
+romanizer-archaic-phonetic:
+    unchanged
+
+romanizer-archaic:
 #include "romanizer.lsc"
+then:
+    χ => qx
+    ʌ => ao

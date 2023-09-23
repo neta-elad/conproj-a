@@ -1,12 +1,8 @@
-stress-to-accent:
+
     [+stress vowel] => [+accent] // $ [consonant]? _ @resonant? [consonant]? $
 then:
     [+stress] => [*stress]
-
-syllables:
-    clear
-
-romanizer:
+then:
     [] => [normal]
 then:
     [+affix] => [*affix]
