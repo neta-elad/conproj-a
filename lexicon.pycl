@@ -65,4 +65,4 @@ entry %test <classtest> <jump>.adj (test.)
 entry %test <casetest> <bone> (test.)
 entry %test <tamtest> *miqʷina (test.) TAM test
 entry %test <verb> *punati (v.) to verb
-entry %test <test> *matala (test.) test
+entry %test <test> *matala (test2.) test

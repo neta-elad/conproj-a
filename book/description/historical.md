@@ -33,20 +33,20 @@ For 3^rd^ person referants, demonstratives + classifier were used:
 
 &{
 
-| Pronouns |<             | Singular       | Plural     |
-|----------|--------------|----------------|------------|
-| 1^st^   >|              | pr[<1sg>%archaic]     | pr[<1pl>%archaic] |
-| 2^nd^   >|              | pr[<2sg>%archaic]     | pr[<2pl>%archaic] |
-| 3^rd^   >| *Class 1*   >| pr[<3sg>%archaic.c1]  | pr[<3pl>%archaic] |
-| ^        | *Class 2*   >| pr[<3sg>%archaic.c2]  |^           |
-| ^        | *Class 3*   >| pr[<3sg>%archaic.c3]  |^           |
-| ^        | *Class 4*   >| pr[<3sg>%archaic.c4]  |^           |
-| ^        | *Class 5*   >| pr[<3sg>%archaic.c5]  |^           |
-| ^        | *Class 6*   >| pr[<3sg>%archaic.c6]  |^           |
-| ^        | *Class 7*   >| pr[<3sg>%archaic.c7]  |^           |
-| ^        | *Class 8*   >| pr[<3sg>%archaic.c8]  |^           |
-| ^        | *Class 9*   >| pr[<3sg>%archaic.c9]  |^           |
-| ^        | *Class 10*  >| pr[<3sg>%archaic.c10] |^           |
+| Pronouns  | <             | Singular              | Plural            |
+| --------- | ------------- | --------------------- | ----------------- |
+| 1^st^   > |               | pr[<1sg>%archaic]     | pr[<1pl>%archaic] |
+| 2^nd^   > |               | pr[<2sg>%archaic]     | pr[<2pl>%archaic] |
+| 3^rd^   > | *Class 1*   > | pr[<3sg>%archaic.c1]  | pr[<3pl>%archaic] |
+| ^         | *Class 2*   > | pr[<3sg>%archaic.c2]  | ^                 |
+| ^         | *Class 3*   > | pr[<3sg>%archaic.c3]  | ^                 |
+| ^         | *Class 4*   > | pr[<3sg>%archaic.c4]  | ^                 |
+| ^         | *Class 5*   > | pr[<3sg>%archaic.c5]  | ^                 |
+| ^         | *Class 6*   > | pr[<3sg>%archaic.c6]  | ^                 |
+| ^         | *Class 7*   > | pr[<3sg>%archaic.c7]  | ^                 |
+| ^         | *Class 8*   > | pr[<3sg>%archaic.c8]  | ^                 |
+| ^         | *Class 9*   > | pr[<3sg>%archaic.c9]  | ^                 |
+| ^         | *Class 10*  > | pr[<3sg>%archaic.c10] | ^                 |
 
 }{:.aligned-table}
 
@@ -63,39 +63,37 @@ These combine in the following ways in the modern language:
 
 &{
 
-| Tense → <br /> Form ↓ | Unmarked | Past | Conditional 1 | Conditional 2 |
-|------|----------|------|---------------|---------------|
-| Perfective >| Past | Remote/narrative past (pluperfect) | Future | Subjunctive |
-| Imperfective >| Present / Present continuous | Narrative continuous | Conditional | ? |
-| Habitual >| Habitual | Past habitual | ? | ? |
+| Tense → <br /> Form ↓ | Unmarked                     | Past                               | Conditional 1 | Conditional 2 |
+| --------------------- | ---------------------------- | ---------------------------------- | ------------- | ------------- |
+| Perfective >          | Past                         | Remote/narrative past (pluperfect) | Future        | Subjunctive   |
+| Imperfective >        | Present / Present continuous | Narrative continuous               | Conditional   | ?             |
+| Habitual >            | Habitual                     | Past habitual                      | ?             | ?             |
 
 }{:.aligned-table}
 
 ### Adjectives
 Adjectives arise from nouns in the proto-language.
 
-
-
 /// details | Case and TAM sources
-| Lexeme | Case | On | Form | Era | TAM | Form | Era |
-|--------|------|----|------|-----|-----|------|-----|
-| - | Nominative | - | - | - | - | - |
-| "finish" (archaic) *ana | Accusative | NOM | -*a | @proto | Perfective | -*a | @proto |
-| "come from" *lani | Genitive / Adpositional | NOM | -*lə | @proto | Near past | -*la | @early |
-| " - " | Ablative | ACC | -*la | @middle | - | - | - |
-| "hand" *ɾitu | Dative / Locative | NOM | -*ɾi | @proto | - | - | - |
-| "follow" *ŋupu | Comitative | NOM | -*ŋʷə | @middle | Causative | -*ŋʷə | @early |
-| " - " | Adverbial | LOC | -*ŋʷə | @middle | - | - | - |
-| "go to" *faɾi | Allative | ACC | -*fa | @middle | Future | -*fa | @early |
-| " - " | - | - | - | - | Infinitive | -*faɾʲə | @early |
-| "pass" *saxu | Comparative | ACC | -*sa | @middle | Past / Experiential | -*sa | @early |
-| " - " | Perlative | LOC | -*sa | @middle | - | - | - |
-| "say" *xipa | Vocative | ACC | -*hʲə | @middle | Conditional | -*hʲə | @middle | 
-| "want" *ximu | Abessive | ACC | -*xʲəmə | @middle | Negation | -*xʲəmə | @early |
-| " - " | - | - | - | - | Jussive | -*xʲəmʷə | @middle |
-| "sky" *nasu.LOC | Superessive | GEN | -*nœɾ | @late | - | - | - |
-| "floor" *kəli.LOC | Subessive | GEN | -*kil | @late | - | - | - |
-| "womb" *hafə.LOC | Inessive | GEN | -*hɛɾ | @late | - | - | - |
-| "eye" *tamu.LOC | Antessive | GEN | -*tom | @late | - | - | - |
-| "back" *pinu.LOC | Postessive | GEN | -*pin | @late | - | - | - |
+| Lexeme                  | Case                    | On  | Form    | Era     | TAM                 | Form     | Era     |
+| ----------------------- | ----------------------- | --- | ------- | ------- | ------------------- | -------- | ------- |
+| -                       | Nominative              | -   | -       | -       | -                   | -        |
+| "finish" (archaic) *ana | Accusative              | NOM | -*a     | @proto  | Perfective          | -*a      | @proto  |
+| "come from" *lani       | Genitive / Adpositional | NOM | -*lə    | @proto  | Near past           | -*la     | @early  |
+| " - "                   | Ablative                | ACC | -*la    | @middle | -                   | -        | -       |
+| "hand" *ɾitu            | Dative / Locative       | NOM | -*ɾi    | @proto  | -                   | -        | -       |
+| "follow" *ŋupu          | Comitative              | NOM | -*ŋʷə   | @middle | Causative           | -*ŋʷə    | @early  |
+| " - "                   | Adverbial               | LOC | -*ŋʷə   | @middle | -                   | -        | -       |
+| "go to" *faɾi           | Allative                | ACC | -*fa    | @middle | Future              | -*fa     | @early  |
+| " - "                   | -                       | -   | -       | -       | Infinitive          | -*faɾʲə  | @early  |
+| "pass" *saxu            | Comparative             | ACC | -*sa    | @middle | Past / Experiential | -*sa     | @early  |
+| " - "                   | Perlative               | LOC | -*sa    | @middle | -                   | -        | -       |
+| "say" *xipa             | Vocative                | ACC | -*hʲə   | @middle | Conditional         | -*hʲə    | @middle |
+| "want" *ximu            | Abessive                | ACC | -*xʲəmə | @middle | Negation            | -*xʲəmə  | @early  |
+| " - "                   | -                       | -   | -       | -       | Jussive             | -*xʲəmʷə | @middle |
+| "sky" *nasu.LOC         | Superessive             | GEN | -*nœɾ   | @late   | -                   | -        | -       |
+| "floor" *kəli.LOC       | Subessive               | GEN | -*kil   | @late   | -                   | -        | -       |
+| "womb" *hafə.LOC        | Inessive                | GEN | -*hɛɾ   | @late   | -                   | -        | -       |
+| "eye" *tamu.LOC         | Antessive               | GEN | -*tom   | @late   | -                   | -        | -       |
+| "back" *pinu.LOC        | Postessive              | GEN | -*pin   | @late   | -                   | -        | -       |
 ///

@@ -104,24 +104,24 @@ red sounds only exist in the proto-language.
 
 &{
 
-| Consonants | Labial | Dental | Coronal               | Palatal | Velar | Uvular | Glottal |
-|------------|--------|--------|-----------------------|---------|-------|--------|---------|
-| Nasal     >| m      |        | n                     | ^^ɲ \<ny\>^^ | ŋ \<ng\>     | ~~ɴ~~  |         |
-| Plosive   >| p      | ^^t̪ \<t'\>^^  | t                     |         | k     | ~~q~~  | ~~ʔ~~       |
-| Fricative >| f      | ^^θ \<th\>^^  | s, ʃ \<sh\>, <br /> ɬ \<sl\> | ^^ç \<c\>^^    | x, <br /> ^^ʍ \<hw\>^^      | ~~χ~~       | h        |
-| Affricate >|        |        | ^^t͡s \<ts\>^^, <br /> ^^t͡ʃ \<ch\>^^, <br /> ^^t͡ɬ \<tl\>^^        |         |       |        |         |
-| Liquid    >|        |        | l, r \~ ɾ \<r\>    |         |       |        |         |
+| Consonants  | Labial | Dental       | Coronal                                                   | Palatal      | Velar                  | Uvular | Glottal |
+| ----------- | ------ | ------------ | --------------------------------------------------------- | ------------ | ---------------------- | ------ | ------- |
+| Nasal     > | m      |              | n                                                         | ^^ɲ \<ny\>^^ | ŋ \<ng\>               | ~~ɴ~~  |         |
+| Plosive   > | p      | ^^t̪ \<t'\>^^ | t                                                         |              | k                      | ~~q~~  | ~~ʔ~~   |
+| Fricative > | f      | ^^θ \<th\>^^ | s, ʃ \<sh\>, <br /> ɬ \<sl\>                              | ^^ç \<c\>^^  | x, <br /> ^^ʍ \<hw\>^^ | ~~χ~~  | h       |
+| Affricate > |        |              | ^^t͡s \<ts\>^^, <br /> ^^t͡ʃ \<ch\>^^, <br /> ^^t͡ɬ \<tl\>^^ |              |                        |        |         |
+| Liquid    > |        |              | l, r \~ ɾ \<r\>                                           |              |                        |        |         |
 
 }{: .aligned-table}
 
 &{
 
-| VOWELS | Front | Central | Back |
-|--------|-------|---------|------|
-| High >| i      |         | , u    |
-| Near-High  >| , ^^ʏ \<y\>^^ | ^^ɘ \<eu\>^^ | |
-| Low-Mid   >| ^^ɛ \<e\>^^ | | , ^^ɔ \<o\>^^ |
-| Low  >| | ä~ɐ \<a\> | |
+| VOWELS       | Front         | Central      | Back          |
+| ------------ | ------------- | ------------ | ------------- |
+| High >       | i             |              | , u           |
+| Near-High  > | , ^^ʏ \<y\>^^ | ^^ɘ \<eu\>^^ |               |
+| Low-Mid   >  | ^^ɛ \<e\>^^   |              | , ^^ɔ \<o\>^^ |
+| Low  >       |               | ä~ɐ \<a\>    |               |
 
 }{: .aligned-table}
 
