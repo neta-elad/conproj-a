@@ -1,4 +1,30 @@
-# VERB PERSON CONJUGATION
+# CASES
+affix .gen @genitive-forming <home>%archaic genitive case
+affix .acc @cases-forming <see>%archaic accusative case
+affix .lat $.acc lative case (to)
+affix .dat @cases-forming <help>%archaic dative case
+entry %archaic <loc-copula> <live> (vt.) locative copula
+affix .loc @cases-forming <loc-copula> locative
+
+affix .all $.gen.acc allative case (towards, in the direction of)
+affix .ben $.gen.dat benefactive case
+affix .apud $.gen.loc apudessive case
+# -- / --
+
+# NOMINALIZATION
+affix .place-nmlz @nominalizers afxs.<home>%archaic.afxe place nominalizer
+affix .act-nmlz @nominalizers afxs.<.c8>.afxe action nominalizer
+affix .agent-nmlz @nominalizers afxs.<person>%archaic.afxe agent nominalizer
+# todo: change agent-nmlz to use some word meaning worker?
+# -- / --
+
+# PLURALS
+affix pl. @new-plurals afxs.<all>%archaic.afxe plural prefix (for animate and inanimate)
+affix .pl @new-plurals afxs.<people>%archaic.afxe plural suffix (for human)
+# -- / --
+
+# VERBS
+## PERSON CONJUGATION
 affix 1sg. @verb-conjugation <1sg>%archaic 1^st^ person singular prefix
 affix 1pl. @verb-conjugation <1pl>%archaic 1^st^ person plural prefix
 affix 2sg. @verb-conjugation <2sg>%archaic 2^nd^ person singular prefix
@@ -9,10 +35,8 @@ affix 3sg-h. @verb-conjugation <3sg>%archaic.c1 3^rd^ person singular human pref
 affix 3sg-a. @verb-conjugation <3sg>%archaic.c3 3^rd^ person singular animate prefix
 affix 3sg-i. @verb-conjugation <3sg>%archaic.c5 3^rd^ person singular inanimate prefix
 affix 3pl. @verb-conjugation <3pl>%archaic 3^rd^ person plural prefix
-# -- / --
 
-
-# TAM
+## TAM
 affix %archaic .imprf <stand> imperfective aspect (archaic)
 affix %archaic .pst @past-forming <finish> past tense (archaic)
 affix %archaic .cond @conditional-forming <say> conditional mood (general irrealis, archaic)
@@ -27,6 +51,10 @@ affix .narr $.imprf%archaic.pst%archaic narrative continuous
 affix .cond $.imprf%archaic.cond%archaic conditional
 affix .hab $.hab%archaic habitual
 affix .phab $.hab%archaic.pst%archaic past habitual
-# -- / -- 
 
 template &tam $.pst $.remp $.fut $.sjv $.cont $.narr $.cond $.hab $.phab
+# -- / --
+
+
+
+

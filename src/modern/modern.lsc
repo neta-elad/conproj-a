@@ -1,4 +1,4 @@
-#include "archaic.lsc"
+#include "../middle/middle.lsc"
 
 labialized-stop-lenition:
     {pʷ, tʷ, kʷ, qʷ} => {f, θ, ʍ, ħ}
@@ -102,7 +102,7 @@ reset-stress:
 romanizer-pre-stress:
     unchanged
 
-#include "modern/stress.lsc"
+#include "stress.lsc"
 
 boundary-vowel-loss:
     [*long *stress vowel] => * / $ _ [consonant] [vowel]
@@ -167,5 +167,5 @@ romanizer-modern-phonetic:
     unchanged
 
 romanizer-modern:
-#include "romanizer.lsc"
+#include "../base/romanizer.lsc"
 

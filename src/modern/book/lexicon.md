@@ -27,13 +27,8 @@ Each item has a number which corresponds to an explanation below the entry:
 5. Definition (may be a single word or multiple words).
 6. Additional information (register, pragmatics).
 
-/// tab | Modern
-!dictionary:%%
-///
 
-/// tab | Archaic
-!dictionary:%archaic
-///
+!dictionary:%%
 
 # Affixes Table
 

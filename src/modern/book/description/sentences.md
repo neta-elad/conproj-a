@@ -29,3 +29,4 @@ g[pl.<hard>.h <warrior>.pl <small>.i.acc <village>.all 3pl.<walk>.remp]
  g[<dark>.a <river> <mountain range>.loc <slice>.cont]
 
  > "The dark river is cutting along the mountain range"
+ 

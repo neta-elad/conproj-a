@@ -1,4 +1,4 @@
-#include "base.lsc"
+#include "../base/base.lsc"
 
 ancient-derivations:
     unchanged
@@ -23,7 +23,7 @@ romanizer-archaic-phonetic:
     unchanged
 
 romanizer-archaic:
-#include "romanizer.lsc"
+#include "../base/romanizer.lsc"
 then:
     χ => qx
     ʌ => ao

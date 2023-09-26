@@ -1,15 +1,12 @@
-scope % : % "changes/archaic.lsc"
-scope %archaic : % "changes/archaic.lsc"
-scope %middle : %archaic "changes/modern.lsc"
-scope %modern : %middle "changes/modern.lsc"
-scope %test : %modern "changes/modern.lsc"
+scope %modern : %middle "src/modern/modern.lsc"
+scope %test : %modern "src/modern/modern.lsc"
 
-include "lexicon/classifiers.pycl"
-include "lexicon/archaic/_archaic.pycl"
-include "lexicon/grammar/_grammar.pycl"
-include "lexicon/middle.pycl"
-include "lexicon/modern/_modern.pycl"
-
+include "lexicon/adjectives.pycl"
+include "lexicon/demonstratives.pycl"
+include "lexicon/nouns.pycl"
+include "lexicon/pronouns.pycl"
+include "lexicon/verbs.pycl"
+include "lexicon/grammar.pycl"
 
 entry % <blank> *a (blank.) blank  # todo: get rid of this
 

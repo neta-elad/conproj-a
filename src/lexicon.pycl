@@ -1,0 +1,5 @@
+scope % : % "src/base/base.lsc"
+include "./base/%.pycl"
+include "./archaic/%archaic.pycl"
+include "./middle/%middle.pycl"
+include "./modern/%modern.pycl"

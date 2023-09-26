@@ -1,5 +1,0 @@
-include "adjectives.pycl"
-include "demonstratives.pycl"
-include "nouns.pycl"
-include "pronouns.pycl"
-include "verbs.pycl"
