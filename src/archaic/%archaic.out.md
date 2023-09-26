@@ -3,6 +3,9 @@
 ///
 
 # The Archaic Language
-Test.
+
+g[<all> <ear> <sword> <hear>]
+
+> "All ears hear the sword"
 
 !dictionary:%archaic

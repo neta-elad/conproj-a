@@ -1,65 +1,65 @@
 # Adposition Derivations
-entry %archaic <belly> *lunita (n.) belly, stomach, gut
+entry <belly> *lunita (n.) belly, stomach, gut
 # -- / --
 
-entry %archaic <home> *ʃuqʷa (n.) home, place # Old genitive
+entry <home> *ʃuqʷa (n.) home, place # Old genitive
 
-entry %archaic <tree> *laŋi (n.) tree
-entry %archaic <tree>.pl *ʔaŋi +! *laŋi (n.) tree (plural)
-entry %archaic <seed> *ɬuraʔi (n.) seed
+entry <tree> *laŋi (n.) tree
+entry <tree>.pl *ʔaŋi +! *laŋi (n.) tree (plural)
+entry <seed> *ɬuraʔi (n.) seed
 
-entry %archaic <hand> *tʷali (n.) hand
-entry %archaic <two hands> *ʔali +! *tʷali (n.) two hands, both
-entry %archaic <two> *li +! *tʷa (num.) two
+entry <hand> *tʷali (n.) hand
+entry <two hands> *ʔali +! *tʷali (n.) two hands, both
+entry <two> *li +! *tʷa (num.) two
 
-entry %archaic <foot> *χasi (n.) foot
-entry %archaic <feet> *ʔasi +! *χasi (n.) feet, path, road
+entry <foot> *χasi (n.) foot
+entry <feet> *ʔasi +! *χasi (n.) feet, path, road
 
-entry %archaic <rope> *ʔanasu (n.) rope
-entry %archaic <rope>.pl *ʔana +! *ʔanasu (unknown.) ??
+entry <rope> *ʔanasu (n.) rope
+entry <rope>.pl *ʔana +! *ʔanasu (unknown.) ??
 
-entry %archaic <boy> *nifi (n.) boy, young, male who didn't sired any offsprings
-entry %archaic <boy>.pl *ʔifi +! *nifi (n.) boys, bachelors (plural)
+entry <boy> *nifi (n.) boy, young, male who didn't sired any offsprings
+entry <boy>.pl *ʔifi +! *nifi (n.) boys, bachelors (plural)
 
-entry %archaic <steppe> *kʷina (n.) plains, steppe
+entry <steppe> *kʷina (n.) plains, steppe
 
-entry %archaic <sun> *ʔaniɬu (n.) sun, day (archaic)
-entry %archaic <sun>.pl *ʔani +! *ʔaniɬu (unknown.) ??
-affix %archaic .day <sun> day suffix
+entry <sun> *ʔaniɬu (n.) sun, day
+entry <sun>.pl *ʔani +! *ʔaniɬu (unknown.) ??
+affix .day <sun> day suffix
 
-entry %archaic <night> *fahutʷa (n.) night, darkness (archaic)
+entry <night> *fahutʷa (n.) night, darkness
 
-entry %archaic <rock> *qamatu (n.) rock, stone (archaic)
-entry %archaic <rock>.pl *ʔama +! *qamatu (n.) rocks (plural)
+entry <rock> *qamatu (n.) rock, stone
+entry <rock>.pl *ʔama +! *qamatu (n.) rocks (plural)
 
 # todo: change morphemes for beast
-entry %archaic <beast> *matuli (n.) beast, large animal
-entry %archaic <beast>.pl *ʔatu +! *matuli (n.) beasts (plural)
+entry <beast> *matuli (n.) beast, large animal
+entry <beast>.pl *ʔatu +! *matuli (n.) beasts (plural)
 
 # todo: swap fear and mountain?
-entry %archaic <fear> *ʔuɴa (n.) fear  #todo: change?
+entry <fear> *ʔuɴa (n.) fear  #todo: change?
 
-entry %archaic <mountain> *χusa (n.) mountain
-entry %archaic <mountain>.pl *ʔusa +! *χusa (unknown.) mountain (plural)
-entry %archaic <mountain reduced> *χuha (n.) mountain (reduced form)
-entry %archaic <big> <mountain reduced> (adj.) big, towering
+entry <mountain> *χusa (n.) mountain
+entry <mountain>.pl *ʔusa +! *χusa (unknown.) mountain (plural)
+entry <mountain reduced> *χuha (n.) mountain (reduced form)
+entry <big> <mountain reduced> (adj.) big, towering
 
-entry %archaic <child> *hufi (n.) child, pup, baby
+entry <child> *hufi (n.) child, pup, baby
 
-entry %archaic <sword> *suma (n.) sword, blade, knife
+entry <sword> *suma (n.) sword, blade, knife
 
-entry %archaic <head> *musi (n.) head, skull
-entry %archaic <eye> *ʃimuʔa (n.) eye
-entry %archaic <eye>.pl *ʔimu +! *ʃimuʔa (n.) two eyes
-entry %archaic <ear> *puŋi (n.) ear
-entry %archaic <ear>.pl *ʔuŋi +! *puŋi (n.) two ears
-entry %archaic <mouth> *riqʷu (n.) mouth
-entry %archaic <nose> *humatʷi (n.) nose
-entry %archaic <tongue> *kalira (n.) tongue
-entry %archaic <neck> *lufa (n.) neck
+entry <head> *musi (n.) head, skull
+entry <eye> *ʃimuʔa (n.) eye
+entry <eye>.pl *ʔimu +! *ʃimuʔa (n.) two eyes
+entry <ear> *puŋi (n.) ear
+entry <ear>.pl *ʔuŋi +! *puŋi (n.) two ears
+entry <mouth> *riqʷu (n.) mouth
+entry <nose> *humatʷi (n.) nose
+entry <tongue> *kalira (n.) tongue
+entry <neck> *lufa (n.) neck
 
-entry %archaic <person> *kami (n.) person
-entry %archaic <people> *ʔamikami (n.) people
+entry <person> *kami (n.) person
+entry <people> *ʔamikami (n.) people
 
-entry %archaic <blood> *raŋuŋu (n.) blood
-entry %archaic <bone> *sanatu (n.) bone
+entry <blood> *raŋuŋu (n.) blood
+entry <bone> *sanatu (n.) bone

@@ -4,26 +4,27 @@ include "lexicon/nouns.pycl"
 include "lexicon/adjectives.pycl"
 include "lexicon/verbs.pycl"
 
-entry %archaic <one> *na (det.) one of
-entry %archaic <one numeral> *sana (num.) one (numeral)
-entry %archaic <ones> *ʔanasana (n.) ones (archaic)
+entry <one> *na (det.) one of
+entry <one numeral> *sana (num.) one (numeral)
+entry <ones> *ʔanasana (n.) ones
 
-entry %archaic <same> <ones> (adj.) same (archaic)
+entry <same> <ones> (adj.) same
 
-entry %archaic <many> *χaŋi (det.) many (archaic)
-entry %archaic <all> *lamu (det.) all (archaic)
+entry <many> *χaŋi (det.) many
+entry <all> *lamu (det.) all
 
-entry %archaic <body> *raqʷi (n.) body (archaic)
+entry <body> *raqʷi (n.) body
+
+entry <this> *ha (det.) proximal demonstrative
 
 # PRONOUNS
-entry %archaic <1sg> *ʔimi (pron.) 1^st^ person singular
-entry %archaic <1pl> *qʷila (pron.) 1^st^ person plural
-entry %archaic <2sg> *niʔu (pron.) 2^nd^ person singular
-entry %archaic <2pl> *saʔu (pron.) 2^nd^ person singular
-entry %archaic <3sg> <this> (pron.) 3^rd^ person singular
-entry %archaic <3pl> <many> (pron.) 3^rd^ person plural
+entry <1sg> *ʔimi (pron.) 1^st^ person singular
+entry <1pl> *qʷila (pron.) 1^st^ person plural
+entry <2sg> *niʔu (pron.) 2^nd^ person singular
+entry <2pl> *saʔu (pron.) 2^nd^ person singular
+entry <3sg> <this> (pron.) 3^rd^ person singular
+entry <3pl> <many> (pron.) 3^rd^ person plural
 # -- / --
 
-entry %archaic <this> *ha (det.) proximal demonstrative (archaic)
 
-affix %archaic .simv @ancient-derivations %archaic <one> +! <body> similative
+affix .simv @ancient-derivations %archaic <one> +! <body> similative

@@ -15,10 +15,6 @@ nominalizers:
 regressive-uvular-spreading:
     [velar *labialized] => [uvular] / _ (![liquid])* [uvular]
 
-vowel-retracting-before-uvulars:
-    {i, ɐ, u} => {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
-    {i, ɐ, u} => {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
-
 romanizer-archaic-phonetic:
     unchanged
 
@@ -26,4 +22,3 @@ romanizer-archaic:
 #include "../base/romanizer.lsc"
 then:
     χ => qx
-    ʌ => ao
