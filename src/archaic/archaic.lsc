@@ -22,3 +22,5 @@ romanizer-archaic:
 #include "../base/romanizer.lsc"
 then:
     χ => qx
+then:
+    [+labialized] * => [*labialized] w

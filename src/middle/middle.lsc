@@ -3,3 +3,81 @@
 vowel-retracting-before-uvulars:
     {i, ɐ, u} => {ʏ, ɔ, ɔ} / _ @resonant? {[+labialized uvular], [uvular] u}
     {i, ɐ, u} => {ɘ, ʌ, ɔ} / _ @resonant? [uvular]
+
+labialized-stop-lenition:
+    {pʷ, tʷ, kʷ, qʷ} => {f, θ, ʍ, ħ}
+
+intervocalic-coronal-plosive:
+    t => [dental] / [vowel] _ [vowel]
+
+uvular-lenition:
+    {q, χ, x} => {χ, x, ç}
+
+glottal-loss:
+    [glottal] => *
+
+syllables:
+    [consonant] [vowel]+ @resonant?
+    [vowel]+ @resonant? / $ _
+
+participles-forming:
+    unchanged
+
+demonstratives-forming:
+    unchanged
+
+pharyngeal-loss:
+    [pharyngeal] [vowel] => * * / { . _ ., [vowel] . _ @resonant . } // $ _ $ #@resonant? $
+    [pharyngeal] => *
+
+uvular-loss:
+    [uvular fricative] => [glottal]
+    { ŋ, ɴ } => { ɲ, ŋ }
+
+genitive-forming:
+    unchanged
+
+affricate-formation:
+    @resonant @sibilant => * [affricate]
+
+coda-nasal-loss:
+    [vowel] [nasal] => [+long] * / _ .
+    #todo: not at word end?
+
+syllables:
+    [consonant] [vowel]+ [liquid]?
+    [vowel]+ [liquid]? / $ _
+
+hiatus-resolution cleanup:
+    unchanged
+then ltr:
+    [vowel] => [+stress] / [vowel +stress] _
+then rtl:
+    [vowel] => [+stress] / _ [vowel +stress]
+then:
+    [+affix vowel] => * / [vowel] _
+    [+round vowel] => [lomid back] / [lomid vowel] [vowel]* _
+    [vowel] => [lomid front] / [lomid vowel] [vowel]* _
+then:
+    [vowel] => [+long] / [+long vowel] _
+then:
+    [vowel] => * / _ [vowel]
+
+syllables:
+    [consonant] [vowel] [liquid]?
+    [vowel] [liquid]? # / $ _
+
+intensifier-forming:
+    unchanged
+
+romanizer-middle-phonetic:
+    unchanged
+
+romanizer-middle:
+    [vowel +long] => [vowel *long +macron]
+then:
+#include "../base/romanizer.lsc"
+then:
+    χ => qx
+then:
+    [+labialized] * => [*labialized] w

@@ -12,5 +12,6 @@ feature +affix
 feature +round
 feature +lateral
 feature +accent
+feature +macron
 feature +opening
 feature (syllable) +stress
