@@ -13,6 +13,7 @@ then:
     [glottal stop] => \'
     [dental fricative] => th
     [postalveolar fricative] => sh
+    [velar fricative] => kh
     [alveolar +lateral fricative] => sl
     [dental] * => [alveolar] \'
     {ɛ, ɐ, ɔ, ʏ, ɘ} => {e, a, o, y, ë}

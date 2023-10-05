@@ -21,6 +21,7 @@ romanizer-archaic-phonetic:
 romanizer-archaic:
 #include "../base/romanizer.lsc"
 then:
-    χ => qx
+    χ => qh
+    ɴ => nq
 then:
     [+labialized] * => [*labialized] w
