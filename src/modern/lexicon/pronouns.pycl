@@ -2,7 +2,8 @@
 entry <1sg>
     <here> !+@verb-conjugation <person>%archaic
     (pron.) 1^st^ person singular
-# todo: genitive pronouns
+entry <1sg>.gen <1sg>%archaic.gen (pron.) 1^st^ person singular, genitive
+# todo: genitive pronouns for all
 entry <1pl-in> <person>%archaic (pron.) 1^st^ person plural (inclusive)
 entry <1pl-ex>
     <here> !+@verb-conjugation <people>%archaic
