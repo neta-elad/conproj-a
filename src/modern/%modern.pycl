@@ -10,8 +10,8 @@ include "lexicon/grammar.pycl"
 
 entry % <blank> *a (blank.) blank  # todo: get rid of this
 
-affix % afxs. *^ affix start
-affix % .afxe *~ affix end
+affix % afxs. *[ affix start
+affix % .afxe *] affix end
 
 
 # CONJUNCTIONS

@@ -1,5 +1,5 @@
-symbol ^  [+opening delimiter]
-symbol \~ [delimiter]
+symbol \[  [+opening delimiter]
+symbol \] [delimiter]
 
 symbol m  [labial nasal]
 symbol p  [labial stop]
