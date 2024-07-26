@@ -4,7 +4,7 @@ ancient-derivations:
     unchanged
 
 resonant-codas ltr:
-    [vowel] => * / [vowel] @resonant _ 
+    [vowel *stress] => * / [vowel] @resonant _ 
 
 syllables:
     [consonant] [vowel] @resonant?
